@@ -1,2 +1,2 @@
-# circuitry
+# Сircuitry
 Схемотехника
