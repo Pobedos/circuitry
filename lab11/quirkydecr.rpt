@@ -1,0 +1,952 @@
+Project Information     c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 10/29/20 01:50:05
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+QUIRKYDECR
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+quirkydecr
+      EPM7096QC100-7       7        64       0      64      0           66 %
+
+User Pins:                 7        64       0  
+
+
+
+Project Information     c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+
+** FILE HIERARCHY **
+
+
+
+|kinkydecr:s0|
+|kinkydecr:s1|
+|kinkydecr:s2|
+|kinkydecr:s3|
+|kinkydecr:s4|
+|kinkydecr:s5|
+|kinkydecr:s6|
+|kinkydecr:s7|
+|kinkydecr:s8|
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+***** Logic for device 'quirkydecr' compiled without errors.
+
+
+
+
+Device: EPM7096QC100-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** ERROR SUMMARY **
+
+Info: Chip 'quirkydecr' in device 'EPM7096QC100-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                          R                            
+                          E                            
+                          S V                          
+                          E C                 V        
+                      N   R C               N C        
+              q q q G . q V I G G G G G     . C        
+              6 6 6 N C 6 E N N N N N N q q C I q q q  
+              0 1 2 D . 3 D T D D D D D 0 1 . O 2 9 7  
+            ------------------------------------------_ 
+           / 100  98  96  94  92  90  88  86  84  82   |_ 
+          /     99  97  95  93  91  89  87  85  83  81    | 
+      a1 |  1                                          80 | q10 
+      a2 |  2                                          79 | q6 
+      a3 |  3                                          78 | q11 
+      a4 |  4                                          77 | q5 
+   VCCIO |  5                                          76 | GND 
+      a5 |  6                                          75 | q4 
+      en |  7                                          74 | q3 
+      a0 |  8                                          73 | q8 
+    N.C. |  9                                          72 | N.C. 
+     q52 | 10                                          71 | q16 
+     q51 | 11                                          70 | q15 
+     q50 | 12                                          69 | q12 
+     GND | 13                                          68 | VCCIO 
+     q49 | 14                                          67 | q13 
+     q48 | 15                                          66 | q14 
+     q53 | 16             EPM7096QC100-7               65 | q19 
+     q59 | 17                                          64 | q20 
+     q58 | 18                                          63 | q21 
+     q57 | 19                                          62 | q22 
+   VCCIO | 20                                          61 | GND 
+     q56 | 21                                          60 | q23 
+     q55 | 22                                          59 | q18 
+     q54 | 23                                          58 | q17 
+    N.C. | 24                                          57 | N.C. 
+     q47 | 25                                          56 | q25 
+     q46 | 26                                          55 | q29 
+     q45 | 27                                          54 | q28 
+     GND | 28                                          53 | VCCIO 
+     q44 | 29                                          52 | q27 
+     q43 | 30                                          51 | q24 
+         |      32  34  36  38  40  42  44  46  48  50  _| 
+          \   31  33  35  37  39  41  43  45  47  49   | 
+           \------------------------------------------- 
+              q q q q q V N q q G V q q N G q q q q q  
+              4 4 4 3 3 C . 3 3 N C 3 3 . N 3 3 3 3 2  
+              2 1 0 9 8 C C 7 6 D C 0 1 C D 2 3 4 5 6  
+                        I .       I     .              
+                        O         N                    
+                                  T                    
+                                                       
+                                                       
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     4/16( 25%)  11/12( 91%)   0/16(  0%)   7/36( 19%) 
+B:    LC17 - LC32    12/16( 75%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+C:    LC33 - LC48    12/16( 75%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+D:    LC49 - LC64    12/16( 75%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+E:    LC65 - LC80    12/16( 75%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+F:    LC81 - LC96    12/16( 75%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            71/72     ( 98%)
+Total logic cells used:                         64/96     ( 66%)
+Total shareable expanders used:                  0/96     (  0%)
+Total Turbo logic cells used:                   64/96     ( 66%)
+Total shareable expanders not available (n/a):   0/96     (  0%)
+Average fan-in:                                  7.00
+Total fan-in:                                   448
+
+Total input pins required:                       7
+Total output pins required:                     64
+Total bidirectional pins required:               0
+Total logic cells required:                     64
+Total flipflops required:                        0
+Total product terms required:                   64
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           0
+
+Synthesized logic cells:                         0/  96   (  0%)
+
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   8    (1)  (A)      INPUT               0      0   0    0    0   64    0  a0
+   1    (9)  (A)      INPUT               0      0   0    0    0   64    0  a1
+   2    (8)  (A)      INPUT               0      0   0    0    0   64    0  a2
+   3    (6)  (A)      INPUT               0      0   0    0    0   64    0  a3
+   4    (5)  (A)      INPUT               0      0   0    0    0   64    0  a4
+   6    (4)  (A)      INPUT               0      0   0    0    0   64    0  a5
+   7    (3)  (A)      INPUT               0      0   0    0    0   64    0  en
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  87     96    F     OUTPUT      t        0      0   0    7    0    0    0  q0
+  86     94    F     OUTPUT      t        0      0   0    7    0    0    0  q1
+  83     93    F     OUTPUT      t        0      0   0    7    0    0    0  q2
+  74     83    F     OUTPUT      t        0      0   0    7    0    0    0  q3
+  75     84    F     OUTPUT      t        0      0   0    7    0    0    0  q4
+  77     85    F     OUTPUT      t        0      0   0    7    0    0    0  q5
+  79     88    F     OUTPUT      t        0      0   0    7    0    0    0  q6
+  81     91    F     OUTPUT      t        0      0   0    7    0    0    0  q7
+  73     81    F     OUTPUT      t        0      0   0    7    0    0    0  q8
+  82     92    F     OUTPUT      t        0      0   0    7    0    0    0  q9
+  80     89    F     OUTPUT      t        0      0   0    7    0    0    0  q10
+  78     86    F     OUTPUT      t        0      0   0    7    0    0    0  q11
+  69     77    E     OUTPUT      t        0      0   0    7    0    0    0  q12
+  67     76    E     OUTPUT      t        0      0   0    7    0    0    0  q13
+  66     75    E     OUTPUT      t        0      0   0    7    0    0    0  q14
+  70     78    E     OUTPUT      t        0      0   0    7    0    0    0  q15
+  71     80    E     OUTPUT      t        0      0   0    7    0    0    0  q16
+  58     65    E     OUTPUT      t        0      0   0    7    0    0    0  q17
+  59     67    E     OUTPUT      t        0      0   0    7    0    0    0  q18
+  65     73    E     OUTPUT      t        0      0   0    7    0    0    0  q19
+  64     72    E     OUTPUT      t        0      0   0    7    0    0    0  q20
+  63     70    E     OUTPUT      t        0      0   0    7    0    0    0  q21
+  62     69    E     OUTPUT      t        0      0   0    7    0    0    0  q22
+  60     68    E     OUTPUT      t        0      0   0    7    0    0    0  q23
+  51     59    D     OUTPUT      t        0      0   0    7    0    0    0  q24
+  56     64    D     OUTPUT      t        0      0   0    7    0    0    0  q25
+  50     57    D     OUTPUT      t        0      0   0    7    0    0    0  q26
+  52     60    D     OUTPUT      t        0      0   0    7    0    0    0  q27
+  54     61    D     OUTPUT      t        0      0   0    7    0    0    0  q28
+  55     62    D     OUTPUT      t        0      0   0    7    0    0    0  q29
+  42     49    D     OUTPUT      t        0      0   0    7    0    0    0  q30
+  43     51    D     OUTPUT      t        0      0   0    7    0    0    0  q31
+  46     52    D     OUTPUT      t        0      0   0    7    0    0    0  q32
+  47     53    D     OUTPUT      t        0      0   0    7    0    0    0  q33
+  48     54    D     OUTPUT      t        0      0   0    7    0    0    0  q34
+  49     56    D     OUTPUT      t        0      0   0    7    0    0    0  q35
+  39     33    C     OUTPUT      t        0      0   0    7    0    0    0  q36
+  38     35    C     OUTPUT      t        0      0   0    7    0    0    0  q37
+  35     36    C     OUTPUT      t        0      0   0    7    0    0    0  q38
+  34     37    C     OUTPUT      t        0      0   0    7    0    0    0  q39
+  33     38    C     OUTPUT      t        0      0   0    7    0    0    0  q40
+  32     40    C     OUTPUT      t        0      0   0    7    0    0    0  q41
+  31     41    C     OUTPUT      t        0      0   0    7    0    0    0  q42
+  30     43    C     OUTPUT      t        0      0   0    7    0    0    0  q43
+  29     44    C     OUTPUT      t        0      0   0    7    0    0    0  q44
+  27     45    C     OUTPUT      t        0      0   0    7    0    0    0  q45
+  26     46    C     OUTPUT      t        0      0   0    7    0    0    0  q46
+  25     48    C     OUTPUT      t        0      0   0    7    0    0    0  q47
+  15     27    B     OUTPUT      t        0      0   0    7    0    0    0  q48
+  14     28    B     OUTPUT      t        0      0   0    7    0    0    0  q49
+  12     29    B     OUTPUT      t        0      0   0    7    0    0    0  q50
+  11     30    B     OUTPUT      t        0      0   0    7    0    0    0  q51
+  10     32    B     OUTPUT      t        0      0   0    7    0    0    0  q52
+  16     25    B     OUTPUT      t        0      0   0    7    0    0    0  q53
+  23     17    B     OUTPUT      t        0      0   0    7    0    0    0  q54
+  22     19    B     OUTPUT      t        0      0   0    7    0    0    0  q55
+  21     20    B     OUTPUT      t        0      0   0    7    0    0    0  q56
+  19     21    B     OUTPUT      t        0      0   0    7    0    0    0  q57
+  18     22    B     OUTPUT      t        0      0   0    7    0    0    0  q58
+  17     24    B     OUTPUT      t        0      0   0    7    0    0    0  q59
+ 100     11    A     OUTPUT      t        0      0   0    7    0    0    0  q60
+  99     12    A     OUTPUT      t        0      0   0    7    0    0    0  q61
+  98     13    A     OUTPUT      t        0      0   0    7    0    0    0  q62
+  95     14    A     OUTPUT      t        0      0   0    7    0    0    0  q63
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                 Logic cells placed in LAB 'A'
+        +------- LC11 q60
+        | +----- LC12 q61
+        | | +--- LC13 q62
+        | | | +- LC14 q63
+        | | | | 
+        | | | |   Other LABs fed by signals
+        | | | |   that feed LAB 'A'
+LC      | | | | | A B C D E F |     Logic cells that feed LAB 'A':
+
+Pin
+8    -> * * * * | * * * * * * | <-- a0
+1    -> * * * * | * * * * * * | <-- a1
+2    -> * * * * | * * * * * * | <-- a2
+3    -> * * * * | * * * * * * | <-- a3
+4    -> * * * * | * * * * * * | <-- a4
+6    -> * * * * | * * * * * * | <-- a5
+7    -> * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                 Logic cells placed in LAB 'B'
+        +----------------------- LC27 q48
+        | +--------------------- LC28 q49
+        | | +------------------- LC29 q50
+        | | | +----------------- LC30 q51
+        | | | | +--------------- LC32 q52
+        | | | | | +------------- LC25 q53
+        | | | | | | +----------- LC17 q54
+        | | | | | | | +--------- LC19 q55
+        | | | | | | | | +------- LC20 q56
+        | | | | | | | | | +----- LC21 q57
+        | | | | | | | | | | +--- LC22 q58
+        | | | | | | | | | | | +- LC24 q59
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'B':
+
+Pin
+8    -> * * * * * * * * * * * * | * * * * * * | <-- a0
+1    -> * * * * * * * * * * * * | * * * * * * | <-- a1
+2    -> * * * * * * * * * * * * | * * * * * * | <-- a2
+3    -> * * * * * * * * * * * * | * * * * * * | <-- a3
+4    -> * * * * * * * * * * * * | * * * * * * | <-- a4
+6    -> * * * * * * * * * * * * | * * * * * * | <-- a5
+7    -> * * * * * * * * * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                 Logic cells placed in LAB 'C'
+        +----------------------- LC33 q36
+        | +--------------------- LC35 q37
+        | | +------------------- LC36 q38
+        | | | +----------------- LC37 q39
+        | | | | +--------------- LC38 q40
+        | | | | | +------------- LC40 q41
+        | | | | | | +----------- LC41 q42
+        | | | | | | | +--------- LC43 q43
+        | | | | | | | | +------- LC44 q44
+        | | | | | | | | | +----- LC45 q45
+        | | | | | | | | | | +--- LC46 q46
+        | | | | | | | | | | | +- LC48 q47
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'C':
+
+Pin
+8    -> * * * * * * * * * * * * | * * * * * * | <-- a0
+1    -> * * * * * * * * * * * * | * * * * * * | <-- a1
+2    -> * * * * * * * * * * * * | * * * * * * | <-- a2
+3    -> * * * * * * * * * * * * | * * * * * * | <-- a3
+4    -> * * * * * * * * * * * * | * * * * * * | <-- a4
+6    -> * * * * * * * * * * * * | * * * * * * | <-- a5
+7    -> * * * * * * * * * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                 Logic cells placed in LAB 'D'
+        +----------------------- LC59 q24
+        | +--------------------- LC64 q25
+        | | +------------------- LC57 q26
+        | | | +----------------- LC60 q27
+        | | | | +--------------- LC61 q28
+        | | | | | +------------- LC62 q29
+        | | | | | | +----------- LC49 q30
+        | | | | | | | +--------- LC51 q31
+        | | | | | | | | +------- LC52 q32
+        | | | | | | | | | +----- LC53 q33
+        | | | | | | | | | | +--- LC54 q34
+        | | | | | | | | | | | +- LC56 q35
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+
+Pin
+8    -> * * * * * * * * * * * * | * * * * * * | <-- a0
+1    -> * * * * * * * * * * * * | * * * * * * | <-- a1
+2    -> * * * * * * * * * * * * | * * * * * * | <-- a2
+3    -> * * * * * * * * * * * * | * * * * * * | <-- a3
+4    -> * * * * * * * * * * * * | * * * * * * | <-- a4
+6    -> * * * * * * * * * * * * | * * * * * * | <-- a5
+7    -> * * * * * * * * * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                                 Logic cells placed in LAB 'E'
+        +----------------------- LC77 q12
+        | +--------------------- LC76 q13
+        | | +------------------- LC75 q14
+        | | | +----------------- LC78 q15
+        | | | | +--------------- LC80 q16
+        | | | | | +------------- LC65 q17
+        | | | | | | +----------- LC67 q18
+        | | | | | | | +--------- LC73 q19
+        | | | | | | | | +------- LC72 q20
+        | | | | | | | | | +----- LC70 q21
+        | | | | | | | | | | +--- LC69 q22
+        | | | | | | | | | | | +- LC68 q23
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'E'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+
+Pin
+8    -> * * * * * * * * * * * * | * * * * * * | <-- a0
+1    -> * * * * * * * * * * * * | * * * * * * | <-- a1
+2    -> * * * * * * * * * * * * | * * * * * * | <-- a2
+3    -> * * * * * * * * * * * * | * * * * * * | <-- a3
+4    -> * * * * * * * * * * * * | * * * * * * | <-- a4
+6    -> * * * * * * * * * * * * | * * * * * * | <-- a5
+7    -> * * * * * * * * * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                                 Logic cells placed in LAB 'F'
+        +----------------------- LC96 q0
+        | +--------------------- LC94 q1
+        | | +------------------- LC93 q2
+        | | | +----------------- LC83 q3
+        | | | | +--------------- LC84 q4
+        | | | | | +------------- LC85 q5
+        | | | | | | +----------- LC88 q6
+        | | | | | | | +--------- LC91 q7
+        | | | | | | | | +------- LC81 q8
+        | | | | | | | | | +----- LC92 q9
+        | | | | | | | | | | +--- LC89 q10
+        | | | | | | | | | | | +- LC86 q11
+        | | | | | | | | | | | | 
+        | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'F':
+
+Pin
+8    -> * * * * * * * * * * * * | * * * * * * | <-- a0
+1    -> * * * * * * * * * * * * | * * * * * * | <-- a1
+2    -> * * * * * * * * * * * * | * * * * * * | <-- a2
+3    -> * * * * * * * * * * * * | * * * * * * | <-- a3
+4    -> * * * * * * * * * * * * | * * * * * * | <-- a4
+6    -> * * * * * * * * * * * * | * * * * * * | <-- a5
+7    -> * * * * * * * * * * * * | * * * * * * | <-- en
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+quirkydecr
+
+** EQUATIONS **
+
+a0       : INPUT;
+a1       : INPUT;
+a2       : INPUT;
+a3       : INPUT;
+a4       : INPUT;
+a5       : INPUT;
+en       : INPUT;
+
+-- Node name is 'q0' 
+-- Equation name is 'q0', location is LC096, type is output.
+ q0      = LCELL( _EQ001 $  GND);
+  _EQ001 = !a0 & !a1 & !a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q1' 
+-- Equation name is 'q1', location is LC094, type is output.
+ q1      = LCELL( _EQ002 $  GND);
+  _EQ002 =  a0 & !a1 & !a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q2' 
+-- Equation name is 'q2', location is LC093, type is output.
+ q2      = LCELL( _EQ003 $  GND);
+  _EQ003 = !a0 &  a1 & !a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q3' 
+-- Equation name is 'q3', location is LC083, type is output.
+ q3      = LCELL( _EQ004 $  GND);
+  _EQ004 =  a0 &  a1 & !a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q4' 
+-- Equation name is 'q4', location is LC084, type is output.
+ q4      = LCELL( _EQ005 $  GND);
+  _EQ005 = !a0 & !a1 &  a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q5' 
+-- Equation name is 'q5', location is LC085, type is output.
+ q5      = LCELL( _EQ006 $  GND);
+  _EQ006 =  a0 & !a1 &  a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q6' 
+-- Equation name is 'q6', location is LC088, type is output.
+ q6      = LCELL( _EQ007 $  GND);
+  _EQ007 = !a0 &  a1 &  a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q7' 
+-- Equation name is 'q7', location is LC091, type is output.
+ q7      = LCELL( _EQ008 $  GND);
+  _EQ008 =  a0 &  a1 &  a2 & !a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q8' 
+-- Equation name is 'q8', location is LC081, type is output.
+ q8      = LCELL( _EQ009 $  GND);
+  _EQ009 = !a0 & !a1 & !a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q9' 
+-- Equation name is 'q9', location is LC092, type is output.
+ q9      = LCELL( _EQ010 $  GND);
+  _EQ010 =  a0 & !a1 & !a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q10' 
+-- Equation name is 'q10', location is LC089, type is output.
+ q10     = LCELL( _EQ011 $  GND);
+  _EQ011 = !a0 &  a1 & !a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q11' 
+-- Equation name is 'q11', location is LC086, type is output.
+ q11     = LCELL( _EQ012 $  GND);
+  _EQ012 =  a0 &  a1 & !a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q12' 
+-- Equation name is 'q12', location is LC077, type is output.
+ q12     = LCELL( _EQ013 $  GND);
+  _EQ013 = !a0 & !a1 &  a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q13' 
+-- Equation name is 'q13', location is LC076, type is output.
+ q13     = LCELL( _EQ014 $  GND);
+  _EQ014 =  a0 & !a1 &  a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q14' 
+-- Equation name is 'q14', location is LC075, type is output.
+ q14     = LCELL( _EQ015 $  GND);
+  _EQ015 = !a0 &  a1 &  a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q15' 
+-- Equation name is 'q15', location is LC078, type is output.
+ q15     = LCELL( _EQ016 $  GND);
+  _EQ016 =  a0 &  a1 &  a2 &  a3 & !a4 & !a5 &  en;
+
+-- Node name is 'q16' 
+-- Equation name is 'q16', location is LC080, type is output.
+ q16     = LCELL( _EQ017 $  GND);
+  _EQ017 = !a0 & !a1 & !a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q17' 
+-- Equation name is 'q17', location is LC065, type is output.
+ q17     = LCELL( _EQ018 $  GND);
+  _EQ018 =  a0 & !a1 & !a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q18' 
+-- Equation name is 'q18', location is LC067, type is output.
+ q18     = LCELL( _EQ019 $  GND);
+  _EQ019 = !a0 &  a1 & !a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q19' 
+-- Equation name is 'q19', location is LC073, type is output.
+ q19     = LCELL( _EQ020 $  GND);
+  _EQ020 =  a0 &  a1 & !a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q20' 
+-- Equation name is 'q20', location is LC072, type is output.
+ q20     = LCELL( _EQ021 $  GND);
+  _EQ021 = !a0 & !a1 &  a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q21' 
+-- Equation name is 'q21', location is LC070, type is output.
+ q21     = LCELL( _EQ022 $  GND);
+  _EQ022 =  a0 & !a1 &  a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q22' 
+-- Equation name is 'q22', location is LC069, type is output.
+ q22     = LCELL( _EQ023 $  GND);
+  _EQ023 = !a0 &  a1 &  a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q23' 
+-- Equation name is 'q23', location is LC068, type is output.
+ q23     = LCELL( _EQ024 $  GND);
+  _EQ024 =  a0 &  a1 &  a2 & !a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q24' 
+-- Equation name is 'q24', location is LC059, type is output.
+ q24     = LCELL( _EQ025 $  GND);
+  _EQ025 = !a0 & !a1 & !a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q25' 
+-- Equation name is 'q25', location is LC064, type is output.
+ q25     = LCELL( _EQ026 $  GND);
+  _EQ026 =  a0 & !a1 & !a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q26' 
+-- Equation name is 'q26', location is LC057, type is output.
+ q26     = LCELL( _EQ027 $  GND);
+  _EQ027 = !a0 &  a1 & !a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q27' 
+-- Equation name is 'q27', location is LC060, type is output.
+ q27     = LCELL( _EQ028 $  GND);
+  _EQ028 =  a0 &  a1 & !a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q28' 
+-- Equation name is 'q28', location is LC061, type is output.
+ q28     = LCELL( _EQ029 $  GND);
+  _EQ029 = !a0 & !a1 &  a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q29' 
+-- Equation name is 'q29', location is LC062, type is output.
+ q29     = LCELL( _EQ030 $  GND);
+  _EQ030 =  a0 & !a1 &  a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q30' 
+-- Equation name is 'q30', location is LC049, type is output.
+ q30     = LCELL( _EQ031 $  GND);
+  _EQ031 = !a0 &  a1 &  a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q31' 
+-- Equation name is 'q31', location is LC051, type is output.
+ q31     = LCELL( _EQ032 $  GND);
+  _EQ032 =  a0 &  a1 &  a2 &  a3 &  a4 & !a5 &  en;
+
+-- Node name is 'q32' 
+-- Equation name is 'q32', location is LC052, type is output.
+ q32     = LCELL( _EQ033 $  GND);
+  _EQ033 = !a0 & !a1 & !a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q33' 
+-- Equation name is 'q33', location is LC053, type is output.
+ q33     = LCELL( _EQ034 $  GND);
+  _EQ034 =  a0 & !a1 & !a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q34' 
+-- Equation name is 'q34', location is LC054, type is output.
+ q34     = LCELL( _EQ035 $  GND);
+  _EQ035 = !a0 &  a1 & !a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q35' 
+-- Equation name is 'q35', location is LC056, type is output.
+ q35     = LCELL( _EQ036 $  GND);
+  _EQ036 =  a0 &  a1 & !a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q36' 
+-- Equation name is 'q36', location is LC033, type is output.
+ q36     = LCELL( _EQ037 $  GND);
+  _EQ037 = !a0 & !a1 &  a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q37' 
+-- Equation name is 'q37', location is LC035, type is output.
+ q37     = LCELL( _EQ038 $  GND);
+  _EQ038 =  a0 & !a1 &  a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q38' 
+-- Equation name is 'q38', location is LC036, type is output.
+ q38     = LCELL( _EQ039 $  GND);
+  _EQ039 = !a0 &  a1 &  a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q39' 
+-- Equation name is 'q39', location is LC037, type is output.
+ q39     = LCELL( _EQ040 $  GND);
+  _EQ040 =  a0 &  a1 &  a2 & !a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q40' 
+-- Equation name is 'q40', location is LC038, type is output.
+ q40     = LCELL( _EQ041 $  GND);
+  _EQ041 = !a0 & !a1 & !a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q41' 
+-- Equation name is 'q41', location is LC040, type is output.
+ q41     = LCELL( _EQ042 $  GND);
+  _EQ042 =  a0 & !a1 & !a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q42' 
+-- Equation name is 'q42', location is LC041, type is output.
+ q42     = LCELL( _EQ043 $  GND);
+  _EQ043 = !a0 &  a1 & !a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q43' 
+-- Equation name is 'q43', location is LC043, type is output.
+ q43     = LCELL( _EQ044 $  GND);
+  _EQ044 =  a0 &  a1 & !a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q44' 
+-- Equation name is 'q44', location is LC044, type is output.
+ q44     = LCELL( _EQ045 $  GND);
+  _EQ045 = !a0 & !a1 &  a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q45' 
+-- Equation name is 'q45', location is LC045, type is output.
+ q45     = LCELL( _EQ046 $  GND);
+  _EQ046 =  a0 & !a1 &  a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q46' 
+-- Equation name is 'q46', location is LC046, type is output.
+ q46     = LCELL( _EQ047 $  GND);
+  _EQ047 = !a0 &  a1 &  a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q47' 
+-- Equation name is 'q47', location is LC048, type is output.
+ q47     = LCELL( _EQ048 $  GND);
+  _EQ048 =  a0 &  a1 &  a2 &  a3 & !a4 &  a5 &  en;
+
+-- Node name is 'q48' 
+-- Equation name is 'q48', location is LC027, type is output.
+ q48     = LCELL( _EQ049 $  GND);
+  _EQ049 = !a0 & !a1 & !a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q49' 
+-- Equation name is 'q49', location is LC028, type is output.
+ q49     = LCELL( _EQ050 $  GND);
+  _EQ050 =  a0 & !a1 & !a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q50' 
+-- Equation name is 'q50', location is LC029, type is output.
+ q50     = LCELL( _EQ051 $  GND);
+  _EQ051 = !a0 &  a1 & !a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q51' 
+-- Equation name is 'q51', location is LC030, type is output.
+ q51     = LCELL( _EQ052 $  GND);
+  _EQ052 =  a0 &  a1 & !a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q52' 
+-- Equation name is 'q52', location is LC032, type is output.
+ q52     = LCELL( _EQ053 $  GND);
+  _EQ053 = !a0 & !a1 &  a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q53' 
+-- Equation name is 'q53', location is LC025, type is output.
+ q53     = LCELL( _EQ054 $  GND);
+  _EQ054 =  a0 & !a1 &  a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q54' 
+-- Equation name is 'q54', location is LC017, type is output.
+ q54     = LCELL( _EQ055 $  GND);
+  _EQ055 = !a0 &  a1 &  a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q55' 
+-- Equation name is 'q55', location is LC019, type is output.
+ q55     = LCELL( _EQ056 $  GND);
+  _EQ056 =  a0 &  a1 &  a2 & !a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q56' 
+-- Equation name is 'q56', location is LC020, type is output.
+ q56     = LCELL( _EQ057 $  GND);
+  _EQ057 = !a0 & !a1 & !a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q57' 
+-- Equation name is 'q57', location is LC021, type is output.
+ q57     = LCELL( _EQ058 $  GND);
+  _EQ058 =  a0 & !a1 & !a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q58' 
+-- Equation name is 'q58', location is LC022, type is output.
+ q58     = LCELL( _EQ059 $  GND);
+  _EQ059 = !a0 &  a1 & !a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q59' 
+-- Equation name is 'q59', location is LC024, type is output.
+ q59     = LCELL( _EQ060 $  GND);
+  _EQ060 =  a0 &  a1 & !a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q60' 
+-- Equation name is 'q60', location is LC011, type is output.
+ q60     = LCELL( _EQ061 $  GND);
+  _EQ061 = !a0 & !a1 &  a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q61' 
+-- Equation name is 'q61', location is LC012, type is output.
+ q61     = LCELL( _EQ062 $  GND);
+  _EQ062 =  a0 & !a1 &  a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q62' 
+-- Equation name is 'q62', location is LC013, type is output.
+ q62     = LCELL( _EQ063 $  GND);
+  _EQ063 = !a0 &  a1 &  a2 &  a3 &  a4 &  a5 &  en;
+
+-- Node name is 'q63' 
+-- Equation name is 'q63', location is LC014, type is output.
+ q63     = LCELL( _EQ064 $  GND);
+  _EQ064 =  a0 &  a1 &  a2 &  a3 &  a4 &  a5 &  en;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information     c:\program files\maxplus\max2works\lab5\quirkydecr.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:00
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,701K

@@ -1,0 +1,50 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L5Q is q~reg0
+--operation mode is normal
+
+A1L5Q_lut_out = data;
+A1L5Q = DFFEAS(A1L5Q_lut_out, clk, reset, , , VCC, !preset, , );
+
+
+--data is data
+--operation mode is input
+
+data = INPUT();
+
+
+--clk is clk
+--operation mode is input
+
+clk = INPUT();
+
+
+--reset is reset
+--operation mode is input
+
+reset = INPUT();
+
+
+--preset is preset
+--operation mode is input
+
+preset = INPUT();
+
+
+--q is q
+--operation mode is output
+
+q = OUTPUT(A1L5Q);
+
+

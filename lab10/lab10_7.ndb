@@ -1,0 +1,116 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 104
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeE1	!	11	9	:10	y
+#	IGdW	!	:100	"t
+$	IGdW	!	:101	"u
+%	IGdW	!	:102	"v
+&	IGdW	!	:103	"w
+'	IGdW	!	:104	"x
+(	IeEA	!	23	17	:106	"z
+)	IGdW	!	:112	#"
+*	IGdW	!	:113	##
++	IGdW	!	:114	#$
+,	IGdW	!	:115	#%
+-	IGdW	!	:116	#&
+.	IGdW	!	:117	#'
+/	IGdW	!	:118	#(
+0	IGdW	!	:119	#)
+1	IGdW	!	:120	#*
+2	IGdW	!	:121	#+
+3	IGdW	!	:122	#,
+4	IGdW	!	:123	#-
+5	IGdW	!	:124	#.
+6	IGdW	!	:125	#/
+7	IGdW	!	:126	#0
+8	IGdW	!	:127	#1
+9	IGdW	!	:128	#2
+:	IGdW	!	:129	#3
+;	IGdW	!	:130	#4
+<	IGdW	!	:131	#5
+=	IGdW	!	:132	#6
+>	IGdW	!	:133	#7
+?	IGdW	!	:134	#8
+@	IGdW	!	:135	#9
+A	IGdW	!	:136	#:
+B	IGdW	!	:137	#;
+C	IGdW	!	:138	#<
+D	IGdW	!	:139	#=
+E	IGdW	!	:140	#>
+F	IGdW	!	:141	#?
+G	IeEA	!	8	9	:146	#D
+H	IeEA	!	9	9	:147	#E
+I	IeEA	!	10	9	:148	#F
+J	IeEA	!	11	9	:149	#G
+K	IeEA	!	16	1	:17	"!
+L	IeEA	!	26	41	:37	"5
+M	IeE1	!	8	9	:4	v
+N	IGdW	!	:40	"8
+O	IGdW	!	:41	"9
+P	IGdW	!	:42	":
+Q	IGdW	!	:43	";
+R	IGdW	!	:44	"<
+S	IGdW	!	:45	"=
+T	IGdW	!	:46	">
+U	IGdW	!	:47	"?
+V	IGdW	!	:48	"@
+W	IGdW	!	:49	"A
+X	IGdW	!	:50	"B
+Y	IGdW	!	:51	"C
+Z	IeEA	!	25	33	:53	"E
+[	IGdW	!	:57	"I
+\	IGdW	!	:58	"J
+]	IGdW	!	:59	"K
+^	IeE1	!	9	9	:6	w
+_	IGdW	!	:60	"L
+`	IGdW	!	:61	"M
+a	IGdW	!	:62	"N
+b	IGdW	!	:63	"O
+c	IGdW	!	:64	"P
+d	IGdW	!	:65	"Q
+e	IGdW	!	:66	"R
+f	IGdW	!	:67	"S
+g	IGdW	!	:68	"T
+h	IGdW	!	:69	"U
+i	IGdW	!	:70	"V
+j	IGdW	!	:71	"W
+k	IGdW	!	:72	"X
+l	IGdW	!	:73	"Y
+m	IGdW	!	:74	"Z
+n	IeEA	!	24	25	:76	"\
+o	IeE1	!	10	9	:8	x
+p	IGdW	!	:81	"a
+q	IGdW	!	:82	"b
+r	IGdW	!	:83	"c
+s	IGdW	!	:84	"d
+t	IGdW	!	:85	"e
+u	IGdW	!	:86	"f
+v	IGdW	!	:87	"g
+w	IGdW	!	:88	"h
+x	IGdW	!	:89	"i
+y	IGdW	!	:90	"j
+z	IGdW	!	:91	"k
+{	IGdW	!	:92	"l
+|	IGdW	!	:93	"m
+}	IGdW	!	:94	"n
+~	IGdW	!	:95	"o
+"!	IGdW	!	:96	"p
+""	IGdW	!	:97	"q
+"#	IGdW	!	:98	"r
+"$	IGdW	!	:99	"s
+"%	(@\6H	!	6	9	4	"'	"(	")	"*	C	p
+"&	L8ef	!	5	10	4	"'	"(	")	"*	JK	o
+"'	L8ei	!	8	9	4	"'	"(	")	"*	Q0	r
+"(	L8ei	!	9	9	3	"(	")	"*	Q1	s
+")	L8ei	!	10	9	2	")	"*	Q2	t
+"*	L8ei	!	11	9	1	"*	Q3	u
+"+	(@\6H	!	7	9	4	"'	"(	")	"*	R	q

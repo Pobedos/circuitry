@@ -1,0 +1,131 @@
+-- Copyright (C) 1988-1998 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "megadecr" ASSIGNED TO AN EPM7096QC100-7
+a1                               : 1
+a2                               : 2
+a3                               : 3
+a4                               : 4
+VCCIO                            : 5
+a5                               : 6
+en                               : 7
+a0                               : 8
+N.C.                             : 9
+q52                              : 10
+q51                              : 11
+q50                              : 12
+GND                              : 13
+q49                              : 14
+q48                              : 15
+q53                              : 16
+q59                              : 17
+q58                              : 18
+q57                              : 19
+VCCIO                            : 20
+q56                              : 21
+q55                              : 22
+q54                              : 23
+N.C.                             : 24
+q47                              : 25
+q46                              : 26
+q45                              : 27
+GND                              : 28
+q44                              : 29
+q43                              : 30
+q42                              : 31
+q41                              : 32
+q40                              : 33
+q39                              : 34
+q38                              : 35
+VCCIO                            : 36
+N.C.                             : 37
+q37                              : 38
+q36                              : 39
+GND                              : 40
+VCCINT                           : 41
+q30                              : 42
+q31                              : 43
+N.C.                             : 44
+GND                              : 45
+q32                              : 46
+q33                              : 47
+q34                              : 48
+q35                              : 49
+q26                              : 50
+q24                              : 51
+q27                              : 52
+VCCIO                            : 53
+q28                              : 54
+q29                              : 55
+q25                              : 56
+N.C.                             : 57
+q17                              : 58
+q18                              : 59
+q23                              : 60
+GND                              : 61
+q22                              : 62
+q21                              : 63
+q20                              : 64
+q19                              : 65
+q14                              : 66
+q13                              : 67
+VCCIO                            : 68
+q12                              : 69
+q15                              : 70
+q16                              : 71
+N.C.                             : 72
+q8                               : 73
+q3                               : 74
+q4                               : 75
+GND                              : 76
+q5                               : 77
+q11                              : 78
+q6                               : 79
+q10                              : 80
+q7                               : 81
+q9                               : 82
+q2                               : 83
+VCCIO                            : 84
+N.C.                             : 85
+q1                               : 86
+q0                               : 87
+GND                              : 88
+GND                              : 89
+GND                              : 90
+GND                              : 91
+GND                              : 92
+VCCINT                           : 93
+RESERVED                         : 94
+q63                              : 95
+N.C.                             : 96
+GND                              : 97
+q62                              : 98
+q61                              : 99
+q60                              : 100

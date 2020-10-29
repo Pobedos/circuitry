@@ -1,0 +1,176 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 9.01 07/30/98              
+-- Compiled: 10/29/20 23:53:37        
+
+-- Copyright (C) 1988-1998 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "lab11_3"
+BEGIN
+
+    DEVICE = "EPM7096QC100-7";
+
+    "a0"                           : INPUT_PIN  = 8      ; -- LC1
+    "a1"                           : INPUT_PIN  = 2      ; -- LC8
+    "a2"                           : INPUT_PIN  = 3      ; -- LC6
+    "a3"                           : INPUT_PIN  = 4      ; -- LC5
+    "a4"                           : INPUT_PIN  = 6      ; -- LC4
+    "a5"                           : INPUT_PIN  = 7      ; -- LC3
+    "q0"                           : OUTPUT_PIN = 87     ; -- LC96
+    "q1"                           : OUTPUT_PIN = 86     ; -- LC94
+    "q2"                           : OUTPUT_PIN = 83     ; -- LC93
+    "q3"                           : OUTPUT_PIN = 74     ; -- LC83
+    "q4"                           : OUTPUT_PIN = 75     ; -- LC84
+    "q5"                           : OUTPUT_PIN = 77     ; -- LC85
+    "q6"                           : OUTPUT_PIN = 79     ; -- LC88
+    "q7"                           : OUTPUT_PIN = 81     ; -- LC91
+    "q8"                           : OUTPUT_PIN = 73     ; -- LC81
+    "q9"                           : OUTPUT_PIN = 82     ; -- LC92
+    "q10"                          : OUTPUT_PIN = 80     ; -- LC89
+    "q11"                          : OUTPUT_PIN = 78     ; -- LC86
+    "q12"                          : OUTPUT_PIN = 69     ; -- LC77
+    "q13"                          : OUTPUT_PIN = 67     ; -- LC76
+    "q14"                          : OUTPUT_PIN = 66     ; -- LC75
+    "q15"                          : OUTPUT_PIN = 70     ; -- LC78
+    "q16"                          : OUTPUT_PIN = 71     ; -- LC80
+    "q17"                          : OUTPUT_PIN = 58     ; -- LC65
+    "q18"                          : OUTPUT_PIN = 59     ; -- LC67
+    "q19"                          : OUTPUT_PIN = 65     ; -- LC73
+    "q20"                          : OUTPUT_PIN = 64     ; -- LC72
+    "q21"                          : OUTPUT_PIN = 63     ; -- LC70
+    "q22"                          : OUTPUT_PIN = 62     ; -- LC69
+    "q23"                          : OUTPUT_PIN = 60     ; -- LC68
+    "q24"                          : OUTPUT_PIN = 51     ; -- LC59
+    "q25"                          : OUTPUT_PIN = 56     ; -- LC64
+    "q26"                          : OUTPUT_PIN = 50     ; -- LC57
+    "q27"                          : OUTPUT_PIN = 52     ; -- LC60
+    "q28"                          : OUTPUT_PIN = 54     ; -- LC61
+    "q29"                          : OUTPUT_PIN = 55     ; -- LC62
+    "q30"                          : OUTPUT_PIN = 42     ; -- LC49
+    "q31"                          : OUTPUT_PIN = 43     ; -- LC51
+    "q32"                          : OUTPUT_PIN = 46     ; -- LC52
+    "q33"                          : OUTPUT_PIN = 47     ; -- LC53
+    "q34"                          : OUTPUT_PIN = 48     ; -- LC54
+    "q35"                          : OUTPUT_PIN = 49     ; -- LC56
+    "q36"                          : OUTPUT_PIN = 39     ; -- LC33
+    "q37"                          : OUTPUT_PIN = 38     ; -- LC35
+    "q38"                          : OUTPUT_PIN = 35     ; -- LC36
+    "q39"                          : OUTPUT_PIN = 34     ; -- LC37
+    "q40"                          : OUTPUT_PIN = 33     ; -- LC38
+    "q41"                          : OUTPUT_PIN = 32     ; -- LC40
+    "q42"                          : OUTPUT_PIN = 31     ; -- LC41
+    "q43"                          : OUTPUT_PIN = 30     ; -- LC43
+    "q44"                          : OUTPUT_PIN = 29     ; -- LC44
+    "q45"                          : OUTPUT_PIN = 27     ; -- LC45
+    "q46"                          : OUTPUT_PIN = 26     ; -- LC46
+    "q47"                          : OUTPUT_PIN = 25     ; -- LC48
+    "q48"                          : OUTPUT_PIN = 15     ; -- LC27
+    "q49"                          : OUTPUT_PIN = 14     ; -- LC28
+    "q50"                          : OUTPUT_PIN = 12     ; -- LC29
+    "q51"                          : OUTPUT_PIN = 11     ; -- LC30
+    "q52"                          : OUTPUT_PIN = 10     ; -- LC32
+    "q53"                          : OUTPUT_PIN = 16     ; -- LC25
+    "q54"                          : OUTPUT_PIN = 23     ; -- LC17
+    "q55"                          : OUTPUT_PIN = 22     ; -- LC19
+    "q56"                          : OUTPUT_PIN = 21     ; -- LC20
+    "q57"                          : OUTPUT_PIN = 19     ; -- LC21
+    "q58"                          : OUTPUT_PIN = 18     ; -- LC22
+    "q59"                          : OUTPUT_PIN = 17     ; -- LC24
+    "q60"                          : OUTPUT_PIN = 1      ; -- LC9
+    "q61"                          : OUTPUT_PIN = 100    ; -- LC11
+    "q62"                          : OUTPUT_PIN = 99     ; -- LC12
+    "q63"                          : OUTPUT_PIN = 98     ; -- LC13
+
+END;
+
+INTERNAL_INFO "lab11_3"
+BEGIN
+	DEVICE = EPM7096QC100-7;
+	LC13    : LORAX = "G129R0";
+	LC12    : LORAX = "G89R0";
+	LC11    : LORAX = "G88R0";
+	LC9     : LORAX = "G86R0";
+	LC24    : LORAX = "G26R0";
+	LC22    : LORAX = "G24R0";
+	LC21    : LORAX = "G23R0";
+	LC20    : LORAX = "G69R0";
+	LC19    : LORAX = "G68R0";
+	LC17    : LORAX = "G66R0";
+	LC25    : LORAX = "G133R0";
+	LC32    : LORAX = "G93R0";
+	LC30    : LORAX = "G91R0";
+	LC29    : LORAX = "G90R0";
+	LC28    : LORAX = "G136R0";
+	LC27    : LORAX = "G135R0";
+	LC48    : LORAX = "G140R0";
+	LC46    : LORAX = "G138R0";
+	LC45    : LORAX = "G137R0";
+	LC44    : LORAX = "G97R0";
+	LC43    : LORAX = "G96R0";
+	LC41    : LORAX = "G94R0";
+	LC40    : LORAX = "G73R0";
+	LC38    : LORAX = "G71R0";
+	LC37    : LORAX = "G70R0";
+	LC36    : LORAX = "G30R0";
+	LC35    : LORAX = "G29R0";
+	LC33    : LORAX = "G27R0";
+	LC56    : LORAX = "G77R0";
+	LC54    : LORAX = "G75R0";
+	LC53    : LORAX = "G74R0";
+	LC52    : LORAX = "G34R0";
+	LC51    : LORAX = "G33R0";
+	LC49    : LORAX = "G31R0";
+	LC62    : LORAX = "G142R0";
+	LC61    : LORAX = "G141R0";
+	LC60    : LORAX = "G101R0";
+	LC57    : LORAX = "G98R0";
+	LC64    : LORAX = "G144R0";
+	LC59    : LORAX = "G100R0";
+	LC68    : LORAX = "G81R0";
+	LC69    : LORAX = "G35R0";
+	LC70    : LORAX = "G36R0";
+	LC72    : LORAX = "G38R0";
+	LC73    : LORAX = "G145R0";
+	LC67    : LORAX = "G80R0";
+	LC65    : LORAX = "G78R0";
+	LC80    : LORAX = "G105R0";
+	LC78    : LORAX = "G103R0";
+	LC75    : LORAX = "G147R0";
+	LC76    : LORAX = "G148R0";
+	LC77    : LORAX = "G102R0";
+	LC86    : LORAX = "G83R0";
+	LC89    : LORAX = "G106R0";
+	LC92    : LORAX = "G109R0";
+	LC81    : LORAX = "G39R0";
+	LC91    : LORAX = "G108R0";
+	LC88    : LORAX = "G85R0";
+	LC85    : LORAX = "G82R0";
+	LC84    : LORAX = "G42R0";
+	LC83    : LORAX = "G41R0";
+	LC93    : LORAX = "G149R0";
+	LC94    : LORAX = "G150R0";
+	LC96    : LORAX = "G152R0";
+	OH2R0P7 : LORAX = "G112R0,PA18R0C0,PA18R0C1,PA18R0C2,PA18R0C3,PA18R0C4,PA18R0C5";
+	OH3R0P6 : LORAX = "G113R0,PA20R0C0,PA20R0C1,PA20R0C2,PA20R0C3,PA20R0C4,PA20R0C5";
+	OH4R0P4 : LORAX = "G154R0,PA28R0C0,PA28R0C1,PA28R0C2,PA28R0C3,PA28R0C4,PA28R0C5";
+	OH5R0P3 : LORAX = "G155R0,PA27R0C0,PA27R0C1,PA27R0C2,PA27R0C3,PA27R0C4,PA27R0C5";
+	OH7R0P2 : LORAX = "G156R0,PA29R0C0,PA29R0C1,PA29R0C2,PA29R0C3,PA29R0C4,PA29R0C5";
+	OH0R0P8 : LORAX = "G111R0,PA19R0C0,PA19R0C1,PA19R0C2,PA19R0C3,PA19R0C4,PA19R0C5";
+END;

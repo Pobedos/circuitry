@@ -1,0 +1,10 @@
+|dff_async
+data => q~reg0.DATAIN
+clk => q~reg0.CLK
+reset => comb~0.IN0
+reset => q~0.IN0
+reset => comb~1.IN0
+preset => q~0.IN1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
