@@ -24,23 +24,23 @@ HIF003
 --
 FILES
 {
-	superdecr.vhd
-	{
-		superdecr [] [U7449008.DLS,U1147235.DLS]
-		{
-			2 [] [];
-		}
-	}
 	decriptor.vhd
 	{
-		decriptor [] [U7449008.DLS,U1147235.DLS]
+		decriptor [] [U1147235.DLS,U7449008.DLS]
 		{
 			1 [] [];
 		}
 	}
+	superdecr.vhd
+	{
+		superdecr [] [U1147235.DLS,U7449008.DLS]
+		{
+			2 [] [];
+		}
+	}
 	megadecr.vhd
 	{
-		megadecr [] [U7449008.DLS,U1147235.DLS]
+		megadecr [] [U1147235.DLS,U7449008.DLS]
 		{
 			0 [] [];
 		}
@@ -50,38 +50,38 @@ TREE
 {
 	megadecr::(0,0):(0): megadecr.vhd
 	{
-		decriptor:1:(25,13):(1224,s0): decriptor.vhd;
-		superdecr:2:(26,13):(1225,s1): superdecr.vhd
+		superdecr:2:(29,13):(1228,s4): superdecr.vhd
 		{
-			decriptor:1:(19,13):(342,s0): decriptor.vhd;
-			decriptor:1:(20,13):(343,s1): decriptor.vhd;
-			decriptor:1:(21,13):(344,s2): decriptor.vhd;
-			decriptor:1:(22,13):(345,s3): decriptor.vhd;
 			decriptor:1:(23,13):(346,s4): decriptor.vhd;
-		}
-		superdecr:2:(27,13):(1226,s2): superdecr.vhd
-		{
-			decriptor:1:(19,13):(342,s0): decriptor.vhd;
-			decriptor:1:(20,13):(343,s1): decriptor.vhd;
-			decriptor:1:(21,13):(344,s2): decriptor.vhd;
 			decriptor:1:(22,13):(345,s3): decriptor.vhd;
-			decriptor:1:(23,13):(346,s4): decriptor.vhd;
+			decriptor:1:(21,13):(344,s2): decriptor.vhd;
+			decriptor:1:(20,13):(343,s1): decriptor.vhd;
+			decriptor:1:(19,13):(342,s0): decriptor.vhd;
 		}
 		superdecr:2:(28,13):(1227,s3): superdecr.vhd
 		{
-			decriptor:1:(19,13):(342,s0): decriptor.vhd;
-			decriptor:1:(20,13):(343,s1): decriptor.vhd;
-			decriptor:1:(21,13):(344,s2): decriptor.vhd;
-			decriptor:1:(22,13):(345,s3): decriptor.vhd;
 			decriptor:1:(23,13):(346,s4): decriptor.vhd;
+			decriptor:1:(22,13):(345,s3): decriptor.vhd;
+			decriptor:1:(21,13):(344,s2): decriptor.vhd;
+			decriptor:1:(20,13):(343,s1): decriptor.vhd;
+			decriptor:1:(19,13):(342,s0): decriptor.vhd;
 		}
-		superdecr:2:(29,13):(1228,s4): superdecr.vhd
+		superdecr:2:(27,13):(1226,s2): superdecr.vhd
 		{
-			decriptor:1:(19,13):(342,s0): decriptor.vhd;
-			decriptor:1:(20,13):(343,s1): decriptor.vhd;
-			decriptor:1:(21,13):(344,s2): decriptor.vhd;
-			decriptor:1:(22,13):(345,s3): decriptor.vhd;
 			decriptor:1:(23,13):(346,s4): decriptor.vhd;
+			decriptor:1:(22,13):(345,s3): decriptor.vhd;
+			decriptor:1:(21,13):(344,s2): decriptor.vhd;
+			decriptor:1:(20,13):(343,s1): decriptor.vhd;
+			decriptor:1:(19,13):(342,s0): decriptor.vhd;
 		}
+		superdecr:2:(26,13):(1225,s1): superdecr.vhd
+		{
+			decriptor:1:(23,13):(346,s4): decriptor.vhd;
+			decriptor:1:(22,13):(345,s3): decriptor.vhd;
+			decriptor:1:(21,13):(344,s2): decriptor.vhd;
+			decriptor:1:(20,13):(343,s1): decriptor.vhd;
+			decriptor:1:(19,13):(342,s0): decriptor.vhd;
+		}
+		decriptor:1:(25,13):(1224,s0): decriptor.vhd;
 	}
 }

@@ -24,9 +24,30 @@ HIF003
 --
 FILES
 {
-	decriptor.vhd
+	not1.vhd
 	{
-		decriptor [] [U1147235.DLS,U7449008.DLS]
+		not1 [] [U7449008.DLS,U1147235.DLS]
+		{
+			3 [] [];
+		}
+	}
+	or3r.vhd
+	{
+		or3r [] [U7449008.DLS,U1147235.DLS]
+		{
+			2 [] [];
+		}
+	}
+	lab12_3.vhd
+	{
+		lab12_3 [] [U7449008.DLS,U1147235.DLS]
+		{
+			1 [] [];
+		}
+	}
+	lab12_4.vhd
+	{
+		lab12_4 [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -34,5 +55,14 @@ FILES
 }
 TREE
 {
-	decriptor::(0,0):(0): decriptor.vhd;
+	lab12_4::(0,0):(0): lab12_4.gdf
+	{
+		lab12_3:1:(37,13):(199,hr): lab12_3.vhd;
+		lab12_3:1:(38,14):(200,hr1): lab12_3.vhd;
+		or3r:2:(39,14):(201,or0): or3r.gdf;
+		or3r:2:(40,14):(202,or1): or3r.gdf;
+		or3r:2:(41,15):(203,or22): or3r.gdf;
+		or3r:2:(42,15):(204,or33): or3r.gdf;
+		not1:3:(43,13):(205,n0): not1.gdf;
+	}
 }
