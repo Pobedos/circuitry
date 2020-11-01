@@ -11,7 +11,6 @@ ENTITY lab12_3 IS
 END lab12_3;
 
 ARCHITECTURE behav OF lab12_3 IS
-signal sint: integer;
 BEGIN
 process(r, e1)
 begin

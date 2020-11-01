@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 9.01 07/30/98              
--- Compiled: 11/01/20 16:56:35        
+-- Compiled: 11/01/20 16:47:09        
 
 -- Copyright (C) 1988-1998 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -22,43 +22,49 @@
 -- their respective licensors.  No other licenses, including any licenses
 -- needed under any third party's intellectual property, are provided herein.
 
-CHIP "lab12_3"
+CHIP "lab12_7"
 BEGIN
 
     DEVICE = "EPM7032LC44-6";
 
-    "e1"                           : INPUT_PIN  = 13     ; -- LC9
-    "r0"                           : INPUT_PIN  = 12     ; -- LC8
-    "r1"                           : INPUT_PIN  = 11     ; -- LC7
-    "r2"                           : INPUT_PIN  = 9      ; -- LC6
-    "r3"                           : INPUT_PIN  = 8      ; -- LC5
-    "r4"                           : INPUT_PIN  = 7      ; -- LC4
-    "r5"                           : INPUT_PIN  = 6      ; -- LC3
-    "r6"                           : INPUT_PIN  = 5      ; -- LC2
+    "e1"                           : INPUT_PIN  = 5      ; -- LC2
+    "r0"                           : INPUT_PIN  = 6      ; -- LC3
+    "r1"                           : INPUT_PIN  = 7      ; -- LC4
+    "r2"                           : INPUT_PIN  = 8      ; -- LC5
+    "r3"                           : INPUT_PIN  = 9      ; -- LC6
+    "r4"                           : INPUT_PIN  = 11     ; -- LC7
+    "r5"                           : INPUT_PIN  = 12     ; -- LC8
+    "r6"                           : INPUT_PIN  = 13     ; -- LC9
     "r7"                           : INPUT_PIN  = 4      ; -- LC1
-    "a0"                           : BIDIR_PIN  = 37     ; -- LC21
-    "a1"                           : BIDIR_PIN  = 38     ; -- LC20
-    "a2"                           : BIDIR_PIN  = 39     ; -- LC19
-    "e0"                           : BIDIR_PIN  = 40     ; -- LC18
-    "g"                            : BIDIR_PIN  = 41     ; -- LC17
+    "a0"                           : BIDIR_PIN  = 39     ; -- LC19
+    "a1"                           : BIDIR_PIN  = 37     ; -- LC21
+    "a2"                           : BIDIR_PIN  = 34     ; -- LC23
+    "a3"                           : BIDIR_PIN  = 33     ; -- LC24
+    "a4"                           : BIDIR_PIN  = 36     ; -- LC22
+    "a5"                           : BIDIR_PIN  = 38     ; -- LC20
+    "a6"                           : BIDIR_PIN  = 40     ; -- LC18
+    "a7"                           : BIDIR_PIN  = 41     ; -- LC17
 
 END;
 
-INTERNAL_INFO "lab12_3"
+INTERNAL_INFO "lab12_7"
 BEGIN
 	DEVICE = EPM7032LC44-6;
-	LC19    : LORAX = "G15R0";
-	LC20    : LORAX = "G16R0";
-	LC21    : LORAX = "G30R0";
-	LC18    : LORAX = "G14R0";
 	LC17    : LORAX = "G13R0";
+	LC18    : LORAX = "G14R0";
+	LC20    : LORAX = "G16R0";
+	LC22    : LORAX = "G31R0";
+	LC24    : LORAX = "G33R0";
+	LC23    : LORAX = "G32R0";
+	LC21    : LORAX = "G30R0";
+	LC19    : LORAX = "G15R0";
 	OH0R0P4 : LORAX = "G43R0,PA20R0C1";
 	OH1R0P5 : LORAX = "G44R0,PA19R0C1";
-	OH2R0P6 : LORAX = "G45R0,PA22R0C1";
-	OH3R0P7 : LORAX = "G46R0,PA24R0C1";
 	OH8R0P13 : LORAX = "G0R0,PA6R0C1";
-	OH4R0P8 : LORAX = "G60R0,PA29R0C1";
-	OH5R0P9 : LORAX = "G61R0,PA28R0C1";
-	OH6R0P11 : LORAX = "G62R0,PA31R0C1";
 	OH7R0P12 : LORAX = "G63R0,PA33R0C1";
+	OH6R0P11 : LORAX = "G62R0,PA31R0C1";
+	OH5R0P9 : LORAX = "G61R0,PA28R0C1";
+	OH4R0P8 : LORAX = "G60R0,PA29R0C1";
+	OH3R0P7 : LORAX = "G46R0,PA24R0C1";
+	OH2R0P6 : LORAX = "G45R0,PA22R0C1";
 END;

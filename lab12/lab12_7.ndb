@@ -1,0 +1,101 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 89
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	16	1	:1006	,R
+#	IeEA	!	16	1	:1007	,S
+$	IeEA	!	16	1	:1017	,]
+%	IeEA	!	16	1	:1018	,^
+&	IeEA	!	16	1	:1028	,h
+'	IeEA	!	16	1	:1029	,i
+(	IeEA	!	16	1	:1031	,k
+)	IeEA	!	16	1	:1074	-8
+*	IeEA	!	16	1	:1075	-9
++	IeEA	!	16	1	:1085	-C
+,	IeEA	!	16	1	:1086	-D
+-	IeEA	!	16	1	:1088	-F
+.	IeEA	!	16	1	:1131	-q
+/	IeEA	!	16	1	:1132	-r
+0	IeEA	!	16	1	:1134	-t
+1	IeEA	!	16	1	:1169	.9
+2	IeEA	!	9	17	:1210	.b
+3	IeEA	!	9	17	:1211	.c
+4	IeEA	!	9	17	:1212	.d
+5	IeEA	!	9	17	:1213	.e
+6	IeEA	!	9	17	:1214	.f
+7	IeEA	!	9	17	:1215	.g
+8	IeEA	!	9	17	:1216	.h
+9	IeEA	!	9	17	:1217	.i
+:	IeEA	!	16	1	:624	(L
+;	IeEA	!	16	1	:625	(M
+<	IeEA	!	16	1	:635	(W
+=	IeEA	!	16	1	:636	(X
+>	IeEA	!	16	1	:646	(b
+?	IeEA	!	16	1	:647	(c
+@	IeEA	!	16	1	:657	(m
+A	IeEA	!	16	1	:658	(n
+B	IeEA	!	16	1	:668	(x
+C	IeEA	!	16	1	:669	(y
+D	IeEA	!	16	1	:679	)%
+E	IeEA	!	16	1	:680	)&
+F	IeEA	!	16	1	:690	)0
+G	IeEA	!	16	1	:691	)1
+H	IeEA	!	16	1	:693	)3
+I	IeEA	!	16	1	:736	)^
+J	IeEA	!	16	1	:737	)_
+K	IeEA	!	16	1	:747	)i
+L	IeEA	!	16	1	:748	)j
+M	IeEA	!	16	1	:758	)t
+N	IeEA	!	16	1	:759	)u
+O	IeEA	!	16	1	:769	*!
+P	IeEA	!	16	1	:770	*"
+Q	IeEA	!	16	1	:780	*,
+R	IeEA	!	16	1	:781	*-
+S	IeEA	!	16	1	:791	*7
+T	IeEA	!	16	1	:792	*8
+U	IeEA	!	16	1	:794	*:
+V	IeEA	!	16	1	:837	*e
+W	IeEA	!	16	1	:838	*f
+X	IeEA	!	16	1	:848	*p
+Y	IeEA	!	16	1	:849	*q
+Z	IeEA	!	16	1	:859	*{
+[	IeEA	!	16	1	:860	*|
+\	IeEA	!	16	1	:870	+(
+]	IeEA	!	16	1	:871	+)
+^	IeEA	!	16	1	:881	+3
+_	IeEA	!	16	1	:882	+4
+`	IeEA	!	16	1	:884	+6
+a	IeEA	!	16	1	:927	+a
+b	IeEA	!	16	1	:928	+b
+c	IeEA	!	16	1	:938	+l
+d	IeEA	!	16	1	:939	+m
+e	IeEA	!	16	1	:949	+w
+f	IeEA	!	16	1	:950	+x
+g	IeEA	!	16	1	:960	,$
+h	IeEA	!	16	1	:961	,%
+i	IeEA	!	16	1	:963	,'
+j	"<R?e	!	9	17	a0	!	a0	"!
+k	"<R?e	!	9	17	a1	!	a1	~
+l	"<R?e	!	9	17	a2	!	a2	}
+m	"<R?e	!	9	17	a3	!	a3	|
+n	"<R?e	!	9	17	a4	!	a4	{
+o	"<R?e	!	9	17	a5	!	a5	z
+p	"<R?e	!	9	17	a6	!	a6	y
+q	"<R?e	!	9	17	a7	!	a7	x
+r	L8ef	!	8	17	8	j	k	l	m	n	o	p	q	e1	w
+s	"?%_n	!	7	17	1	j	r0	!	r0	v
+t	"?%_n	!	7	17	2	j	k	r1	!	r1	u
+u	"?%_n	!	7	17	3	j	k	l	r2	!	r2	t
+v	"?%_n	!	7	17	4	j	k	l	m	r3	!	r3	s
+w	"?%_n	!	7	17	5	j	k	l	m	n	r4	!	r4	r
+x	"?%_n	!	7	17	6	j	k	l	m	n	o	r5	!	r5	q
+y	"?%_n	!	7	17	7	j	k	l	m	n	o	p	r6	!	r6	p
+z	"?%_n	!	7	17	8	j	k	l	m	n	o	p	q	r7	!	r7	o

@@ -1,8 +1,8 @@
-Project Information                                       z:\lab12\lab12_3.rpt
+Project Information                                       z:\lab12\lab12_7.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 11/01/20 16:56:35
+Compiled: 11/01/20 16:47:09
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -29,7 +29,7 @@ needed under any third party's intellectual property, are provided herein.
 ***** Project compilation was successful
 
 
-LAB12_3
+LAB12_7
 
 
 ** DEVICE SUMMARY **
@@ -37,16 +37,16 @@ LAB12_3
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-lab12_3   EPM7032LC44-6    9        0        5      5       0           15 %
+lab12_7   EPM7032LC44-6    9        0        8      8       0           25 %
 
-User Pins:                 9        0        5  
+User Pins:                 9        0        8  
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
-***** Logic for device 'lab12_3' compiled without errors.
+***** Logic for device 'lab12_7' compiled without errors.
 
 
 
@@ -63,17 +63,17 @@ Device Options:
                                                
                                                
                        V  G  G  G  G  G        
-              r  r  r  C  N  N  N  N  N     e  
-              5  6  7  C  D  D  D  D  D  g  0  
+              r  e  r  C  N  N  N  N  N  a  a  
+              0  1  7  C  D  D  D  D  D  7  6  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
-      r4 |  7                                39 | a2 
-      r3 |  8                                38 | a1 
-      r2 |  9                                37 | a0 
-     GND | 10                                36 | RESERVED 
-      r1 | 11                                35 | VCC 
-      r0 | 12         EPM7032LC44-6          34 | RESERVED 
-      e1 | 13                                33 | RESERVED 
+      r1 |  7                                39 | a0 
+      r2 |  8                                38 | a5 
+      r3 |  9                                37 | a1 
+     GND | 10                                36 | a4 
+      r4 | 11                                35 | VCC 
+      r5 | 12         EPM7032LC44-6          34 | a2 
+      r6 | 13                                33 | a3 
 RESERVED | 14                                32 | RESERVED 
      VCC | 15                                31 | RESERVED 
 RESERVED | 16                                30 | GND 
@@ -97,8 +97,8 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
 ** RESOURCE USAGE **
 
@@ -106,24 +106,24 @@ lab12_3
 Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
 
 A:     LC1 - LC16     0/16(  0%)   9/16( 56%)   0/16(  0%)   0/36(  0%) 
-B:    LC17 - LC32     5/16( 31%)   5/16( 31%)   0/16(  0%)   9/36( 25%) 
+B:    LC17 - LC32     8/16( 50%)   8/16( 50%)   0/16(  0%)   9/36( 25%) 
 
 
 Total dedicated input pins used:                 0/4      (  0%)
-Total I/O pins used:                            14/32     ( 43%)
-Total logic cells used:                          5/32     ( 15%)
+Total I/O pins used:                            17/32     ( 53%)
+Total logic cells used:                          8/32     ( 25%)
 Total shareable expanders used:                  0/32     (  0%)
-Total Turbo logic cells used:                    5/32     ( 15%)
+Total Turbo logic cells used:                    8/32     ( 25%)
 Total shareable expanders not available (n/a):   0/32     (  0%)
-Average fan-in:                                  7.40
-Total fan-in:                                    37
+Average fan-in:                                  5.50
+Total fan-in:                                    44
 
 Total input pins required:                       9
 Total output pins required:                      0
-Total bidirectional pins required:               5
-Total logic cells required:                      5
+Total bidirectional pins required:               8
+Total logic cells required:                      8
 Total flipflops required:                        0
-Total product terms required:                   13
+Total product terms required:                    8
 Total logic cells lending parallel expanders:    0
 Total shareable expanders in database:           0
 
@@ -131,28 +131,31 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
 ** INPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  37     21    B      BIDIR               0      0   0    8    0    0    0  a0
-  38     20    B      BIDIR               0      0   0    7    0    0    0  a1
-  39     19    B      BIDIR               0      0   0    5    0    0    0  a2
-  40     18    B      BIDIR               0      0   0    9    0    0    0  e0
-  13    (9)  (A)      INPUT               0      0   0    0    0    5    0  e1
-  41     17    B      BIDIR               0      0   0    8    0    0    0  g
-  12    (8)  (A)      INPUT               0      0   0    0    0    1    0  r0
-  11    (7)  (A)      INPUT               0      0   0    0    0    3    0  r1
-   9    (6)  (A)      INPUT               0      0   0    0    0    4    0  r2
-   8    (5)  (A)      INPUT               0      0   0    0    0    4    0  r3
-   7    (4)  (A)      INPUT               0      0   0    0    0    5    0  r4
-   6    (3)  (A)      INPUT               0      0   0    0    0    5    0  r5
-   5    (2)  (A)      INPUT               0      0   0    0    0    5    0  r6
-   4    (1)  (A)      INPUT               0      0   0    0    0    5    0  r7
+  39     19    B      BIDIR               0      0   0    9    0    0    0  a0
+  37     21    B      BIDIR               0      0   0    8    0    0    0  a1
+  34     23    B      BIDIR               0      0   0    7    0    0    0  a2
+  33     24    B      BIDIR               0      0   0    6    0    0    0  a3
+  36     22    B      BIDIR               0      0   0    5    0    0    0  a4
+  38     20    B      BIDIR               0      0   0    4    0    0    0  a5
+  40     18    B      BIDIR               0      0   0    3    0    0    0  a6
+  41     17    B      BIDIR               0      0   0    2    0    0    0  a7
+   5    (2)  (A)      INPUT               0      0   0    0    0    8    0  e1
+   6    (3)  (A)      INPUT               0      0   0    0    0    1    0  r0
+   7    (4)  (A)      INPUT               0      0   0    0    0    2    0  r1
+   8    (5)  (A)      INPUT               0      0   0    0    0    3    0  r2
+   9    (6)  (A)      INPUT               0      0   0    0    0    4    0  r3
+  11    (7)  (A)      INPUT               0      0   0    0    0    5    0  r4
+  12    (8)  (A)      INPUT               0      0   0    0    0    6    0  r5
+  13    (9)  (A)      INPUT               0      0   0    0    0    7    0  r6
+   4    (1)  (A)      INPUT               0      0   0    0    0    8    0  r7
 
 
 Code:
@@ -164,19 +167,22 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
 ** OUTPUTS **
 
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  37     21    B        TRI      t        0      0   0    8    0    0    0  a0
-  38     20    B        TRI      t        0      0   0    7    0    0    0  a1
-  39     19    B        TRI      t        0      0   0    5    0    0    0  a2
-  40     18    B        TRI      t        0      0   0    9    0    0    0  e0
-  41     17    B        TRI      t        0      0   0    8    0    0    0  g
+  39     19    B        TRI      t        0      0   0    9    0    0    0  a0
+  37     21    B        TRI      t        0      0   0    8    0    0    0  a1
+  34     23    B        TRI      t        0      0   0    7    0    0    0  a2
+  33     24    B        TRI      t        0      0   0    6    0    0    0  a3
+  36     22    B        TRI      t        0      0   0    5    0    0    0  a4
+  38     20    B        TRI      t        0      0   0    4    0    0    0  a5
+  40     18    B        TRI      t        0      0   0    3    0    0    0  a6
+  41     17    B        TRI      t        0      0   0    2    0    0    0  a7
 
 
 Code:
@@ -188,42 +194,45 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
 ** LOGIC CELL INTERCONNECTIONS **
 
 Logic Array Block 'B':
 
-                   Logic cells placed in LAB 'B'
-        +--------- LC21 a0
-        | +------- LC20 a1
-        | | +----- LC19 a2
-        | | | +--- LC18 e0
-        | | | | +- LC17 g
-        | | | | | 
-        | | | | |   Other LABs fed by signals
-        | | | | |   that feed LAB 'B'
-LC      | | | | | | A B |     Logic cells that feed LAB 'B':
+                         Logic cells placed in LAB 'B'
+        +--------------- LC19 a0
+        | +------------- LC21 a1
+        | | +----------- LC23 a2
+        | | | +--------- LC24 a3
+        | | | | +------- LC22 a4
+        | | | | | +----- LC20 a5
+        | | | | | | +--- LC18 a6
+        | | | | | | | +- LC17 a7
+        | | | | | | | | 
+        | | | | | | | |   Other LABs fed by signals
+        | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | A B |     Logic cells that feed LAB 'B':
 
 Pin
-13   -> * * * * * | - * | <-- e1
-12   -> - - - * - | - * | <-- r0
-11   -> * - - * * | - * | <-- r1
-9    -> * * - * * | - * | <-- r2
-8    -> * * - * * | - * | <-- r3
-7    -> * * * * * | - * | <-- r4
-6    -> * * * * * | - * | <-- r5
-5    -> * * * * * | - * | <-- r6
-4    -> * * * * * | - * | <-- r7
+5    -> * * * * * * * * | - * | <-- e1
+6    -> * - - - - - - - | - * | <-- r0
+7    -> * * - - - - - - | - * | <-- r1
+8    -> * * * - - - - - | - * | <-- r2
+9    -> * * * * - - - - | - * | <-- r3
+11   -> * * * * * - - - | - * | <-- r4
+12   -> * * * * * * - - | - * | <-- r5
+13   -> * * * * * * * - | - * | <-- r6
+4    -> * * * * * * * * | - * | <-- r7
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_7.rpt
+lab12_7
 
 ** EQUATIONS **
 
@@ -238,39 +247,52 @@ r6       : INPUT;
 r7       : INPUT;
 
 -- Node name is 'a0' 
--- Equation name is 'a0', location is LC021, type is bidir.
-a0       = TRI(_LC021,  VCC);
-_LC021   = LCELL( _EQ001 $  GND);
-  _EQ001 =  e1 &  r1 & !r2 & !r4 & !r6
-         #  e1 &  r3 & !r4 & !r6
-         #  e1 &  r5 & !r6
-         #  e1 &  r7;
+-- Equation name is 'a0', location is LC019, type is bidir.
+a0       = TRI(_LC019,  VCC);
+_LC019   = LCELL( _EQ001 $  GND);
+  _EQ001 =  e1 &  r0 & !r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a1' 
--- Equation name is 'a1', location is LC020, type is bidir.
-a1       = TRI(_LC020,  VCC);
-_LC020   = LCELL( _EQ002 $  e1);
-  _EQ002 =  e1 & !r2 & !r3 & !r6 & !r7
-         #  e1 &  r5 & !r6 & !r7
-         #  e1 &  r4 & !r6 & !r7;
+-- Equation name is 'a1', location is LC021, type is bidir.
+a1       = TRI(_LC021,  VCC);
+_LC021   = LCELL( _EQ002 $  GND);
+  _EQ002 =  e1 &  r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a2' 
--- Equation name is 'a2', location is LC019, type is bidir.
-a2       = TRI(_LC019,  VCC);
-_LC019   = LCELL( _EQ003 $  e1);
-  _EQ003 =  e1 & !r4 & !r5 & !r6 & !r7;
+-- Equation name is 'a2', location is LC023, type is bidir.
+a2       = TRI(_LC023,  VCC);
+_LC023   = LCELL( _EQ003 $  GND);
+  _EQ003 =  e1 &  r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
--- Node name is 'e0' 
--- Equation name is 'e0', location is LC018, type is bidir.
-e0       = TRI(_LC018,  VCC);
-_LC018   = LCELL( _EQ004 $  GND);
-  _EQ004 =  e1 & !r0 & !r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
+-- Node name is 'a3' 
+-- Equation name is 'a3', location is LC024, type is bidir.
+a3       = TRI(_LC024,  VCC);
+_LC024   = LCELL( _EQ004 $  GND);
+  _EQ004 =  e1 &  r3 & !r4 & !r5 & !r6 & !r7;
 
--- Node name is 'g' 
--- Equation name is 'g', location is LC017, type is bidir.
-g        = TRI(_LC017,  VCC);
-_LC017   = LCELL( _EQ005 $  e1);
-  _EQ005 =  e1 & !r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
+-- Node name is 'a4' 
+-- Equation name is 'a4', location is LC022, type is bidir.
+a4       = TRI(_LC022,  VCC);
+_LC022   = LCELL( _EQ005 $  GND);
+  _EQ005 =  e1 &  r4 & !r5 & !r6 & !r7;
+
+-- Node name is 'a5' 
+-- Equation name is 'a5', location is LC020, type is bidir.
+a5       = TRI(_LC020,  VCC);
+_LC020   = LCELL( _EQ006 $  GND);
+  _EQ006 =  e1 &  r5 & !r6 & !r7;
+
+-- Node name is 'a6' 
+-- Equation name is 'a6', location is LC018, type is bidir.
+a6       = TRI(_LC018,  VCC);
+_LC018   = LCELL( _EQ007 $  GND);
+  _EQ007 =  e1 &  r6 & !r7;
+
+-- Node name is 'a7' 
+-- Equation name is 'a7', location is LC017, type is bidir.
+a7       = TRI(_LC017,  VCC);
+_LC017   = LCELL( _EQ008 $  GND);
+  _EQ008 =  e1 &  r7;
 
 
 
@@ -280,7 +302,7 @@ _LC017   = LCELL( _EQ005 $  e1);
 
 
 
-Project Information                                       z:\lab12\lab12_3.rpt
+Project Information                                       z:\lab12\lab12_7.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -369,4 +391,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,072K
+Peak memory allocated during compilation  = 3,857K
