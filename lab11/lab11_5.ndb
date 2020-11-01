@@ -1,0 +1,48 @@
+NDB006
+The number of symbol table entries is: 2
+The length of the symbol table is: 23
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|74138:1|
+
+The number of name info structs is : 35
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	8	3	4	5	6	7	8	9	:	a	o
+#	Ky&|	!	8	3	4	5	6	7	8	9	:	b	q
+$	Ky&|	!	8	3	4	5	6	7	8	9	:	c	p
+%	IGdq	!	q0	r
+&	IGdq	!	q1	y
+'	IGdq	!	q2	x
+(	IGdq	!	q3	w
+)	IGdq	!	q4	v
+*	IGdq	!	q5	u
++	IGdq	!	q6	t
+,	IGdq	!	q7	s
+-	IGdW	.	:1	">
+.	IGdW	.	:10	"A
+/	IGdW	.	:11	"B
+0	IGdW	.	:12	"C
+1	IGdW	.	:13	"D
+2	IGdW	.	:14	"E
+3	L)p?	.	=	1	%	:15	"F
+4	L)p?	.	>	1	&	:16	"G
+5	L)p?	.	?	1	'	:17	"H
+6	L)p?	.	@	1	(	:18	"I
+7	L)p?	.	A	1	)	:19	"J
+8	L)p?	.	B	1	*	:20	"K
+9	L)p?	.	C	1	+	:21	"L
+:	L)p?	.	D	1	,	:22	"M
+;	IGdW	.	:8	"?
+<	IGdW	.	:9	"@
+=	INv_	.	3	Y0N	"F
+>	INv_	.	4	Y1N	"G
+?	INv_	.	5	Y2N	"H
+@	INv_	.	6	Y3N	"I
+A	INv_	.	7	Y4N	"J
+B	INv_	.	8	Y5N	"K
+C	INv_	.	9	Y6N	"L
+D	INv_	.	:	Y7N	"M

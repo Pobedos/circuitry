@@ -2,7 +2,7 @@ Project Information                                       z:\lab12\lab12_5.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 10/31/20 19:52:09
+Compiled: 11/01/20 15:38:56
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -68,12 +68,12 @@ Device Options:
 
                                                
                                                
-                                               
-                                               
-                                               
-                       V  G  G  G  G  G        
-              r  e  r  C  N  N  N  N  N  a  a  
-              0  1  7  C  D  D  D  D  D  7  6  
+                 e                             
+                 n                             
+                 a                             
+                 b     V  G  G  G  G  G        
+              r  l  r  C  N  N  N  N  N  a  a  
+              0  e  7  C  D  D  D  D  D  7  6  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
       r1 |  7                                39 | a0 
@@ -148,7 +148,7 @@ lab12_5
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-   5    (2)  (A)      INPUT               0      0   0    0    0    8    0  e1
+   5    (2)  (A)      INPUT               0      0   0    0    0    8    0  enable
    6    (3)  (A)      INPUT               0      0   0    0    0    1    0  r0
    7    (4)  (A)      INPUT               0      0   0    0    0    2    0  r1
    8    (5)  (A)      INPUT               0      0   0    0    0    3    0  r2
@@ -217,7 +217,7 @@ Logic Array Block 'B':
 LC      | | | | | | | | | A B |     Logic cells that feed LAB 'B':
 
 Pin
-5    -> * * * * * * * * | - * | <-- e1
+5    -> * * * * * * * * | - * | <-- enable
 6    -> * - - - - - - - | - * | <-- r0
 7    -> * * - - - - - - | - * | <-- r1
 8    -> * * * - - - - - | - * | <-- r2
@@ -237,7 +237,7 @@ lab12_5
 
 ** EQUATIONS **
 
-e1       : INPUT;
+enable   : INPUT;
 r0       : INPUT;
 r1       : INPUT;
 r2       : INPUT;
@@ -250,42 +250,42 @@ r7       : INPUT;
 -- Node name is 'a0' 
 -- Equation name is 'a0', location is LC019, type is output.
  a0      = LCELL( _EQ001 $  VCC);
-  _EQ001 =  e1 &  r0 & !r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
+  _EQ001 =  enable &  r0 & !r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a1' 
 -- Equation name is 'a1', location is LC021, type is output.
  a1      = LCELL( _EQ002 $  VCC);
-  _EQ002 =  e1 &  r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
+  _EQ002 =  enable &  r1 & !r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a2' 
 -- Equation name is 'a2', location is LC023, type is output.
  a2      = LCELL( _EQ003 $  VCC);
-  _EQ003 =  e1 &  r2 & !r3 & !r4 & !r5 & !r6 & !r7;
+  _EQ003 =  enable &  r2 & !r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a3' 
 -- Equation name is 'a3', location is LC024, type is output.
  a3      = LCELL( _EQ004 $  VCC);
-  _EQ004 =  e1 &  r3 & !r4 & !r5 & !r6 & !r7;
+  _EQ004 =  enable &  r3 & !r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a4' 
 -- Equation name is 'a4', location is LC022, type is output.
  a4      = LCELL( _EQ005 $  VCC);
-  _EQ005 =  e1 &  r4 & !r5 & !r6 & !r7;
+  _EQ005 =  enable &  r4 & !r5 & !r6 & !r7;
 
 -- Node name is 'a5' 
 -- Equation name is 'a5', location is LC020, type is output.
  a5      = LCELL( _EQ006 $  VCC);
-  _EQ006 =  e1 &  r5 & !r6 & !r7;
+  _EQ006 =  enable &  r5 & !r6 & !r7;
 
 -- Node name is 'a6' 
 -- Equation name is 'a6', location is LC018, type is output.
  a6      = LCELL( _EQ007 $  VCC);
-  _EQ007 =  e1 &  r6 & !r7;
+  _EQ007 =  enable &  r6 & !r7;
 
 -- Node name is 'a7' 
 -- Equation name is 'a7', location is LC017, type is output.
- a7      = LCELL( _EQ008 $ !e1);
-  _EQ008 =  e1 & !r7;
+ a7      = LCELL( _EQ008 $ !enable);
+  _EQ008 =  enable & !r7;
 
 
 
@@ -375,13 +375,13 @@ Compilation Times
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:00
+   Timing SNF Extractor                   00:00:01
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,056K
+Peak memory allocated during compilation  = 4,386K

@@ -1,0 +1,66 @@
+-- MAX+plus II Compiler Fit File      
+-- Version 9.01 07/30/98              
+-- Compiled: 11/01/20 02:36:15        
+
+-- Copyright (C) 1988-1998 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+CHIP "lab11_5"
+BEGIN
+
+    DEVICE = "EPM9320LC84-15";
+
+    "a"                            : INPUT_PIN  = 13     ;
+    "b"                            : INPUT_PIN  = 1      ;
+    "c"                            : INPUT_PIN  = 84     ;
+    "q0"                           : OUTPUT_PIN = 35     ;
+    "q1"                           : OUTPUT_PIN = 11     ;
+    "q2"                           : OUTPUT_PIN = 31     ;
+    "q3"                           : OUTPUT_PIN = 22     ;
+    "q4"                           : OUTPUT_PIN = 23     ;
+    "q5"                           : OUTPUT_PIN = 63     ;
+    "q6"                           : OUTPUT_PIN = 62     ;
+    "q7"                           : OUTPUT_PIN = 33     ;
+    "|74138:1|:15"                 : LOCATION   = LC1_B2 ;  -- |74138:1|Y0N
+    "|74138:1|:16"                 : LOCATION   = LC2_B1 ;  -- |74138:1|Y1N
+    "|74138:1|:17"                 : LOCATION   = LC1_B1 ;  -- |74138:1|Y2N
+    "|74138:1|:18"                 : LOCATION   = LC15_B1;  -- |74138:1|Y3N
+    "|74138:1|:19"                 : LOCATION   = LC13_B1;  -- |74138:1|Y4N
+    "|74138:1|:20"                 : LOCATION   = LC11_B1;  -- |74138:1|Y5N
+    "|74138:1|:21"                 : LOCATION   = LC9_B1 ;  -- |74138:1|Y6N
+    "|74138:1|:22"                 : LOCATION   = LC3_B1 ;  -- |74138:1|Y7N
+
+END;
+
+INTERNAL_INFO "lab11_5"
+BEGIN
+	DEVICE = EPM9320LC84-15;
+    OD0P13  : LORAX = "1:G58R1|2:PA31R1C0->LC2_B1,->LC1_B1,->LC15_B1,->LC13_B1,->LC11_B1,->LC9_B1,->LC3_B1|,2:PA31R1C1->LC1_B2||";
+    OD1P1   : LORAX = "1:G59R1|2:PA32R1C0->LC2_B1,->LC1_B1,->LC15_B1,->LC13_B1,->LC11_B1,->LC9_B1,->LC3_B1|,2:PA32R1C1->LC1_B2||";
+    OD2P84  : LORAX = "1:G70R1|2:PA7R1C0->LC2_B1,->LC1_B1,->LC15_B1,->LC13_B1,->LC11_B1,->LC9_B1,->LC3_B1|,2:PA7R1C1->LC1_B2||";
+    LC1_B2  : LORAX = "1:V0C1->OV2C1P35|";
+    LC2_B1  : LORAX = "1:V3C0->OV7C0P11|";
+    LC1_B1  : LORAX = "1:V0C0->OV2C0P31|";
+    LC15_B1 : LORAX = "1:G86R1->OH12R1P22|";
+    LC13_B1 : LORAX = "1:G72R1->OH8R1P23|";
+    LC11_B1 : LORAX = "1:G61R1->OH13R1P63|";
+    LC9_B1  : LORAX = "1:G49R1->OH9R1P62|";
+    LC3_B1  : LORAX = "1:V7C0->OV14C0P33|";
+END;

@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 9.01 07/30/98              
--- Compiled: 10/31/20 19:52:09        
+-- Compiled: 11/01/20 15:38:56        
 
 -- Copyright (C) 1988-1998 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -27,7 +27,7 @@ BEGIN
 
     DEVICE = "EPM7032LC44-6";
 
-    "e1"                           : INPUT_PIN  = 5      ; -- LC2
+    "enable"                       : INPUT_PIN  = 5      ; -- LC2
     "r0"                           : INPUT_PIN  = 6      ; -- LC3
     "r1"                           : INPUT_PIN  = 7      ; -- LC4
     "r2"                           : INPUT_PIN  = 8      ; -- LC5

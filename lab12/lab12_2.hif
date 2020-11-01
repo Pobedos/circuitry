@@ -24,9 +24,16 @@ HIF003
 --
 FILES
 {
-	dcsimple.gdf
+	and7.gdf
 	{
-		dcsimple [] []
+		and7 [] []
+		{
+			3 [] [];
+		}
+	}
+	and5.gdf
+	{
+		and5 [] []
 		{
 			2 [] [];
 		}
@@ -38,9 +45,9 @@ FILES
 			1 [] [];
 		}
 	}
-	lab12_5.gdf
+	lab12_2.gdf
 	{
-		lab12_5 [] []
+		lab12_2 [] []
 		{
 			0 [] [];
 		}
@@ -48,9 +55,17 @@ FILES
 }
 TREE
 {
-	lab12_5::(0,0):(0): lab12_5.gdf
+	lab12_2::(0,0):(0): lab12_2.gdf
 	{
-		dcsimple::(0,0):(2): dcsimple.gdf;
-		lab12_1::(0,0):(1): lab12_1.gdf;
+		and7::(0,0):(139): and7.gdf;
+		and5::(0,0):(136): and5.gdf;
+		lab12_1::(0,0):(2): lab12_1.gdf;
+		lab12_1::(0,0):(35): lab12_1.gdf;
+		lab12_1::(0,0):(46): lab12_1.gdf;
+		lab12_1::(0,0):(56): lab12_1.gdf;
+		lab12_1::(0,0):(103): lab12_1.gdf;
+		lab12_1::(0,0):(112): lab12_1.gdf;
+		lab12_1::(0,0):(122): lab12_1.gdf;
+		lab12_1::(0,0):(65): lab12_1.gdf;
 	}
 }
