@@ -2,7 +2,7 @@ Project Information                                       z:\lab12\lab12_5.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 11/01/20 15:38:56
+Compiled: 11/05/20 17:41:38
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -370,12 +370,12 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:00
+   Compiler Netlist Extractor             00:00:01
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
    Partitioner                            00:00:00
    Fitter                                 00:00:00
-   Timing SNF Extractor                   00:00:01
+   Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
    Total Time                             00:00:01
@@ -384,4 +384,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,386K
+Peak memory allocated during compilation  = 2,738K
