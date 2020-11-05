@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 9.01 07/30/98              
--- Compiled: 11/05/20 13:04:44        
+-- Compiled: 11/05/20 13:06:30        
 
 -- Copyright (C) 1988-1998 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -22,7 +22,7 @@
 -- their respective licensors.  No other licenses, including any licenses
 -- needed under any third party's intellectual property, are provided herein.
 
-CHIP "lab12_3"
+CHIP "lab12_6"
 BEGIN
 
     DEVICE = "EPM7032LC44-6";
@@ -44,7 +44,7 @@ BEGIN
 
 END;
 
-INTERNAL_INFO "lab12_3"
+INTERNAL_INFO "lab12_6"
 BEGIN
 	DEVICE = EPM7032LC44-6;
 	LC19    : LORAX = "G15R0";

@@ -24,9 +24,9 @@ HIF003
 --
 FILES
 {
-	lab12_3.vhd
+	lab12_6.vhd
 	{
-		lab12_3 [] [U7449008.DLS,U1147235.DLS]
+		lab12_6 [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -34,5 +34,5 @@ FILES
 }
 TREE
 {
-	lab12_3::(0,0):(0): lab12_3.vhd;
+	lab12_6::(0,0):(0): lab12_6.vhd;
 }

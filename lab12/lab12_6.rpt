@@ -1,8 +1,8 @@
-Project Information                                       z:\lab12\lab12_3.rpt
+Project Information                                       z:\lab12\lab12_6.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 11/05/20 13:04:44
+Compiled: 11/05/20 13:06:30
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -29,7 +29,7 @@ needed under any third party's intellectual property, are provided herein.
 ***** Project compilation was successful
 
 
-LAB12_3
+LAB12_6
 
 
 ** DEVICE SUMMARY **
@@ -37,16 +37,16 @@ LAB12_3
 Chip/                     Input   Output   Bidir         Shareable
 POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
 
-lab12_3   EPM7032LC44-6    9        0        5      5       0           15 %
+lab12_6   EPM7032LC44-6    9        0        5      5       0           15 %
 
 User Pins:                 9        0        5  
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
-***** Logic for device 'lab12_3' compiled without errors.
+***** Logic for device 'lab12_6' compiled without errors.
 
 
 
@@ -97,8 +97,8 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
 ** RESOURCE USAGE **
 
@@ -131,8 +131,8 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
 ** INPUTS **
 
@@ -164,8 +164,8 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
 ** OUTPUTS **
 
@@ -188,8 +188,8 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
 ** LOGIC CELL INTERCONNECTIONS **
 
@@ -222,8 +222,8 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:                              z:\lab12\lab12_3.rpt
-lab12_3
+Device-Specific Information:                              z:\lab12\lab12_6.rpt
+lab12_6
 
 ** EQUATIONS **
 
@@ -280,7 +280,7 @@ _LC017   = LCELL( _EQ005 $  e1);
 
 
 
-Project Information                                       z:\lab12\lab12_3.rpt
+Project Information                                       z:\lab12\lab12_6.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -355,10 +355,10 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:01
+   Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
@@ -369,4 +369,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,144K
+Peak memory allocated during compilation  = 3,518K

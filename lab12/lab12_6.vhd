@@ -1,6 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-ENTITY lab12_3 IS
+ENTITY lab12_6 IS
 	PORT
 	(
 		r :  in std_logic_vector(7 downto 0);
@@ -8,9 +8,9 @@ ENTITY lab12_3 IS
 		a : inout std_logic_vector(2 downto 0);
 		e0, g : inout std_logic
 	);
-END lab12_3;
+END lab12_6;
 
-ARCHITECTURE behav OF lab12_3 IS
+ARCHITECTURE behav OF lab12_6 IS
 BEGIN
 process(r, e1)
 begin
