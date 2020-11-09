@@ -1,0 +1,937 @@
+Project Information                                     z:\lab13\lab13_4_2.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 11/09/20 22:54:51
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+LAB13_4_2
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+lab13_4_2
+      EPM7096QC100-7       71       0        2      22      0           22 %
+
+User Pins:                 71       0        2  
+
+
+
+Project Information                                     z:\lab13\lab13_4_2.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lab13_4_1:m1|
+|lab13_4_1:m1|lab13_2:m1|
+|lab13_4_1:m1|lab13_2:m2|
+|lab13_4_1:m1|lab13_2:m3|
+|lab13_4_1:m1|lab13_2:m4|
+|lab13_4_1:m1|lab13_2:m5|
+|lab13_4_1:m2|
+|lab13_4_1:m2|lab13_2:m1|
+|lab13_4_1:m2|lab13_2:m2|
+|lab13_4_1:m2|lab13_2:m3|
+|lab13_4_1:m2|lab13_2:m4|
+|lab13_4_1:m2|lab13_2:m5|
+|lab13_4_1:m3|
+|lab13_4_1:m3|lab13_2:m1|
+|lab13_4_1:m3|lab13_2:m2|
+|lab13_4_1:m3|lab13_2:m3|
+|lab13_4_1:m3|lab13_2:m4|
+|lab13_4_1:m3|lab13_2:m5|
+|lab13_4_1:m4|
+|lab13_4_1:m4|lab13_2:m1|
+|lab13_4_1:m4|lab13_2:m2|
+|lab13_4_1:m4|lab13_2:m3|
+|lab13_4_1:m4|lab13_2:m4|
+|lab13_4_1:m4|lab13_2:m5|
+|lab13_2:m5|
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+***** Logic for device 'lab13_4_2' compiled without errors.
+
+
+
+
+Device: EPM7096QC100-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** ERROR SUMMARY **
+
+Info: Chip 'lab13_4_2' in device 'EPM7096QC100-7' has less than 20% of pins available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                       
+                                                       
+                            V                          
+                            C                 V        
+                      N     C               N C        
+              x x x G . x x I G   G x G x x . C   x x  
+              3 3 3 N C 3 3 N N x N 1 N 1 1 C I a 1 1  
+              4 5 6 D . 7 8 T D 9 D 0 D 1 2 . O 5 3 4  
+            ------------------------------------------_ 
+           / 100  98  96  94  92  90  88  86  84  82   |_ 
+          /     99  97  95  93  91  89  87  85  83  81    | 
+     x33 |  1                                          80 | x63 
+     x32 |  2                                          79 | x17 
+      a2 |  3                                          78 | x16 
+      a3 |  4                                          77 | x15 
+   VCCIO |  5                                          76 | GND 
+      a1 |  6                                          75 | RESERVED 
+      a0 |  7                                          74 | nq 
+       e |  8                                          73 | x8 
+    N.C. |  9                                          72 | N.C. 
+     x54 | 10                                          71 | x7 
+     x41 | 11                                          70 | x0 
+     x22 | 12                                          69 | x1 
+     GND | 13                                          68 | VCCIO 
+     x21 | 14                                          67 | x6 
+     x40 | 15                                          66 | x2 
+     x20 | 16             EPM7096QC100-7               65 | x3 
+     x28 | 17                                          64 | x4 
+     x29 | 18                                          63 | x5 
+     x30 | 19                                          62 | x18 
+   VCCIO | 20                                          61 | GND 
+     x27 | 21                                          60 | x19 
+     x31 | 22                                          59 | x50 
+     x39 | 23                                          58 | x49 
+    N.C. | 24                                          57 | N.C. 
+     x59 | 25                                          56 | x48 
+     x44 | 26                                          55 | x51 
+     x26 | 27                                          54 | x52 
+     GND | 28                                          53 | VCCIO 
+     x43 | 29                                          52 | a4 
+     x42 | 30                                          51 | x53 
+         |      32  34  36  38  40  42  44  46  48  50  _| 
+          \   31  33  35  37  39  41  43  45  47  49   | 
+           \------------------------------------------- 
+              x x x x x V N x x G V q x N G x x x x x  
+              2 5 5 2 5 C . 5 2 N C   6 . N 4 4 6 4 6  
+              5 8 7 4 6 C C 5 3 D C   0 C D 5 6 1 7 2  
+                        I .       I     .              
+                        O         N                    
+                                  T                    
+                                                       
+                                                       
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     0/16(  0%)  12/12(100%)   0/16(  0%)   0/36(  0%) 
+B:    LC17 - LC32     1/16(  6%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+C:    LC33 - LC48     1/16(  6%)  12/12(100%)   0/16(  0%)   7/36( 19%) 
+D:    LC49 - LC64     6/16( 37%)  12/12(100%)   0/16(  0%)  29/36( 80%) 
+E:    LC65 - LC80     6/16( 37%)  12/12(100%)   0/16(  0%)  29/36( 80%) 
+F:    LC81 - LC96     8/16( 50%)  11/12( 91%)   0/16(  0%)  32/36( 88%) 
+
+
+Total dedicated input pins used:                 2/4      ( 50%)
+Total I/O pins used:                            71/72     ( 98%)
+Total logic cells used:                         22/96     ( 22%)
+Total shareable expanders used:                  0/96     (  0%)
+Total Turbo logic cells used:                   22/96     ( 22%)
+Total shareable expanders not available (n/a):   0/96     (  0%)
+Average fan-in:                                  6.72
+Total fan-in:                                   148
+
+Total input pins required:                      71
+Total output pins required:                      0
+Total bidirectional pins required:               2
+Total logic cells required:                     22
+Total flipflops required:                        0
+Total product terms required:                   85
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:           0
+
+Synthesized logic cells:                         0/  96   (  0%)
+
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   7    (3)  (A)      INPUT               0      0   0    0    0    0   16  a0
+   6    (4)  (A)      INPUT               0      0   0    0    0    0   16  a1
+   3    (6)  (A)      INPUT               0      0   0    0    0    0    4  a2
+   4    (5)  (A)      INPUT               0      0   0    0    0    0    4  a3
+  52   (60)  (D)      INPUT               0      0   0    0    0    1    0  a4
+  83   (93)  (F)      INPUT               0      0   0    0    0    1    0  a5
+   8    (1)  (A)      INPUT               0      0   0    0    0    1   20  e
+  74     83    F      BIDIR               0      0   0    0    1    0    0  nq
+  42     49    D      BIDIR               0      0   0    3    4    1    0  q
+  70   (78)  (E)      INPUT               0      0   0    0    0    0    1  x0
+  69   (77)  (E)      INPUT               0      0   0    0    0    0    1  x1
+  66   (75)  (E)      INPUT               0      0   0    0    0    0    1  x2
+  65   (73)  (E)      INPUT               0      0   0    0    0    0    1  x3
+  64   (72)  (E)      INPUT               0      0   0    0    0    0    1  x4
+  63   (70)  (E)      INPUT               0      0   0    0    0    0    1  x5
+  67   (76)  (E)      INPUT               0      0   0    0    0    0    1  x6
+  71   (80)  (E)      INPUT               0      0   0    0    0    0    1  x7
+  73   (81)  (F)      INPUT               0      0   0    0    0    0    1  x8
+  91      -   -       INPUT               0      0   0    0    0    0    1  x9
+  89      -   -       INPUT               0      0   0    0    0    0    1  x10
+  87   (96)  (F)      INPUT               0      0   0    0    0    0    1  x11
+  86   (94)  (F)      INPUT               0      0   0    0    0    0    1  x12
+  82   (92)  (F)      INPUT               0      0   0    0    0    0    1  x13
+  81   (91)  (F)      INPUT               0      0   0    0    0    0    1  x14
+  77   (85)  (F)      INPUT               0      0   0    0    0    0    1  x15
+  78   (86)  (F)      INPUT               0      0   0    0    0    0    1  x16
+  79   (88)  (F)      INPUT               0      0   0    0    0    0    1  x17
+  62   (69)  (E)      INPUT               0      0   0    0    0    0    1  x18
+  60   (68)  (E)      INPUT               0      0   0    0    0    0    1  x19
+  16   (25)  (B)      INPUT               0      0   0    0    0    0    1  x20
+  14   (28)  (B)      INPUT               0      0   0    0    0    0    1  x21
+  12   (29)  (B)      INPUT               0      0   0    0    0    0    1  x22
+  39   (33)  (C)      INPUT               0      0   0    0    0    0    1  x23
+  34   (37)  (C)      INPUT               0      0   0    0    0    0    1  x24
+  31   (41)  (C)      INPUT               0      0   0    0    0    0    1  x25
+  27   (45)  (C)      INPUT               0      0   0    0    0    0    1  x26
+  21   (20)  (B)      INPUT               0      0   0    0    0    0    1  x27
+  17   (24)  (B)      INPUT               0      0   0    0    0    0    1  x28
+  18   (22)  (B)      INPUT               0      0   0    0    0    0    1  x29
+  19   (21)  (B)      INPUT               0      0   0    0    0    0    1  x30
+  22   (19)  (B)      INPUT               0      0   0    0    0    0    1  x31
+   2    (8)  (A)      INPUT               0      0   0    0    0    0    1  x32
+   1    (9)  (A)      INPUT               0      0   0    0    0    0    1  x33
+ 100   (11)  (A)      INPUT               0      0   0    0    0    0    1  x34
+  99   (12)  (A)      INPUT               0      0   0    0    0    0    1  x35
+  98   (13)  (A)      INPUT               0      0   0    0    0    0    1  x36
+  95   (14)  (A)      INPUT               0      0   0    0    0    0    1  x37
+  94   (16)  (A)      INPUT               0      0   0    0    0    0    1  x38
+  23   (17)  (B)      INPUT               0      0   0    0    0    0    1  x39
+  15   (27)  (B)      INPUT               0      0   0    0    0    0    1  x40
+  11   (30)  (B)      INPUT               0      0   0    0    0    0    1  x41
+  30   (43)  (C)      INPUT               0      0   0    0    0    0    1  x42
+  29   (44)  (C)      INPUT               0      0   0    0    0    0    1  x43
+  26   (46)  (C)      INPUT               0      0   0    0    0    0    1  x44
+  46   (52)  (D)      INPUT               0      0   0    0    0    0    1  x45
+  47   (53)  (D)      INPUT               0      0   0    0    0    0    1  x46
+  49   (56)  (D)      INPUT               0      0   0    0    0    0    1  x47
+  56   (64)  (D)      INPUT               0      0   0    0    0    0    1  x48
+  58   (65)  (E)      INPUT               0      0   0    0    0    0    1  x49
+  59   (67)  (E)      INPUT               0      0   0    0    0    0    1  x50
+  55   (62)  (D)      INPUT               0      0   0    0    0    0    1  x51
+  54   (61)  (D)      INPUT               0      0   0    0    0    0    1  x52
+  51   (59)  (D)      INPUT               0      0   0    0    0    0    1  x53
+  10   (32)  (B)      INPUT               0      0   0    0    0    0    1  x54
+  38   (35)  (C)      INPUT               0      0   0    0    0    0    1  x55
+  35   (36)  (C)      INPUT               0      0   0    0    0    0    1  x56
+  33   (38)  (C)      INPUT               0      0   0    0    0    0    1  x57
+  32   (40)  (C)      INPUT               0      0   0    0    0    0    1  x58
+  25   (48)  (C)      INPUT               0      0   0    0    0    0    1  x59
+  43   (51)  (D)      INPUT               0      0   0    0    0    0    1  x60
+  48   (54)  (D)      INPUT               0      0   0    0    0    0    1  x61
+  50   (57)  (D)      INPUT               0      0   0    0    0    0    1  x62
+  80   (89)  (F)      INPUT               0      0   0    0    0    0    1  x63
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  74     83    F        TRI      t        0      0   0    0    1    0    0  nq
+  42     49    D        TRI      t        0      0   0    3    4    1    0  q
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (78)    86    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m1|lab13_2:m1|:61
+ (77)    85    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m1|lab13_2:m2|:61
+   -     82    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m1|lab13_2:m3|:61
+ (73)    81    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m1|lab13_2:m4|:61
+ (66)    75    E       SOFT      t        0      0   0    3    4    1    0  |lab13_4_1:m1|lab13_2:m5|:61
+ (81)    91    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m2|lab13_2:m1|:61
+   -     90    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m2|lab13_2:m2|:61
+ (75)    84    F       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m2|lab13_2:m3|:61
+   -     18    B       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m2|lab13_2:m4|:61
+   -     79    E       SOFT      t        0      0   0    3    4    1    0  |lab13_4_1:m2|lab13_2:m5|:61
+ (58)    65    E       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m3|lab13_2:m1|:61
+ (67)    76    E       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m3|lab13_2:m2|:61
+   -     74    E       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m3|lab13_2:m3|:61
+ (50)    57    D       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m3|lab13_2:m4|:61
+ (65)    73    E       SOFT      t        0      0   0    3    4    1    0  |lab13_4_1:m3|lab13_2:m5|:61
+ (49)    56    D       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m4|lab13_2:m1|:61
+ (48)    54    D       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m4|lab13_2:m2|:61
+ (46)    52    D       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m4|lab13_2:m3|:61
+ (43)    51    D       SOFT      t        0      0   0    7    0    0    1  |lab13_4_1:m4|lab13_2:m4|:61
+ (29)    44    C       SOFT      t        0      0   0    3    4    1    0  |lab13_4_1:m4|lab13_2:m5|:61
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+           Logic cells placed in LAB 'B'
+        +- LC18 |lab13_4_1:m2|lab13_2:m4|:61
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'B'
+LC      | | A B C D E F |     Logic cells that feed LAB 'B':
+
+Pin
+7    -> * | - * - * * * | <-- a0
+6    -> * | - * - * * * | <-- a1
+8    -> * | - * * * * * | <-- e
+91   -> - | - - - - - * | <-- x9
+89   -> - | - - - - - * | <-- x10
+17   -> * | - * - - - - | <-- x28
+18   -> * | - * - - - - | <-- x29
+19   -> * | - * - - - - | <-- x30
+22   -> * | - * - - - - | <-- x31
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+           Logic cells placed in LAB 'C'
+        +- LC44 |lab13_4_1:m4|lab13_2:m5|:61
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'C'
+LC      | | A B C D E F |     Logic cells that feed LAB 'C':
+
+Pin
+3    -> * | - - * - * - | <-- a2
+4    -> * | - - * - * - | <-- a3
+8    -> * | - * * * * * | <-- e
+91   -> - | - - - - - * | <-- x9
+89   -> - | - - - - - * | <-- x10
+LC56 -> * | - - * - - - | <-- |lab13_4_1:m4|lab13_2:m1|:61
+LC54 -> * | - - * - - - | <-- |lab13_4_1:m4|lab13_2:m2|:61
+LC52 -> * | - - * - - - | <-- |lab13_4_1:m4|lab13_2:m3|:61
+LC51 -> * | - - * - - - | <-- |lab13_4_1:m4|lab13_2:m4|:61
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                     Logic cells placed in LAB 'D'
+        +----------- LC57 |lab13_4_1:m3|lab13_2:m4|:61
+        | +--------- LC56 |lab13_4_1:m4|lab13_2:m1|:61
+        | | +------- LC54 |lab13_4_1:m4|lab13_2:m2|:61
+        | | | +----- LC52 |lab13_4_1:m4|lab13_2:m3|:61
+        | | | | +--- LC51 |lab13_4_1:m4|lab13_2:m4|:61
+        | | | | | +- LC49 q
+        | | | | | | 
+        | | | | | |   Other LABs fed by signals
+        | | | | | |   that feed LAB 'D'
+LC      | | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+
+Pin
+7    -> * * * * * - | - * - * * * | <-- a0
+6    -> * * * * * - | - * - * * * | <-- a1
+52   -> - - - - - * | - - - * - - | <-- a4
+83   -> - - - - - * | - - - * - - | <-- a5
+8    -> * * * * * * | - * * * * * | <-- e
+91   -> - - - - - - | - - - - - * | <-- x9
+89   -> - - - - - - | - - - - - * | <-- x10
+26   -> * - - - - - | - - - * - - | <-- x44
+46   -> * - - - - - | - - - * - - | <-- x45
+47   -> * - - - - - | - - - * - - | <-- x46
+49   -> * - - - - - | - - - * - - | <-- x47
+56   -> - * - - - - | - - - * - - | <-- x48
+58   -> - * - - - - | - - - * - - | <-- x49
+59   -> - * - - - - | - - - * - - | <-- x50
+55   -> - * - - - - | - - - * - - | <-- x51
+54   -> - - * - - - | - - - * - - | <-- x52
+51   -> - - * - - - | - - - * - - | <-- x53
+10   -> - - * - - - | - - - * - - | <-- x54
+38   -> - - * - - - | - - - * - - | <-- x55
+35   -> - - - * - - | - - - * - - | <-- x56
+33   -> - - - * - - | - - - * - - | <-- x57
+32   -> - - - * - - | - - - * - - | <-- x58
+25   -> - - - * - - | - - - * - - | <-- x59
+43   -> - - - - * - | - - - * - - | <-- x60
+48   -> - - - - * - | - - - * - - | <-- x61
+50   -> - - - - * - | - - - * - - | <-- x62
+80   -> - - - - * - | - - - * - - | <-- x63
+LC75 -> - - - - - * | - - - * - - | <-- |lab13_4_1:m1|lab13_2:m5|:61
+LC79 -> - - - - - * | - - - * - - | <-- |lab13_4_1:m2|lab13_2:m5|:61
+LC73 -> - - - - - * | - - - * - - | <-- |lab13_4_1:m3|lab13_2:m5|:61
+LC44 -> - - - - - * | - - - * - - | <-- |lab13_4_1:m4|lab13_2:m5|:61
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                     Logic cells placed in LAB 'E'
+        +----------- LC75 |lab13_4_1:m1|lab13_2:m5|:61
+        | +--------- LC79 |lab13_4_1:m2|lab13_2:m5|:61
+        | | +------- LC65 |lab13_4_1:m3|lab13_2:m1|:61
+        | | | +----- LC76 |lab13_4_1:m3|lab13_2:m2|:61
+        | | | | +--- LC74 |lab13_4_1:m3|lab13_2:m3|:61
+        | | | | | +- LC73 |lab13_4_1:m3|lab13_2:m5|:61
+        | | | | | | 
+        | | | | | |   Other LABs fed by signals
+        | | | | | |   that feed LAB 'E'
+LC      | | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+LC65 -> - - - - - * | - - - - * - | <-- |lab13_4_1:m3|lab13_2:m1|:61
+LC76 -> - - - - - * | - - - - * - | <-- |lab13_4_1:m3|lab13_2:m2|:61
+LC74 -> - - - - - * | - - - - * - | <-- |lab13_4_1:m3|lab13_2:m3|:61
+
+Pin
+7    -> - - * * * - | - * - * * * | <-- a0
+6    -> - - * * * - | - * - * * * | <-- a1
+3    -> * * - - - * | - - * - * - | <-- a2
+4    -> * * - - - * | - - * - * - | <-- a3
+8    -> * * * * * * | - * * * * * | <-- e
+91   -> - - - - - - | - - - - - * | <-- x9
+89   -> - - - - - - | - - - - - * | <-- x10
+2    -> - - * - - - | - - - - * - | <-- x32
+1    -> - - * - - - | - - - - * - | <-- x33
+100  -> - - * - - - | - - - - * - | <-- x34
+99   -> - - * - - - | - - - - * - | <-- x35
+98   -> - - - * - - | - - - - * - | <-- x36
+95   -> - - - * - - | - - - - * - | <-- x37
+94   -> - - - * - - | - - - - * - | <-- x38
+23   -> - - - * - - | - - - - * - | <-- x39
+15   -> - - - - * - | - - - - * - | <-- x40
+11   -> - - - - * - | - - - - * - | <-- x41
+30   -> - - - - * - | - - - - * - | <-- x42
+29   -> - - - - * - | - - - - * - | <-- x43
+LC86 -> * - - - - - | - - - - * - | <-- |lab13_4_1:m1|lab13_2:m1|:61
+LC85 -> * - - - - - | - - - - * - | <-- |lab13_4_1:m1|lab13_2:m2|:61
+LC82 -> * - - - - - | - - - - * - | <-- |lab13_4_1:m1|lab13_2:m3|:61
+LC81 -> * - - - - - | - - - - * - | <-- |lab13_4_1:m1|lab13_2:m4|:61
+LC91 -> - * - - - - | - - - - * - | <-- |lab13_4_1:m2|lab13_2:m1|:61
+LC90 -> - * - - - - | - - - - * - | <-- |lab13_4_1:m2|lab13_2:m2|:61
+LC84 -> - * - - - - | - - - - * - | <-- |lab13_4_1:m2|lab13_2:m3|:61
+LC18 -> - * - - - - | - - - - * - | <-- |lab13_4_1:m2|lab13_2:m4|:61
+LC57 -> - - - - - * | - - - - * - | <-- |lab13_4_1:m3|lab13_2:m4|:61
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                         Logic cells placed in LAB 'F'
+        +--------------- LC86 |lab13_4_1:m1|lab13_2:m1|:61
+        | +------------- LC85 |lab13_4_1:m1|lab13_2:m2|:61
+        | | +----------- LC82 |lab13_4_1:m1|lab13_2:m3|:61
+        | | | +--------- LC81 |lab13_4_1:m1|lab13_2:m4|:61
+        | | | | +------- LC91 |lab13_4_1:m2|lab13_2:m1|:61
+        | | | | | +----- LC90 |lab13_4_1:m2|lab13_2:m2|:61
+        | | | | | | +--- LC84 |lab13_4_1:m2|lab13_2:m3|:61
+        | | | | | | | +- LC83 nq
+        | | | | | | | | 
+        | | | | | | | |   Other LABs fed by signals
+        | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'F':
+
+Pin
+7    -> * * * * * * * - | - * - * * * | <-- a0
+6    -> * * * * * * * - | - * - * * * | <-- a1
+8    -> * * * * * * * - | - * * * * * | <-- e
+70   -> * - - - - - - - | - - - - - * | <-- x0
+69   -> * - - - - - - - | - - - - - * | <-- x1
+66   -> * - - - - - - - | - - - - - * | <-- x2
+65   -> * - - - - - - - | - - - - - * | <-- x3
+64   -> - * - - - - - - | - - - - - * | <-- x4
+63   -> - * - - - - - - | - - - - - * | <-- x5
+67   -> - * - - - - - - | - - - - - * | <-- x6
+71   -> - * - - - - - - | - - - - - * | <-- x7
+73   -> - - * - - - - - | - - - - - * | <-- x8
+91   -> - - * - - - - - | - - - - - * | <-- x9
+89   -> - - * - - - - - | - - - - - * | <-- x10
+87   -> - - * - - - - - | - - - - - * | <-- x11
+86   -> - - - * - - - - | - - - - - * | <-- x12
+82   -> - - - * - - - - | - - - - - * | <-- x13
+81   -> - - - * - - - - | - - - - - * | <-- x14
+77   -> - - - * - - - - | - - - - - * | <-- x15
+78   -> - - - - * - - - | - - - - - * | <-- x16
+79   -> - - - - * - - - | - - - - - * | <-- x17
+62   -> - - - - * - - - | - - - - - * | <-- x18
+60   -> - - - - * - - - | - - - - - * | <-- x19
+16   -> - - - - - * - - | - - - - - * | <-- x20
+14   -> - - - - - * - - | - - - - - * | <-- x21
+12   -> - - - - - * - - | - - - - - * | <-- x22
+39   -> - - - - - * - - | - - - - - * | <-- x23
+34   -> - - - - - - * - | - - - - - * | <-- x24
+31   -> - - - - - - * - | - - - - - * | <-- x25
+27   -> - - - - - - * - | - - - - - * | <-- x26
+21   -> - - - - - - * - | - - - - - * | <-- x27
+LC49 -> - - - - - - - * | - - - - - * | <-- q
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab13\lab13_4_2.rpt
+lab13_4_2
+
+** EQUATIONS **
+
+a0       : INPUT;
+a1       : INPUT;
+a2       : INPUT;
+a3       : INPUT;
+a4       : INPUT;
+a5       : INPUT;
+e        : INPUT;
+x0       : INPUT;
+x1       : INPUT;
+x2       : INPUT;
+x3       : INPUT;
+x4       : INPUT;
+x5       : INPUT;
+x6       : INPUT;
+x7       : INPUT;
+x8       : INPUT;
+x9       : INPUT;
+x10      : INPUT;
+x11      : INPUT;
+x12      : INPUT;
+x13      : INPUT;
+x14      : INPUT;
+x15      : INPUT;
+x16      : INPUT;
+x17      : INPUT;
+x18      : INPUT;
+x19      : INPUT;
+x20      : INPUT;
+x21      : INPUT;
+x22      : INPUT;
+x23      : INPUT;
+x24      : INPUT;
+x25      : INPUT;
+x26      : INPUT;
+x27      : INPUT;
+x28      : INPUT;
+x29      : INPUT;
+x30      : INPUT;
+x31      : INPUT;
+x32      : INPUT;
+x33      : INPUT;
+x34      : INPUT;
+x35      : INPUT;
+x36      : INPUT;
+x37      : INPUT;
+x38      : INPUT;
+x39      : INPUT;
+x40      : INPUT;
+x41      : INPUT;
+x42      : INPUT;
+x43      : INPUT;
+x44      : INPUT;
+x45      : INPUT;
+x46      : INPUT;
+x47      : INPUT;
+x48      : INPUT;
+x49      : INPUT;
+x50      : INPUT;
+x51      : INPUT;
+x52      : INPUT;
+x53      : INPUT;
+x54      : INPUT;
+x55      : INPUT;
+x56      : INPUT;
+x57      : INPUT;
+x58      : INPUT;
+x59      : INPUT;
+x60      : INPUT;
+x61      : INPUT;
+x62      : INPUT;
+x63      : INPUT;
+
+-- Node name is 'nq' 
+-- Equation name is 'nq', location is LC083, type is bidir.
+nq       = TRI(_LC083,  VCC);
+_LC083   = LCELL(!q $  GND);
+
+-- Node name is 'q' 
+-- Equation name is 'q', location is LC049, type is bidir.
+q        = TRI(_LC049,  VCC);
+_LC049   = LCELL( _EQ001 $  GND);
+  _EQ001 =  a4 &  a5 &  e &  _LC044
+         # !a4 &  a5 &  e &  _LC073
+         #  a4 & !a5 &  e &  _LC079
+         # !a4 & !a5 &  e &  _LC075;
+
+-- Node name is '|lab13_4_1:m1|lab13_2:m1|:61' 
+-- Equation name is '_LC086', type is buried 
+_LC086   = LCELL( _EQ002 $  GND);
+  _EQ002 =  a0 &  a1 &  e &  x3
+         # !a0 &  a1 &  e &  x2
+         #  a0 & !a1 &  e &  x1
+         # !a0 & !a1 &  e &  x0;
+
+-- Node name is '|lab13_4_1:m1|lab13_2:m2|:61' 
+-- Equation name is '_LC085', type is buried 
+_LC085   = LCELL( _EQ003 $  GND);
+  _EQ003 =  a0 &  a1 &  e &  x7
+         # !a0 &  a1 &  e &  x6
+         #  a0 & !a1 &  e &  x5
+         # !a0 & !a1 &  e &  x4;
+
+-- Node name is '|lab13_4_1:m1|lab13_2:m3|:61' 
+-- Equation name is '_LC082', type is buried 
+_LC082   = LCELL( _EQ004 $  GND);
+  _EQ004 =  a0 &  a1 &  e &  x11
+         # !a0 &  a1 &  e &  x10
+         #  a0 & !a1 &  e &  x9
+         # !a0 & !a1 &  e &  x8;
+
+-- Node name is '|lab13_4_1:m1|lab13_2:m4|:61' 
+-- Equation name is '_LC081', type is buried 
+_LC081   = LCELL( _EQ005 $  GND);
+  _EQ005 =  a0 &  a1 &  e &  x15
+         # !a0 &  a1 &  e &  x14
+         #  a0 & !a1 &  e &  x13
+         # !a0 & !a1 &  e &  x12;
+
+-- Node name is '|lab13_4_1:m1|lab13_2:m5|:61' 
+-- Equation name is '_LC075', type is buried 
+_LC075   = LCELL( _EQ006 $  GND);
+  _EQ006 =  a2 &  a3 &  e &  _LC081
+         # !a2 &  a3 &  e &  _LC082
+         #  a2 & !a3 &  e &  _LC085
+         # !a2 & !a3 &  e &  _LC086;
+
+-- Node name is '|lab13_4_1:m2|lab13_2:m1|:61' 
+-- Equation name is '_LC091', type is buried 
+_LC091   = LCELL( _EQ007 $  GND);
+  _EQ007 =  a0 &  a1 &  e &  x19
+         # !a0 &  a1 &  e &  x18
+         #  a0 & !a1 &  e &  x17
+         # !a0 & !a1 &  e &  x16;
+
+-- Node name is '|lab13_4_1:m2|lab13_2:m2|:61' 
+-- Equation name is '_LC090', type is buried 
+_LC090   = LCELL( _EQ008 $  GND);
+  _EQ008 =  a0 &  a1 &  e &  x23
+         # !a0 &  a1 &  e &  x22
+         #  a0 & !a1 &  e &  x21
+         # !a0 & !a1 &  e &  x20;
+
+-- Node name is '|lab13_4_1:m2|lab13_2:m3|:61' 
+-- Equation name is '_LC084', type is buried 
+_LC084   = LCELL( _EQ009 $  GND);
+  _EQ009 =  a0 &  a1 &  e &  x27
+         # !a0 &  a1 &  e &  x26
+         #  a0 & !a1 &  e &  x25
+         # !a0 & !a1 &  e &  x24;
+
+-- Node name is '|lab13_4_1:m2|lab13_2:m4|:61' 
+-- Equation name is '_LC018', type is buried 
+_LC018   = LCELL( _EQ010 $  GND);
+  _EQ010 =  a0 &  a1 &  e &  x31
+         # !a0 &  a1 &  e &  x30
+         #  a0 & !a1 &  e &  x29
+         # !a0 & !a1 &  e &  x28;
+
+-- Node name is '|lab13_4_1:m2|lab13_2:m5|:61' 
+-- Equation name is '_LC079', type is buried 
+_LC079   = LCELL( _EQ011 $  GND);
+  _EQ011 =  a2 &  a3 &  e &  _LC018
+         # !a2 &  a3 &  e &  _LC084
+         #  a2 & !a3 &  e &  _LC090
+         # !a2 & !a3 &  e &  _LC091;
+
+-- Node name is '|lab13_4_1:m3|lab13_2:m1|:61' 
+-- Equation name is '_LC065', type is buried 
+_LC065   = LCELL( _EQ012 $  GND);
+  _EQ012 =  a0 &  a1 &  e &  x35
+         # !a0 &  a1 &  e &  x34
+         #  a0 & !a1 &  e &  x33
+         # !a0 & !a1 &  e &  x32;
+
+-- Node name is '|lab13_4_1:m3|lab13_2:m2|:61' 
+-- Equation name is '_LC076', type is buried 
+_LC076   = LCELL( _EQ013 $  GND);
+  _EQ013 =  a0 &  a1 &  e &  x39
+         # !a0 &  a1 &  e &  x38
+         #  a0 & !a1 &  e &  x37
+         # !a0 & !a1 &  e &  x36;
+
+-- Node name is '|lab13_4_1:m3|lab13_2:m3|:61' 
+-- Equation name is '_LC074', type is buried 
+_LC074   = LCELL( _EQ014 $  GND);
+  _EQ014 =  a0 &  a1 &  e &  x43
+         # !a0 &  a1 &  e &  x42
+         #  a0 & !a1 &  e &  x41
+         # !a0 & !a1 &  e &  x40;
+
+-- Node name is '|lab13_4_1:m3|lab13_2:m4|:61' 
+-- Equation name is '_LC057', type is buried 
+_LC057   = LCELL( _EQ015 $  GND);
+  _EQ015 =  a0 &  a1 &  e &  x47
+         # !a0 &  a1 &  e &  x46
+         #  a0 & !a1 &  e &  x45
+         # !a0 & !a1 &  e &  x44;
+
+-- Node name is '|lab13_4_1:m3|lab13_2:m5|:61' 
+-- Equation name is '_LC073', type is buried 
+_LC073   = LCELL( _EQ016 $  GND);
+  _EQ016 =  a2 &  a3 &  e &  _LC057
+         # !a2 &  a3 &  e &  _LC074
+         #  a2 & !a3 &  e &  _LC076
+         # !a2 & !a3 &  e &  _LC065;
+
+-- Node name is '|lab13_4_1:m4|lab13_2:m1|:61' 
+-- Equation name is '_LC056', type is buried 
+_LC056   = LCELL( _EQ017 $  GND);
+  _EQ017 =  a0 &  a1 &  e &  x51
+         # !a0 &  a1 &  e &  x50
+         #  a0 & !a1 &  e &  x49
+         # !a0 & !a1 &  e &  x48;
+
+-- Node name is '|lab13_4_1:m4|lab13_2:m2|:61' 
+-- Equation name is '_LC054', type is buried 
+_LC054   = LCELL( _EQ018 $  GND);
+  _EQ018 =  a0 &  a1 &  e &  x55
+         # !a0 &  a1 &  e &  x54
+         #  a0 & !a1 &  e &  x53
+         # !a0 & !a1 &  e &  x52;
+
+-- Node name is '|lab13_4_1:m4|lab13_2:m3|:61' 
+-- Equation name is '_LC052', type is buried 
+_LC052   = LCELL( _EQ019 $  GND);
+  _EQ019 =  a0 &  a1 &  e &  x59
+         # !a0 &  a1 &  e &  x58
+         #  a0 & !a1 &  e &  x57
+         # !a0 & !a1 &  e &  x56;
+
+-- Node name is '|lab13_4_1:m4|lab13_2:m4|:61' 
+-- Equation name is '_LC051', type is buried 
+_LC051   = LCELL( _EQ020 $  GND);
+  _EQ020 =  a0 &  a1 &  e &  x63
+         # !a0 &  a1 &  e &  x62
+         #  a0 & !a1 &  e &  x61
+         # !a0 & !a1 &  e &  x60;
+
+-- Node name is '|lab13_4_1:m4|lab13_2:m5|:61' 
+-- Equation name is '_LC044', type is buried 
+_LC044   = LCELL( _EQ021 $  GND);
+  _EQ021 =  a2 &  a3 &  e &  _LC051
+         # !a2 &  a3 &  e &  _LC052
+         #  a2 & !a3 &  e &  _LC054
+         # !a2 & !a3 &  e &  _LC056;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                                     z:\lab13\lab13_4_2.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 5,120K
