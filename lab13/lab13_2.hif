@@ -24,23 +24,9 @@ HIF003
 --
 FILES
 {
-	notand.vhd
+	lab13_2.vhd
 	{
-		notand [] [U1147235.DLS,U7449008.DLS]
-		{
-			1 [] [];
-		}
-	}
-	rstr.vhd
-	{
-		rstr [] [U1147235.DLS,U7449008.DLS]
-		{
-			2 [] [];
-		}
-	}
-	dtr.vhd
-	{
-		dtr [] [U1147235.DLS,U7449008.DLS]
+		lab13_2 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -48,14 +34,5 @@ FILES
 }
 TREE
 {
-	dtr::(0,0):(0): dtr.vhd
-	{
-		rstr:2:(33,6):(9,r_s): rstr.vhd
-		{
-			notand:1:(21,5):(6,u2): notand.vhd;
-			notand:1:(19,5):(5,u1): notand.vhd;
-		}
-		notand:1:(31,5):(8,u2): notand.vhd;
-		notand:1:(29,5):(7,u1): notand.vhd;
-	}
+	lab13_2::(0,0):(0): lab13_2.vhd;
 }

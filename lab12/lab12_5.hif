@@ -24,18 +24,18 @@ HIF003
 --
 FILES
 {
-	dcsimple.gdf
-	{
-		dcsimple [] []
-		{
-			2 [] [];
-		}
-	}
 	lab12_1.gdf
 	{
 		lab12_1 [] []
 		{
 			1 [] [];
+		}
+	}
+	dcsimple.gdf
+	{
+		dcsimple [] []
+		{
+			2 [] [];
 		}
 	}
 	lab12_5.gdf
@@ -50,7 +50,7 @@ TREE
 {
 	lab12_5::(0,0):(0): lab12_5.gdf
 	{
-		dcsimple::(0,0):(2): dcsimple.gdf;
 		lab12_1::(0,0):(1): lab12_1.gdf;
+		dcsimple::(0,0):(2): dcsimple.gdf;
 	}
 }
