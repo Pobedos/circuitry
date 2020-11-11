@@ -1,0 +1,88 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L5 is Mux~25 at LC_X1_Y30_N5
+--operation mode is normal
+
+A1L5 = a[0] & (x[1] # a[1]) # !a[0] & (x[0] & !a[1]);
+
+
+--A1L6 is Mux~26 at LC_X1_Y30_N2
+--operation mode is normal
+
+A1L6 = a[1] & (A1L5 & (x[3]) # !A1L5 & x[2]) # !a[1] & A1L5;
+
+
+--A1L7 is Mux~27 at LC_X1_Y30_N4
+--operation mode is normal
+
+A1L7 = !e # !A1L6;
+
+
+--e is e at PIN_D20
+--operation mode is input
+
+e = INPUT();
+
+
+--x[2] is x[2] at PIN_M16
+--operation mode is input
+
+x[2] = INPUT();
+
+
+--a[1] is a[1] at PIN_D22
+--operation mode is input
+
+a[1] = INPUT();
+
+
+--x[1] is x[1] at PIN_E20
+--operation mode is input
+
+x[1] = INPUT();
+
+
+--a[0] is a[0] at PIN_E19
+--operation mode is input
+
+a[0] = INPUT();
+
+
+--x[0] is x[0] at PIN_B21
+--operation mode is input
+
+x[0] = INPUT();
+
+
+--x[3] is x[3] at PIN_D21
+--operation mode is input
+
+x[3] = INPUT();
+
+
+--q is q at PIN_C20
+--operation mode is bidir
+
+q_tri_out = TRI(!A1L7, VCC);
+q = BIDIR(q_tri_out);
+
+
+--nq is nq at PIN_D19
+--operation mode is bidir
+
+nq_tri_out = TRI(A1L7, VCC);
+nq = BIDIR(nq_tri_out);
+
+
+
