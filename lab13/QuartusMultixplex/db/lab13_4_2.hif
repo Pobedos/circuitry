@@ -1,0 +1,109 @@
+Version 5.0 Build 148 04/26/2005 SJ Full Version
+35
+1901
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+lab13_4_2
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|lab13_4_2.vhd
+1605137002
+4
+# storage
+db|lab13_4_2.(0).cnf
+db|lab13_4_2.(0).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+|
+}
+# end
+# entity
+lab13_4_1
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab13_4_1.vhd
+1605136827
+4
+# storage
+db|lab13_4_2.(1).cnf
+db|lab13_4_2.(1).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+lab13_4_1:m1
+lab13_4_1:m2
+lab13_4_1:m3
+lab13_4_1:m4
+}
+# end
+# entity
+lab13_2
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab13_2.vhd
+1605135495
+4
+# storage
+db|lab13_4_2.(2).cnf
+db|lab13_4_2.(2).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+lab13_4_1:m1|lab13_2:m1
+lab13_4_1:m1|lab13_2:m2
+lab13_4_1:m1|lab13_2:m3
+lab13_4_1:m1|lab13_2:m4
+lab13_4_1:m1|lab13_2:m5
+lab13_4_1:m2|lab13_2:m1
+lab13_4_1:m2|lab13_2:m2
+lab13_4_1:m2|lab13_2:m3
+lab13_4_1:m2|lab13_2:m4
+lab13_4_1:m2|lab13_2:m5
+lab13_4_1:m3|lab13_2:m1
+lab13_4_1:m3|lab13_2:m2
+lab13_4_1:m3|lab13_2:m3
+lab13_4_1:m3|lab13_2:m4
+lab13_4_1:m3|lab13_2:m5
+lab13_4_1:m4|lab13_2:m1
+lab13_4_1:m4|lab13_2:m2
+lab13_4_1:m4|lab13_2:m3
+lab13_4_1:m4|lab13_2:m4
+lab13_4_1:m4|lab13_2:m5
+lab13_2:m5
+}
+# end
+# complete
+

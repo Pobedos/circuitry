@@ -1,0 +1,12 @@
+|lab13_2
+x[0] => Mux~0.IN3
+x[1] => Mux~0.IN2
+x[2] => Mux~0.IN1
+x[3] => Mux~0.IN0
+e => q~0.OUTPUTSELECT
+a[0] => Mux~0.IN5
+a[1] => Mux~0.IN4
+q <= q~0
+nq <= q~1
+
+
