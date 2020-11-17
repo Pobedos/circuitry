@@ -1,0 +1,113 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L4 is LessThan~116 at LC_X5_Y1_N9
+--operation mode is normal
+
+A1L4 = Y[1] & !Y[0] & X[0] & X[1] # !Y[1] & (X[1] # !Y[0] & X[0]);
+
+
+--A1L5 is LessThan~117 at LC_X5_Y1_N8
+--operation mode is normal
+
+A1L5 = Y[1] & (Y[0] & !X[0] # !X[1]) # !Y[1] & Y[0] & !X[0] & !X[1];
+
+
+--A1L51 is XMY$latch~83 at LC_X5_Y1_N2
+--operation mode is normal
+
+A1L51 = A1L4 # !A1L5 & inXMY;
+
+
+--A1L01 is XEY$latch~65 at LC_X5_Y1_N6
+--operation mode is normal
+
+A1L01 = inXEY & !inXLY;
+
+
+--A1L11 is XEY$latch~66 at LC_X5_Y1_N5
+--operation mode is normal
+
+A1L11 = !A1L5 & !A1L4 & !inXMY & A1L01;
+
+
+--A1L31 is XLY$latch~70 at LC_X5_Y1_N4
+--operation mode is normal
+
+A1L31 = !A1L4 & (A1L5 # inXLY & !inXMY);
+
+
+--X[1] is X[1] at PIN_V18
+--operation mode is input
+
+X[1] = INPUT();
+
+
+--X[0] is X[0] at PIN_AB17
+--operation mode is input
+
+X[0] = INPUT();
+
+
+--Y[0] is Y[0] at PIN_Y18
+--operation mode is input
+
+Y[0] = INPUT();
+
+
+--Y[1] is Y[1] at PIN_AA19
+--operation mode is input
+
+Y[1] = INPUT();
+
+
+--inXMY is inXMY at PIN_Y17
+--operation mode is input
+
+inXMY = INPUT();
+
+
+--inXEY is inXEY at PIN_AB18
+--operation mode is input
+
+inXEY = INPUT();
+
+
+--inXLY is inXLY at PIN_Y16
+--operation mode is input
+
+inXLY = INPUT();
+
+
+--XMY is XMY at PIN_AB19
+--operation mode is bidir
+
+XMY_tri_out = TRI(A1L51, VCC);
+XMY = BIDIR(XMY_tri_out);
+
+
+--XEY is XEY at PIN_W17
+--operation mode is bidir
+
+XEY_tri_out = TRI(A1L11, VCC);
+XEY = BIDIR(XEY_tri_out);
+
+
+--XLY is XLY at PIN_V17
+--operation mode is bidir
+
+XLY_tri_out = TRI(A1L31, VCC);
+XLY = BIDIR(XLY_tri_out);
+
+
+
