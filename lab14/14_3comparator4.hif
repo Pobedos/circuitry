@@ -24,16 +24,16 @@ HIF003
 --
 FILES
 {
-	lab14_4.vhd
+	14_1comparator2.gdf
 	{
-		lab14_4 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
+		14_1comparator2 [] []
 		{
 			1 [] [];
 		}
 	}
-	lab14_5.vhd
+	14_3comparator4.gdf
 	{
-		lab14_5 [] [U1147235.DLS,U7449008.DLS]
+		14_3comparator4 [] []
 		{
 			0 [] [];
 		}
@@ -41,9 +41,9 @@ FILES
 }
 TREE
 {
-	lab14_5::(0,0):(0): lab14_5.vhd
+	14_3comparator4::(0,0):(0): 14_3comparator4.gdf
 	{
-		lab14_4:1:(29,13):(35,m2): lab14_4.vhd;
-		lab14_4:1:(28,13):(34,m1): lab14_4.vhd;
+		14_1comparator2::(0,0):(1): 14_1comparator2.gdf;
+		14_1comparator2::(0,0):(2): 14_1comparator2.gdf;
 	}
 }

@@ -28,6 +28,7 @@
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:33:54  NOVEMBER 18, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION 5.0
+set_global_assignment -name VHDL_FILE ../lab14_5.vhd
 set_global_assignment -name VHDL_FILE lab14_4.vhd
 
 # Analysis & Synthesis Assignments
@@ -39,3 +40,4 @@ set_global_assignment -name TOP_LEVEL_ENTITY lab14_4
 # Fitter Assignments
 # ==================
 set_global_assignment -name DEVICE AUTO
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
