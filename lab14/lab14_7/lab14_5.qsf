@@ -14,7 +14,7 @@
 
 
 # The default values for assignments are stored in the file
-#		lab14_4_assignment_defaults.qdf
+#		lab14_5_assignment_defaults.qdf
 # If this file doesn't exist, and for assignments not listed, see file
 #		assignment_defaults.qdf
 
@@ -26,16 +26,18 @@
 # Project-Wide Assignments
 # ========================
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 5.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:33:54  NOVEMBER 18, 2020"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:08:57  NOVEMBER 19, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION 5.0
 set_global_assignment -name VHDL_FILE lab14_4.vhd
+set_global_assignment -name VHDL_FILE lab14_5.vhd
 
 # Analysis & Synthesis Assignments
 # ================================
-set_global_assignment -name TOP_LEVEL_ENTITY lab14_4
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name FAMILY Stratix
+set_global_assignment -name TOP_LEVEL_ENTITY lab14_5
 
 # Fitter Assignments
 # ==================
 set_global_assignment -name DEVICE AUTO
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
