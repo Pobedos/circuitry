@@ -1,0 +1,160 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--B1L1 is lab14_4:m1|LessThan~116
+--operation mode is normal
+
+B1L1 = X[3] & (X[2] & !Y[2] # !Y[3]) # !X[3] & X[2] & !Y[2] & !Y[3];
+
+
+--B2L1 is lab14_4:m2|LessThan~116
+--operation mode is normal
+
+B2L1 = X[1] & (X[0] & !Y[0] # !Y[1]) # !X[1] & X[0] & !Y[0] & !Y[1];
+
+
+--B2L2 is lab14_4:m2|LessThan~117
+--operation mode is normal
+
+B2L2 = Y[1] & (Y[0] & !X[0] # !X[1]) # !Y[1] & Y[0] & !X[0] & !X[1];
+
+
+--B2L3 is lab14_4:m2|XMY$latch~87
+--operation mode is normal
+
+B2L3 = inXMY & (!B2L2);
+
+
+--B1L2 is lab14_4:m1|LessThan~117
+--operation mode is normal
+
+B1L2 = Y[3] & (Y[2] & !X[2] # !X[3]) # !Y[3] & Y[2] & !X[2] & !X[3];
+
+
+--B1L7 is lab14_4:m1|XMY$latch~15
+--operation mode is normal
+
+B1L7 = B1L1 # !B1L2 & (B2L1 # B2L3);
+
+
+--B1L3 is lab14_4:m1|XEY$latch~120
+--operation mode is normal
+
+B1L3 = B2L2 # inXMY # inXLY # B1L2;
+
+
+--B1L4 is lab14_4:m1|XEY$latch~121
+--operation mode is normal
+
+B1L4 = !B2L1 & inXEY & !B1L1 & !B1L3;
+
+
+--B1L5 is lab14_4:m1|XLY$latch~99
+--operation mode is normal
+
+B1L5 = !B2L1 & (B2L2 # inXLY & !inXMY);
+
+
+--B1L6 is lab14_4:m1|XLY$latch~100
+--operation mode is normal
+
+B1L6 = !B1L1 & (B1L2 # B1L5);
+
+
+--X[3] is X[3]
+--operation mode is input
+
+X[3] = INPUT();
+
+
+--X[2] is X[2]
+--operation mode is input
+
+X[2] = INPUT();
+
+
+--Y[2] is Y[2]
+--operation mode is input
+
+Y[2] = INPUT();
+
+
+--Y[3] is Y[3]
+--operation mode is input
+
+Y[3] = INPUT();
+
+
+--X[1] is X[1]
+--operation mode is input
+
+X[1] = INPUT();
+
+
+--X[0] is X[0]
+--operation mode is input
+
+X[0] = INPUT();
+
+
+--Y[0] is Y[0]
+--operation mode is input
+
+Y[0] = INPUT();
+
+
+--Y[1] is Y[1]
+--operation mode is input
+
+Y[1] = INPUT();
+
+
+--inXMY is inXMY
+--operation mode is input
+
+inXMY = INPUT();
+
+
+--inXEY is inXEY
+--operation mode is input
+
+inXEY = INPUT();
+
+
+--inXLY is inXLY
+--operation mode is input
+
+inXLY = INPUT();
+
+
+--XMY is XMY
+--operation mode is bidir
+
+XMY_tri_out = TRI(B1L7, VCC);
+XMY = BIDIR(XMY_tri_out);
+
+
+--XEY is XEY
+--operation mode is bidir
+
+XEY_tri_out = TRI(B1L4, VCC);
+XEY = BIDIR(XEY_tri_out);
+
+
+--XLY is XLY
+--operation mode is bidir
+
+XLY_tri_out = TRI(B1L6, VCC);
+XLY = BIDIR(XLY_tri_out);
+
+

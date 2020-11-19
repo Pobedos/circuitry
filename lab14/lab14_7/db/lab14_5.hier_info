@@ -1,0 +1,65 @@
+|lab14_5
+X[0] => lab14_4:m2.X[0]
+X[1] => lab14_4:m2.X[1]
+X[2] => lab14_4:m1.X[0]
+X[3] => lab14_4:m1.X[1]
+Y[0] => lab14_4:m2.Y[0]
+Y[1] => lab14_4:m2.Y[1]
+Y[2] => lab14_4:m1.Y[0]
+Y[3] => lab14_4:m1.Y[1]
+inXMY => lab14_4:m2.inXMY
+inXEY => lab14_4:m2.inXEY
+inXLY => lab14_4:m2.inXLY
+XMY <= lab14_4:m1.XMY
+XEY <= lab14_4:m1.XEY
+XLY <= lab14_4:m1.XLY
+
+
+|lab14_5|lab14_4:m1
+X[0] => LessThan~0.IN2
+X[0] => LessThan~1.IN2
+X[0] => process0~0.IN0
+X[1] => LessThan~0.IN1
+X[1] => LessThan~1.IN1
+X[1] => process0~1.IN0
+Y[0] => LessThan~0.IN4
+Y[0] => LessThan~1.IN4
+Y[0] => process0~0.IN1
+Y[1] => LessThan~0.IN3
+Y[1] => LessThan~1.IN3
+Y[1] => process0~1.IN1
+inXMY => process0~3.DATAA
+inXMY => XEY~1.OUTPUTSELECT
+inXMY => XLY~0.OUTPUTSELECT
+inXEY => XEY~0.DATAA
+inXLY => XEY~0.OUTPUTSELECT
+inXLY => XLY~0.DATAA
+XMY <= XMY$latch
+XEY <= XEY$latch
+XLY <= XLY$latch
+
+
+|lab14_5|lab14_4:m2
+X[0] => LessThan~0.IN2
+X[0] => LessThan~1.IN2
+X[0] => process0~0.IN0
+X[1] => LessThan~0.IN1
+X[1] => LessThan~1.IN1
+X[1] => process0~1.IN0
+Y[0] => LessThan~0.IN4
+Y[0] => LessThan~1.IN4
+Y[0] => process0~0.IN1
+Y[1] => LessThan~0.IN3
+Y[1] => LessThan~1.IN3
+Y[1] => process0~1.IN1
+inXMY => process0~3.DATAA
+inXMY => XEY~1.OUTPUTSELECT
+inXMY => XLY~0.OUTPUTSELECT
+inXEY => XEY~0.DATAA
+inXLY => XEY~0.OUTPUTSELECT
+inXLY => XLY~0.DATAA
+XMY <= XMY$latch
+XEY <= XEY$latch
+XLY <= XLY$latch
+
+
