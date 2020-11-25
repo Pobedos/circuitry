@@ -1,0 +1,546 @@
+Project Information                                     z:\lab15\lab15_5_2.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 11/25/20 21:57:31
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+LAB15_5_2
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+lab15_5_2
+      EPM7032LC44-6        9        8        2      17      12          53 %
+
+User Pins:                 9        8        2  
+
+
+
+Project Information                                     z:\lab15\lab15_5_2.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lab15_5:c1|
+|lab15_5:c2|
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+***** Logic for device 'lab15_5_2' compiled without errors.
+
+
+
+
+Device: EPM7032LC44-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                               
+                                               
+                                               
+                                               
+                                         e     
+                       V  G  G  G  G  G  v     
+              X  X     C  N  N  N  N  N  e  o  
+              0  7  d  C  D  D  D  D  D  n  2  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+      X1 |  7                                39 | o1 
+      X2 |  8                                38 | o0 
+      X3 |  9                                37 | o6 
+     GND | 10                                36 | RESERVED 
+      X4 | 11                                35 | VCC 
+      X5 | 12         EPM7032LC44-6          34 | RESERVED 
+      X6 | 13                                33 | o5 
+     odd | 14                                32 | RESERVED 
+     VCC | 15                                31 | o4 
+RESERVED | 16                                30 | GND 
+RESERVED | 17                                29 | o3 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              R  R  R  R  G  V  o  R  R  R  R  
+              E  E  E  E  N  C  7  E  E  E  E  
+              S  S  S  S  D  C     S  S  S  S  
+              E  E  E  E           E  E  E  E  
+              R  R  R  R           R  R  R  R  
+              V  V  V  V           V  V  V  V  
+              E  E  E  E           E  E  E  E  
+              D  D  D  D           D  D  D  D  
+
+
+N.C. = Not Connected.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     1/16(  6%)  10/16( 62%)   0/16(  0%)   1/36(  2%) 
+B:    LC17 - LC32    16/16(100%)   9/16( 56%)  16/16(100%)  16/36( 44%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            19/32     ( 59%)
+Total logic cells used:                         17/32     ( 53%)
+Total shareable expanders used:                 12/32     ( 37%)
+Total Turbo logic cells used:                   17/32     ( 53%)
+Total shareable expanders not available (n/a):   4/32     ( 12%)
+Average fan-in:                                  3.58
+Total fan-in:                                    61
+
+Total input pins required:                       9
+Total output pins required:                      8
+Total bidirectional pins required:               2
+Total logic cells required:                     17
+Total flipflops required:                        0
+Total product terms required:                   51
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          12
+
+Synthesized logic cells:                         6/  32   ( 18%)
+
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   4    (1)  (A)      INPUT               0      0   0    0    0    0    1  d
+  41     17    B      BIDIR               0      0   0    1    2    1    0  even
+  14     10    A      BIDIR               0      0   0    0    1    0    0  odd
+   6    (3)  (A)      INPUT               0      0   0    0    0    1    2  X0
+   7    (4)  (A)      INPUT               0      0   0    0    0    1    6  X1
+   8    (5)  (A)      INPUT               0      0   0    0    0    1    6  X2
+   9    (6)  (A)      INPUT               0      0   0    0    0    1    6  X3
+  11    (7)  (A)      INPUT               0      0   0    0    0    1    6  X4
+  12    (8)  (A)      INPUT               0      0   0    0    0    1    6  X5
+  13    (9)  (A)      INPUT               0      0   0    0    0    1    6  X6
+   5    (2)  (A)      INPUT               0      0   0    0    0    2    1  X7
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  41     17    B        TRI      t        0      0   0    1    2    1    0  even
+  14     10    A        TRI      t        0      0   0    0    1    0    0  odd
+  38     20    B     OUTPUT      t        0      0   0    1    0    0    0  o0
+  39     19    B     OUTPUT      t        0      0   0    1    0    0    0  o1
+  40     18    B     OUTPUT      t        0      0   0    1    0    0    0  o2
+  29     27    B     OUTPUT      t        0      0   0    1    0    0    0  o3
+  31     26    B     OUTPUT      t        0      0   0    1    0    0    0  o4
+  33     24    B     OUTPUT      t        0      0   0    1    0    0    0  o5
+  37     21    B     OUTPUT      t        0      0   0    1    0    0    0  o6
+  24     32    B     OUTPUT      t        0      0   0    1    0    0    0  o7
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (26)    30    B       SOFT    s t       12     12   0    7    4    0    1  |lab15_5:c1|~160~1
+ (27)    29    B       SOFT    s t        1      0   1    6    0    0    2  |lab15_5:c1|~160~2
+ (32)    25    B       SOFT    s t        1      0   1    6    0    0    2  |lab15_5:c1|~160~3
+ (34)    23    B       SOFT    s t        1      0   1    6    0    0    2  |lab15_5:c1|~160~4
+ (36)    22    B       SOFT    s t        1      0   1    6    0    0    2  |lab15_5:c1|~160~5
+ (25)    31    B       SOFT      t        0      0   0    2    1    1    0  |lab15_5:c1|:175
+ (28)    28    B       SOFT    s t       12     12   0    7    4    1    0  |lab15_5:c2|~160~1
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+           Logic cells placed in LAB 'A'
+        +- LC10 odd
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'A'
+LC      | | A B |     Logic cells that feed LAB 'A':
+
+Pin
+LC17 -> * | * - | <-- even
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC17 even
+        | +----------------------------- LC30 |lab15_5:c1|~160~1
+        | | +--------------------------- LC29 |lab15_5:c1|~160~2
+        | | | +------------------------- LC25 |lab15_5:c1|~160~3
+        | | | | +----------------------- LC23 |lab15_5:c1|~160~4
+        | | | | | +--------------------- LC22 |lab15_5:c1|~160~5
+        | | | | | | +------------------- LC31 |lab15_5:c1|:175
+        | | | | | | | +----------------- LC28 |lab15_5:c2|~160~1
+        | | | | | | | | +--------------- LC20 o0
+        | | | | | | | | | +------------- LC19 o1
+        | | | | | | | | | | +----------- LC18 o2
+        | | | | | | | | | | | +--------- LC27 o3
+        | | | | | | | | | | | | +------- LC26 o4
+        | | | | | | | | | | | | | +----- LC24 o5
+        | | | | | | | | | | | | | | +--- LC21 o6
+        | | | | | | | | | | | | | | | +- LC32 o7
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+LC30 -> - - - - - - * - - - - - - - - - | - * | <-- |lab15_5:c1|~160~1
+LC29 -> - * - - - - - * - - - - - - - - | - * | <-- |lab15_5:c1|~160~2
+LC25 -> - * - - - - - * - - - - - - - - | - * | <-- |lab15_5:c1|~160~3
+LC23 -> - * - - - - - * - - - - - - - - | - * | <-- |lab15_5:c1|~160~4
+LC22 -> - * - - - - - * - - - - - - - - | - * | <-- |lab15_5:c1|~160~5
+LC31 -> * - - - - - - - - - - - - - - - | - * | <-- |lab15_5:c1|:175
+LC28 -> * - - - - - - - - - - - - - - - | - * | <-- |lab15_5:c2|~160~1
+
+Pin
+4    -> - - - - - - * - - - - - - - - - | - * | <-- d
+6    -> - * - - - - - * * - - - - - - - | - * | <-- X0
+7    -> - * * * * * - * - * - - - - - - | - * | <-- X1
+8    -> - * * * * * - * - - * - - - - - | - * | <-- X2
+9    -> - * * * * * - * - - - * - - - - | - * | <-- X3
+11   -> - * * * * * - * - - - - * - - - | - * | <-- X4
+12   -> - * * * * * - * - - - - - * - - | - * | <-- X5
+13   -> - * * * * * - * - - - - - - * - | - * | <-- X6
+5    -> * - - - - - * - - - - - - - - * | - * | <-- X7
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab15\lab15_5_2.rpt
+lab15_5_2
+
+** EQUATIONS **
+
+d        : INPUT;
+X0       : INPUT;
+X1       : INPUT;
+X2       : INPUT;
+X3       : INPUT;
+X4       : INPUT;
+X5       : INPUT;
+X6       : INPUT;
+X7       : INPUT;
+
+-- Node name is 'even' 
+-- Equation name is 'even', location is LC017, type is bidir.
+even     = TRI(_LC017,  VCC);
+_LC017   = LCELL( _EQ001 $  _LC031);
+  _EQ001 =  _LC028 & !X7
+         # !_LC028 &  X7;
+
+-- Node name is 'odd' 
+-- Equation name is 'odd', location is LC010, type is bidir.
+odd      = TRI(_LC010,  VCC);
+_LC010   = LCELL(!even $  GND);
+
+-- Node name is 'o0' 
+-- Equation name is 'o0', location is LC020, type is output.
+ o0      = LCELL( X0 $  GND);
+
+-- Node name is 'o1' 
+-- Equation name is 'o1', location is LC019, type is output.
+ o1      = LCELL( X1 $  GND);
+
+-- Node name is 'o2' 
+-- Equation name is 'o2', location is LC018, type is output.
+ o2      = LCELL( X2 $  GND);
+
+-- Node name is 'o3' 
+-- Equation name is 'o3', location is LC027, type is output.
+ o3      = LCELL( X3 $  GND);
+
+-- Node name is 'o4' 
+-- Equation name is 'o4', location is LC026, type is output.
+ o4      = LCELL( X4 $  GND);
+
+-- Node name is 'o5' 
+-- Equation name is 'o5', location is LC024, type is output.
+ o5      = LCELL( X5 $  GND);
+
+-- Node name is 'o6' 
+-- Equation name is 'o6', location is LC021, type is output.
+ o6      = LCELL( X6 $  GND);
+
+-- Node name is 'o7' 
+-- Equation name is 'o7', location is LC032, type is output.
+ o7      = LCELL( X7 $  GND);
+
+-- Node name is '|lab15_5:c1|~160~1' 
+-- Equation name is '_LC030', type is buried 
+-- synthesized logic cell 
+_LC030   = LCELL( _EQ002 $ !X0);
+  _EQ002 = !_LC022 & !_LC023 & !_LC025 & !_LC029 &  _X001 &  _X002 &  _X003 & 
+              _X004 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 & 
+              _X011 &  _X012;
+  _X001  = EXP(!X1 & !X2 & !X3 & !X4 & !X5 &  X6);
+  _X002  = EXP(!X1 & !X2 &  X3 &  X4 & !X5 &  X6);
+  _X003  = EXP(!X1 &  X2 & !X3 &  X4 & !X5 &  X6);
+  _X004  = EXP(!X1 & !X2 & !X3 & !X4 &  X5 & !X6);
+  _X005  = EXP(!X1 & !X2 & !X3 &  X4 & !X5 & !X6);
+  _X006  = EXP(!X1 & !X2 &  X3 & !X4 & !X5 & !X6);
+  _X007  = EXP(!X1 &  X2 & !X3 & !X4 & !X5 & !X6);
+  _X008  = EXP( X1 & !X2 & !X3 & !X4 & !X5 & !X6);
+  _X009  = EXP(!X1 & !X2 & !X3 &  X4 &  X5 &  X6);
+  _X010  = EXP(!X1 & !X2 &  X3 & !X4 &  X5 &  X6);
+  _X011  = EXP(!X1 &  X2 & !X3 & !X4 &  X5 &  X6);
+  _X012  = EXP(!X1 & !X2 &  X3 &  X4 &  X5 & !X6);
+
+-- Node name is '|lab15_5:c1|~160~2' 
+-- Equation name is '_LC029', type is buried 
+-- synthesized logic cell 
+_LC029   = LCELL( _EQ003 $  GND);
+  _EQ003 =  X1 &  X2 &  X3 &  X4 &  X5 & !X6
+         #  X1 &  X2 &  X3 &  X4 & !X5 &  X6
+         #  X1 &  X2 &  X3 & !X4 &  X5 &  X6
+         #  X1 &  X2 & !X3 &  X4 &  X5 &  X6
+         #  X1 & !X2 &  X3 &  X4 &  X5 &  X6;
+
+-- Node name is '|lab15_5:c1|~160~3' 
+-- Equation name is '_LC025', type is buried 
+-- synthesized logic cell 
+_LC025   = LCELL( _EQ004 $  GND);
+  _EQ004 = !X1 &  X2 &  X3 &  X4 &  X5 &  X6
+         #  X1 &  X2 &  X3 & !X4 & !X5 & !X6
+         #  X1 &  X2 & !X3 &  X4 & !X5 & !X6
+         #  X1 &  X2 & !X3 & !X4 &  X5 & !X6
+         #  X1 & !X2 &  X3 &  X4 & !X5 & !X6;
+
+-- Node name is '|lab15_5:c1|~160~4' 
+-- Equation name is '_LC023', type is buried 
+-- synthesized logic cell 
+_LC023   = LCELL( _EQ005 $  GND);
+  _EQ005 =  X1 & !X2 &  X3 & !X4 &  X5 & !X6
+         #  X1 & !X2 & !X3 &  X4 &  X5 & !X6
+         #  X1 &  X2 & !X3 & !X4 & !X5 &  X6
+         #  X1 & !X2 &  X3 & !X4 & !X5 &  X6
+         #  X1 & !X2 & !X3 &  X4 & !X5 &  X6;
+
+-- Node name is '|lab15_5:c1|~160~5' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ006 $  GND);
+  _EQ006 =  X1 & !X2 & !X3 & !X4 &  X5 &  X6
+         # !X1 &  X2 &  X3 &  X4 & !X5 & !X6
+         # !X1 &  X2 &  X3 & !X4 &  X5 & !X6
+         # !X1 &  X2 & !X3 &  X4 &  X5 & !X6
+         # !X1 &  X2 &  X3 & !X4 & !X5 &  X6;
+
+-- Node name is '|lab15_5:c1|:175' 
+-- Equation name is '_LC031', type is buried 
+_LC031   = LCELL( _EQ007 $  d);
+  _EQ007 =  _LC030 & !X7
+         # !_LC030 &  X7;
+
+-- Node name is '|lab15_5:c2|~160~1' 
+-- Equation name is '_LC028', type is buried 
+-- synthesized logic cell 
+_LC028   = LCELL( _EQ008 $ !X0);
+  _EQ008 = !_LC022 & !_LC023 & !_LC025 & !_LC029 &  _X001 &  _X002 &  _X003 & 
+              _X004 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009 &  _X010 & 
+              _X011 &  _X012;
+  _X001  = EXP(!X1 & !X2 & !X3 & !X4 & !X5 &  X6);
+  _X002  = EXP(!X1 & !X2 &  X3 &  X4 & !X5 &  X6);
+  _X003  = EXP(!X1 &  X2 & !X3 &  X4 & !X5 &  X6);
+  _X004  = EXP(!X1 & !X2 & !X3 & !X4 &  X5 & !X6);
+  _X005  = EXP(!X1 & !X2 & !X3 &  X4 & !X5 & !X6);
+  _X006  = EXP(!X1 & !X2 &  X3 & !X4 & !X5 & !X6);
+  _X007  = EXP(!X1 &  X2 & !X3 & !X4 & !X5 & !X6);
+  _X008  = EXP( X1 & !X2 & !X3 & !X4 & !X5 & !X6);
+  _X009  = EXP(!X1 & !X2 & !X3 &  X4 &  X5 &  X6);
+  _X010  = EXP(!X1 & !X2 &  X3 & !X4 &  X5 &  X6);
+  _X011  = EXP(!X1 &  X2 & !X3 & !X4 &  X5 &  X6);
+  _X012  = EXP(!X1 & !X2 &  X3 &  X4 &  X5 & !X6);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                                     z:\lab15\lab15_5_2.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,171K

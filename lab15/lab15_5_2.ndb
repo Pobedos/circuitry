@@ -1,0 +1,75 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 39
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|lab15_5:c1|
+;	|lab15_5:c2|
+
+The number of name info structs is : 61
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	L8ef	!	6	10	1	>	d	w
+#	L8ei	!	8	10	1	,	even	""
+$	"<R?c	!	7	10	o0	!	o0	"!
+%	"<R?c	!	7	10	o1	!	o1	~
+&	"<R?c	!	7	10	o2	!	o2	}
+'	"<R?c	!	7	10	o3	!	o3	|
+(	"<R?c	!	7	10	o4	!	o4	{
+)	"<R?c	!	7	10	o5	!	o5	z
+*	"<R?c	!	7	10	o6	!	o6	y
++	"<R?c	!	7	10	o7	!	o7	x
+,	IeE]	!	9	10	odd	"#
+-	"?%_n	!	5	10	3	E	\	$	X0	!	X0	v
+.	"?%_n	!	5	10	7	E	F	G	H	I	\	%	X1	!	X1	u
+/	"?%_n	!	5	10	7	E	F	G	H	I	\	&	X2	!	X2	t
+0	"?%_n	!	5	10	7	E	F	G	H	I	\	'	X3	!	X3	s
+1	"?%_n	!	5	10	7	E	F	G	H	I	\	(	X4	!	X4	r
+2	"?%_n	!	5	10	7	E	F	G	H	I	\	)	X5	!	X5	q
+3	"?%_n	!	5	10	7	E	F	G	H	I	\	*	X6	!	X6	p
+4	"?%_n	!	5	10	3	#	>	+	X7	!	X7	o
+5	IeEA	.	15	1	:110	#~
+6	IeEA	.	15	1	:120	$*
+7	IeEA	.	15	1	:130	$4
+8	IeEA	.	15	1	:140	$>
+9	IeEA	.	15	1	:150	$H
+:	IeEA	.	15	1	:160	$R
+;	IeEA	.	15	1	:170	$\
+<	IeEA	.	12	1	:173	$_
+=	IeEA	.	12	1	:174	$`
+>	L8f/	.	8	10	1	#	:175	$a
+?	IeEA	.	9	10	:176	$b
+@	IdL3	.	15	1	~110~1	#~
+A	IdL3	.	15	1	~120~1	$*
+B	IdL3	.	15	1	~130~1	$4
+C	IdL3	.	15	1	~140~1	$>
+D	IdL3	.	15	1	~150~1	$H
+E	VA1Q	.	15	1	1	>	12	1	2	3	4	5	6	7	8	9	10	11	12	~160~1	$R
+F	Q<Im	.	15	1	2	E	\	1	~160~2	)}
+G	Q<Im	.	15	1	2	E	\	1	~160~3	*#
+H	Q<Im	.	15	1	2	E	\	1	~160~4	*'
+I	Q<Im	.	15	1	2	E	\	1	~160~5	*+
+J	IdL3	.	15	1	~170~1	$\
+K	IdL3	.	12	1	~173~1	$_
+L	IeEA	;	15	1	:110	&"
+M	IeEA	;	15	1	:120	&,
+N	IeEA	;	15	1	:130	&6
+O	IeEA	;	15	1	:140	&@
+P	IeEA	;	15	1	:150	&J
+Q	IeEA	;	15	1	:160	&T
+R	IeEA	;	15	1	:170	&^
+S	IeEA	;	12	1	:173	&a
+T	IeEA	;	12	1	:174	&b
+U	IeEA	;	8	10	:175	&c
+V	IeEA	;	9	10	:176	&d
+W	IdL3	;	15	1	~110~1	&"
+X	IdL3	;	15	1	~120~1	&,
+Y	IdL3	;	15	1	~130~1	&6
+Z	IdL3	;	15	1	~140~1	&@
+[	IdL3	;	15	1	~150~1	&J
+\	VA1Q	;	15	1	1	#	12	1	2	3	4	5	6	7	8	9	10	11	12	~160~1	&T
+]	IdL3	;	15	1	~170~1	&^
+^	IdL3	;	12	1	~173~1	&a

@@ -1,0 +1,46 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 34
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	15	1	:110	"~
+#	IeEA	!	15	1	:120	#*
+$	IeEA	!	15	1	:130	#4
+%	IeEA	!	15	1	:140	#>
+&	IeEA	!	15	1	:150	#H
+'	IeEA	!	15	1	:160	#R
+(	IeEA	!	15	1	:170	#\
+)	IeEA	!	12	1	:173	#_
+*	IeEA	!	12	1	:174	#`
++	IeEA	!	8	10	:175	#a
+,	IeEA	!	9	10	:176	#b
+-	L8ef	!	7	10	1	.	d	w
+.	L8ei	!	8	10	1	/	even	x
+/	IeE]	!	9	10	odd	y
+0	"?%_n	!	6	10	1	=	X0	!	X0	v
+1	"?%_n	!	6	10	5	=	>	?	@	A	X1	!	X1	u
+2	"?%_n	!	6	10	5	=	>	?	@	A	X2	!	X2	t
+3	"?%_n	!	6	10	5	=	>	?	@	A	X3	!	X3	s
+4	"?%_n	!	6	10	5	=	>	?	@	A	X4	!	X4	r
+5	"?%_n	!	6	10	5	=	>	?	@	A	X5	!	X5	q
+6	"?%_n	!	6	10	5	=	>	?	@	A	X6	!	X6	p
+7	"?%_n	!	6	10	1	.	X7	!	X7	o
+8	IdL3	!	15	1	~110~1	"~
+9	IdL3	!	15	1	~120~1	#*
+:	IdL3	!	15	1	~130~1	#4
+;	IdL3	!	15	1	~140~1	#>
+<	IdL3	!	15	1	~150~1	#H
+=	Q<O9	!	15	1	1	.	12	~160~1	#R
+>	Q<Im	!	15	1	1	=	1	~160~2	%F
+?	Q<Im	!	15	1	1	=	1	~160~3	%J
+@	Q<Im	!	15	1	1	=	1	~160~4	%N
+A	Q<Im	!	15	1	1	=	1	~160~5	%R
+B	IdL3	!	15	1	~170~1	#\
+C	IdL3	!	12	1	~173~1	#_
