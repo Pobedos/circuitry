@@ -1,0 +1,87 @@
+Version 5.0 Build 148 04/26/2005 SJ Full Version
+35
+1901
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+lab15_5
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab15_5.vhd
+1606335526
+4
+# storage
+db|lab15_5_2.(1).cnf
+db|lab15_5_2.(1).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+lab15_5:c1
+lab15_5:c2
+}
+# end
+# entity
+lab15_5_2
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab15_5_2.vhd
+1606340216
+4
+# storage
+db|lab15_5_2.(0).cnf
+db|lab15_5_2.(0).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+|
+}
+# end
+# entity
+lab15_5_3
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab15_5_3.vhd
+1606340124
+4
+# storage
+db|lab15_5_2.(2).cnf
+db|lab15_5_2.(2).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+lab15_5_3:d1
+}
+# end
+# complete
+

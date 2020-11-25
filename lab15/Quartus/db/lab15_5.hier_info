@@ -1,0 +1,14 @@
+|lab15_5
+X[0] => s~0.IN1
+X[1] => s~0.IN0
+X[2] => s~1.IN0
+X[3] => s~2.IN0
+X[4] => s~3.IN0
+X[5] => s~4.IN0
+X[6] => s~5.IN0
+X[7] => s.IN0
+d => even~0.IN0
+even <= even~0
+odd <= even~1
+
+

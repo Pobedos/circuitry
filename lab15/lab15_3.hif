@@ -24,9 +24,9 @@ HIF003
 --
 FILES
 {
-	lab15_3.vhd
+	lab15_3.gdf
 	{
-		lab15_3 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
+		lab15_3 [] []
 		{
 			0 [] [];
 		}

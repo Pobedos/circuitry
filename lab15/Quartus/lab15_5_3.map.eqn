@@ -1,0 +1,229 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L22 is output~0
+--operation mode is normal
+
+A1L22 = x[0] $ er[0];
+
+
+--A1L32 is output~1
+--operation mode is normal
+
+A1L32 = x[1] $ er[1];
+
+
+--A1L42 is output~2
+--operation mode is normal
+
+A1L42 = x[2] $ er[2];
+
+
+--A1L52 is output~3
+--operation mode is normal
+
+A1L52 = x[3] $ er[3];
+
+
+--A1L62 is output~4
+--operation mode is normal
+
+A1L62 = x[4] $ er[4];
+
+
+--A1L72 is output~5
+--operation mode is normal
+
+A1L72 = x[5] $ er[5];
+
+
+--A1L82 is output~6
+--operation mode is normal
+
+A1L82 = x[6] $ er[6];
+
+
+--A1L92 is output~7
+--operation mode is normal
+
+A1L92 = x[7] $ er[7];
+
+
+--A1L03 is output~8
+--operation mode is normal
+
+A1L03 = d $ er[8];
+
+
+--x[0] is x[0]
+--operation mode is input
+
+x[0] = INPUT();
+
+
+--er[0] is er[0]
+--operation mode is input
+
+er[0] = INPUT();
+
+
+--x[1] is x[1]
+--operation mode is input
+
+x[1] = INPUT();
+
+
+--er[1] is er[1]
+--operation mode is input
+
+er[1] = INPUT();
+
+
+--x[2] is x[2]
+--operation mode is input
+
+x[2] = INPUT();
+
+
+--er[2] is er[2]
+--operation mode is input
+
+er[2] = INPUT();
+
+
+--x[3] is x[3]
+--operation mode is input
+
+x[3] = INPUT();
+
+
+--er[3] is er[3]
+--operation mode is input
+
+er[3] = INPUT();
+
+
+--x[4] is x[4]
+--operation mode is input
+
+x[4] = INPUT();
+
+
+--er[4] is er[4]
+--operation mode is input
+
+er[4] = INPUT();
+
+
+--x[5] is x[5]
+--operation mode is input
+
+x[5] = INPUT();
+
+
+--er[5] is er[5]
+--operation mode is input
+
+er[5] = INPUT();
+
+
+--x[6] is x[6]
+--operation mode is input
+
+x[6] = INPUT();
+
+
+--er[6] is er[6]
+--operation mode is input
+
+er[6] = INPUT();
+
+
+--x[7] is x[7]
+--operation mode is input
+
+x[7] = INPUT();
+
+
+--er[7] is er[7]
+--operation mode is input
+
+er[7] = INPUT();
+
+
+--d is d
+--operation mode is input
+
+d = INPUT();
+
+
+--er[8] is er[8]
+--operation mode is input
+
+er[8] = INPUT();
+
+
+--output[0] is output[0]
+--operation mode is output
+
+output[0] = OUTPUT(A1L22);
+
+
+--output[1] is output[1]
+--operation mode is output
+
+output[1] = OUTPUT(A1L32);
+
+
+--output[2] is output[2]
+--operation mode is output
+
+output[2] = OUTPUT(A1L42);
+
+
+--output[3] is output[3]
+--operation mode is output
+
+output[3] = OUTPUT(A1L52);
+
+
+--output[4] is output[4]
+--operation mode is output
+
+output[4] = OUTPUT(A1L62);
+
+
+--output[5] is output[5]
+--operation mode is output
+
+output[5] = OUTPUT(A1L72);
+
+
+--output[6] is output[6]
+--operation mode is output
+
+output[6] = OUTPUT(A1L82);
+
+
+--output[7] is output[7]
+--operation mode is output
+
+output[7] = OUTPUT(A1L92);
+
+
+--output[8] is output[8]
+--operation mode is output
+
+output[8] = OUTPUT(A1L03);
+
+

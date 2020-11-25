@@ -26,7 +26,7 @@ FILES
 {
 	decriptor.vhd
 	{
-		decriptor [] [U1147235.DLS,U7449008.DLS]
+		decriptor [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}

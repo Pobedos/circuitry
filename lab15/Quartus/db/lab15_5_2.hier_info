@@ -1,0 +1,88 @@
+|lab15_5_2
+X[0] => lab15_5_3:d1.x[0]
+X[0] => lab15_5:c1.X[0]
+X[1] => lab15_5_3:d1.x[1]
+X[1] => lab15_5:c1.X[1]
+X[2] => lab15_5_3:d1.x[2]
+X[2] => lab15_5:c1.X[2]
+X[3] => lab15_5_3:d1.x[3]
+X[3] => lab15_5:c1.X[3]
+X[4] => lab15_5_3:d1.x[4]
+X[4] => lab15_5:c1.X[4]
+X[5] => lab15_5_3:d1.x[5]
+X[5] => lab15_5:c1.X[5]
+X[6] => lab15_5_3:d1.x[6]
+X[6] => lab15_5:c1.X[6]
+X[7] => lab15_5_3:d1.x[7]
+X[7] => lab15_5:c1.X[7]
+er[0] => lab15_5_3:d1.er[0]
+er[1] => lab15_5_3:d1.er[1]
+er[2] => lab15_5_3:d1.er[2]
+er[3] => lab15_5_3:d1.er[3]
+er[4] => lab15_5_3:d1.er[4]
+er[5] => lab15_5_3:d1.er[5]
+er[6] => lab15_5_3:d1.er[6]
+er[7] => lab15_5_3:d1.er[7]
+er[8] => lab15_5_3:d1.er[8]
+even <= lab15_5:c2.even
+odd <= lab15_5:c2.odd
+
+
+|lab15_5_2|lab15_5:c1
+X[0] => s~0.IN1
+X[1] => s~0.IN0
+X[2] => s~1.IN0
+X[3] => s~2.IN0
+X[4] => s~3.IN0
+X[5] => s~4.IN0
+X[6] => s~5.IN0
+X[7] => s.IN0
+d => even~0.IN0
+even <= even~0
+odd <= even~1
+
+
+|lab15_5_2|lab15_5_3:d1
+x[0] => output~0.IN0
+x[1] => output~1.IN0
+x[2] => output~2.IN0
+x[3] => output~3.IN0
+x[4] => output~4.IN0
+x[5] => output~5.IN0
+x[6] => output~6.IN0
+x[7] => output~7.IN0
+d => output~8.IN0
+er[0] => output~0.IN1
+er[1] => output~1.IN1
+er[2] => output~2.IN1
+er[3] => output~3.IN1
+er[4] => output~4.IN1
+er[5] => output~5.IN1
+er[6] => output~6.IN1
+er[7] => output~7.IN1
+er[8] => output~8.IN1
+output[0] <= output~0.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output~1.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output~2.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output~3.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output~4.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output~5.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output~6.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output~7.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output~8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab15_5_2|lab15_5:c2
+X[0] => s~0.IN1
+X[1] => s~0.IN0
+X[2] => s~1.IN0
+X[3] => s~2.IN0
+X[4] => s~3.IN0
+X[5] => s~4.IN0
+X[6] => s~5.IN0
+X[7] => s.IN0
+d => even~0.IN0
+even <= even~0
+odd <= even~1
+
+

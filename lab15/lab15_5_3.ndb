@@ -1,0 +1,48 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 36
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	17	1	:462	&f
+#	IeEA	!	17	1	:509	'7
+$	IeEA	!	17	1	:556	'f
+%	IeEA	!	17	1	:603	(7
+&	IeEA	!	17	1	:650	(f
+'	IeEA	!	17	1	:697	)7
+(	IeEA	!	17	1	:744	)f
+)	IeEA	!	17	1	:791	*7
+*	IeEA	!	17	1	:830	*^
++	L8ef	!	8	17	1	=	d	w
+,	"?%_n	!	9	17	1	5	er0	!	er0	""
+-	"?%_n	!	9	17	1	6	er1	!	er1	"!
+.	"?%_n	!	9	17	1	7	er2	!	er2	~
+/	"?%_n	!	9	17	1	8	er3	!	er3	}
+0	"?%_n	!	9	17	1	9	er4	!	er4	|
+1	"?%_n	!	9	17	1	:	er5	!	er5	{
+2	"?%_n	!	9	17	1	;	er6	!	er6	z
+3	"?%_n	!	9	17	1	<	er7	!	er7	y
+4	"?%_n	!	9	17	1	=	er8	!	er8	x
+5	"<R?c	!	10	17	output0	!	output0	"+
+6	"<R?c	!	10	17	output1	!	output1	"*
+7	"<R?c	!	10	17	output2	!	output2	")
+8	"<R?c	!	10	17	output3	!	output3	"(
+9	"<R?c	!	10	17	output4	!	output4	"'
+:	"<R?c	!	10	17	output5	!	output5	"&
+;	"<R?c	!	10	17	output6	!	output6	"%
+<	"<R?c	!	10	17	output7	!	output7	"$
+=	"<R?c	!	10	17	output8	!	output8	"#
+>	"?%_n	!	7	17	1	5	x0	!	x0	v
+?	"?%_n	!	7	17	1	6	x1	!	x1	u
+@	"?%_n	!	7	17	1	7	x2	!	x2	t
+A	"?%_n	!	7	17	1	8	x3	!	x3	s
+B	"?%_n	!	7	17	1	9	x4	!	x4	r
+C	"?%_n	!	7	17	1	:	x5	!	x5	q
+D	"?%_n	!	7	17	1	;	x6	!	x6	p
+E	"?%_n	!	7	17	1	<	x7	!	x7	o

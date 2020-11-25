@@ -1,0 +1,148 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--B2L1 is lab15_5:c2|even~56 at LC_X1_Y1_N2
+--operation mode is normal
+
+B2L1 = er[7] $ er[2] $ er[6] $ er[8];
+
+
+--B2L2 is lab15_5:c2|even~57 at LC_X1_Y1_N5
+--operation mode is normal
+
+B2L2 = er[0] $ er[5] $ er[3] $ er[4];
+
+
+--B2L3 is lab15_5:c2|even~58 at LC_X1_Y1_N4
+--operation mode is normal
+
+B2L3 = B2L1 $ er[1] $ !B2L2;
+
+
+--X[7] is X[7] at PIN_P21
+--operation mode is input
+
+X[7] = INPUT();
+
+
+--X[6] is X[6] at PIN_AB6
+--operation mode is input
+
+X[6] = INPUT();
+
+
+--X[5] is X[5] at PIN_AA16
+--operation mode is input
+
+X[5] = INPUT();
+
+
+--X[4] is X[4] at PIN_R22
+--operation mode is input
+
+X[4] = INPUT();
+
+
+--X[3] is X[3] at PIN_N17
+--operation mode is input
+
+X[3] = INPUT();
+
+
+--X[2] is X[2] at PIN_M20
+--operation mode is input
+
+X[2] = INPUT();
+
+
+--X[1] is X[1] at PIN_B14
+--operation mode is input
+
+X[1] = INPUT();
+
+
+--X[0] is X[0] at PIN_U5
+--operation mode is input
+
+X[0] = INPUT();
+
+
+--er[8] is er[8] at PIN_AA20
+--operation mode is input
+
+er[8] = INPUT();
+
+
+--er[6] is er[6] at PIN_W20
+--operation mode is input
+
+er[6] = INPUT();
+
+
+--er[2] is er[2] at PIN_AA21
+--operation mode is input
+
+er[2] = INPUT();
+
+
+--er[7] is er[7] at PIN_T18
+--operation mode is input
+
+er[7] = INPUT();
+
+
+--er[5] is er[5] at PIN_U19
+--operation mode is input
+
+er[5] = INPUT();
+
+
+--er[0] is er[0] at PIN_W19
+--operation mode is input
+
+er[0] = INPUT();
+
+
+--er[3] is er[3] at PIN_W21
+--operation mode is input
+
+er[3] = INPUT();
+
+
+--er[4] is er[4] at PIN_U20
+--operation mode is input
+
+er[4] = INPUT();
+
+
+--er[1] is er[1] at PIN_W22
+--operation mode is input
+
+er[1] = INPUT();
+
+
+--even is even at PIN_Y20
+--operation mode is bidir
+
+even_tri_out = TRI(!B2L3, VCC);
+even = BIDIR(even_tri_out);
+
+
+--odd is odd at PIN_Y21
+--operation mode is bidir
+
+odd_tri_out = TRI(B2L3, VCC);
+odd = BIDIR(odd_tri_out);
+
+
+

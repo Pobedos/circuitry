@@ -1,0 +1,102 @@
+NDB006
+The number of symbol table entries is: 4
+The length of the symbol table is: 55
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|lab15_3:2|
+:	|lab15_3:31|
+G	|data_transf:29|
+
+The number of name info structs is : 87
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	1	p	er0	"!
+#	Ky&|	!	1	p	er1	~
+$	Ky&|	!	1	q	er2	}
+%	Ky&|	!	1	q	er3	|
+&	Ky&|	!	1	t	er4	{
+'	Ky&|	!	1	t	er5	z
+(	Ky&|	!	1	s	er6	y
+)	Ky&|	!	1	s	er7	o
+*	Ky&|	!	2	+	,	er8	p
++	XUi[	!	3	2	1	2	ERROR	""
+,	XUi[	!	3	2	1	2	OK	"#
+-	Ky&|	!	2	]	p	x0	q
+.	Ky&|	!	2	]	p	x1	r
+/	Ky&|	!	2	]	q	x2	s
+0	Ky&|	!	2	]	q	x3	t
+1	Ky&|	!	2	`	t	x4	u
+2	Ky&|	!	2	`	t	x5	v
+3	Ky&|	!	2	`	s	x6	w
+4	Ky&|	!	2	`	s	x7	x
+5	IVOQ	G	>	:3	#K
+6	IVOQ	G	@	:57	#R
+7	IVOQ	G	A	:61	#Q
+8	IVOQ	G	B	:65	#P
+9	IVOQ	G	C	:68	#O
+:	IVOQ	G	?	:7	#S
+;	IVOQ	G	D	:72	#N
+<	IVOQ	G	E	:76	#M
+=	IVOQ	G	F	:80	#L
+>	INu}	G	5	OUT0	#K
+?	INu}	G	:	OUT1	#S
+@	INu}	G	6	OUT2	#R
+A	INu}	G	7	OUT3	#Q
+B	INu}	G	8	OUT4	#P
+C	INu}	G	9	OUT5	#O
+D	INu}	G	;	OUT6	#N
+E	INu}	G	<	OUT7	#M
+F	INu}	G	=	OUT8	#L
+G	IFkI	G	~3~1	#K
+H	IFkI	G	~57~1	#R
+I	IFkI	G	~61~1	#Q
+J	IFkI	G	~65~1	#P
+K	IFkI	G	~68~1	#O
+L	IFkI	G	~72~1	#N
+M	IFkI	G	~76~1	#M
+N	IFkI	G	~7~1	#S
+O	IFkI	G	~80~1	#L
+P	IGdW	.	:10	"h
+Q	IGdW	.	:11	"n
+R	IGdW	.	:12	"o
+S	IGdW	.	:13	"k
+T	IGdW	.	:14	"l
+U	IGdW	.	:15	"m
+V	IGdW	.	:26	"j
+W	IVOQ	.	Z	:27	"i
+X	IVOQ	.	Y	:32	"p
+Y	INu}	.	X	EVEN	"p
+Z	INu}	.	W	ODD	"i
+[	IFkI	.	~10~1	"h
+\	IFkI	.	~11~1	"n
+]	P|nO	.	1	a	1	~12~1	"o
+^	IFkI	.	~13~1	"k
+_	IFkI	.	~14~1	"l
+`	P|nO	.	1	a	1	~15~1	"m
+a	Kx.7	.	2	+	,	~26~1	"j
+b	IFkI	.	~27~1	"i
+c	IGdW	:	:10	##
+d	IGdW	:	:11	#)
+e	IGdW	:	:12	#*
+f	IGdW	:	:13	#&
+g	IGdW	:	:14	#'
+h	IGdW	:	:15	#(
+i	IGdW	:	:26	#%
+j	IVOQ	:	n	:27	#$
+k	IVOQ	:	l	:32	#+
+l	INu}	:	k	EVEN	#+
+m	IM}Q	:	x	EVEN~1	&M
+n	INu}	:	j	ODD	#$
+o	IM}Q	:	w	ODD~1	&I
+p	P|nO	:	4	+	w	x	,	1	~10~1	##
+q	P|nO	:	4	+	w	x	,	1	~11~1	#)
+r	IFkI	:	~12~1	#*
+s	P|nO	:	4	+	w	x	,	1	~13~1	#&
+t	P|nO	:	4	+	w	x	,	1	~14~1	#'
+u	IFkI	:	~15~1	#(
+v	IFkI	:	~26~1	#%
+w	Q-YI	:	o	1	,	1	~27~1	&I
+x	Q-YI	:	m	1	+	1	~32~1	&M
