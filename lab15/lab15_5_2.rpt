@@ -2,11 +2,7 @@ Project Information                                     z:\lab15\lab15_5_2.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-<<<<<<< Updated upstream
-Compiled: 11/26/20 16:37:54
-=======
-Compiled: 11/26/20 17:55:52
->>>>>>> Stashed changes
+Compiled: 11/26/20 18:51:03
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -800,23 +796,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:01
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-<<<<<<< Updated upstream
-   Partitioner                            00:00:00
-=======
    Partitioner                            00:00:01
->>>>>>> Stashed changes
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:01
+   Total Time                             00:00:02
 
 
 Memory Allocated
 -----------------
 
-<<<<<<< Updated upstream
-Peak memory allocated during compilation  = 3,285K
-=======
-Peak memory allocated during compilation  = 3,983K
->>>>>>> Stashed changes
+Peak memory allocated during compilation  = 4,822K

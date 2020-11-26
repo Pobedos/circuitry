@@ -24,6 +24,13 @@ HIF003
 --
 FILES
 {
+	lab15_5_3.vhd
+	{
+		lab15_5_3 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
+		{
+			2 [] [];
+		}
+	}
 	lab15_5.vhd
 	{
 		lab15_5 [] [U7449008.DLS,U1147235.DLS]
@@ -31,20 +38,9 @@ FILES
 			1 [] [];
 		}
 	}
-	lab15_5_3.vhd
-	{
-<<<<<<< Updated upstream
-		lab15_5_3 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
-=======
-		lab15_5_3 [] [U1147235.DLS,U7449008.DLS,U9587408.DLS]
->>>>>>> Stashed changes
-		{
-			2 [] [];
-		}
-	}
 	lab15_5_2.vhd
 	{
-		lab15_5_2 [] [U1147235.DLS,U7449008.DLS]
+		lab15_5_2 [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
