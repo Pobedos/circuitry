@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab15_5
-Thu Nov 26 00:18:50 2020
+Thu Nov 26 17:37:06 2020
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Nov 26 00:18:50 2020    ;
+; Analysis & Synthesis Status ; Successful - Thu Nov 26 17:37:06 2020    ;
 ; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name               ; lab15_5                                  ;
 ; Top-level Entity Name       ; lab15_5                                  ;
@@ -137,7 +137,7 @@ applicable agreement for further details.
 ; Combinational cells for routing ; 0         ;
 ; Total registers                 ; 0         ;
 ; I/O pins                        ; 11        ;
-; Maximum fan-out node            ; even~58   ;
+; Maximum fan-out node            ; odd~58    ;
 ; Maximum fan-out                 ; 2         ;
 ; Total fan-out                   ; 13        ;
 ; Average fan-out                 ; 0.93      ;
@@ -181,24 +181,24 @@ The equations can be found in Z:/lab15/Quartus/lab15_5.map.eqn.
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Nov 26 00:18:48 2020
+    Info: Processing started: Thu Nov 26 17:37:04 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab15_5 -c lab15_5
 Info: Found 2 design units, including 1 entities, in source file lab15_5.vhd
     Info: Found design unit 1: lab15_5-behav
     Info: Found entity 1: lab15_5
 Info: Elaborating entity "lab15_5" for the top level hierarchy
 Info: One or more bidirs are fed by always enabled tri-state buffers
-    Info: Fanout of permanently enabled tri-state buffer feeding bidir "even" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "odd" is moved to its source
 Warning: TRI or OPNDRN buffers permanently enabled
-    Warning: Node "even~2"
-    Warning: Node "odd~1"
+    Warning: Node "even~1"
+    Warning: Node "odd~2"
 Info: Implemented 14 device resources after synthesis - the final resource count might be different
     Info: Implemented 9 input pins
     Info: Implemented 0 output pins
     Info: Implemented 2 bidirectional pins
     Info: Implemented 3 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Processing ended: Thu Nov 26 00:18:50 2020
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Thu Nov 26 17:37:06 2020
+    Info: Elapsed time: 00:00:03
 
 

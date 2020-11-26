@@ -2,7 +2,7 @@ Project Information                                       z:\lab15\lab15_5.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 11/26/20 01:08:28
+Compiled: 11/26/20 17:39:47
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -61,10 +61,10 @@ Device Options:
                                                
                                                
                                                
-                                         e     
-                       V  G  G  G  G  G  v  o  
-              X  X     C  N  N  N  N  N  e  d  
-              6  7  d  C  D  D  D  D  D  n  d  
+                                            e  
+                       V  G  G  G  G  G  o  v  
+              X  X     C  N  N  N  N  N  d  e  
+              6  7  d  C  D  D  D  D  D  d  n  
             -----------------------------------_ 
           /   6  5  4  3  2  1 44 43 42 41 40   | 
       X5 |  7                                39 | RESERVED 
@@ -140,8 +140,8 @@ lab15_5
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
    4    (1)  (A)      INPUT               0      0   0    0    0    1    0  d
-  41     17    B      BIDIR               0      0   0    2    1    1    0  even
-  40     18    B      BIDIR               0      0   0    0    1    0    0  odd
+  40     18    B      BIDIR               0      0   0    0    1    0    0  even
+  41     17    B      BIDIR               0      0   0    2    1    1    0  odd
   13    (9)  (A)      INPUT               0      0   0    0    0    0    1  X0
   12    (8)  (A)      INPUT               0      0   0    0    0    0    5  X1
   11    (7)  (A)      INPUT               0      0   0    0    0    0    5  X2
@@ -169,8 +169,8 @@ lab15_5
                                          Shareable
                                          Expanders     Fan-In    Fan-Out
  Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
-  41     17    B        TRI      t        0      0   0    2    1    1    0  even
-  40     18    B        TRI      t        0      0   0    0    1    0    0  odd
+  40     18    B        TRI      t        0      0   0    0    1    0    0  even
+  41     17    B        TRI      t        0      0   0    2    1    1    0  odd
 
 
 Code:
@@ -214,8 +214,8 @@ lab15_5
 Logic Array Block 'B':
 
                        Logic cells placed in LAB 'B'
-        +------------- LC17 even
-        | +----------- LC18 odd
+        +------------- LC18 even
+        | +----------- LC17 odd
         | | +--------- LC19 ~160~1
         | | | +------- LC20 ~160~2
         | | | | +----- LC21 ~160~3
@@ -225,15 +225,15 @@ Logic Array Block 'B':
         | | | | | | |   Other LABs fed by signals
         | | | | | | |   that feed LAB 'B'
 LC      | | | | | | | | A B |     Logic cells that feed LAB 'B':
-LC17 -> - * - - - - - | - * | <-- even
-LC19 -> * - - - - - - | - * | <-- ~160~1
+LC17 -> * - - - - - - | - * | <-- odd
+LC19 -> - * - - - - - | - * | <-- ~160~1
 LC20 -> - - * - - - - | - * | <-- ~160~2
 LC21 -> - - * - - - - | - * | <-- ~160~3
 LC22 -> - - * - - - - | - * | <-- ~160~4
 LC23 -> - - * - - - - | - * | <-- ~160~5
 
 Pin
-4    -> * - - - - - - | - * | <-- d
+4    -> - * - - - - - | - * | <-- d
 13   -> - - * - - - - | - * | <-- X0
 12   -> - - * * * * * | - * | <-- X1
 11   -> - - * * * * * | - * | <-- X2
@@ -241,7 +241,7 @@ Pin
 8    -> - - * * * * * | - * | <-- X4
 7    -> - - * * * * * | - * | <-- X5
 6    -> - - * * * * * | - * | <-- X6
-5    -> * - - - - - - | - * | <-- X7
+5    -> - * - - - - - | - * | <-- X7
 
 
 * = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
@@ -264,16 +264,16 @@ X6       : INPUT;
 X7       : INPUT;
 
 -- Node name is 'even' 
--- Equation name is 'even', location is LC017, type is bidir.
-even     = TRI(_LC017,  VCC);
+-- Equation name is 'even', location is LC018, type is bidir.
+even     = TRI(_LC018,  VCC);
+_LC018   = LCELL(!odd $  GND);
+
+-- Node name is 'odd' 
+-- Equation name is 'odd', location is LC017, type is bidir.
+odd      = TRI(_LC017,  VCC);
 _LC017   = LCELL( _EQ001 $  d);
   _EQ001 =  _LC019 & !X7
          # !_LC019 &  X7;
-
--- Node name is 'odd' 
--- Equation name is 'odd', location is LC018, type is bidir.
-odd      = TRI(_LC018,  VCC);
-_LC018   = LCELL(!even $  GND);
 
 -- Node name is '~160~1' 
 -- Equation name is '~160~1', location is LC019, type is buried.
@@ -420,8 +420,8 @@ Compilation Times
 
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:01
+   Logic Synthesizer                      00:00:01
+   Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
@@ -432,4 +432,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,162K
+Peak memory allocated during compilation  = 3,128K

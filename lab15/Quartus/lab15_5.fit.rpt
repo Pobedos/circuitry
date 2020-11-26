@@ -1,5 +1,5 @@
 Fitter report for lab15_5
-Thu Nov 26 00:18:59 2020
+Thu Nov 26 17:37:17 2020
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -53,7 +53,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +--------------------------+------------------------------------------+
-; Fitter Status            ; Successful - Thu Nov 26 00:18:59 2020    ;
+; Fitter Status            ; Successful - Thu Nov 26 17:37:17 2020    ;
 ; Quartus II Version       ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name            ; lab15_5                                  ;
 ; Top-level Entity Name    ; lab15_5                                  ;
@@ -178,7 +178,7 @@ The pin-out file can be found in Z:/lab15/Quartus/lab15_5.pin.
 ; Fast regional clocks                        ; 0 / 8 ( 0 % )        ;
 ; SERDES transmitters                         ; 0 / 44 ( 0 % )       ;
 ; SERDES receivers                            ; 0 / 44 ( 0 % )       ;
-; Maximum fan-out node                        ; even~58              ;
+; Maximum fan-out node                        ; odd~58               ;
 ; Maximum fan-out                             ; 2                    ;
 ; Total fan-out                               ; 13                   ;
 ; Average fan-out                             ; 0.87                 ;
@@ -798,23 +798,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
 ; X[0]                ;                   ;         ;
-;      - even~56      ; 0                 ; ON      ;
+;      - odd~56       ; 0                 ; ON      ;
 ; X[2]                ;                   ;         ;
-;      - even~56      ; 1                 ; ON      ;
+;      - odd~56       ; 1                 ; ON      ;
 ; X[6]                ;                   ;         ;
-;      - even~56      ; 1                 ; ON      ;
+;      - odd~56       ; 1                 ; ON      ;
 ; X[1]                ;                   ;         ;
-;      - even~56      ; 0                 ; ON      ;
+;      - odd~56       ; 0                 ; ON      ;
 ; X[3]                ;                   ;         ;
-;      - even~57      ; 0                 ; ON      ;
+;      - odd~57       ; 0                 ; ON      ;
 ; d                   ;                   ;         ;
-;      - even~57      ; 1                 ; ON      ;
+;      - odd~57       ; 1                 ; ON      ;
 ; X[5]                ;                   ;         ;
-;      - even~57      ; 0                 ; ON      ;
+;      - odd~57       ; 0                 ; ON      ;
 ; X[4]                ;                   ;         ;
-;      - even~57      ; 1                 ; ON      ;
+;      - odd~57       ; 1                 ; ON      ;
 ; X[7]                ;                   ;         ;
-;      - even~58      ; 0                 ; ON      ;
+;      - odd~58       ; 0                 ; ON      ;
 ; even                ;                   ;         ;
 ; odd                 ;                   ;         ;
 +---------------------+-------------------+---------+
@@ -822,22 +822,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 +---------------------------------+
 ; Non-Global High Fan-Out Signals ;
-+---------+-----------------------+
-; Name    ; Fan-Out               ;
-+---------+-----------------------+
-; even~58 ; 2                     ;
-; X[7]    ; 1                     ;
-; X[4]    ; 1                     ;
-; X[5]    ; 1                     ;
-; d       ; 1                     ;
-; X[3]    ; 1                     ;
-; X[1]    ; 1                     ;
-; X[6]    ; 1                     ;
-; X[2]    ; 1                     ;
-; X[0]    ; 1                     ;
-; even~57 ; 1                     ;
-; even~56 ; 1                     ;
-+---------+-----------------------+
++--------+------------------------+
+; Name   ; Fan-Out                ;
++--------+------------------------+
+; odd~58 ; 2                      ;
+; X[7]   ; 1                      ;
+; X[4]   ; 1                      ;
+; X[5]   ; 1                      ;
+; d      ; 1                      ;
+; X[3]   ; 1                      ;
+; X[1]   ; 1                      ;
+; X[6]   ; 1                      ;
+; X[2]   ; 1                      ;
+; X[0]   ; 1                      ;
+; odd~57 ; 1                      ;
+; odd~56 ; 1                      ;
++--------+------------------------+
 
 
 +----------------------------------------------------+
@@ -929,7 +929,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Nov 26 00:18:51 2020
+    Info: Processing started: Thu Nov 26 17:37:07 2020
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off lab15_5 -c lab15_5
 Info: Auto device selection -- successful I/O standard check for EP1S10F484C5
 Info: Auto device selection -- successful PCI I/O clamp diode check for EP1S10F484C5
@@ -1000,7 +1000,7 @@ Warning: The following 2 pins have no output enable or a GND or VCC output enabl
     Info: Pin even has a permanently enabled output enable
     Info: Pin odd has a permanently enabled output enable
 Info: Quartus II Fitter was successful. 0 errors, 1 warning
-    Info: Processing ended: Thu Nov 26 00:18:59 2020
-    Info: Elapsed time: 00:00:08
+    Info: Processing ended: Thu Nov 26 17:37:17 2020
+    Info: Elapsed time: 00:00:10
 
 

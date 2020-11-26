@@ -4,6 +4,7 @@ ENTITY lab15_5_2 IS
 	PORT
 	(X :IN  STD_LOGIC_VECTOR(7 downto 0);
 	 er :IN  STD_LOGIC_VECTOR(8 downto 0);
+	 XOUT :OUT  STD_LOGIC_VECTOR(8 downto 0);
 	 even: INOUT STD_LOGIC;
 	 odd:  INOUT STD_LOGIC);
 END lab15_5_2;
@@ -31,6 +32,7 @@ BEGIN
 	c1: lab15_5 port map(X(7 downto 0), gnd, ev, od);
 	d1: lab15_5_3 port map(X(7 downto 0), ev, er(8 downto 0), shift_x(8 downto 0));
 	c2: lab15_5 port map(shift_x(7 downto 0), shift_x(8), even, odd);
+	XOUT <= shift_x;
 END behav;
 configuration con of lab15_5_2 is
 	for behav

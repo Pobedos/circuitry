@@ -11,31 +11,6 @@ VRSM_ON
 VHSM_ON
 0
 # entity
-lab15_5
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-lab15_5.vhd
-1606335526
-4
-# storage
-db|lab15_5_2.(1).cnf
-db|lab15_5_2.(1).cnf
-# internal_option {
-ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
-ON
-AUTO_RESOURCE_SHARING
-OFF
-}
-# hierarchies {
-lab15_5:c1
-lab15_5:c2
-}
-# end
-# entity
 lab15_5_2
 # logic_option {
 AUTO_RAM_RECOGNITION
@@ -81,6 +56,31 @@ OFF
 }
 # hierarchies {
 lab15_5_3:d1
+}
+# end
+# entity
+lab15_5
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lab15_5.vhd
+1606397826
+4
+# storage
+db|lab15_5_2.(1).cnf
+db|lab15_5_2.(1).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+lab15_5:c1
+lab15_5:c2
 }
 # end
 # complete

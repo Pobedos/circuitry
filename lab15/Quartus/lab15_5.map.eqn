@@ -11,22 +11,22 @@
 -- programming logic devices manufactured by Altera and sold by 
 -- Altera or its authorized distributors.  Please refer to the 
 -- applicable agreement for further details.
---A1L3 is even~56
+--A1L4 is odd~56
 --operation mode is normal
 
-A1L3 = X[0] $ X[2] $ X[6] $ X[1];
+A1L4 = X[0] $ X[2] $ X[6] $ X[1];
 
 
---A1L4 is even~57
+--A1L5 is odd~57
 --operation mode is normal
 
-A1L4 = X[3] $ d $ X[5] $ X[4];
+A1L5 = X[3] $ d $ X[5] $ X[4];
 
 
---A1L5 is even~58
+--A1L6 is odd~58
 --operation mode is normal
 
-A1L5 = A1L3 $ A1L4 $ !X[7];
+A1L6 = A1L4 $ A1L5 $ X[7];
 
 
 --X[0] is X[0]
@@ -86,14 +86,14 @@ X[7] = INPUT();
 --even is even
 --operation mode is bidir
 
-even_tri_out = TRI(!A1L5, VCC);
+even_tri_out = TRI(!A1L6, VCC);
 even = BIDIR(even_tri_out);
 
 
 --odd is odd
 --operation mode is bidir
 
-odd_tri_out = TRI(A1L5, VCC);
+odd_tri_out = TRI(A1L6, VCC);
 odd = BIDIR(odd_tri_out);
 
 

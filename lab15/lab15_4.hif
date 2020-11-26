@@ -24,18 +24,18 @@ HIF003
 --
 FILES
 {
-	lab15_3.gdf
-	{
-		lab15_3 [] []
-		{
-			1 [] [];
-		}
-	}
 	data_transf.gdf
 	{
 		data_transf [] []
 		{
 			2 [] [];
+		}
+	}
+	lab15_3.gdf
+	{
+		lab15_3 [] []
+		{
+			1 [] [];
 		}
 	}
 	lab15_4.gdf
@@ -50,8 +50,8 @@ TREE
 {
 	lab15_4::(0,0):(0): lab15_4.gdf
 	{
-		lab15_3::(0,0):(31): lab15_3.gdf;
-		data_transf::(0,0):(29): data_transf.gdf;
 		lab15_3::(0,0):(2): lab15_3.gdf;
+		data_transf::(0,0):(29): data_transf.gdf;
+		lab15_3::(0,0):(31): lab15_3.gdf;
 	}
 }

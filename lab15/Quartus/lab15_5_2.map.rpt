@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab15_5_2
-Thu Nov 26 01:36:59 2020
+Thu Nov 26 17:37:59 2020
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Nov 26 01:36:59 2020    ;
+; Analysis & Synthesis Status ; Successful - Thu Nov 26 17:37:59 2020    ;
 ; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name               ; lab15_5_2                                ;
 ; Top-level Entity Name       ; lab15_5_2                                ;
@@ -124,26 +124,26 @@ applicable agreement for further details.
 +----------------------------------+-----------------+-----------------+--------------------------------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------+--------------------+
-; Resource                        ; Usage              ;
-+---------------------------------+--------------------+
-; Total logic elements            ; 3                  ;
-; Total combinational functions   ; 3                  ;
-;     -- Total 4-input functions  ; 2                  ;
-;     -- Total 3-input functions  ; 1                  ;
-;     -- Total 2-input functions  ; 0                  ;
-;     -- Total 1-input functions  ; 0                  ;
-;     -- Total 0-input functions  ; 0                  ;
-; Combinational cells for routing ; 0                  ;
-; Total registers                 ; 0                  ;
-; I/O pins                        ; 19                 ;
-; Maximum fan-out node            ; lab15_5:c2|even~58 ;
-; Maximum fan-out                 ; 2                  ;
-; Total fan-out                   ; 13                 ;
-; Average fan-out                 ; 0.59               ;
-+---------------------------------+--------------------+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------+-------------------+
+; Resource                        ; Usage             ;
++---------------------------------+-------------------+
+; Total logic elements            ; 3                 ;
+; Total combinational functions   ; 3                 ;
+;     -- Total 4-input functions  ; 2                 ;
+;     -- Total 3-input functions  ; 1                 ;
+;     -- Total 2-input functions  ; 0                 ;
+;     -- Total 1-input functions  ; 0                 ;
+;     -- Total 0-input functions  ; 0                 ;
+; Combinational cells for routing ; 0                 ;
+; Total registers                 ; 0                 ;
+; I/O pins                        ; 19                ;
+; Maximum fan-out node            ; lab15_5:c2|odd~58 ;
+; Maximum fan-out                 ; 2                 ;
+; Total fan-out                   ; 13                ;
+; Average fan-out                 ; 0.59              ;
++---------------------------------+-------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -184,7 +184,7 @@ The equations can be found in Z:/lab15/Quartus/lab15_5_2.map.eqn.
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Nov 26 01:36:58 2020
+    Info: Processing started: Thu Nov 26 17:37:57 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab15_5_2 -c lab15_5_2
 Info: Found 2 design units, including 1 entities, in source file lab15_5_3.vhd
     Info: Found design unit 1: lab15_5_3-behav
@@ -201,7 +201,7 @@ Info: Elaborating entity "lab15_5_3" for hierarchy "lab15_5_3:d1"
 Info: (10035) Verilog HDL or VHDL information at lab15_5_3.vhd(15): object "sint" declared but not used
 Warning: VHDL Process Statement warning at lab15_5_3.vhd(22): signal "d" is read inside the Process Statement but isn't in the Process Statement's sensivitity list
 Info: One or more bidirs are fed by always enabled tri-state buffers
-    Info: Fanout of permanently enabled tri-state buffer feeding bidir "even" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "odd" is moved to its source
 Warning: TRI or OPNDRN buffers permanently enabled
     Warning: Node "even~1"
     Warning: Node "odd~1"
@@ -220,7 +220,7 @@ Info: Implemented 22 device resources after synthesis - the final resource count
     Info: Implemented 2 bidirectional pins
     Info: Implemented 3 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Processing ended: Thu Nov 26 01:36:59 2020
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Nov 26 17:37:59 2020
+    Info: Elapsed time: 00:00:02
 
 

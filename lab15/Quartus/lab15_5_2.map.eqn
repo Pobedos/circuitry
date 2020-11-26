@@ -11,19 +11,19 @@
 -- programming logic devices manufactured by Altera and sold by 
 -- Altera or its authorized distributors.  Please refer to the 
 -- applicable agreement for further details.
---B2L1 is lab15_5:c2|even~56
+--B2L1 is lab15_5:c2|odd~56
 --operation mode is normal
 
 B2L1 = er[8] $ er[6] $ er[2] $ er[7];
 
 
---B2L2 is lab15_5:c2|even~57
+--B2L2 is lab15_5:c2|odd~57
 --operation mode is normal
 
 B2L2 = er[5] $ er[0] $ er[3] $ er[4];
 
 
---B2L3 is lab15_5:c2|even~58
+--B2L3 is lab15_5:c2|odd~58
 --operation mode is normal
 
 B2L3 = B2L1 $ B2L2 $ !er[1];

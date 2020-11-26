@@ -37,9 +37,9 @@ X[4] => s~3.IN0
 X[5] => s~4.IN0
 X[6] => s~5.IN0
 X[7] => s.IN0
-d => even~0.IN0
-even <= even~0
-odd <= even~1
+d => odd~0.IN0
+even <= odd~1
+odd <= odd~0
 
 
 |lab15_5_2|lab15_5_3:d1
@@ -81,8 +81,8 @@ X[4] => s~3.IN0
 X[5] => s~4.IN0
 X[6] => s~5.IN0
 X[7] => s.IN0
-d => even~0.IN0
-even <= even~0
-odd <= even~1
+d => odd~0.IN0
+even <= odd~1
+odd <= odd~0
 
 

@@ -16,6 +16,6 @@ process(X,d)
 begin
 	s <= x(0) xor x(1) xor x(2) xor x(3) xor x(4) xor x(5) xor x(6) xor x(7);
 end process;
-even <= s xor d;
-odd <= not even;
+odd <= s xor d;
+even <= not odd;
 END behav;

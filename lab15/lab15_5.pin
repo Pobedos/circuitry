@@ -67,8 +67,8 @@ RESERVED                         : 36
 RESERVED                         : 37
 RESERVED                         : 38
 RESERVED                         : 39
-odd                              : 40
-even                             : 41
+even                             : 40
+odd                              : 41
 GND                              : 42
 GND                              : 43
 GND                              : 44
