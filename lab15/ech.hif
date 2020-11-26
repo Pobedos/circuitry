@@ -24,9 +24,9 @@ HIF003
 --
 FILES
 {
-	lab15_5_3.vhd
+	ech.gdf
 	{
-		lab15_5_3 [] [U9587408.DLS,U7449008.DLS,U1147235.DLS]
+		ech [] []
 		{
 			0 [] [];
 		}
@@ -34,5 +34,5 @@ FILES
 }
 TREE
 {
-	lab15_5_3::(0,0):(0): lab15_5_3.vhd;
+	ech::(0,0):(0): ech.gdf;
 }
