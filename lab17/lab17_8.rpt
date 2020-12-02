@@ -1,0 +1,1491 @@
+Project Information                                       z:\lab17\lab17_8.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 12/02/20 15:46:16
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+lab17_8   EPM7096LC68-7    8        8        0      93      84          96 %
+
+User Pins:                 8        8        0  
+
+
+
+Project Information                                       z:\lab17\lab17_8.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lpm_mult:1|
+|lpm_mult:1|multcore:mult_core|
+|lpm_mult:1|multcore:mult_core|csa_add:padder|
+|lpm_mult:1|altshift:external_latency_ffs|
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+***** Logic for device 'lab17_8' compiled without errors.
+
+
+
+
+Device: EPM7096LC68-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+    MultiVolt I/O                              = OFF
+
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** ERROR SUMMARY **
+
+Info: Chip 'lab17_8' in device 'EPM7096LC68-7' has less than 10% of logic cells available for future logic changes -- if your project is likely to change, Altera recommends using a larger device
+                                                  R  R           
+                                                  E  E     r  r  
+              d  d  d     d  d  V                 S  S     e  e  
+              a  a  a     a  a  C                 E  E  V  s  s  
+              t  t  t     t  t  C                 R  R  C  u  u  
+              a  a  a  G  a  a  I  G  G  G  G  G  V  V  C  l  l  
+              b  a  a  N  a  a  N  N  N  N  N  N  E  E  I  t  t  
+              3  0  1  D  2  3  T  D  D  D  D  D  D  D  O  5  7  
+            -----------------------------------------------------_ 
+          /   9  8  7  6  5  4  3  2  1 68 67 66 65 64 63 62 61   | 
+RESERVED | 10                                                  60 | RESERVED 
+   VCCIO | 11                                                  59 | RESERVED 
+ result2 | 12                                                  58 | GND 
+ result0 | 13                                                  57 | RESERVED 
+RESERVED | 14                                                  56 | RESERVED 
+  datab2 | 15                                                  55 | RESERVED 
+     GND | 16                                                  54 | RESERVED 
+RESERVED | 17                                                  53 | VCCIO 
+RESERVED | 18                  EPM7096LC68-7                   52 | RESERVED 
+ result3 | 19                                                  51 | RESERVED 
+  datab1 | 20                                                  50 | RESERVED 
+   VCCIO | 21                                                  49 | result6 
+ result1 | 22                                                  48 | GND 
+  datab0 | 23                                                  47 | result4 
+RESERVED | 24                                                  46 | RESERVED 
+RESERVED | 25                                                  45 | RESERVED 
+     GND | 26                                                  44 | RESERVED 
+         |_  27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43  _| 
+           ------------------------------------------------------ 
+              R  R  R  R  V  R  R  G  V  R  R  G  R  R  R  R  V  
+              E  E  E  E  C  E  E  N  C  E  E  N  E  E  E  E  C  
+              S  S  S  S  C  S  S  D  C  S  S  D  S  S  S  S  C  
+              E  E  E  E  I  E  E     I  E  E     E  E  E  E  I  
+              R  R  R  R  O  R  R     N  R  R     R  R  R  R  O  
+              V  V  V  V     V  V     T  V  V     V  V  V  V     
+              E  E  E  E     E  E        E  E     E  E  E  E     
+              D  D  D  D     D  D        D  D     D  D  D  D     
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16    14/16( 87%)   7/ 8( 87%)  16/16(100%)  25/36( 69%) 
+B:    LC17 - LC32    16/16(100%)   5/ 8( 62%)  16/16(100%)  31/36( 86%) 
+C:    LC33 - LC48    16/16(100%)   0/ 8(  0%)  16/16(100%)  14/36( 38%) 
+D:    LC49 - LC64    16/16(100%)   0/ 8(  0%)  16/16(100%)  23/36( 63%) 
+E:    LC65 - LC80    15/16( 93%)   2/ 8( 25%)  15/16( 93%)  32/36( 88%) 
+F:    LC81 - LC96    16/16(100%)   2/ 8( 25%)  16/16(100%)  29/36( 80%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            16/48     ( 33%)
+Total logic cells used:                         93/96     ( 96%)
+Total shareable expanders used:                 84/96     ( 87%)
+Total Turbo logic cells used:                   93/96     ( 96%)
+Total shareable expanders not available (n/a):  11/96     ( 11%)
+Average fan-in:                                  4.95
+Total fan-in:                                   461
+
+Total input pins required:                       8
+Total output pins required:                      8
+Total bidirectional pins required:               0
+Total logic cells required:                     93
+Total flipflops required:                        0
+Total product terms required:                  314
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          80
+
+Synthesized logic cells:                        11/  96   ( 11%)
+
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   8    (9)  (A)      INPUT               0      0   0    0    0    8   11  dataa0
+   7   (12)  (A)      INPUT               0      0   0    0    0    8   11  dataa1
+   5   (14)  (A)      INPUT               0      0   0    0    0    8   11  dataa2
+   4   (16)  (A)      INPUT               0      0   0    0    0    8   11  dataa3
+  23   (17)  (B)      INPUT               0      0   0    0    0    5   35  datab0
+  20   (21)  (B)      INPUT               0      0   0    0    0    5   38  datab1
+  15   (29)  (B)      INPUT               0      0   0    0    0    6   38  datab2
+   9    (8)  (A)      INPUT               0      0   0    0    0    5   29  datab3
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  13      1    A     OUTPUT      t        3      0   0    5    1    0    0  result0
+  22     19    B     OUTPUT      t        6      0   0    6    3    0    0  result1
+  12      4    A     OUTPUT      t        4      0   0    7    3    0    0  result2
+  19     24    B     OUTPUT      t        5      0   0    8    3    0    0  result3
+  47     67    E     OUTPUT      t        4      0   0    7    3    0    0  result4
+  62     92    F     OUTPUT      t        3      0   0    6    3    0    0  result5
+  49     69    E     OUTPUT      t        6      0   0    6    6    0    0  result6
+  61     89    F     OUTPUT      t        8      0   0    8   10    0    0  result7
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   -     22    B       SOFT      t        0      0   0    2    0    1    0  |LPM_MULT:1|multcore:mult_core|bnodes3_1
+  (5)    14    A       SOFT      t        0      0   0    3    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes3_2
+   -     13    A       SOFT      t        0      0   0    4    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes3_3
+ (64)    94    F       SOFT      t        0      0   0    1    1    0    1  |LPM_MULT:1|multcore:mult_core|bnodes3_4
+ (39)    53    D       SOFT      t        1      0   0    2    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes5_2
+   -     83    F       SOFT      t        2      2   0    4    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes5_3
+ (54)    77    E       SOFT      t        0      0   0    1    1    0    1  |LPM_MULT:1|multcore:mult_core|bnodes5_4
+ (52)    75    E       SOFT      t        0      0   0    2    1    0    1  |LPM_MULT:1|multcore:mult_core|bnodes5_5
+ (45)    64    D       SOFT      t        0      0   0    2    0    0    4  |LPM_MULT:1|multcore:mult_core|bnodes6_2
+ (29)    40    C       SOFT      t        0      0   0    3    0    0    3  |LPM_MULT:1|multcore:mult_core|bnodes6_3
+   -     95    F       SOFT      t        2      1   0    2    1    1    4  |LPM_MULT:1|multcore:mult_core|bnodes6_4
+ (60)    88    F       SOFT      t        1      1   0    2    1    1    3  |LPM_MULT:1|multcore:mult_core|bnodes6_5
+ (59)    86    F       SOFT      t        1      1   0    2    1    2    0  |LPM_MULT:1|multcore:mult_core|bnodes6_6
+   -     52    D       SOFT      t        1      1   0    2    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_1
+ (10)     6    A       SOFT      t        2      1   0    3    1    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_2
+   -      5    A       SOFT      t        3      3   0    4    2    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_3
+   -     90    F       SOFT      t        0      0   0    0    2    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_4
+   -     87    F       SOFT      t        0      0   0    0    3    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_5
+ (65)    96    F       SOFT      t        1      1   0    2    4    0    1  |LPM_MULT:1|multcore:mult_core|bnodes7_6
+   -     54    D       SOFT      t        0      0   0    2    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes9_3
+ (41)    57    D       SOFT      t        0      0   0    3    0    0    5  |LPM_MULT:1|multcore:mult_core|bnodes9_4
+   -     15    A       SOFT      t        0      0   0    4    0    0    4  |LPM_MULT:1|multcore:mult_core|bnodes9_5
+   -     11    A       SOFT      t        0      0   0    4    0    1    2  |LPM_MULT:1|multcore:mult_core|bnodes9_6
+ (27)    43    C       SOFT      t        2      2   0    3    0    0    3  |LPM_MULT:1|multcore:mult_core|bnodes10_3
+   -     70    E       SOFT      t        0      0   0    0    2    0    5  |LPM_MULT:1|multcore:mult_core|bnodes10_4
+ (46)    65    E       SOFT      t        0      0   0    0    3    0    4  |LPM_MULT:1|multcore:mult_core|bnodes10_5
+   -     66    E       SOFT      t        0      0   0    0    4    1    2  |LPM_MULT:1|multcore:mult_core|bnodes10_6
+   -     79    E       SOFT      t        0      0   0    4    4    1    1  |LPM_MULT:1|multcore:mult_core|bnodes10_7
+   -     38    C       SOFT      t        2      2   0    2    0    0    5  |LPM_MULT:1|multcore:mult_core|bnodes11_1
+ (24)    48    C       SOFT      t        2      1   0    3    0    0    4  |LPM_MULT:1|multcore:mult_core|bnodes11_2
+   -      7    A       SOFT      t        3      3   0    4    1    0    3  |LPM_MULT:1|multcore:mult_core|bnodes11_3
+   -     85    F       SOFT      t        0      0   0    0    2    0    5  |LPM_MULT:1|multcore:mult_core|bnodes11_4
+ (57)    84    F       SOFT      t        0      0   0    0    3    0    4  |LPM_MULT:1|multcore:mult_core|bnodes11_5
+   -     82    F       SOFT      t        0      0   0    0    4    0    3  |LPM_MULT:1|multcore:mult_core|bnodes11_6
+ (56)    81    F       SOFT      t        0      0   0    0    5    1    1  |LPM_MULT:1|multcore:mult_core|bnodes11_7
+   -     50    D       SOFT      t        2      1   0    2    1    1    6  |LPM_MULT:1|multcore:mult_core|bnodes12_1
+ (36)    49    D       SOFT      t        3      2   0    3    2    1    3  |LPM_MULT:1|multcore:mult_core|bnodes12_2
+   -     55    D       SOFT      t        6      6   0    4    3    1    2  |LPM_MULT:1|multcore:mult_core|bnodes12_3
+   -     42    C       SOFT      t        0      0   0    0    2    1    4  |LPM_MULT:1|multcore:mult_core|bnodes12_4
+ (28)    41    C       SOFT      t        0      0   0    0    3    0    4  |LPM_MULT:1|multcore:mult_core|bnodes12_5
+   -     39    C       SOFT      t        0      0   0    0    4    1    2  |LPM_MULT:1|multcore:mult_core|bnodes12_6
+ (30)    37    C       SOFT      t        0      0   0    0    5    1    1  |LPM_MULT:1|multcore:mult_core|bnodes12_7
+   -     44    C       SOFT      t        2      2   0    1    1    0    5  |LPM_MULT:1|multcore:mult_core|bnodes13_1
+ (33)    33    C       SOFT      t        2      1   0    2    2    0    4  |LPM_MULT:1|multcore:mult_core|bnodes13_2
+   -     18    B       SOFT      t        3      3   0    3    3    0    3  |LPM_MULT:1|multcore:mult_core|bnodes13_3
+ (55)    80    E       SOFT      t        0      0   0    0    2    0    5  |LPM_MULT:1|multcore:mult_core|bnodes13_4
+   -     78    E       SOFT      t        0      0   0    0    3    0    4  |LPM_MULT:1|multcore:mult_core|bnodes13_5
+ (51)    73    E       SOFT      t        0      0   0    0    4    0    3  |LPM_MULT:1|multcore:mult_core|bnodes13_6
+   -      3    A       SOFT      t        0      0   0    0    5    1    1  |LPM_MULT:1|multcore:mult_core|bnodes13_7
+   -     23    B       SOFT      t        0      0   0    1    0    0    1  |LPM_MULT:1|multcore:mult_core|bnodes14_0
+ (32)    35    C       SOFT      t        2      1   0    2    1    0    5  |LPM_MULT:1|multcore:mult_core|bnodes14_1
+   -     36    C       SOFT      t        3      2   0    3    2    0    4  |LPM_MULT:1|multcore:mult_core|bnodes14_2
+   -     47    C       SOFT      t        6      6   0    4    4    0    3  |LPM_MULT:1|multcore:mult_core|bnodes14_3
+ (14)    32    B       SOFT      t        0      0   0    0    2    0    5  |LPM_MULT:1|multcore:mult_core|bnodes14_4
+ (20)    21    B       SOFT      t        0      0   0    0    3    0    4  |LPM_MULT:1|multcore:mult_core|bnodes14_5
+ (17)    27    B       SOFT      t        0      0   0    0    4    0    3  |LPM_MULT:1|multcore:mult_core|bnodes14_6
+   -     26    B       SOFT      t        0      0   0    0    5    1    1  |LPM_MULT:1|multcore:mult_core|bnodes14_7
+   -     71    E       SOFT      t        2      0   0    1    1    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_1
+ (37)    51    D       SOFT      t        2      1   0    2    2    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_2
+   -     60    D       SOFT      t        3      3   0    3    3    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_3
+   -     31    B       SOFT      t        0      0   0    0    2    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_4
+   -     30    B       SOFT      t        0      0   0    0    3    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_5
+ (15)    29    B       SOFT      t        0      0   0    0    4    0    1  |LPM_MULT:1|multcore:mult_core|bnodes15_6
+   -     28    B       SOFT      t        0      0   0    0    5    1    0  |LPM_MULT:1|multcore:mult_core|bnodes15_7
+   -     74    E       SOFT    s t        1      0   1    5    1    1    0  |LPM_MULT:1|multcore:mult_core|romout0_0~1
+   -     58    D       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_1~1
+ (40)    56    D       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_2~1
+   -     10    A       SOFT    s t        1      0   1    6    3    1    0  |LPM_MULT:1|multcore:mult_core|romout0_2~2
+ (42)    59    D       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_3~1
+  (9)     8    A       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_3~2
+   -     20    B       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_4~1
+   -     91    F       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_4~2
+ (23)    17    B       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_5~1
+   -     76    E       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_5~2
+   -     68    E       SOFT    s t        1      0   1    4    5    1    0  |LPM_MULT:1|multcore:mult_core|romout0_6~1
+ (25)    45    C       SOFT      t        0      0   0    4    0    1    1  |LPM_MULT:1|multcore:mult_core|:390
+   -     93    F       SOFT      t        2      2   0    4    0    1    2  |LPM_MULT:1|multcore:mult_core|:467
+ (44)    61    D       SOFT      t        0      0   0    3    0    0    4  |LPM_MULT:1|multcore:mult_core|:544
+  (8)     9    A       SOFT      t        3      3   0    4    2    1    3  |LPM_MULT:1|multcore:mult_core|:621
+   -     34    C       SOFT      t        2      2   0    3    0    0    4  |LPM_MULT:1|multcore:mult_core|:775
+   -      2    A       SOFT      t        3      3   0    4    1    0    4  |LPM_MULT:1|multcore:mult_core|:852
+   -     62    D       SOFT      t        6      6   0    4    3    0    4  |LPM_MULT:1|multcore:mult_core|:929
+ (18)    25    B       SOFT      t        3      3   0    3    3    0    4  |LPM_MULT:1|multcore:mult_core|:1006
+   -     46    C       SOFT      t        6      6   0    4    4    0    4  |LPM_MULT:1|multcore:mult_core|:1083
+   -     63    D       SOFT      t        3      3   0    3    3    0    4  |LPM_MULT:1|multcore:mult_core|:1160
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                                     Logic cells placed in LAB 'A'
+        +--------------------------- LC14 |LPM_MULT:1|multcore:mult_core|bnodes3_2
+        | +------------------------- LC13 |LPM_MULT:1|multcore:mult_core|bnodes3_3
+        | | +----------------------- LC6 |LPM_MULT:1|multcore:mult_core|bnodes7_2
+        | | | +--------------------- LC5 |LPM_MULT:1|multcore:mult_core|bnodes7_3
+        | | | | +------------------- LC15 |LPM_MULT:1|multcore:mult_core|bnodes9_5
+        | | | | | +----------------- LC11 |LPM_MULT:1|multcore:mult_core|bnodes9_6
+        | | | | | | +--------------- LC7 |LPM_MULT:1|multcore:mult_core|bnodes11_3
+        | | | | | | | +------------- LC3 |LPM_MULT:1|multcore:mult_core|bnodes13_7
+        | | | | | | | | +----------- LC10 |LPM_MULT:1|multcore:mult_core|romout0_2~2
+        | | | | | | | | | +--------- LC8 |LPM_MULT:1|multcore:mult_core|romout0_3~2
+        | | | | | | | | | | +------- LC9 |LPM_MULT:1|multcore:mult_core|:621
+        | | | | | | | | | | | +----- LC2 |LPM_MULT:1|multcore:mult_core|:852
+        | | | | | | | | | | | | +--- LC1 result0
+        | | | | | | | | | | | | | +- LC4 result2
+        | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | |   that feed LAB 'A'
+LC      | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'A':
+LC14 -> - - - - - - - - * - - - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes3_2
+LC13 -> - - - - - - - - - * - - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes3_3
+LC10 -> - - - - - - - - - - - - - * | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_2~2
+
+Pin
+8    -> - - - - - - - - * * - - * * | * * - * * * | <-- dataa0
+7    -> - - - - - - - - * * - - * * | * * - * * * | <-- dataa1
+5    -> - - - - - - - - * * - - * * | * * - * * * | <-- dataa2
+4    -> - - - - - - - - * * - - * * | * * - * * * | <-- dataa3
+23   -> * * * * * * * - - - * * * * | * * * * * * | <-- datab0
+20   -> * * * * * * * - * - * * - * | * * * * * * | <-- datab1
+15   -> * * * * * * * - * - * * - * | * * * * * * | <-- datab2
+9    -> - * - * * * * - - - * * - - | * * * * * * | <-- datab3
+LC53 -> - - - - - - - - * - - - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes5_2
+LC83 -> - - - - - - - - - * - - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes5_3
+LC64 -> - - * * - - - - * - * - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_2
+LC40 -> - - - * - - - - - * * - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_3
+LC54 -> - - - - - - - - - * - - - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes9_3
+LC43 -> - - - - - - * - - * - * - - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_3
+LC49 -> - - - - - - - - - - - - - * | * * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_2
+LC42 -> - - - - - - - * - - - - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_4
+LC41 -> - - - - - - - * - - - - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_5
+LC39 -> - - - - - - - * - - - - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_6
+LC37 -> - - - - - - - * - - - - - - | * - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_7
+LC74 -> - - - - - - - - - - - - * - | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_0~1
+LC56 -> - - - - - - - - - - - - - * | * - - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_2~1
+LC25 -> - - - - - - - * - - - - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|:1006
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC22 |LPM_MULT:1|multcore:mult_core|bnodes3_1
+        | +----------------------------- LC18 |LPM_MULT:1|multcore:mult_core|bnodes13_3
+        | | +--------------------------- LC23 |LPM_MULT:1|multcore:mult_core|bnodes14_0
+        | | | +------------------------- LC32 |LPM_MULT:1|multcore:mult_core|bnodes14_4
+        | | | | +----------------------- LC21 |LPM_MULT:1|multcore:mult_core|bnodes14_5
+        | | | | | +--------------------- LC27 |LPM_MULT:1|multcore:mult_core|bnodes14_6
+        | | | | | | +------------------- LC26 |LPM_MULT:1|multcore:mult_core|bnodes14_7
+        | | | | | | | +----------------- LC31 |LPM_MULT:1|multcore:mult_core|bnodes15_4
+        | | | | | | | | +--------------- LC30 |LPM_MULT:1|multcore:mult_core|bnodes15_5
+        | | | | | | | | | +------------- LC29 |LPM_MULT:1|multcore:mult_core|bnodes15_6
+        | | | | | | | | | | +----------- LC28 |LPM_MULT:1|multcore:mult_core|bnodes15_7
+        | | | | | | | | | | | +--------- LC20 |LPM_MULT:1|multcore:mult_core|romout0_4~1
+        | | | | | | | | | | | | +------- LC17 |LPM_MULT:1|multcore:mult_core|romout0_5~1
+        | | | | | | | | | | | | | +----- LC25 |LPM_MULT:1|multcore:mult_core|:1006
+        | | | | | | | | | | | | | | +--- LC19 result1
+        | | | | | | | | | | | | | | | +- LC24 result3
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'B':
+LC22 -> - - - - - - - - - - - - - - * - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes3_1
+LC32 -> - - - - - - - * * * * * - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_4
+LC21 -> - - - - - - - - * * * - * - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_5
+LC27 -> - - - - - - - - - * * - - - - - | - * - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_6
+LC26 -> - - - - - - - - - - * - - - - - | - * - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_7
+LC31 -> - - - - - - - - - - - * - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_4
+LC30 -> - - - - - - - - - - - - * - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_5
+
+Pin
+8    -> - - - - - - - - - - - * * - * * | * * - * * * | <-- dataa0
+7    -> - - - - - - - - - - - * * - * * | * * - * * * | <-- dataa1
+5    -> - - - - - - - - - - - * * - * * | * * - * * * | <-- dataa2
+4    -> - - - - - - - - - - - * * - * * | * * - * * * | <-- dataa3
+23   -> * - * - - - - - - - - - - - * * | * * * * * * | <-- datab0
+20   -> * * - - - - - - - - - - - * * * | * * * * * * | <-- datab1
+15   -> - * - - - - - - - - - - - * - * | * * * * * * | <-- datab2
+9    -> - * - - - - - - - - - - - * - * | * * * * * * | <-- datab3
+LC90 -> - - - - - - - - - - - * - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_4
+LC87 -> - - - - - - - - - - - - * - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_5
+LC85 -> - - - - - - - - - - - * - - - - | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_4
+LC84 -> - - - - - - - - - - - - * - - - | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_5
+LC50 -> - * - - - - - - - - - - - * * - | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_1
+LC49 -> - * - - - - - - - - - - - * - - | * * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_2
+LC55 -> - * - - - - - - - - - - - * - * | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_3
+LC80 -> - - - * * * * - - - - * - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_4
+LC78 -> - - - - * * * - - - - - * - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_5
+LC73 -> - - - - - * * - - - - - - - - - | - * - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_6
+LC3  -> - - - - - - * - - - - - - - - - | - * - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_7
+LC58 -> - - - - - - - - - - - - - - * - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_1~1
+LC59 -> - - - - - - - - - - - - - - - * | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_3~1
+LC8  -> - - - - - - - - - - - - - - - * | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|romout0_3~2
+LC46 -> - - - * * * * - - - - - - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|:1083
+LC63 -> - - - - - - - * * * * - - - - - | - * - - - - | <-- |LPM_MULT:1|multcore:mult_core|:1160
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                         Logic cells placed in LAB 'C'
+        +------------------------------- LC40 |LPM_MULT:1|multcore:mult_core|bnodes6_3
+        | +----------------------------- LC43 |LPM_MULT:1|multcore:mult_core|bnodes10_3
+        | | +--------------------------- LC38 |LPM_MULT:1|multcore:mult_core|bnodes11_1
+        | | | +------------------------- LC48 |LPM_MULT:1|multcore:mult_core|bnodes11_2
+        | | | | +----------------------- LC42 |LPM_MULT:1|multcore:mult_core|bnodes12_4
+        | | | | | +--------------------- LC41 |LPM_MULT:1|multcore:mult_core|bnodes12_5
+        | | | | | | +------------------- LC39 |LPM_MULT:1|multcore:mult_core|bnodes12_6
+        | | | | | | | +----------------- LC37 |LPM_MULT:1|multcore:mult_core|bnodes12_7
+        | | | | | | | | +--------------- LC44 |LPM_MULT:1|multcore:mult_core|bnodes13_1
+        | | | | | | | | | +------------- LC33 |LPM_MULT:1|multcore:mult_core|bnodes13_2
+        | | | | | | | | | | +----------- LC35 |LPM_MULT:1|multcore:mult_core|bnodes14_1
+        | | | | | | | | | | | +--------- LC36 |LPM_MULT:1|multcore:mult_core|bnodes14_2
+        | | | | | | | | | | | | +------- LC47 |LPM_MULT:1|multcore:mult_core|bnodes14_3
+        | | | | | | | | | | | | | +----- LC45 |LPM_MULT:1|multcore:mult_core|:390
+        | | | | | | | | | | | | | | +--- LC34 |LPM_MULT:1|multcore:mult_core|:775
+        | | | | | | | | | | | | | | | +- LC46 |LPM_MULT:1|multcore:mult_core|:1083
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'C':
+LC44 -> - - - - - - - - - - * * * - - * | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_1
+LC33 -> - - - - - - - - - - - * * - - * | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_2
+
+Pin
+23   -> * * * * - - - - - - * * * * * * | * * * * * * | <-- datab0
+20   -> * - * * - - - - * * * * * * - * | * * * * * * | <-- datab1
+15   -> * * - * - - - - - * - * * * * * | * * * * * * | <-- datab2
+9    -> - * - - - - - - - - - - * * * * | * * * * * * | <-- datab3
+LC85 -> - - - - * * * * - - - - - - - - | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_4
+LC84 -> - - - - - * * * - - - - - - - - | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_5
+LC82 -> - - - - - - * * - - - - - - - - | - - * - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_6
+LC81 -> - - - - - - - * - - - - - - - - | - - * - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_7
+LC50 -> - - - - - - - - * * - - * - - * | - * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_1
+LC49 -> - - - - - - - - - * - - - - - - | * * * - - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_2
+LC18 -> - - - - - - - - - - - - * - - * | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_3
+LC62 -> - - - - * * * * - - - - - - - - | - - * - - - | <-- |LPM_MULT:1|multcore:mult_core|:929
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                         Logic cells placed in LAB 'D'
+        +------------------------------- LC53 |LPM_MULT:1|multcore:mult_core|bnodes5_2
+        | +----------------------------- LC64 |LPM_MULT:1|multcore:mult_core|bnodes6_2
+        | | +--------------------------- LC52 |LPM_MULT:1|multcore:mult_core|bnodes7_1
+        | | | +------------------------- LC54 |LPM_MULT:1|multcore:mult_core|bnodes9_3
+        | | | | +----------------------- LC57 |LPM_MULT:1|multcore:mult_core|bnodes9_4
+        | | | | | +--------------------- LC50 |LPM_MULT:1|multcore:mult_core|bnodes12_1
+        | | | | | | +------------------- LC49 |LPM_MULT:1|multcore:mult_core|bnodes12_2
+        | | | | | | | +----------------- LC55 |LPM_MULT:1|multcore:mult_core|bnodes12_3
+        | | | | | | | | +--------------- LC51 |LPM_MULT:1|multcore:mult_core|bnodes15_2
+        | | | | | | | | | +------------- LC60 |LPM_MULT:1|multcore:mult_core|bnodes15_3
+        | | | | | | | | | | +----------- LC58 |LPM_MULT:1|multcore:mult_core|romout0_1~1
+        | | | | | | | | | | | +--------- LC56 |LPM_MULT:1|multcore:mult_core|romout0_2~1
+        | | | | | | | | | | | | +------- LC59 |LPM_MULT:1|multcore:mult_core|romout0_3~1
+        | | | | | | | | | | | | | +----- LC61 |LPM_MULT:1|multcore:mult_core|:544
+        | | | | | | | | | | | | | | +--- LC62 |LPM_MULT:1|multcore:mult_core|:929
+        | | | | | | | | | | | | | | | +- LC63 |LPM_MULT:1|multcore:mult_core|:1160
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'D':
+LC52 -> - - - - - - - - - - * - - - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_1
+LC51 -> - - - - - - - - - - - * - - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_2
+LC60 -> - - - - - - - - - - - - * - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_3
+
+Pin
+8    -> - - - - - - - - - - * * * - - - | * * - * * * | <-- dataa0
+7    -> - - - - - - - - - - * * * - - - | * * - * * * | <-- dataa1
+5    -> - - - - - - - - - - * * * - - - | * * - * * * | <-- dataa2
+4    -> - - - - - - - - - - * * * - - - | * * - * * * | <-- dataa3
+23   -> * * * * * * * * - - - - - * * - | * * * * * * | <-- datab0
+20   -> - * * - * * * * * * - - - * * * | * * * * * * | <-- datab1
+15   -> * - - - - - * * * * - - - * * * | * * * * * * | <-- datab2
+9    -> - - - * * - - * - * - - - - * * | * * * * * * | <-- datab3
+LC6  -> - - - - - - - - - - - * - - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_2
+LC5  -> - - - - - - - - - - - - * - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_3
+LC38 -> - - - - - * * * - - * - - - * - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_1
+LC48 -> - - - - - - * * - - - * - - * - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_2
+LC7  -> - - - - - - - * - - - - * - * - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_3
+LC44 -> - - - - - - - - - - * - - - - - | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_1
+LC33 -> - - - - - - - - - - - * - - - - | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_2
+LC18 -> - - - - - - - - - - - - * - - - | - - * * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_3
+LC35 -> - - - - - - - - * * * - - - - * | - - - * * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_1
+LC36 -> - - - - - - - - * * - * - - - * | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_2
+LC47 -> - - - - - - - - - * - - * - - * | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_3
+LC71 -> - - - - - - - - - - * - - - - - | - - - * - - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'E':
+
+                                       Logic cells placed in LAB 'E'
+        +----------------------------- LC77 |LPM_MULT:1|multcore:mult_core|bnodes5_4
+        | +--------------------------- LC75 |LPM_MULT:1|multcore:mult_core|bnodes5_5
+        | | +------------------------- LC70 |LPM_MULT:1|multcore:mult_core|bnodes10_4
+        | | | +----------------------- LC65 |LPM_MULT:1|multcore:mult_core|bnodes10_5
+        | | | | +--------------------- LC66 |LPM_MULT:1|multcore:mult_core|bnodes10_6
+        | | | | | +------------------- LC79 |LPM_MULT:1|multcore:mult_core|bnodes10_7
+        | | | | | | +----------------- LC80 |LPM_MULT:1|multcore:mult_core|bnodes13_4
+        | | | | | | | +--------------- LC78 |LPM_MULT:1|multcore:mult_core|bnodes13_5
+        | | | | | | | | +------------- LC73 |LPM_MULT:1|multcore:mult_core|bnodes13_6
+        | | | | | | | | | +----------- LC71 |LPM_MULT:1|multcore:mult_core|bnodes15_1
+        | | | | | | | | | | +--------- LC74 |LPM_MULT:1|multcore:mult_core|romout0_0~1
+        | | | | | | | | | | | +------- LC76 |LPM_MULT:1|multcore:mult_core|romout0_5~2
+        | | | | | | | | | | | | +----- LC68 |LPM_MULT:1|multcore:mult_core|romout0_6~1
+        | | | | | | | | | | | | | +--- LC67 result4
+        | | | | | | | | | | | | | | +- LC69 result6
+        | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | |   that feed LAB 'E'
+LC      | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'E':
+LC75 -> - - - - - - - - - - - * - - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes5_5
+LC65 -> - - - - - - - - - - - * - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_5
+LC66 -> - - - - - - - - - - - - - - * | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_6
+LC73 -> - - - - - - - - - - - - * - - | - * - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_6
+LC68 -> - - - - - - - - - - - - - - * | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|romout0_6~1
+
+Pin
+8    -> - - - - - - - - - - * * * * * | * * - * * * | <-- dataa0
+7    -> - - - - - - - - - - * * * * * | * * - * * * | <-- dataa1
+5    -> - - - - - - - - - - * * * * * | * * - * * * | <-- dataa2
+4    -> - - - - - - - - - - * * * * * | * * - * * * | <-- dataa3
+23   -> - - - - - * - - - - * - - - - | * * * * * * | <-- datab0
+20   -> - - - - - * - - - * - - - * - | * * * * * * | <-- datab1
+15   -> * * - - - * - - - - - - - * * | * * * * * * | <-- datab2
+9    -> - * - - - * - - - - - - - * * | * * * * * * | <-- datab3
+LC88 -> - - - - - - - - - - - * - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_5
+LC86 -> - - - - - - - - - - - - - - * | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_6
+LC96 -> - - - - - - - - - - - - * - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes7_6
+LC57 -> - - * * * * - - - - - - - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes9_4
+LC15 -> - - - * * * - - - - - * - - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes9_5
+LC11 -> - - - - * * - - - - - - - - * | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes9_6
+LC82 -> - - - - - - - - - - - - * - - | - - * - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_6
+LC42 -> - - - - - - * * * - - - - * - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_4
+LC41 -> - - - - - - - * * - - * - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_5
+LC39 -> - - - - - - - - * - - - - - * | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_6
+LC23 -> - - - - - - - - - - * - - - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_0
+LC35 -> - - - - - - - - - * - - - - - | - - - * * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_1
+LC27 -> - - - - - - - - - - - - * - - | - * - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_6
+LC29 -> - - - - - - - - - - - - * - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_6
+LC20 -> - - - - - - - - - - - - - * - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|romout0_4~1
+LC91 -> - - - - - - - - - - - - - * - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|romout0_4~2
+LC93 -> * * - - - - - - - - - - - - * | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|:467
+LC34 -> - - * * * * - - - - - - - - - | - - - - * - | <-- |LPM_MULT:1|multcore:mult_core|:775
+LC25 -> - - - - - - * * * - - - - - - | * - - - * - | <-- |LPM_MULT:1|multcore:mult_core|:1006
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'F':
+
+                                         Logic cells placed in LAB 'F'
+        +------------------------------- LC94 |LPM_MULT:1|multcore:mult_core|bnodes3_4
+        | +----------------------------- LC83 |LPM_MULT:1|multcore:mult_core|bnodes5_3
+        | | +--------------------------- LC95 |LPM_MULT:1|multcore:mult_core|bnodes6_4
+        | | | +------------------------- LC88 |LPM_MULT:1|multcore:mult_core|bnodes6_5
+        | | | | +----------------------- LC86 |LPM_MULT:1|multcore:mult_core|bnodes6_6
+        | | | | | +--------------------- LC90 |LPM_MULT:1|multcore:mult_core|bnodes7_4
+        | | | | | | +------------------- LC87 |LPM_MULT:1|multcore:mult_core|bnodes7_5
+        | | | | | | | +----------------- LC96 |LPM_MULT:1|multcore:mult_core|bnodes7_6
+        | | | | | | | | +--------------- LC85 |LPM_MULT:1|multcore:mult_core|bnodes11_4
+        | | | | | | | | | +------------- LC84 |LPM_MULT:1|multcore:mult_core|bnodes11_5
+        | | | | | | | | | | +----------- LC82 |LPM_MULT:1|multcore:mult_core|bnodes11_6
+        | | | | | | | | | | | +--------- LC81 |LPM_MULT:1|multcore:mult_core|bnodes11_7
+        | | | | | | | | | | | | +------- LC91 |LPM_MULT:1|multcore:mult_core|romout0_4~2
+        | | | | | | | | | | | | | +----- LC93 |LPM_MULT:1|multcore:mult_core|:467
+        | | | | | | | | | | | | | | +--- LC92 result5
+        | | | | | | | | | | | | | | | +- LC89 result7
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'F'
+LC      | | | | | | | | | | | | | | | | | A B C D E F |     Logic cells that feed LAB 'F':
+LC94 -> - - - - - - - - - - - - * - - - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes3_4
+LC95 -> - - - - - * * * - - - - * - - * | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_4
+LC88 -> - - - - - - * * - - - - - - - * | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_5
+LC86 -> - - - - - - - - - - - - - - - * | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes6_6
+LC81 -> - - - - - - - - - - - - - - - * | - - * - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes11_7
+
+Pin
+8    -> - - - - - - - - - - - - * - * * | * * - * * * | <-- dataa0
+7    -> - - - - - - - - - - - - * - * * | * * - * * * | <-- dataa1
+5    -> - - - - - - - - - - - - * - * * | * * - * * * | <-- dataa2
+4    -> - - - - - - - - - - - - * - * * | * * - * * * | <-- dataa3
+23   -> - * - - - - - - - - - - - * - * | * * * * * * | <-- datab0
+20   -> - * - - - - - - - - - - - * - * | * * * * * * | <-- datab1
+15   -> - * * * * - - * - - - - - * * * | * * * * * * | <-- datab2
+9    -> * * * * * - - * - - - - - * * * | * * * * * * | <-- datab3
+LC77 -> - - - - - - - - - - - - * - - - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes5_4
+LC57 -> - - - - - - - - - - - - * - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes9_4
+LC70 -> - - - - - - - - * * * * * - - - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_4
+LC65 -> - - - - - - - - - * * * - - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_5
+LC66 -> - - - - - - - - - - * * - - - - | - - - - * * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_6
+LC79 -> - - - - - - - - - - - * - - - * | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes10_7
+LC37 -> - - - - - - - - - - - - - - - * | * - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes12_7
+LC3  -> - - - - - - - - - - - - - - - * | - * - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes13_7
+LC26 -> - - - - - - - - - - - - - - - * | - * - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes14_7
+LC28 -> - - - - - - - - - - - - - - - * | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|bnodes15_7
+LC17 -> - - - - - - - - - - - - - - * - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|romout0_5~1
+LC76 -> - - - - - - - - - - - - - - * - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|romout0_5~2
+LC45 -> * - - - - - - - - - - - - - * - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|:390
+LC61 -> - - * * * - - * - - - - - - - - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|:544
+LC9  -> - - - - - * * * - - - - - - - * | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|:621
+LC2  -> - - - - - - - - * * * * - - - - | - - - - - * | <-- |LPM_MULT:1|multcore:mult_core|:852
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_8.rpt
+lab17_8
+
+** EQUATIONS **
+
+dataa0   : INPUT;
+dataa1   : INPUT;
+dataa2   : INPUT;
+dataa3   : INPUT;
+datab0   : INPUT;
+datab1   : INPUT;
+datab2   : INPUT;
+datab3   : INPUT;
+
+-- Node name is 'result0' 
+-- Equation name is 'result0', location is LC001, type is output.
+ result0 = LCELL( _EQ001 $  VCC);
+  _EQ001 = !_LC074 &  _X001 &  _X002 &  _X003;
+  _X001  = EXP( dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab0);
+  _X002  = EXP( dataa0 & !dataa2 & !dataa3 &  datab0);
+  _X003  = EXP( dataa0 &  dataa1 &  dataa2 &  dataa3 &  datab0);
+
+-- Node name is 'result1' 
+-- Equation name is 'result1', location is LC019, type is output.
+ result1 = LCELL( _EQ002 $  VCC);
+  _EQ002 = !_LC058 &  _X004 &  _X005 &  _X006 &  _X007 &  _X008 &  _X009;
+  _X004  = EXP( dataa0 &  dataa1 & !dataa2 & !dataa3 &  _LC022);
+  _X005  = EXP( dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab1);
+  _X006  = EXP(!dataa0 &  dataa1 & !dataa2 &  dataa3 &  datab0);
+  _X007  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC050);
+  _X008  = EXP( dataa0 & !dataa1 & !dataa3 &  datab1);
+  _X009  = EXP(!dataa0 &  dataa1 & !dataa3 &  datab0);
+
+-- Node name is 'result2' 
+-- Equation name is 'result2', location is LC004, type is output.
+ result2 = LCELL( _EQ003 $  VCC);
+  _EQ003 = !_LC010 & !_LC056 &  _X010 &  _X011 &  _X012 &  _X013;
+  _X010  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC049);
+  _X011  = EXP( dataa0 & !dataa1 & !dataa2 & !dataa3 &  datab2);
+  _X012  = EXP(!dataa0 &  dataa1 & !dataa2 & !dataa3 &  datab1);
+  _X013  = EXP(!dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab0);
+
+-- Node name is 'result3' 
+-- Equation name is 'result3', location is LC024, type is output.
+ result3 = LCELL( _EQ004 $  VCC);
+  _EQ004 = !_LC008 & !_LC059 &  _X014 &  _X015 &  _X016 &  _X017 &  _X018;
+  _X014  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC055);
+  _X015  = EXP( dataa0 & !dataa1 & !dataa2 & !dataa3 &  datab3);
+  _X016  = EXP(!dataa0 &  dataa1 & !dataa2 & !dataa3 &  datab2);
+  _X017  = EXP(!dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab1);
+  _X018  = EXP(!dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab0);
+
+-- Node name is 'result4' 
+-- Equation name is 'result4', location is LC067, type is output.
+ result4 = LCELL( _EQ005 $  VCC);
+  _EQ005 = !_LC020 & !_LC091 &  _X019 &  _X020 &  _X021 &  _X022;
+  _X019  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC042);
+  _X020  = EXP(!dataa0 &  dataa1 & !dataa2 & !dataa3 &  datab3);
+  _X021  = EXP(!dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab2);
+  _X022  = EXP(!dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab1);
+
+-- Node name is 'result5' 
+-- Equation name is 'result5', location is LC092, type is output.
+ result5 = LCELL( _EQ006 $  VCC);
+  _EQ006 = !_LC017 & !_LC076 &  _X023 &  _X024 &  _X025;
+  _X023  = EXP(!dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab3);
+  _X024  = EXP(!dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab2);
+  _X025  = EXP( dataa0 &  dataa1 & !dataa2 & !dataa3 &  datab3 &  _LC045);
+
+-- Node name is 'result6' 
+-- Equation name is 'result6', location is LC069, type is output.
+ result6 = LCELL( _EQ007 $  VCC);
+  _EQ007 = !_LC068 &  _X026 &  _X027 &  _X028 &  _X029 &  _X030 &  _X031;
+  _X026  = EXP(!dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC086);
+  _X027  = EXP( dataa0 & !dataa1 & !dataa2 &  dataa3 &  _LC011);
+  _X028  = EXP(!dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC066);
+  _X029  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC039);
+  _X030  = EXP(!dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab3);
+  _X031  = EXP( dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab2 &  datab3 & 
+              _LC093);
+
+-- Node name is 'result7' 
+-- Equation name is 'result7', location is LC089, type is output.
+ result7 = LCELL( _EQ008 $  VCC);
+  _EQ008 =  _X032 &  _X033 &  _X034 &  _X035 &  _X036 &  _X037 &  _X038 & 
+              _X039;
+  _X032  = EXP( dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC081);
+  _X033  = EXP( dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC028);
+  _X034  = EXP( dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC003);
+  _X035  = EXP(!dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC026);
+  _X036  = EXP(!dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC079);
+  _X037  = EXP(!dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC037);
+  _X038  = EXP( dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab0 &  datab1 & 
+              datab2 &  datab3);
+  _X039  = EXP( dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC009 &  _LC086 & 
+              _LC088 &  _LC095);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes3_1' from file "multcore.tdf" line 480, column 34
+-- Equation name is '_LC022', type is buried 
+_LC022   = LCELL( datab0 $  datab1);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes3_2' from file "multcore.tdf" line 480, column 34
+-- Equation name is '_LC014', type is buried 
+_LC014   = LCELL( _EQ009 $  datab2);
+  _EQ009 = !datab0 &  datab1;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes3_3' from file "multcore.tdf" line 480, column 34
+-- Equation name is '_LC013', type is buried 
+_LC013   = LCELL( _EQ010 $  datab3);
+  _EQ010 =  datab0 &  datab1 & !datab2
+         # !datab1 &  datab2;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes3_4' from file "multcore.tdf" line 480, column 34
+-- Equation name is '_LC094', type is buried 
+_LC094   = LCELL( datab3 $  _LC045);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes5_2' from file "multcore.tdf" line 482, column 34
+-- Equation name is '_LC053', type is buried 
+_LC053   = LCELL( _EQ011 $  _EQ012);
+  _EQ011 = !datab0 & !datab2 &  _X040;
+  _X040  = EXP( datab0 &  datab2);
+  _EQ012 =  _X040;
+  _X040  = EXP( datab0 &  datab2);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes5_3' from file "multcore.tdf" line 482, column 34
+-- Equation name is '_LC083', type is buried 
+_LC083   = LCELL( _EQ013 $  _EQ014);
+  _EQ013 =  _X041 &  _X042;
+  _X041  = EXP(!datab1 & !datab3);
+  _X042  = EXP( datab1 &  datab3);
+  _EQ014 =  datab0 &  datab2;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes5_4' from file "multcore.tdf" line 482, column 34
+-- Equation name is '_LC077', type is buried 
+_LC077   = LCELL( datab2 $  _LC093);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes5_5' from file "multcore.tdf" line 482, column 34
+-- Equation name is '_LC075', type is buried 
+_LC075   = LCELL( datab3 $  _EQ015);
+  _EQ015 =  datab2 &  _LC093;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes6_2' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC064', type is buried 
+_LC064   = LCELL( datab1 $  datab0);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes6_3' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC040', type is buried 
+_LC040   = LCELL( _EQ016 $  datab2);
+  _EQ016 = !datab0 &  datab1;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes6_4' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC095', type is buried 
+_LC095   = LCELL( _EQ017 $  _LC061);
+  _EQ017 =  _X043 &  _X044;
+  _X043  = EXP(!datab2 & !datab3);
+  _X044  = EXP( datab2 &  datab3);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes6_5' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC088', type is buried 
+_LC088   = LCELL( _EQ018 $  datab3);
+  _EQ018 =  datab2 &  datab3
+         #  _LC061 &  _X043;
+  _X043  = EXP(!datab2 & !datab3);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes6_6' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC086', type is buried 
+_LC086   = LCELL( _EQ019 $  GND);
+  _EQ019 =  datab3 &  _LC061 &  _X043
+         #  datab2 &  datab3;
+  _X043  = EXP(!datab2 & !datab3);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_1' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC052', type is buried 
+_LC052   = LCELL( _EQ020 $  _EQ021);
+  _EQ020 = !datab0 & !datab1 &  _X045;
+  _X045  = EXP( datab0 &  datab1);
+  _EQ021 =  _X045;
+  _X045  = EXP( datab0 &  datab1);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_2' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC006', type is buried 
+_LC006   = LCELL( _EQ022 $  _EQ023);
+  _EQ022 =  _X046 &  _X047;
+  _X046  = EXP(!datab2 & !_LC064);
+  _X047  = EXP( datab2 &  _LC064);
+  _EQ023 =  datab0 &  datab1;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_3' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC005', type is buried 
+_LC005   = LCELL( _EQ024 $  _EQ025);
+  _EQ024 =  datab0 &  datab1 &  _X046
+         #  datab2 &  _LC064;
+  _X046  = EXP(!datab2 & !_LC064);
+  _EQ025 =  _X048 &  _X049;
+  _X048  = EXP(!datab3 & !_LC040);
+  _X049  = EXP( datab3 &  _LC040);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_4' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC090', type is buried 
+_LC090   = LCELL( _LC095 $  _LC009);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_5' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC087', type is buried 
+_LC087   = LCELL( _LC088 $  _EQ026);
+  _EQ026 =  _LC009 &  _LC095;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes7_6' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC096', type is buried 
+_LC096   = LCELL( _EQ027 $  _EQ028);
+  _EQ027 =  datab3 &  _LC061 &  _X043
+         #  datab2 &  datab3;
+  _X043  = EXP(!datab2 & !datab3);
+  _EQ028 =  _LC009 &  _LC088 &  _LC095;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes9_3' from file "multcore.tdf" line 490, column 36
+-- Equation name is '_LC054', type is buried 
+_LC054   = LCELL( datab3 $  datab0);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes9_4' from file "multcore.tdf" line 490, column 36
+-- Equation name is '_LC057', type is buried 
+_LC057   = LCELL( datab1 $  _EQ029);
+  _EQ029 =  datab0 &  datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes9_5' from file "multcore.tdf" line 490, column 36
+-- Equation name is '_LC015', type is buried 
+_LC015   = LCELL( datab2 $  _EQ030);
+  _EQ030 =  datab0 &  datab1 &  datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes9_6' from file "multcore.tdf" line 490, column 36
+-- Equation name is '_LC011', type is buried 
+_LC011   = LCELL( datab3 $  _EQ031);
+  _EQ031 =  datab0 &  datab1 &  datab2 &  datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes10_3' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC043', type is buried 
+_LC043   = LCELL( datab2 $  _EQ032);
+  _EQ032 =  _X050 &  _X051;
+  _X050  = EXP(!datab0 & !datab3);
+  _X051  = EXP(!datab0 &  datab3);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes10_4' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC070', type is buried 
+_LC070   = LCELL( _LC057 $  _LC034);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes10_5' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC065', type is buried 
+_LC065   = LCELL( _LC015 $  _EQ033);
+  _EQ033 =  _LC034 &  _LC057;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes10_6' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC066', type is buried 
+_LC066   = LCELL( _LC011 $  _EQ034);
+  _EQ034 =  _LC015 &  _LC034 &  _LC057;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes10_7' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC079', type is buried 
+_LC079   = LCELL( _EQ035 $  _EQ036);
+  _EQ035 =  datab0 &  datab1 &  datab2 &  datab3;
+  _EQ036 =  _LC011 &  _LC015 &  _LC034 &  _LC057;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_1' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC038', type is buried 
+_LC038   = LCELL( _EQ037 $  GND);
+  _EQ037 =  _X045 &  _X052;
+  _X045  = EXP( datab0 &  datab1);
+  _X052  = EXP(!datab0 & !datab1);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_2' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC048', type is buried 
+_LC048   = LCELL( _EQ038 $  _EQ039);
+  _EQ038 =  datab0 &  datab1;
+  _EQ039 =  _X053 &  _X054;
+  _X053  = EXP(!datab1 & !datab2);
+  _X054  = EXP( datab1 &  datab2);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_3' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC007', type is buried 
+_LC007   = LCELL( _EQ040 $  _EQ041);
+  _EQ040 =  datab0 &  datab1 &  _X053
+         #  datab1 &  datab2;
+  _X053  = EXP(!datab1 & !datab2);
+  _EQ041 =  _X055 &  _X056;
+  _X055  = EXP(!datab3 & !_LC043);
+  _X056  = EXP( datab3 &  _LC043);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_4' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC085', type is buried 
+_LC085   = LCELL( _LC070 $  _LC002);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_5' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC084', type is buried 
+_LC084   = LCELL( _LC065 $  _EQ042);
+  _EQ042 =  _LC002 &  _LC070;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_6' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC082', type is buried 
+_LC082   = LCELL( _LC066 $  _EQ043);
+  _EQ043 =  _LC002 &  _LC065 &  _LC070;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes11_7' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC081', type is buried 
+_LC081   = LCELL( _LC079 $  _EQ044);
+  _EQ044 =  _LC002 &  _LC065 &  _LC066 &  _LC070;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_1' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC050', type is buried 
+_LC050   = LCELL( _EQ045 $  datab0);
+  _EQ045 =  _X057 &  _X058;
+  _X057  = EXP(!datab1 & !_LC038);
+  _X058  = EXP( datab1 &  _LC038);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_2' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC049', type is buried 
+_LC049   = LCELL( _EQ046 $  _EQ047);
+  _EQ046 =  datab1 &  _LC038
+         #  datab0 &  _X057;
+  _X057  = EXP(!datab1 & !_LC038);
+  _EQ047 =  _X059 &  _X060;
+  _X059  = EXP(!datab2 & !_LC048);
+  _X060  = EXP( datab2 &  _LC048);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_3' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC055', type is buried 
+_LC055   = LCELL( _EQ048 $  _EQ049);
+  _EQ048 =  datab1 &  _X045 &  _X052 &  _X059
+         #  datab0 &  _X057 &  _X059
+         #  datab2 &  _LC048;
+  _X045  = EXP( datab0 &  datab1);
+  _X052  = EXP(!datab0 & !datab1);
+  _X059  = EXP(!datab2 & !_LC048);
+  _X057  = EXP(!datab1 & !_LC038);
+  _EQ049 =  _X061 &  _X062;
+  _X061  = EXP(!datab3 & !_LC007);
+  _X062  = EXP( datab3 &  _LC007);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_4' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC042', type is buried 
+_LC042   = LCELL( _LC085 $  _LC062);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_5' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC041', type is buried 
+_LC041   = LCELL( _LC084 $  _EQ050);
+  _EQ050 =  _LC062 &  _LC085;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_6' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC039', type is buried 
+_LC039   = LCELL( _LC082 $  _EQ051);
+  _EQ051 =  _LC062 &  _LC084 &  _LC085;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes12_7' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC037', type is buried 
+_LC037   = LCELL( _LC081 $  _EQ052);
+  _EQ052 =  _LC062 &  _LC082 &  _LC084 &  _LC085;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_1' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC044', type is buried 
+_LC044   = LCELL( _EQ053 $  GND);
+  _EQ053 =  _X063 &  _X064;
+  _X063  = EXP(!datab1 & !_LC050);
+  _X064  = EXP( datab1 &  _LC050);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_2' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC033', type is buried 
+_LC033   = LCELL( _EQ054 $  _EQ055);
+  _EQ054 =  datab1 &  _LC050;
+  _EQ055 =  _X065 &  _X066;
+  _X065  = EXP(!datab2 & !_LC049);
+  _X066  = EXP( datab2 &  _LC049);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_3' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC018', type is buried 
+_LC018   = LCELL( _EQ056 $  _EQ057);
+  _EQ056 =  datab1 &  _LC050 &  _X065
+         #  datab2 &  _LC049;
+  _X065  = EXP(!datab2 & !_LC049);
+  _EQ057 =  _X067 &  _X068;
+  _X067  = EXP(!datab3 & !_LC055);
+  _X068  = EXP( datab3 &  _LC055);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_4' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC080', type is buried 
+_LC080   = LCELL( _LC042 $  _LC025);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_5' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC078', type is buried 
+_LC078   = LCELL( _LC041 $  _EQ058);
+  _EQ058 =  _LC025 &  _LC042;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_6' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC073', type is buried 
+_LC073   = LCELL( _LC039 $  _EQ059);
+  _EQ059 =  _LC025 &  _LC041 &  _LC042;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes13_7' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC003', type is buried 
+_LC003   = LCELL( _LC037 $  _EQ060);
+  _EQ060 =  _LC025 &  _LC039 &  _LC041 &  _LC042;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_0' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC023', type is buried 
+_LC023   = LCELL(!datab0 $ !datab0);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_1' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC035', type is buried 
+_LC035   = LCELL( _EQ061 $  datab0);
+  _EQ061 =  _X069 &  _X070;
+  _X069  = EXP(!datab1 & !_LC044);
+  _X070  = EXP( datab1 &  _LC044);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_2' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC036', type is buried 
+_LC036   = LCELL( _EQ062 $  _EQ063);
+  _EQ062 =  datab1 &  _LC044
+         #  datab0 &  _X069;
+  _X069  = EXP(!datab1 & !_LC044);
+  _EQ063 =  _X071 &  _X072;
+  _X071  = EXP(!datab2 & !_LC033);
+  _X072  = EXP( datab2 &  _LC033);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_3' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC047', type is buried 
+_LC047   = LCELL( _EQ064 $  _EQ065);
+  _EQ064 =  datab1 &  _X063 &  _X064 &  _X071
+         #  datab0 &  _X069 &  _X071
+         #  datab2 &  _LC033;
+  _X063  = EXP(!datab1 & !_LC050);
+  _X064  = EXP( datab1 &  _LC050);
+  _X071  = EXP(!datab2 & !_LC033);
+  _X069  = EXP(!datab1 & !_LC044);
+  _EQ065 =  _X073 &  _X074;
+  _X073  = EXP(!datab3 & !_LC018);
+  _X074  = EXP( datab3 &  _LC018);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_4' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC032', type is buried 
+_LC032   = LCELL( _LC080 $  _LC046);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_5' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC021', type is buried 
+_LC021   = LCELL( _LC078 $  _EQ066);
+  _EQ066 =  _LC046 &  _LC080;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_6' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC027', type is buried 
+_LC027   = LCELL( _LC073 $  _EQ067);
+  _EQ067 =  _LC046 &  _LC078 &  _LC080;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes14_7' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC026', type is buried 
+_LC026   = LCELL( _LC003 $  _EQ068);
+  _EQ068 =  _LC046 &  _LC073 &  _LC078 &  _LC080;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_1' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC071', type is buried 
+_LC071   = LCELL( _EQ069 $  GND);
+  _EQ069 =  _X075 &  _X076;
+  _X075  = EXP(!datab1 & !_LC035);
+  _X076  = EXP( datab1 &  _LC035);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_2' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC051', type is buried 
+_LC051   = LCELL( _EQ070 $  _EQ071);
+  _EQ070 =  datab1 &  _LC035;
+  _EQ071 =  _X077 &  _X078;
+  _X077  = EXP(!datab2 & !_LC036);
+  _X078  = EXP( datab2 &  _LC036);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_3' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC060', type is buried 
+_LC060   = LCELL( _EQ072 $  _EQ073);
+  _EQ072 =  datab1 &  _LC035 &  _X077
+         #  datab2 &  _LC036;
+  _X077  = EXP(!datab2 & !_LC036);
+  _EQ073 =  _X079 &  _X080;
+  _X079  = EXP(!datab3 & !_LC047);
+  _X080  = EXP( datab3 &  _LC047);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_4' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC031', type is buried 
+_LC031   = LCELL( _LC032 $  _LC063);
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_5' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC030', type is buried 
+_LC030   = LCELL( _LC021 $  _EQ074);
+  _EQ074 =  _LC032 &  _LC063;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_6' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC029', type is buried 
+_LC029   = LCELL( _LC027 $  _EQ075);
+  _EQ075 =  _LC021 &  _LC032 &  _LC063;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|bnodes15_7' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC028', type is buried 
+_LC028   = LCELL( _LC026 $  _EQ076);
+  _EQ076 =  _LC021 &  _LC027 &  _LC032 &  _LC063;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_0~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC074', type is buried 
+-- synthesized logic cell 
+_LC074   = LCELL( _EQ077 $  GND);
+  _EQ077 =  dataa0 &  dataa1 &  dataa2 & !dataa3 &  datab0
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  datab0
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  datab0
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC023
+         #  dataa0 & !dataa1 &  dataa2 & !dataa3 &  datab0;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_1~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC058', type is buried 
+-- synthesized logic cell 
+_LC058   = LCELL( _EQ078 $  GND);
+  _EQ078 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC071
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC052
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC038
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC044
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC035;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_2~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC056', type is buried 
+-- synthesized logic cell 
+_LC056   = LCELL( _EQ079 $  GND);
+  _EQ079 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC051
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC006
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC048
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC033
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC036;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_2~2' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC010', type is buried 
+-- synthesized logic cell 
+_LC010   = LCELL( _EQ080 $  GND);
+  _EQ080 =  dataa0 &  dataa1 & !dataa2 & !dataa3 &  _LC014
+         #  dataa0 & !dataa1 &  dataa2 & !dataa3 &  _LC053
+         # !dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC064
+         #  dataa0 & !dataa1 & !dataa2 &  dataa3 &  datab2
+         # !dataa0 &  dataa1 & !dataa2 &  dataa3 &  datab1;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_3~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC059', type is buried 
+-- synthesized logic cell 
+_LC059   = LCELL( _EQ081 $  GND);
+  _EQ081 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC060
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC005
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC007
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC018
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC047;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_3~2' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC008', type is buried 
+-- synthesized logic cell 
+_LC008   = LCELL( _EQ082 $  GND);
+  _EQ082 =  dataa0 &  dataa1 & !dataa2 & !dataa3 &  _LC013
+         #  dataa0 & !dataa1 &  dataa2 & !dataa3 &  _LC083
+         # !dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC040
+         #  dataa0 & !dataa1 & !dataa2 &  dataa3 &  _LC054
+         # !dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC043;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_4~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC020', type is buried 
+-- synthesized logic cell 
+_LC020   = LCELL( _EQ083 $  GND);
+  _EQ083 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC031
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC090
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC085
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC080
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC032;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_4~2' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC091', type is buried 
+-- synthesized logic cell 
+_LC091   = LCELL( _EQ084 $  GND);
+  _EQ084 =  dataa0 &  dataa1 & !dataa2 & !dataa3 &  _LC094
+         #  dataa0 & !dataa1 &  dataa2 & !dataa3 &  _LC077
+         # !dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC095
+         #  dataa0 & !dataa1 & !dataa2 &  dataa3 &  _LC057
+         # !dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC070;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_5~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC017', type is buried 
+-- synthesized logic cell 
+_LC017   = LCELL( _EQ085 $  GND);
+  _EQ085 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC030
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC087
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC084
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC078
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC021;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_5~2' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC076', type is buried 
+-- synthesized logic cell 
+_LC076   = LCELL( _EQ086 $  GND);
+  _EQ086 =  dataa0 & !dataa1 &  dataa2 & !dataa3 &  _LC075
+         # !dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC088
+         #  dataa0 & !dataa1 & !dataa2 &  dataa3 &  _LC015
+         # !dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC065
+         # !dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC041;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|romout0_6~1' from file "multcore.tdf" line 586, column 38
+-- Equation name is '_LC068', type is buried 
+-- synthesized logic cell 
+_LC068   = LCELL( _EQ087 $  GND);
+  _EQ087 =  dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC029
+         #  dataa0 &  dataa1 &  dataa2 & !dataa3 &  _LC096
+         #  dataa0 &  dataa1 & !dataa2 &  dataa3 &  _LC082
+         #  dataa0 & !dataa1 &  dataa2 &  dataa3 &  _LC073
+         # !dataa0 &  dataa1 &  dataa2 &  dataa3 &  _LC027;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:390' from file "multcore.tdf" line 480, column 34
+-- Equation name is '_LC045', type is buried 
+_LC045   = LCELL( _EQ088 $  datab2);
+  _EQ088 =  datab0 &  datab1 & !datab2 &  datab3
+         # !datab1 &  datab2 & !datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:467' from file "multcore.tdf" line 482, column 34
+-- Equation name is '_LC093', type is buried 
+_LC093   = LCELL( _EQ089 $  _EQ090);
+  _EQ089 =  datab0 &  datab2 &  _X041 &  _X042;
+  _X041  = EXP(!datab1 & !datab3);
+  _X042  = EXP( datab1 &  datab3);
+  _EQ090 =  datab1 &  datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:544' from file "multcore.tdf" line 483, column 34
+-- Equation name is '_LC061', type is buried 
+_LC061   = LCELL( _EQ091 $  datab1);
+  _EQ091 = !datab0 &  datab1 & !datab2;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:621' from file "multcore.tdf" line 484, column 34
+-- Equation name is '_LC009', type is buried 
+_LC009   = LCELL( _EQ092 $  _EQ093);
+  _EQ092 =  datab0 &  datab1 &  _X046 &  _X048 &  _X049
+         #  datab2 &  _LC064 &  _X048 &  _X049;
+  _X046  = EXP(!datab2 & !_LC064);
+  _X048  = EXP(!datab3 & !_LC040);
+  _X049  = EXP( datab3 &  _LC040);
+  _EQ093 =  datab3 &  _LC040;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:775' from file "multcore.tdf" line 491, column 36
+-- Equation name is '_LC034', type is buried 
+_LC034   = LCELL( _EQ094 $  _EQ095);
+  _EQ094 =  datab2 &  _X050 &  _X051;
+  _X050  = EXP(!datab0 & !datab3);
+  _X051  = EXP(!datab0 &  datab3);
+  _EQ095 = !datab0 &  datab3;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:852' from file "multcore.tdf" line 492, column 36
+-- Equation name is '_LC002', type is buried 
+_LC002   = LCELL( _EQ096 $  _EQ097);
+  _EQ096 =  datab0 &  datab1 &  _X053 &  _X055 &  _X056
+         #  datab1 &  datab2 &  _X055 &  _X056;
+  _X053  = EXP(!datab1 & !datab2);
+  _X055  = EXP(!datab3 & !_LC043);
+  _X056  = EXP( datab3 &  _LC043);
+  _EQ097 =  datab3 &  _LC043;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:929' from file "multcore.tdf" line 493, column 36
+-- Equation name is '_LC062', type is buried 
+_LC062   = LCELL( _EQ098 $  _EQ099);
+  _EQ098 =  datab1 &  _X045 &  _X052 &  _X059 &  _X061 &  _X062
+         #  datab0 &  _X057 &  _X059 &  _X061 &  _X062
+         #  datab2 &  _LC048 &  _X061 &  _X062;
+  _X045  = EXP( datab0 &  datab1);
+  _X052  = EXP(!datab0 & !datab1);
+  _X059  = EXP(!datab2 & !_LC048);
+  _X061  = EXP(!datab3 & !_LC007);
+  _X062  = EXP( datab3 &  _LC007);
+  _X057  = EXP(!datab1 & !_LC038);
+  _EQ099 =  datab3 &  _LC007;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:1006' from file "multcore.tdf" line 494, column 36
+-- Equation name is '_LC025', type is buried 
+_LC025   = LCELL( _EQ100 $  _EQ101);
+  _EQ100 =  datab1 &  _LC050 &  _X065 &  _X067 &  _X068
+         #  datab2 &  _LC049 &  _X067 &  _X068;
+  _X065  = EXP(!datab2 & !_LC049);
+  _X067  = EXP(!datab3 & !_LC055);
+  _X068  = EXP( datab3 &  _LC055);
+  _EQ101 =  datab3 &  _LC055;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:1083' from file "multcore.tdf" line 495, column 36
+-- Equation name is '_LC046', type is buried 
+_LC046   = LCELL( _EQ102 $  _EQ103);
+  _EQ102 =  datab1 &  _X063 &  _X064 &  _X071 &  _X073 &  _X074
+         #  datab0 &  _X069 &  _X071 &  _X073 &  _X074
+         #  datab2 &  _LC033 &  _X073 &  _X074;
+  _X063  = EXP(!datab1 & !_LC050);
+  _X064  = EXP( datab1 &  _LC050);
+  _X071  = EXP(!datab2 & !_LC033);
+  _X073  = EXP(!datab3 & !_LC018);
+  _X074  = EXP( datab3 &  _LC018);
+  _X069  = EXP(!datab1 & !_LC044);
+  _EQ103 =  datab3 &  _LC018;
+
+-- Node name is '|LPM_MULT:1|multcore:mult_core|:1160' from file "multcore.tdf" line 496, column 36
+-- Equation name is '_LC063', type is buried 
+_LC063   = LCELL( _EQ104 $  _EQ105);
+  _EQ104 =  datab1 &  _LC035 &  _X077 &  _X079 &  _X080
+         #  datab2 &  _LC036 &  _X079 &  _X080;
+  _X077  = EXP(!datab2 & !_LC036);
+  _X079  = EXP(!datab3 & !_LC047);
+  _X080  = EXP( datab3 &  _LC047);
+  _EQ105 =  datab3 &  _LC047;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--    _X045 occurs in LABs C, D
+--    _X052 occurs in LABs C, D
+--    _X053 occurs in LABs A, C
+--    _X065 occurs in LABs B, C
+
+
+
+
+Project Information                                       z:\lab17\lab17_8.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 4,623K

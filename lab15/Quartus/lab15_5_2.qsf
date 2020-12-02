@@ -34,9 +34,9 @@ set_global_assignment -name VHDL_FILE lab15_5_2.vhd
 
 # Analysis & Synthesis Assignments
 # ================================
+set_global_assignment -name TOP_LEVEL_ENTITY lab15_5_2
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name FAMILY Stratix
-set_global_assignment -name TOP_LEVEL_ENTITY lab15_5_2
 
 # Fitter Assignments
 # ==================
