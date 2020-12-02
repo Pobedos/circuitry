@@ -50,7 +50,6 @@ TREE
 {
 	lab17_9_sum::(0,0):(0): lab17_9_sum.gdf
 	{
-		summator::(0,0):(5): summator.gdf;
 		summator::(0,0):(4): summator.gdf
 		{
 			half-summator:2:(0,0):(1): half-summator.gdf;
