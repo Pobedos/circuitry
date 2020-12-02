@@ -1,0 +1,118 @@
+NDB006
+The number of symbol table entries is: 2
+The length of the symbol table is: 23
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|74181:1|
+
+The number of name info structs is : 105
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:25	"?
+#	Ky&|	!	2	J	K	A0N	o
+$	Ky&|	!	3	/	L	M	A1N	{
+%	Ky&|	!	3	0	N	O	A2N	y
+&	Ky&|	!	3	1	V	W	A3N	w
+'	IGdq	!	AEQB	""
+(	Ky&|	!	2	J	K	B0N	|
+)	Ky&|	!	3	/	L	M	B1N	z
+*	Ky&|	!	3	0	N	O	B2N	x
++	Ky&|	!	3	1	V	W	B3N	v
+,	Ky&|	!	6	-	.	4	r	"!	""	CN	u
+-	NLG+	!	1	CN4	"!
+.	Ky&}	!	1	'	F0N	"&
+/	Ky&}	!	1	'	F1N	"%
+0	Ky&}	!	1	'	F2N	"$
+1	Ky&}	!	1	'	F3N	"#
+2	IGdq	!	GN	}
+3	Ky&|	!	4	.	r	"!	""	M	t
+4	NLG+	!	1	NCN4	~
+5	IGdq	!	PN	"'
+6	Ky&|	!	4	J	L	N	W	S0	s
+7	Ky&|	!	4	J	L	N	W	S1	r
+8	Ky&|	!	7	/	0	1	K	M	O	V	S2	q
+9	Ky&|	!	7	/	0	1	K	M	O	V	S3	p
+:	IGdW	.	:11	#*
+;	IGdW	.	:12	#+
+<	IGdW	.	:13	#5
+=	IGdW	.	:14	#6
+>	IGdW	.	:16	#%
+?	IGdW	.	:17	#&
+@	IGdW	.	:18	#1
+A	IGdW	.	:19	#2
+B	IGdW	.	:21	#'
+C	IGdW	.	:22	#(
+D	IGdW	.	:23	#3
+E	IGdW	.	:24	#4
+F	IGdW	.	:25	"g
+G	IGdW	.	:27	"j
+H	IGdW	.	:28	"h
+I	IGdW	.	:31	"f
+J	Ky'E	.	7	-	.	2	4	r	"!	""	:37	#@
+K	Ky'E	.	7	-	.	4	5	r	"!	""	:38	#A
+L	Ky'E	.	6	-	/	2	4	r	""	:39	#>
+M	Ky'E	.	7	-	/	2	4	5	r	""	:40	#?
+N	Ky'E	.	5	-	0	2	4	r	:41	#:
+O	Ky'E	.	6	-	0	2	4	5	r	:42	#;
+P	IGdW	.	:43	#!
+Q	IGdW	.	:44	"~
+R	IGdW	.	:45	"|
+S	IGdW	.	:46	"z
+T	IGdW	.	:47	"x
+U	IGdW	.	:48	"v
+V	Ky'E	.	5	-	1	2	4	5	:49	#<
+W	Ky'E	.	4	-	1	2	4	:50	#=
+X	IGdW	.	:51	"}
+Y	IGdW	.	:52	"w
+Z	IGdW	.	:53	#E
+[	IGdW	.	:54	#D
+\	IGdW	.	:55	#C
+]	IGdW	.	:56	#B
+^	IGdW	.	:58	#)
+_	IGdW	.	:59	"e
+`	IGdW	.	:6	#-
+a	IVOQ	.	",	:60	"d
+b	IGdW	.	:61	"c
+c	IGdW	.	:62	"^
+d	IVOQ	.	"+	:63	"a
+e	IGdW	.	:64	#"
+f	IGdW	.	:65	#,
+g	IGdW	.	:66	#7
+h	IGdW	.	:67	##
+i	IGdW	.	:68	#/
+j	IGdW	.	:69	"\
+k	IGdW	.	:7	#.
+l	IGdW	.	:70	#$
+m	IGdW	.	:71	#0
+n	IGdW	.	:72	"]
+o	IGdW	.	:73	"b
+p	IGdW	.	:74	"`
+q	IGdW	.	:75	"{
+r	Ky'E	.	1	1	:76	"o
+s	IGdW	.	:77	"t
+t	IVOQ	.	"&	:78	"_
+u	IGdW	.	:79	"y
+v	IGdW	.	:8	#8
+w	IGdW	.	:80	"u
+x	IGdW	.	:81	"r
+y	IGdW	.	:82	"s
+z	IVOQ	.	"%	:83	"[
+{	IVOQ	.	"*	:84	"k
+|	IVOQ	.	")	:85	"l
+}	IVOQ	.	"(	:86	"m
+~	IVOQ	.	"'	:87	"p
+"!	Ky'E	.	1	/	:88	"q
+""	Ky'E	.	1	0	:89	"n
+"#	IGdW	.	:9	#9
+"$	IGdW	.	:98	"i
+"%	INu}	.	z	AEQB	"[
+"&	INu}	.	t	CN4	"_
+"'	INu}	.	~	F0N	"p
+"(	INu}	.	}	F1N	"m
+")	INu}	.	|	F2N	"l
+"*	INu}	.	{	F3N	"k
+"+	INu}	.	d	GN	"a
+",	INu}	.	a	PN	"d

@@ -1,0 +1,209 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 33
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|74181:1|
+8	|74181:2|
+
+The number of name info structs is : 195
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:35	"_
+#	Ky&|	!	3	5	"F	"G	A0N	x
+$	Ky&|	!	3	6	"H	"I	A1N	z
+%	Ky&|	!	3	7	"J	"K	A2N	|
+&	(@>U^	!	3	8	"R	"S	A3N	~
+'	Ky&|	!	2	S	T	A4N	p
+(	Ky&|	!	3	:	U	V	A5N	r
+)	Ky&|	!	3	;	W	X	A6N	t
+*	Ky&|	!	3	<	_	`	A7N	v
++	Ky&|	!	3	5	"F	"G	B0N	y
+,	Ky&|	!	3	6	"H	"I	B1N	{
+-	Ky&|	!	3	7	"J	"K	B2N	}
+.	Ky&|	!	3	8	"R	"S	B3N	"!
+/	Ky&|	!	2	S	T	B4N	q
+0	Ky&|	!	3	:	U	V	B5N	s
+1	Ky&|	!	3	;	W	X	B6N	u
+2	Ky&|	!	3	<	_	`	B7N	w
+3	Ky&|	!	10	4	5	9	>	{	"*	"+	"n	"{	"|	CN	""
+4	NLG+	!	6	CN4	"(
+5	NLG+	!	1	F0N	"'
+6	IGdq	!	F1N	"0
+7	IGdq	!	F2N	"/
+8	IGdq	!	F3N	".
+9	NLG+	!	7	F4N	"-
+:	IGdq	!	F5N	",
+;	IGdq	!	F6N	"+
+<	IGdq	!	F7N	"*
+=	Ky&|	!	8	5	9	{	"*	"+	"n	"{	"|	M	"#
+>	NLG+	!	5	NCN4	")
+?	Ky&|	!	8	S	U	W	`	"F	"H	"J	"S	S0	o
+@	Ky&|	!	8	S	U	W	`	"F	"H	"J	"S	S1	"&
+A	Ky&|	!	15	5	6	7	8	:	;	<	T	V	X	_	"G	"I	"K	"R	S2	"%
+B	Ky&|	!	15	5	6	7	8	:	;	<	T	V	X	_	"G	"I	"K	"R	S3	"$
+C	IGdW	.	:11	#J
+D	IGdW	.	:12	#K
+E	IGdW	.	:13	#U
+F	IGdW	.	:14	#V
+G	IGdW	.	:16	#E
+H	IGdW	.	:17	#F
+I	IGdW	.	:18	#Q
+J	IGdW	.	:19	#R
+K	IGdW	.	:21	#G
+L	IGdW	.	:22	#H
+M	IGdW	.	:23	#S
+N	IGdW	.	:24	#T
+O	IGdW	.	:25	#)
+P	IGdW	.	:27	#,
+Q	IGdW	.	:28	#*
+R	IGdW	.	:31	#(
+S	Ky'E	.	6	4	9	>	{	"*	"+	:37	#`
+T	Ky'E	.	6	4	9	>	{	"*	"+	:38	#a
+U	Ky'E	.	5	4	:	>	{	"+	:39	#^
+V	Ky'E	.	5	4	:	>	{	"+	:40	#_
+W	Ky'E	.	4	4	;	>	{	:41	#Z
+X	Ky'E	.	4	4	;	>	{	:42	#[
+Y	IGdW	.	:43	#A
+Z	IGdW	.	:44	#@
+[	IGdW	.	:45	#>
+\	IGdW	.	:46	#<
+]	IGdW	.	:47	#:
+^	IGdW	.	:48	#8
+_	Ky'E	.	3	4	<	>	:49	#\
+`	Ky'E	.	3	4	<	>	:50	#]
+a	IGdW	.	:51	#?
+b	IGdW	.	:52	#9
+c	IGdW	.	:53	#e
+d	IGdW	.	:54	#d
+e	IGdW	.	:55	#c
+f	IGdW	.	:56	#b
+g	IGdW	.	:58	#I
+h	IGdW	.	:59	#'
+i	IGdW	.	:6	#M
+j	IVOQ	.	"5	:60	#&
+k	IGdW	.	:61	#%
+l	IGdW	.	:62	"~
+m	IVOQ	.	"4	:63	##
+n	IGdW	.	:64	#B
+o	IGdW	.	:65	#L
+p	IGdW	.	:66	#W
+q	IGdW	.	:67	#C
+r	IGdW	.	:68	#O
+s	IGdW	.	:69	"|
+t	IGdW	.	:7	#N
+u	IGdW	.	:70	#D
+v	IGdW	.	:71	#P
+w	IGdW	.	:72	"}
+x	IGdW	.	:73	#$
+y	IGdW	.	:74	#"
+z	IGdW	.	:75	#=
+{	P}g]	.	1	<	5	:76	#1
+|	IGdW	.	:77	#6
+}	IVOQ	.	"/	:78	#!
+~	IGdW	.	:79	#;
+"!	IGdW	.	:8	#X
+""	IGdW	.	:80	#7
+"#	IGdW	.	:81	#4
+"$	IGdW	.	:82	#5
+"%	IVOQ	.	".	:83	"{
+"&	IVOQ	.	"3	:84	#-
+"'	IVOQ	.	"2	:85	#.
+"(	IVOQ	.	"1	:86	#/
+")	IVOQ	.	"0	:87	#2
+"*	P}g]	.	1	:	3	:88	#3
+"+	P}g]	.	1	;	4	:89	#0
+",	IGdW	.	:9	#Y
+"-	IGdW	.	:98	#+
+".	INu}	.	"%	AEQB	"{
+"/	INu}	.	}	CN4	#!
+"0	INu}	.	")	F0N	#2
+"1	INu}	.	"(	F1N	#/
+"2	INu}	.	"'	F2N	#.
+"3	INu}	.	"&	F3N	#-
+"4	INu}	.	m	GN	##
+"5	INu}	.	j	PN	#&
+"6	IGdW	8	:11	$P
+"7	IGdW	8	:12	$Q
+"8	IGdW	8	:13	$[
+"9	IGdW	8	:14	$\
+":	IGdW	8	:16	$K
+";	IGdW	8	:17	$L
+"<	IGdW	8	:18	$W
+"=	IGdW	8	:19	$X
+">	IGdW	8	:21	$M
+"?	IGdW	8	:22	$N
+"@	IGdW	8	:23	$Y
+"A	IGdW	8	:24	$Z
+"B	IGdW	8	:25	$/
+"C	IGdW	8	:27	$2
+"D	IGdW	8	:28	$0
+"E	IGdW	8	:31	$.
+"F	Ky'E	8	10	4	5	9	>	{	"*	"+	"n	"{	"|	:37	$f
+"G	Ky'E	8	10	4	5	9	>	{	"*	"+	"n	"{	"|	:38	$g
+"H	Ky'E	8	9	4	6	9	>	{	"*	"+	"n	"|	:39	$d
+"I	Ky'E	8	9	4	6	9	>	{	"*	"+	"n	"|	:40	$e
+"J	Ky'E	8	8	4	7	9	>	{	"*	"+	"n	:41	$`
+"K	Ky'E	8	8	4	7	9	>	{	"*	"+	"n	:42	$a
+"L	IGdW	8	:43	$G
+"M	IGdW	8	:44	$F
+"N	IGdW	8	:45	$D
+"O	IGdW	8	:46	$B
+"P	IGdW	8	:47	$@
+"Q	IGdW	8	:48	$>
+"R	Ky'E	8	7	4	8	9	>	{	"*	"+	:49	$b
+"S	Ky'E	8	7	4	8	9	>	{	"*	"+	:50	$c
+"T	IGdW	8	:51	$E
+"U	IGdW	8	:52	$?
+"V	IGdW	8	:53	$k
+"W	IGdW	8	:54	$j
+"X	IGdW	8	:55	$i
+"Y	IGdW	8	:56	$h
+"Z	IGdW	8	:58	$O
+"[	IGdW	8	:59	$-
+"\	IGdW	8	:6	$S
+"]	IVOQ	8	#(	:60	$,
+"^	IGdW	8	:61	$+
+"_	IGdW	8	:62	$&
+"`	IVOQ	8	#'	:63	$)
+"a	IGdW	8	:64	$H
+"b	IGdW	8	:65	$R
+"c	IGdW	8	:66	$]
+"d	IGdW	8	:67	$I
+"e	IGdW	8	:68	$U
+"f	IGdW	8	:69	$$
+"g	IGdW	8	:7	$T
+"h	IGdW	8	:70	$J
+"i	IGdW	8	:71	$V
+"j	IGdW	8	:72	$%
+"k	IGdW	8	:73	$*
+"l	IGdW	8	:74	$(
+"m	IGdW	8	:75	$C
+"n	Ky'E	8	1	8	:76	$7
+"o	IGdW	8	:77	$<
+"p	IVOQ	8	#"	:78	$'
+"q	IGdW	8	:79	$A
+"r	IGdW	8	:8	$^
+"s	IGdW	8	:80	$=
+"t	IGdW	8	:81	$:
+"u	IGdW	8	:82	$;
+"v	IVOQ	8	#!	:83	$#
+"w	IVOQ	8	#&	:84	$3
+"x	IVOQ	8	#%	:85	$4
+"y	IVOQ	8	#$	:86	$5
+"z	IVOQ	8	##	:87	$8
+"{	Ky'E	8	1	6	:88	$9
+"|	Ky'E	8	1	7	:89	$6
+"}	IGdW	8	:9	$_
+"~	IGdW	8	:98	$1
+#!	INu}	8	"v	AEQB	$#
+#"	INu}	8	"p	CN4	$'
+##	INu}	8	"z	F0N	$8
+#$	INu}	8	"y	F1N	$5
+#%	INu}	8	"x	F2N	$4
+#&	INu}	8	"w	F3N	$3
+#'	INu}	8	"`	GN	$)
+#(	INu}	8	"]	PN	$,

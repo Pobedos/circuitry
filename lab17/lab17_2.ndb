@@ -1,0 +1,142 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 31
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|7483:1|
+7	|7483:2|
+
+The number of name info structs is : 128
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdq	!	S1	"!
+#	IGdq	!	S2	")
+$	NLG+	!	3	S3	"(
+%	IGdq	!	S4	"'
+&	IGdq	!	S5	"&
+'	NLG+	!	3	S6	"%
+(	XUi[	!	1	1	1	S7	"$
+)	SQ)C	!	1	2	S8	"#
+*	XUi[	!	3	2	1	2	S9	""
++	Ky&|	!	5	"	#	$	"A	"7	X1	o
+,	Ky&|	!	6	#	$	"@	"A	"B	"7	X2	}
+-	Ky&|	!	4	$	"A	"B	"7	X3	{
+.	Ky&|	!	2	"C	"7	X4	y
+/	Ky&|	!	7	&	'	*	k	m	n	o	X5	w
+0	Ky&|	!	7	'	(	*	k	m	n	o	X6	u
+1	Ky&|	!	6	)	*	l	m	n	o	X7	s
+2	Ky&|	!	2	*	p	X8	q
+3	Ky&|	!	5	"	#	$	"A	"7	Y1	~
+4	Ky&|	!	6	#	$	"@	"A	"B	"7	Y2	|
+5	Ky&|	!	4	$	"A	"B	"7	Y3	z
+6	Ky&|	!	2	"C	"7	Y4	x
+7	Ky&|	!	8	&	'	(	*	k	m	n	o	Y5	v
+8	Ky&|	!	7	'	(	*	k	m	n	o	Y6	t
+9	Ky&|	!	5	)	*	l	n	o	Y7	r
+:	Ky&|	!	2	*	p	Y8	p
+;	IGdW	.	:1	"{
+<	IGdW	.	:12	"y
+=	IGdW	.	:13	"x
+>	IGdW	.	:14	"w
+?	IGdW	.	:15	"v
+@	IGdW	.	:16	"u
+A	IGdW	.	:17	"t
+B	IGdW	.	:18	"s
+C	IGdW	.	:19	"r
+D	IGdW	.	:2	"z
+E	IGdW	.	:20	"q
+F	IGdW	.	:21	"p
+G	IGdW	.	:22	"o
+H	IGdW	.	:23	"n
+I	IGdW	.	:24	"m
+J	IGdW	.	:25	"l
+K	IGdW	.	:26	"k
+L	IGdW	.	:27	"j
+M	IGdW	.	:28	"i
+N	IGdW	.	:29	"h
+O	IGdW	.	:30	"g
+P	IGdW	.	:31	"f
+Q	IGdW	.	:32	"e
+R	IGdW	.	:33	"d
+S	IGdW	.	:34	"c
+T	IGdW	.	:38	"b
+U	IGdW	.	:39	"a
+V	IGdW	.	:40	"`
+W	IVOQ	.	a	:42	"_
+X	IVOQ	.	b	:43	"^
+Y	IVOQ	.	c	:44	"]
+Z	IVOQ	.	f	:45	"\
+[	IGdW	.	:51	#!
+\	IGdW	.	:52	"~
+]	IGdW	.	:53	"}
+^	IGdW	.	:54	"|
+_	IVOQ	.	`	:83	"[
+`	INu}	.	_	C4	"[
+a	INu}	.	W	S1	"_
+b	INu}	.	X	S2	"^
+c	INu}	.	Y	S3	"]
+d	IM}Q	.	k	S3~1	&D
+e	IM}Q	.	l	S3~2	&T
+f	INu}	.	Z	S4	"\
+g	IM}Q	.	m	S4~1	&8
+h	IM}Q	.	n	S4~2	&<
+i	IM}Q	.	o	S4~3	&H
+j	IM}Q	.	p	S4~4	&X
+k	Q-YI	.	d	1	(	1	~44~1	&D
+l	L(w1	.	e	1	(	~44~2	&T
+m	Q-YI	.	g	1	)	1	~45~1	&8
+n	Q-YI	.	h	1	)	1	~45~2	&<
+o	L(w1	.	i	1	)	~45~3	&H
+p	L(w1	.	j	1	)	~45~4	&X
+q	IGdW	7	:1	#U
+r	IGdW	7	:12	#S
+s	IGdW	7	:13	#R
+t	IGdW	7	:14	#Q
+u	IGdW	7	:15	#P
+v	IGdW	7	:16	#O
+w	IGdW	7	:17	#N
+x	IGdW	7	:18	#M
+y	IGdW	7	:19	#L
+z	IGdW	7	:2	#T
+{	IGdW	7	:20	#K
+|	IGdW	7	:21	#J
+}	IGdW	7	:22	#I
+~	IGdW	7	:23	#H
+"!	IGdW	7	:24	#G
+""	IGdW	7	:25	#F
+"#	IGdW	7	:26	#E
+"$	IGdW	7	:27	#D
+"%	IGdW	7	:28	#C
+"&	IGdW	7	:29	#B
+"'	IGdW	7	:30	#A
+"(	IGdW	7	:31	#@
+")	IGdW	7	:32	#?
+"*	IGdW	7	:33	#>
+"+	IGdW	7	:34	#=
+",	IGdW	7	:38	#<
+"-	IGdW	7	:39	#;
+".	IGdW	7	:40	#:
+"/	IVOQ	7	"9	:42	#9
+"0	IVOQ	7	":	:43	#8
+"1	IVOQ	7	";	:44	#7
+"2	IVOQ	7	"<	:45	#6
+"3	IGdW	7	:51	#Y
+"4	IGdW	7	:52	#X
+"5	IGdW	7	:53	#W
+"6	IGdW	7	:54	#V
+"7	Q.RW	7	"8	8	&	'	(	*	k	m	n	o	3	:83	#5
+"8	INv_	7	"7	C4	#5
+"9	INu}	7	"/	S1	#9
+":	INu}	7	"0	S2	#8
+";	INu}	7	"1	S3	#7
+"<	INu}	7	"2	S4	#6
+"=	IM}Q	7	"A	S4~1	&@
+">	IM}Q	7	"B	S4~2	&L
+"?	IM}Q	7	"C	S4~3	&P
+"@	Kx(k	7	2	$	"7	~2~1	&\
+"A	Q-YI	7	"=	1	%	1	~45~1	&@
+"B	L(w1	7	">	1	%	~45~2	&L
+"C	L(w1	7	"?	1	%	~45~3	&P
