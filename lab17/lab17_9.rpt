@@ -1,0 +1,1243 @@
+Project Information                                       z:\lab17\lab17_9.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 12/02/20 19:05:01
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+lab17_9   EPM7064LC44-7    12       6        0      57      10          89 %
+
+User Pins:                 12       6        0  
+
+
+
+Project Information                                       z:\lab17\lab17_9.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lab17_9_sum:26|
+|lab17_9_sum:26|summator:1|
+|lab17_9_sum:26|summator:1|half-summator:1|
+|lab17_9_sum:26|summator:1|half-summator:2|
+|lab17_9_sum:26|summator:4|
+|lab17_9_sum:26|summator:4|half-summator:1|
+|lab17_9_sum:26|summator:4|half-summator:2|
+|lab17_9_sum:26|summator:3|
+|lab17_9_sum:26|summator:3|half-summator:1|
+|lab17_9_sum:26|summator:3|half-summator:2|
+|lab17_9_sum:26|summator:2|
+|lab17_9_sum:26|summator:2|half-summator:1|
+|lab17_9_sum:26|summator:2|half-summator:2|
+|lab17_9_sum6:62|
+|lab17_9_sum6:62|lab17_9_sum:2|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:1|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:1|half-summator:1|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:1|half-summator:2|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:4|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:4|half-summator:1|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:4|half-summator:2|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:3|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:1|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:2|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|
+|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:2|
+|lab17_9_sum6:62|summator:3|
+|lab17_9_sum6:62|summator:3|half-summator:1|
+|lab17_9_sum6:62|summator:3|half-summator:2|
+|lab17_9_sum6:62|summator:4|
+|lab17_9_sum6:62|summator:4|half-summator:1|
+|lab17_9_sum6:62|summator:4|half-summator:2|
+|lab17_9_sum6:63|
+|lab17_9_sum6:63|lab17_9_sum:2|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:1|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:1|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:4|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:4|half-summator:1|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:4|half-summator:2|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:3|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:3|half-summator:1|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:3|half-summator:2|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:2|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:1|
+|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|
+|lab17_9_sum6:63|summator:3|
+|lab17_9_sum6:63|summator:3|half-summator:1|
+|lab17_9_sum6:63|summator:3|half-summator:2|
+|lab17_9_sum6:63|summator:4|
+|lab17_9_sum6:63|summator:4|half-summator:1|
+|lab17_9_sum6:63|summator:4|half-summator:2|
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+***** Logic for device 'lab17_9' compiled without errors.
+
+
+
+
+Device: EPM7064LC44-7
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                         R  R  
+                                         E  E  
+                                         S  S  
+                                         E  E  
+                                         R  R  
+                       V  G  G  G  G  G  V  V  
+              c  d  d  C  N  N  N  N  N  E  E  
+              4  2  1  C  D  D  D  D  D  D  D  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+      b2 |  7                                39 | RESERVED 
+      b1 |  8                                38 | RESERVED 
+      a3 |  9                                37 | RESERVED 
+     GND | 10                                36 | RESERVED 
+      p6 | 11                                35 | VCC 
+      a1 | 12         EPM7064LC44-7          34 | p5 
+RESERVED | 13                                33 | RESERVED 
+      a2 | 14                                32 | RESERVED 
+     VCC | 15                                31 | RESERVED 
+      p2 | 16                                30 | GND 
+      p1 | 17                                29 | p3 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              a  c  c  c  G  V  R  R  R  R  p  
+              4  1  2  3  N  C  E  E  E  E  4  
+                          D  C  S  S  S  S     
+                                E  E  E  E     
+                                R  R  R  R     
+                                V  V  V  V     
+                                E  E  E  E     
+                                D  D  D  D     
+
+
+N.C. = Not Connected.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16    10/16( 62%)   8/ 8(100%)  13/16( 81%)  23/36( 63%) 
+B:    LC17 - LC32    15/16( 93%)   7/ 8( 87%)  14/16( 87%)  15/36( 41%) 
+C:    LC33 - LC48    16/16(100%)   2/ 8( 25%)  15/16( 93%)  26/36( 72%) 
+D:    LC49 - LC64    16/16(100%)   1/ 8( 12%)  13/16( 81%)  28/36( 77%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            18/32     ( 56%)
+Total logic cells used:                         57/64     ( 89%)
+Total shareable expanders used:                 10/64     ( 15%)
+Total Turbo logic cells used:                   57/64     ( 89%)
+Total shareable expanders not available (n/a):  45/64     ( 70%)
+Average fan-in:                                  8.66
+Total fan-in:                                   494
+
+Total input pins required:                      12
+Total output pins required:                      6
+Total bidirectional pins required:               0
+Total logic cells required:                     57
+Total flipflops required:                        0
+Total product terms required:                  262
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          10
+
+Synthesized logic cells:                        51/  64   ( 79%)
+
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  12    (1)  (A)      INPUT               0      0   0    0    0    5   34  a1
+  14   (30)  (B)      INPUT               0      0   0    0    0    1   42  a2
+   9    (4)  (A)      INPUT               0      0   0    0    0    1   36  a3
+  18   (21)  (B)      INPUT               0      0   0    0    0    1   24  a4
+   8    (5)  (A)      INPUT               0      0   0    0    0    3   48  b1
+   7    (8)  (A)      INPUT               0      0   0    0    0    1   45  b2
+  19   (20)  (B)      INPUT               0      0   0    0    0    1   19  c1
+  20   (19)  (B)      INPUT               0      0   0    0    0    0   14  c2
+  21   (17)  (B)      INPUT               0      0   0    0    0    1   20  c3
+   6   (11)  (A)      INPUT               0      0   0    0    0    4   23  c4
+   4   (16)  (A)      INPUT               0      0   0    0    0    3   10  d1
+   5   (14)  (A)      INPUT               0      0   0    0    0    3   12  d2
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  17     24    B     OUTPUT      t        0      0   0    4    0    0    0  p1
+  16     25    B     OUTPUT      t        1      0   0    5    6    0    0  p2
+  29     41    C     OUTPUT      t        1      1   0    4    9    0    0  p3
+  28     40    C     OUTPUT      t        2      1   0    4    9    0    0  p4
+  34     51    D     OUTPUT      t        1      0   1    7   16    0    0  p5
+  11      3    A     OUTPUT      t        0      0   0    0    5    0    0  p6
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (12)     1    A       SOFT    s t        2      0   0    6    4    3   16  |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~1
+  (9)     4    A       SOFT    s t        1      0   1    8    0    0    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~2 (|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~2)
+ (14)    30    B       SOFT    s t        1      0   1    7    0    0    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~3 (|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~3)
+   -     23    B       SOFT    s t        1      0   1    7    0    0    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~4 (|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~4)
+   -     22    B       SOFT    s t        1      0   1    7    0    0    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~5 (|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~5)
+ (19)    20    B       SOFT    s t        1      0   1    8    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~1 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~1)
+ (20)    19    B       SOFT    s t        1      0   1    8    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~2 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~2)
+   -     42    C       SOFT    s t        1      0   1    7    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~3 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~3)
+ (21)    17    B       SOFT    s t        1      0   1    8    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~4 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~4)
+   -     39    C       SOFT    s t        1      0   1    7    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~5 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~5)
+   -     31    B       SOFT    s t        1      0   1    7    0    1    0  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~6 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~6)
+ (25)    35    C       SOFT    s t        1      1   0    4    5    3   16  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~1
+   -     28    B       SOFT    s t        1      0   1    8    0    2    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~2 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~2)
+   -     27    B       SOFT    s t        1      0   1    7    0    2    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~3 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~3)
+   -     26    B       SOFT    s t        1      0   1    8    0    2    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~4 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~4)
+ (13)    32    B       SOFT    s t        1      0   1    7    0    2    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~5 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~5)
+ (18)    21    B       SOFT    s t        1      0   1    8    0    2    1  |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~6 (|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~6)
+ (38)    56    D       SOFT    s t        1      0   1    6    5    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~1 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~1)
+   -     63    D       SOFT    s t        1      0   1    6    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~2 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~2)
+ (41)    64    D       SOFT    s t        1      0   1    7    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~3 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~3)
+   -     55    D       SOFT    s t        1      0   1    4    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~4 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~4)
+   -     54    D       SOFT    s t        1      0   1    5    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~5 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~5)
+ (37)    53    D       SOFT    s t        1      0   1    6    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~6 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~6)
+ (40)    62    D       SOFT    s t        1      0   1    5    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~7 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~7)
+   -     44    C       SOFT    s t        1      0   1    4    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~8 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~8)
+   -     58    D       SOFT    s t        1      0   1    5    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~9 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~9)
+   -     45    C       SOFT    s t        1      0   1    3    4    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~10 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~10)
+ (36)    52    D       SOFT    s t        0      0   0    6    5    1    0  |lab17_9_sum6:62|summator:3|half-summator:2|s~11 (|lab17_9_sum6:62|summator:3|half-summator:2|~5~11)
+   -     61    D       SOFT    s t        1      0   1    7    4    1    0  |lab17_9_sum6:62|summator:4|half-summator:2|s~1 (|lab17_9_sum6:62|summator:4|half-summator:2|~5~1)
+ (39)    57    D       SOFT    s t        1      0   1    6    4    1    0  |lab17_9_sum6:62|summator:4|half-summator:2|s~2 (|lab17_9_sum6:62|summator:4|half-summator:2|~5~2)
+   -     60    D       SOFT    s t        1      0   1    6    5    1    0  |lab17_9_sum6:62|summator:4|half-summator:2|s~3 (|lab17_9_sum6:62|summator:4|half-summator:2|~5~3)
+   -     50    D       SOFT    s t        0      0   0    5    4    2    0  |lab17_9_sum6:62|summator:4|half-summator:2|s~4 (|lab17_9_sum6:62|summator:4|half-summator:2|~5~4)
+   -     59    D       SOFT    s t        0      0   0    5    4    1    0  |lab17_9_sum6:62|summator:4|half-summator:2|s~5 (|lab17_9_sum6:62|summator:4|half-summator:2|~5~5)
+ (24)    33    C       SOFT    s t        3      0   1    8    4    2    7  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~1
+ (26)    36    C       SOFT    s t        1      0   1    8    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~2
+ (27)    37    C       SOFT    s t        1      0   1    8    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~3
+   -     38    C       SOFT    s t        1      0   1    7    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~4
+ (33)    49    D       SOFT    s t        1      0   1    7    4    2   17  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~1
+   -     43    C       SOFT    s t        1      0   1    7    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~2 (|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~2)
+ (31)    46    C       SOFT    s t        1      0   1    7    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~3 (|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~3)
+   -     47    C       SOFT    s t        1      0   1    5    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~4 (|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~4)
+ (32)    48    C       SOFT    s t        0      0   0    4    1    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~5 (|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~5)
+   -     34    C       SOFT    s t        0      0   0    0    2    0   13  |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~5~1
+  (6)    11    A       SOFT    s t        2      0   1    8    3    1    0  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~1
+   -      2    A       SOFT    s t        1      0   1    8    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~2
+   -      6    A       SOFT    s t        1      0   1    8    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~3
+   -      7    A       SOFT    s t        1      0   1    8    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~4
+  (7)     8    A       SOFT    s t        3      0   1    8    3    1    7  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~1
+   -     10    A       SOFT    s t        1      0   1    6    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~2 (|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~2)
+   -     12    A       SOFT    s t        1      0   1    6    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~3 (|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~3)
+   -     18    B       SOFT    s t        1      0   1    6    0    0    1  |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~4 (|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~4)
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+                             Logic cells placed in LAB 'A'
+        +------------------- LC1 |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~1
+        | +----------------- LC4 |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~2
+        | | +--------------- LC11 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~1
+        | | | +------------- LC2 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~2
+        | | | | +----------- LC6 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~3
+        | | | | | +--------- LC7 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~4
+        | | | | | | +------- LC8 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~1
+        | | | | | | | +----- LC10 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~2
+        | | | | | | | | +--- LC12 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~3
+        | | | | | | | | | +- LC3 p6
+        | | | | | | | | | | 
+        | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | |   that feed LAB 'A'
+LC      | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'A':
+LC4  -> * - - - - - - - - - | * - - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~2
+LC2  -> - - * - - - - - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~2
+LC6  -> - - * - - - - - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~3
+LC7  -> - - * - - - - - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~4
+LC10 -> - - - - - - * - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~2
+LC12 -> - - - - - - * - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~3
+
+Pin
+12   -> - * * * * * * * - - | * * * * | <-- a1
+14   -> * * * * * * * * * - | * * * * | <-- a2
+9    -> * * * * * * * * * - | * * * * | <-- a3
+8    -> * * * * * * * * * - | * * * * | <-- b1
+7    -> - * * * * * * * * - | * * * * | <-- b2
+20   -> * * * * * * * * * - | * - * - | <-- c2
+21   -> * * * * * * * - * - | * * - - | <-- c3
+6    -> * * * * * * * - - - | * * * - | <-- c4
+LC30 -> * - - - - - - - - - | * - - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~3
+LC23 -> * - - - - - - - - - | * - - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~4
+LC22 -> * - - - - - - - - - | * - - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~5
+LC61 -> - - - - - - - - - * | * - - - | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~1
+LC57 -> - - - - - - - - - * | * - - - | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~2
+LC60 -> - - - - - - - - - * | * - - - | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~3
+LC50 -> - - - - - - - - - * | * - - * | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~4
+LC59 -> - - - - - - - - - * | * - - - | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~5
+LC18 -> - - - - - - * - - - | * - - - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~4
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                       Logic cells placed in LAB 'B'
+        +----------------------------- LC30 |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~3
+        | +--------------------------- LC23 |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~4
+        | | +------------------------- LC22 |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~5
+        | | | +----------------------- LC20 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~1
+        | | | | +--------------------- LC19 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~2
+        | | | | | +------------------- LC17 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~4
+        | | | | | | +----------------- LC31 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~6
+        | | | | | | | +--------------- LC28 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~2
+        | | | | | | | | +------------- LC27 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~3
+        | | | | | | | | | +----------- LC26 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~4
+        | | | | | | | | | | +--------- LC32 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~5
+        | | | | | | | | | | | +------- LC21 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~6
+        | | | | | | | | | | | | +----- LC18 |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~4
+        | | | | | | | | | | | | | +--- LC24 p1
+        | | | | | | | | | | | | | | +- LC25 p2
+        | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'B':
+LC20 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~1
+LC19 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~2
+LC17 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~4
+LC31 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~6
+
+Pin
+12   -> * * * * * * * * * * * * * * * | * * * * | <-- a1
+14   -> * * * * * * * * * * * * * - - | * * * * | <-- a2
+9    -> * * * - - - - - - - - - - - - | * * * * | <-- a3
+8    -> * * * * * * * * * * * * * * * | * * * * | <-- b1
+7    -> * * * * * * * * * * * * * - - | * * * * | <-- b2
+21   -> * * * * * * - * * * * * * - * | * * - - | <-- c3
+6    -> * * * * * * * * * * * * * * * | * * * - | <-- c4
+4    -> - - - * * * * * - * - * - * - | - * * - | <-- d1
+5    -> - - - * * * * * * * * * - - * | - * * - | <-- d2
+LC42 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~3
+LC39 -> - - - - - - - - - - - - - - * | - * - - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~5
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'C':
+
+                                         Logic cells placed in LAB 'C'
+        +------------------------------- LC42 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~3
+        | +----------------------------- LC39 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~5
+        | | +--------------------------- LC35 |lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~1
+        | | | +------------------------- LC44 |lab17_9_sum6:62|summator:3|half-summator:2|s~8
+        | | | | +----------------------- LC45 |lab17_9_sum6:62|summator:3|half-summator:2|s~10
+        | | | | | +--------------------- LC33 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~1
+        | | | | | | +------------------- LC36 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~2
+        | | | | | | | +----------------- LC37 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~3
+        | | | | | | | | +--------------- LC38 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~4
+        | | | | | | | | | +------------- LC43 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~2
+        | | | | | | | | | | +----------- LC46 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~3
+        | | | | | | | | | | | +--------- LC47 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~4
+        | | | | | | | | | | | | +------- LC48 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~5
+        | | | | | | | | | | | | | +----- LC34 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~5~1
+        | | | | | | | | | | | | | | +--- LC41 p3
+        | | | | | | | | | | | | | | | +- LC40 p4
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'C'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'C':
+LC35 -> - - - * * - - - - - - - - - * * | - - * * | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~1
+LC33 -> - - - - - - - - - - - - - * - * | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~1
+LC36 -> - - - - - * - - - - - - - - - - | - - * - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~2
+LC37 -> - - - - - * - - - - - - - - - - | - - * - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~3
+LC38 -> - - - - - * - - - - - - - - - - | - - * - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~4
+LC34 -> - - - * * - - - - - - - - - - - | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~5~1
+
+Pin
+12   -> * * * - - * * * - * * - - - * * | * * * * | <-- a1
+14   -> * * - * - * * * * * * - * - - - | * * * * | <-- a2
+9    -> - - - * - * * * * * * * * - - - | * * * * | <-- a3
+18   -> - - - * * * * * * * * * - - - - | - - * * | <-- a4
+8    -> * * - * * * * * * * * * * - - - | * * * * | <-- b1
+7    -> * * - - * * * * * * * * - - - - | * * * * | <-- b2
+19   -> - - - - - * * * * * * * - - - - | - - * * | <-- c1
+20   -> - - - - - * * * * - - - * - - - | * - * - | <-- c2
+6    -> * * * - - - - - - - - - - - * * | * * * - | <-- c4
+4    -> * * * - - - - - - - - - - - * * | - * * - | <-- d1
+5    -> * * * - - - - - - - - - - - * * | - * * - | <-- d2
+LC1  -> - - - * * - - - - - - - - - * * | - - * * | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~1
+LC28 -> - - * - - - - - - - - - - - * * | - - * - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~2
+LC27 -> - - * - - - - - - - - - - - * * | - - * - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~3
+LC26 -> - - * - - - - - - - - - - - * * | - - * - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~4
+LC32 -> - - * - - - - - - - - - - - * * | - - * - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~5
+LC21 -> - - * - - - - - - - - - - - * * | - - * - | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~6
+LC49 -> - - - * * - - - - - - - - * - * | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~1
+LC11 -> - - - - - - - - - - - - - - * - | - - * - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~1
+LC8  -> - - - - - * * * * * - * * - * - | - - * - | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'D':
+
+                                         Logic cells placed in LAB 'D'
+        +------------------------------- LC56 |lab17_9_sum6:62|summator:3|half-summator:2|s~1
+        | +----------------------------- LC63 |lab17_9_sum6:62|summator:3|half-summator:2|s~2
+        | | +--------------------------- LC64 |lab17_9_sum6:62|summator:3|half-summator:2|s~3
+        | | | +------------------------- LC55 |lab17_9_sum6:62|summator:3|half-summator:2|s~4
+        | | | | +----------------------- LC54 |lab17_9_sum6:62|summator:3|half-summator:2|s~5
+        | | | | | +--------------------- LC53 |lab17_9_sum6:62|summator:3|half-summator:2|s~6
+        | | | | | | +------------------- LC62 |lab17_9_sum6:62|summator:3|half-summator:2|s~7
+        | | | | | | | +----------------- LC58 |lab17_9_sum6:62|summator:3|half-summator:2|s~9
+        | | | | | | | | +--------------- LC52 |lab17_9_sum6:62|summator:3|half-summator:2|s~11
+        | | | | | | | | | +------------- LC61 |lab17_9_sum6:62|summator:4|half-summator:2|s~1
+        | | | | | | | | | | +----------- LC57 |lab17_9_sum6:62|summator:4|half-summator:2|s~2
+        | | | | | | | | | | | +--------- LC60 |lab17_9_sum6:62|summator:4|half-summator:2|s~3
+        | | | | | | | | | | | | +------- LC50 |lab17_9_sum6:62|summator:4|half-summator:2|s~4
+        | | | | | | | | | | | | | +----- LC59 |lab17_9_sum6:62|summator:4|half-summator:2|s~5
+        | | | | | | | | | | | | | | +--- LC49 |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~1
+        | | | | | | | | | | | | | | | +- LC51 p5
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'D'
+LC      | | | | | | | | | | | | | | | | | A B C D |     Logic cells that feed LAB 'D':
+LC56 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~1
+LC63 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~2
+LC64 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~3
+LC55 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~4
+LC54 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~5
+LC53 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~6
+LC62 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~7
+LC58 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~9
+LC52 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~11
+LC50 -> - - - - - - - - - - - - - - - * | * - - * | <-- |lab17_9_sum6:62|summator:4|half-summator:2|s~4
+LC49 -> * * * * * * * * * * * * * * - * | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~1
+
+Pin
+12   -> - - * - * - * - - * - * - - * * | * * * * | <-- a1
+14   -> * * * - * * - - * * * - - * * * | * * * * | <-- a2
+9    -> * * * * * * * * * * * * * * * * | * * * * | <-- a3
+18   -> * * * * * * * * * * * * * * * * | - - * * | <-- a4
+8    -> * * * * - * * * * * * * * * * * | * * * * | <-- b1
+7    -> * * * - * * * * * * * * * * * * | * * * * | <-- b2
+19   -> * * * * - * - * * * * * * - * * | - - * * | <-- c1
+LC1  -> * * * * * * * * * * * * * * - * | - - * * | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~1
+LC35 -> * * * * * * * * * * * * * * - * | - - * * | <-- |lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~1
+LC44 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~8
+LC45 -> - - - - - - - - - - - - - - - * | - - - * | <-- |lab17_9_sum6:62|summator:3|half-summator:2|s~10
+LC33 -> * - - - - - - - * * - * * * - * | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~1
+LC43 -> - - - - - - - - - - - - - - * - | - - - * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~2
+LC46 -> - - - - - - - - - - - - - - * - | - - - * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~3
+LC47 -> - - - - - - - - - - - - - - * - | - - - * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~4
+LC48 -> - - - - - - - - - - - - - - * - | - - - * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~5
+LC34 -> * * * * * * * * * - * * - - - - | - - * * | <-- |lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~5~1
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                              z:\lab17\lab17_9.rpt
+lab17_9
+
+** EQUATIONS **
+
+a1       : INPUT;
+a2       : INPUT;
+a3       : INPUT;
+a4       : INPUT;
+b1       : INPUT;
+b2       : INPUT;
+c1       : INPUT;
+c2       : INPUT;
+c3       : INPUT;
+c4       : INPUT;
+d1       : INPUT;
+d2       : INPUT;
+
+-- Node name is 'p1' 
+-- Equation name is 'p1', location is LC024, type is output.
+ p1      = LCELL( _EQ001 $  c4);
+  _EQ001 =  a1 &  b1 &  d1
+         # !b1 & !d1
+         # !a1 & !d1;
+
+-- Node name is 'p2' 
+-- Equation name is 'p2', location is LC025, type is output.
+ p2      = LCELL( _EQ002 $ !c3);
+  _EQ002 = !_LC017 & !_LC019 & !_LC020 & !_LC031 & !_LC039 & !_LC042 &  _X001;
+  _X001  = EXP(!a1 & !b1 &  c4 & !d2);
+
+-- Node name is 'p3' 
+-- Equation name is 'p3', location is LC041, type is output.
+ p3      = LCELL( _EQ003 $  VCC);
+  _EQ003 = !_LC001 & !_LC021 & !_LC026 & !_LC027 & !_LC028 & !_LC032 &  _X002
+         # !_LC008 &  _LC011 &  _LC035;
+  _X002  = EXP(!a1 & !c4 &  d1 &  d2);
+
+-- Node name is 'p4' 
+-- Equation name is 'p4', location is LC040, type is output.
+ p4      = LCELL( _EQ004 $  VCC);
+  _EQ004 = !_LC021 & !_LC026 & !_LC027 & !_LC028 & !_LC032 &  _X002 &  _X003
+         #  _LC001 &  _LC033 &  _LC035 & !_LC049
+         # !_LC001 &  _X003;
+  _X002  = EXP(!a1 & !c4 &  d1 &  d2);
+  _X003  = EXP( _LC033 & !_LC049);
+
+-- Node name is 'p5' 
+-- Equation name is 'p5', location is LC051, type is output.
+ p5      = LCELL( _EQ005 $  _EQ006);
+  _EQ005 =  a1 &  a2 & !a4 &  b1 &  b2 &  c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC044 & !_LC045 & !_LC049 & !_LC050 & !_LC052 & !_LC053 & 
+             !_LC054 & !_LC055 & !_LC056 & !_LC058 & !_LC062 & !_LC063 & 
+             !_LC064
+         #  a2 &  a3 & !a4 &  b1 &  b2 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC044 & !_LC045 & !_LC049 & !_LC050 & !_LC052 & !_LC053 & 
+             !_LC054 & !_LC055 & !_LC056 & !_LC058 & !_LC062 & !_LC063 & 
+             !_LC064
+         # !a1 & !a3 &  a4 &  b2 & !c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC044 & !_LC045 & !_LC049 & !_LC050 & !_LC052 & !_LC053 & 
+             !_LC054 & !_LC055 & !_LC056 & !_LC058 & !_LC062 & !_LC063 & 
+             !_LC064
+         # !a2 & !a3 &  a4 &  b2 & !c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC044 & !_LC045 & !_LC049 & !_LC050 & !_LC052 & !_LC053 & 
+             !_LC054 & !_LC055 & !_LC056 & !_LC058 & !_LC062 & !_LC063 & 
+             !_LC064;
+  _EQ006 = !_LC044 & !_LC045 & !_LC050 & !_LC052 & !_LC053 & !_LC054 & 
+             !_LC055 & !_LC056 & !_LC058 & !_LC062 & !_LC063 & !_LC064;
+
+-- Node name is 'p6' 
+-- Equation name is 'p6', location is LC003, type is output.
+ p6      = LCELL( _EQ007 $  VCC);
+  _EQ007 = !_LC050 & !_LC057 & !_LC059 & !_LC060 & !_LC061;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~2' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~2' 
+-- Equation name is '_LC004', type is buried 
+-- synthesized logic cell 
+_LC004   = LCELL( _EQ008 $  GND);
+  _EQ008 =  a1 &  a2 &  a3 &  b1 &  b2 &  c2 & !c3
+         #  a2 &  a3 &  b1 &  b2 & !c2 & !c3 &  c4
+         #  a1 &  a2 &  a3 &  b2 & !c2 & !c3 & !c4
+         # !a1 &  a2 &  a3 &  b1 &  b2 &  c3
+         # !a1 &  a3 &  b1 &  b2 & !c3 &  c4;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~3' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~3' 
+-- Equation name is '_LC030', type is buried 
+-- synthesized logic cell 
+_LC030   = LCELL( _EQ009 $  GND);
+  _EQ009 = !a1 &  a2 & !a3 &  b2 & !c3 & !c4
+         # !a1 &  a3 &  b1 & !b2 & !c3 & !c4
+         #  a1 & !a2 & !a3 &  b1 &  b2
+         #  a1 & !a2 & !b1 &  b2 &  c4
+         #  a1 &  a2 & !a3 &  b1 & !b2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~4' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~4' 
+-- Equation name is '_LC023', type is buried 
+-- synthesized logic cell 
+_LC023   = LCELL( _EQ010 $  GND);
+  _EQ010 =  a2 & !a3 &  b1 & !b2 &  c4
+         #  a2 & !a3 &  b1 & !b2 &  c3
+         #  a1 & !a2 & !b1 &  b2 &  c3
+         # !a1 &  a2 & !b1 &  b2 & !c3
+         #  a2 & !b1 &  b2 & !c3 & !c4;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~5' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|s~5' 
+-- Equation name is '_LC022', type is buried 
+-- synthesized logic cell 
+_LC022   = LCELL( _EQ011 $  GND);
+  _EQ011 = !a1 &  a2 & !b1 &  b2 & !c4
+         # !a1 & !a2 &  a3 &  b1 & !c4
+         # !a2 &  a3 &  b1 & !b2 & !c3
+         #  a1 & !a3 &  b1 &  c3
+         # !b1 & !b2 &  c3 &  c4;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:2|half-summator:1|~5~1' 
+-- Equation name is '_LC001', type is buried 
+-- synthesized logic cell 
+_LC001   = LCELL( _EQ012 $ !c2);
+  _EQ012 = !_LC004 & !_LC022 & !_LC023 & !_LC030 &  _X004 &  _X005;
+  _X004  = EXP(!a2 & !b1 &  c3 &  c4);
+  _X005  = EXP(!a2 & !a3 &  c3 &  c4);
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~1' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~1' 
+-- Equation name is '_LC020', type is buried 
+-- synthesized logic cell 
+_LC020   = LCELL( _EQ013 $  GND);
+  _EQ013 =  a1 & !a2 &  b1 & !b2 &  c4 &  d1 &  d2
+         #  a1 & !a2 &  b1 &  b2 &  c3 & !c4 &  d2
+         #  a1 & !a2 &  b2 &  c3 &  c4 & !d1 &  d2
+         #  a1 &  a2 &  b1 & !b2 &  c3 & !c4 &  d2
+         #  a1 & !a2 &  b2 & !c3 & !c4 &  d1 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~2' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~2' 
+-- Equation name is '_LC019', type is buried 
+-- synthesized logic cell 
+_LC019   = LCELL( _EQ014 $  GND);
+  _EQ014 =  a2 &  b1 & !b2 & !c3 & !c4 &  d1 &  d2
+         #  a1 & !a2 &  b1 &  b2 & !c3 & !d1 &  d2
+         #  a1 & !a2 &  b1 & !b2 &  c3 & !c4 & !d2
+         #  a1 &  a2 &  b2 &  c4 &  d1 &  d2
+         #  a1 &  a2 &  b1 &  b2 & !c4 & !d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~3' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~3' 
+-- Equation name is '_LC042', type is buried 
+-- synthesized logic cell 
+_LC042   = LCELL( _EQ015 $  GND);
+  _EQ015 =  a1 &  a2 &  b1 &  b2 & !d1 & !d2
+         #  a1 &  a2 &  b1 & !b2 & !d1 &  d2
+         #  a1 &  a2 & !b2 &  c4 &  d1 & !d2
+         # !a2 &  b1 &  b2 &  c4 &  d1 & !d2
+         #  a1 & !b1 &  b2 & !c4 & !d1 & !d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~4' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~4' 
+-- Equation name is '_LC017', type is buried 
+-- synthesized logic cell 
+_LC017   = LCELL( _EQ016 $  GND);
+  _EQ016 =  a1 & !a2 &  b1 & !b2 & !d1 & !d2
+         # !a1 &  a2 &  b1 & !c4 & !d1 & !d2
+         # !a2 & !b2 & !c3 & !c4 &  d1 & !d2
+         #  a1 & !b1 &  b2 &  c4 &  d2
+         #  a1 & !b1 &  b2 &  d1 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~5' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~5' 
+-- Equation name is '_LC039', type is buried 
+-- synthesized logic cell 
+_LC039   = LCELL( _EQ017 $  GND);
+  _EQ017 = !a1 &  a2 &  b1 &  c4 &  d2
+         # !a1 &  a2 &  b1 &  d1 &  d2
+         # !a1 & !a2 & !c4 & !d1 &  d2
+         # !b1 & !b2 & !c4 & !d1 &  d2
+         # !a1 & !b1 & !c4 & !d1 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|~5~6' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|half-summator:2|s~6' 
+-- Equation name is '_LC031', type is buried 
+-- synthesized logic cell 
+_LC031   = LCELL( _EQ018 $  GND);
+  _EQ018 = !a1 & !a2 &  c4 & !d2
+         # !b1 & !b2 &  c4 & !d2
+         # !a1 & !a2 &  d1 & !d2
+         # !b1 & !b2 &  d1 & !d2
+         # !a1 & !b1 &  d1 & !d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~2' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~2' 
+-- Equation name is '_LC028', type is buried 
+-- synthesized logic cell 
+_LC028   = LCELL( _EQ019 $  GND);
+  _EQ019 =  a1 &  a2 &  b1 &  b2 & !c3 &  c4 &  d1
+         #  a1 &  a2 &  b1 & !b2 &  c3 &  c4 &  d1
+         #  a1 & !a2 &  b1 &  b2 &  c3 &  c4 &  d1
+         #  a1 & !a2 &  b1 & !b2 & !c3 &  c4 &  d1
+         #  a1 &  a2 &  b1 &  b2 & !c3 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~3' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~3' 
+-- Equation name is '_LC027', type is buried 
+-- synthesized logic cell 
+_LC027   = LCELL( _EQ020 $  GND);
+  _EQ020 =  a1 &  a2 &  b1 & !b2 &  c3 &  d2
+         #  a1 & !a2 &  b1 &  b2 &  c3 &  d2
+         # !a1 &  a2 &  b1 &  c3 &  c4 &  d2
+         #  a1 & !b1 &  b2 &  c3 &  c4 &  d2
+         # !a1 &  a2 &  b1 & !c3 & !c4 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~4' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~4' 
+-- Equation name is '_LC026', type is buried 
+-- synthesized logic cell 
+_LC026   = LCELL( _EQ021 $  GND);
+  _EQ021 =  a1 & !b1 &  b2 & !c3 & !c4 &  d2
+         #  a1 & !a2 &  b1 & !b2 & !c3 &  d2
+         #  a1 & !b1 &  b2 & !c3 & !c4 &  d1
+         # !a1 &  a2 &  b1 & !c3 & !c4 &  d1
+         #  a1 &  b1 &  c4 &  d1 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~5' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~5' 
+-- Equation name is '_LC032', type is buried 
+-- synthesized logic cell 
+_LC032   = LCELL( _EQ022 $  GND);
+  _EQ022 = !b1 & !b2 &  c3 & !c4 &  d2
+         # !a1 & !b1 &  c3 & !c4 &  d2
+         # !a1 & !a2 &  c3 & !c4 &  d2
+         # !b1 & !b2 & !c3 &  c4 &  d2
+         # !a1 & !b1 & !c3 &  c4 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~6' = '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|p~6' 
+-- Equation name is '_LC021', type is buried 
+-- synthesized logic cell 
+_LC021   = LCELL( _EQ023 $  GND);
+  _EQ023 = !a1 & !a2 & !c3 &  c4 &  d2
+         # !b1 & !b2 &  c3 & !c4 &  d1
+         # !a1 & !b1 &  c3 & !c4 &  d1
+         # !a1 & !a2 &  c3 & !c4 &  d1
+         # !b1 & !c4 &  d1 &  d2;
+
+-- Node name is '|lab17_9_sum6:62|lab17_9_sum:2|summator:3|~3~1' 
+-- Equation name is '_LC035', type is buried 
+-- synthesized logic cell 
+_LC035   = LCELL( _EQ024 $  VCC);
+  _EQ024 = !_LC021 & !_LC026 & !_LC027 & !_LC028 & !_LC032 &  _X002;
+  _X002  = EXP(!a1 & !c4 &  d1 &  d2);
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~1' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~1' 
+-- Equation name is '_LC056', type is buried 
+-- synthesized logic cell 
+_LC056   = LCELL( _EQ025 $  GND);
+  _EQ025 = !a3 &  a4 & !b1 &  b2 &  _LC001 &  _LC033 &  _LC035 & !_LC049
+         #  a4 & !b1 &  b2 & !c1 &  _LC001 &  _LC033 &  _LC035 & !_LC049
+         #  a2 &  a3 & !a4 &  b1 &  b2 & !_LC034 &  _LC049
+         #  a2 &  a3 & !a4 &  b1 &  b2 & !_LC001 &  _LC049
+         #  a2 &  a3 & !a4 &  b1 &  b2 & !_LC035 &  _LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~2' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~2' 
+-- Equation name is '_LC063', type is buried 
+-- synthesized logic cell 
+_LC063   = LCELL( _EQ026 $  GND);
+  _EQ026 = !a2 &  a4 &  b1 &  b2 &  c1 & !_LC034 & !_LC049
+         # !a2 &  a4 &  b1 &  b2 &  c1 & !_LC001 & !_LC049
+         # !a2 &  a4 &  b1 &  b2 &  c1 & !_LC035 & !_LC049
+         # !a3 &  a4 &  b1 &  b2 &  c1 & !_LC034 & !_LC049
+         # !a3 &  a4 &  b1 &  b2 &  c1 & !_LC001 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~3' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~3' 
+-- Equation name is '_LC064', type is buried 
+-- synthesized logic cell 
+_LC064   = LCELL( _EQ027 $  GND);
+  _EQ027 = !a3 &  a4 &  b1 &  b2 &  c1 & !_LC035 & !_LC049
+         #  a1 &  a2 & !a3 &  b1 & !c1 & !_LC034 & !_LC049
+         #  a1 &  a2 & !a3 &  b1 & !c1 & !_LC001 & !_LC049
+         #  a1 &  a2 & !a3 &  b1 & !c1 & !_LC035 & !_LC049
+         #  a3 &  a4 & !b1 &  c1 & !_LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~4' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~4' 
+-- Equation name is '_LC055', type is buried 
+-- synthesized logic cell 
+_LC055   = LCELL( _EQ028 $  GND);
+  _EQ028 =  a3 &  a4 & !b1 &  c1 & !_LC001 & !_LC049
+         #  a3 &  a4 & !b1 &  c1 & !_LC034 & !_LC049
+         #  a3 &  a4 &  b1 & !c1 & !_LC035 & !_LC049
+         #  a3 &  a4 &  b1 & !c1 & !_LC001 & !_LC049
+         #  a3 &  a4 &  b1 & !c1 & !_LC034 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~5' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~5' 
+-- Equation name is '_LC054', type is buried 
+-- synthesized logic cell 
+_LC054   = LCELL( _EQ029 $  GND);
+  _EQ029 = !a1 & !a3 &  a4 &  b2 & !_LC034 &  _LC049
+         # !a1 & !a3 &  a4 &  b2 & !_LC001 &  _LC049
+         # !a1 & !a3 &  a4 &  b2 & !_LC035 &  _LC049
+         # !a2 & !a3 &  a4 &  b2 & !_LC034 &  _LC049
+         # !a2 & !a3 &  a4 &  b2 & !_LC001 &  _LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~6' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~6' 
+-- Equation name is '_LC053', type is buried 
+-- synthesized logic cell 
+_LC053   = LCELL( _EQ030 $  GND);
+  _EQ030 = !a2 & !a3 &  a4 &  b2 & !_LC035 &  _LC049
+         # !a2 &  a3 &  b1 & !c1 & !_LC034 & !_LC049
+         # !a2 &  a3 &  b1 & !c1 & !_LC001 & !_LC049
+         # !a2 &  a3 &  b1 & !c1 & !_LC035 & !_LC049
+         #  a4 & !b1 &  b2 & !_LC034 &  _LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~7' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~7' 
+-- Equation name is '_LC062', type is buried 
+-- synthesized logic cell 
+_LC062   = LCELL( _EQ031 $  GND);
+  _EQ031 =  a4 & !b1 &  b2 & !_LC001 &  _LC049
+         #  a4 & !b1 &  b2 & !_LC035 &  _LC049
+         # !a1 & !a3 & !a4 & !_LC034 & !_LC049
+         # !a1 & !a3 & !a4 & !_LC001 & !_LC049
+         # !a1 & !a3 & !a4 & !_LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~8' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~8' 
+-- Equation name is '_LC044', type is buried 
+-- synthesized logic cell 
+_LC044   = LCELL( _EQ032 $  GND);
+  _EQ032 = !a2 & !a3 & !a4 & !_LC034 & !_LC049
+         # !a2 & !a3 & !a4 & !_LC001 & !_LC049
+         # !a2 & !a3 & !a4 & !_LC035 & !_LC049
+         # !a3 & !a4 & !b1 & !_LC034 & !_LC049
+         # !a3 & !a4 & !b1 & !_LC001 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~9' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~9' 
+-- Equation name is '_LC058', type is buried 
+-- synthesized logic cell 
+_LC058   = LCELL( _EQ033 $  GND);
+  _EQ033 = !a3 & !a4 & !b1 & !_LC035 & !_LC049
+         # !a4 & !b1 & !c1 & !_LC034 & !_LC049
+         # !a4 & !b1 & !c1 & !_LC001 & !_LC049
+         # !a4 & !b1 & !c1 & !_LC035 & !_LC049
+         # !b1 & !b2 & !_LC034 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~10' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~10' 
+-- Equation name is '_LC045', type is buried 
+-- synthesized logic cell 
+_LC045   = LCELL( _EQ034 $  GND);
+  _EQ034 = !b1 & !b2 & !_LC001 & !_LC049
+         # !b1 & !b2 & !_LC035 & !_LC049
+         # !a4 & !b2 & !_LC034 & !_LC049
+         # !a4 & !b2 & !_LC001 & !_LC049
+         # !a4 & !b2 & !_LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:3|half-summator:2|~5~11' = '|lab17_9_sum6:62|summator:3|half-summator:2|s~11' 
+-- Equation name is '_LC052', type is buried 
+-- synthesized logic cell 
+_LC052   = LCELL( _EQ035 $  GND);
+  _EQ035 = !b2 & !c1 & !_LC034 & !_LC049
+         # !b2 & !c1 & !_LC001 & !_LC049
+         # !b2 & !c1 & !_LC035 & !_LC049
+         #  a2 &  a3 &  a4 &  b1 &  c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:4|half-summator:2|~5~1' = '|lab17_9_sum6:62|summator:4|half-summator:2|s~1' 
+-- Equation name is '_LC061', type is buried 
+-- synthesized logic cell 
+_LC061   = LCELL( _EQ036 $  GND);
+  _EQ036 =  a1 &  a2 & !a3 &  b1 &  b2 &  c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC049
+         #  a2 &  a3 &  b1 &  b2 & !c1 &  _LC001 &  _LC033 &  _LC035 & 
+             !_LC049
+         # !a2 &  a3 &  b2 &  c1 &  _LC001 &  _LC033 &  _LC035 & !_LC049
+         #  a1 &  a2 & !a3 &  a4 &  b1 &  b2 & !_LC049
+         #  a4 &  b2 & !c1 &  _LC001 &  _LC033 &  _LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:4|half-summator:2|~5~2' = '|lab17_9_sum6:62|summator:4|half-summator:2|s~2' 
+-- Equation name is '_LC057', type is buried 
+-- synthesized logic cell 
+_LC057   = LCELL( _EQ037 $  GND);
+  _EQ037 =  a2 &  a3 & !a4 &  b1 &  b2 &  _LC049
+         # !a3 &  a4 &  b1 &  b2 &  c1 & !_LC049
+         #  a3 &  a4 &  b1 &  b2 & !_LC035
+         #  a3 &  a4 &  b1 &  b2 & !_LC001
+         #  a3 &  a4 &  b1 &  b2 & !_LC034;
+
+-- Node name is '|lab17_9_sum6:62|summator:4|half-summator:2|~5~3' = '|lab17_9_sum6:62|summator:4|half-summator:2|s~3' 
+-- Equation name is '_LC060', type is buried 
+-- synthesized logic cell 
+_LC060   = LCELL( _EQ038 $  GND);
+  _EQ038 =  a3 &  a4 & !b1 &  b2 &  c1
+         #  a4 &  b2 & !_LC035 &  _LC049
+         #  a4 &  b2 & !_LC001 &  _LC049
+         #  a4 &  b2 & !_LC034 &  _LC049
+         # !a1 & !a3 &  a4 &  b2 &  _LC001 &  _LC033 &  _LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:4|half-summator:2|~5~4' = '|lab17_9_sum6:62|summator:4|half-summator:2|s~4' 
+-- Equation name is '_LC050', type is buried 
+-- synthesized logic cell 
+_LC050   = LCELL( _EQ039 $  GND);
+  _EQ039 =  a3 & !a4 &  b2 &  c1 &  _LC001 &  _LC033 &  _LC035 & !_LC049
+         #  a4 &  b1 & !b2 &  c1 &  _LC001 &  _LC033 &  _LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:62|summator:4|half-summator:2|~5~5' = '|lab17_9_sum6:62|summator:4|half-summator:2|s~5' 
+-- Equation name is '_LC059', type is buried 
+-- synthesized logic cell 
+_LC059   = LCELL( _EQ040 $  GND);
+  _EQ040 = !a2 & !a3 &  a4 &  b2 &  _LC001 &  _LC033 &  _LC035 & !_LC049
+         #  a4 & !b1 &  b2 &  _LC001 &  _LC033 &  _LC035 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~2' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~2' 
+-- Equation name is '_LC043', type is buried 
+-- synthesized logic cell 
+_LC043   = LCELL( _EQ041 $  GND);
+  _EQ041 = !a2 &  a3 &  a4 &  b1 &  b2 & !c1
+         #  a1 &  a2 & !a3 &  b1 &  b2 & !_LC008
+         # !a1 &  a2 &  a3 &  b1 &  b2 & !_LC008
+         # !a1 & !a3 &  a4 &  b1 &  c1
+         # !a2 & !a3 &  a4 &  b1 &  c1;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~3' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~3' 
+-- Equation name is '_LC046', type is buried 
+-- synthesized logic cell 
+_LC046   = LCELL( _EQ042 $  GND);
+  _EQ042 = !a2 &  a3 & !a4 &  b2 &  c1
+         #  a4 &  b1 & !b2 &  c1
+         #  a3 & !b1 &  b2 &  c1
+         # !a1 & !a3 & !a4 & !c1
+         # !a2 & !a3 & !a4 & !c1;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~4' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~4' 
+-- Equation name is '_LC047', type is buried 
+-- synthesized logic cell 
+_LC047   = LCELL( _EQ043 $  GND);
+  _EQ043 = !b1 & !b2 & !c1
+         # !a4 & !b2 & !c1
+         # !a3 & !b1 & !c1
+         # !b1 & !b2 & !_LC008
+         # !a3 & !b2 & !_LC008;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~5' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|p~5' 
+-- Equation name is '_LC048', type is buried 
+-- synthesized logic cell 
+_LC048   = LCELL( _EQ044 $  GND);
+  _EQ044 = !a2 & !b1 & !_LC008
+         # !a2 & !a3 & !_LC008
+         # !c2 & !_LC008;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~1' 
+-- Equation name is '_LC033', type is buried 
+-- synthesized logic cell 
+_LC033   = LCELL( _EQ045 $  _EQ046);
+  _EQ045 = !a1 &  a2 &  a3 &  a4 &  b1 &  b2 &  c1 & !_LC008 & !_LC036 & 
+             !_LC037 & !_LC038 &  _X006 &  _X007
+         #  a1 &  a2 & !a3 & !a4 &  b1 &  b2 &  c1 & !_LC008 & !_LC036 & 
+             !_LC037 & !_LC038 &  _X006 &  _X007
+         #  a1 &  a2 & !a3 &  a4 &  b1 &  b2 & !c1 & !_LC008 & !_LC036 & 
+             !_LC037 & !_LC038 &  _X006 &  _X007
+         # !a1 &  a2 &  a3 & !a4 &  b1 &  b2 & !c1 & !_LC008 & !_LC036 & 
+             !_LC037 & !_LC038 &  _X006 &  _X007;
+  _X006  = EXP(!a3 & !b1 & !c1 & !c2 & !_LC008);
+  _X007  = EXP(!b1 & !b2 & !c1 & !_LC008);
+  _EQ046 = !_LC036 & !_LC037 & !_LC038 &  _X006 &  _X007;
+  _X006  = EXP(!a3 & !b1 & !c1 & !c2 & !_LC008);
+  _X007  = EXP(!b1 & !b2 & !c1 & !_LC008);
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~2' 
+-- Equation name is '_LC036', type is buried 
+-- synthesized logic cell 
+_LC036   = LCELL( _EQ047 $  GND);
+  _EQ047 = !a2 &  a3 &  a4 &  b1 &  b2 & !c1 & !c2 & !_LC008
+         #  a2 &  a3 &  a4 &  b2 &  c1 & !c2 & !_LC008
+         # !a1 &  a2 &  a4 &  b1 &  c1 & !c2 & !_LC008
+         #  a2 &  a3 & !a4 &  b1 & !c1 & !c2 & !_LC008
+         # !a2 &  a3 & !a4 &  b2 &  c1 & !c2 & !_LC008;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~3' 
+-- Equation name is '_LC037', type is buried 
+-- synthesized logic cell 
+_LC037   = LCELL( _EQ048 $  GND);
+  _EQ048 = !a1 &  a2 & !a4 &  b1 & !c1 & !c2 & !_LC008
+         # !a2 & !a3 &  a4 &  b1 &  c1 & !_LC008
+         # !a3 &  a4 &  b1 & !b2 &  c1 & !_LC008
+         #  a4 &  b1 & !b2 &  c1 & !c2 & !_LC008
+         # !a2 &  a3 & !b1 &  b2 &  c1 & !_LC008;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~3~4' 
+-- Equation name is '_LC038', type is buried 
+-- synthesized logic cell 
+_LC038   = LCELL( _EQ049 $  GND);
+  _EQ049 =  a3 & !b1 &  b2 &  c1 & !c2 & !_LC008
+         # !a2 & !a3 & !a4 & !c1 & !_LC008
+         # !a3 & !a4 & !b2 & !c1 & !_LC008
+         # !a4 & !b2 & !c1 & !c2 & !_LC008
+         # !a2 & !a3 & !b1 & !c1 & !_LC008;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~4~1' 
+-- Equation name is '_LC049', type is buried 
+-- synthesized logic cell 
+_LC049   = LCELL( _EQ050 $  _EQ051);
+  _EQ050 =  a1 &  a2 & !a3 & !a4 &  b1 &  b2 &  c1 & !_LC043 & !_LC046 & 
+             !_LC047 & !_LC048
+         #  a1 &  a2 & !a3 &  a4 &  b1 &  b2 & !c1 & !_LC043 & !_LC046 & 
+             !_LC047 & !_LC048
+         #  a2 &  a3 &  a4 &  b1 &  b2 &  c1 & !_LC043 & !_LC046 & !_LC047 & 
+             !_LC048
+         #  a2 &  a3 & !a4 &  b1 &  b2 & !c1 & !_LC043 & !_LC046 & !_LC047 & 
+             !_LC048;
+  _EQ051 = !_LC043 & !_LC046 & !_LC047 & !_LC048;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:1|half-summator:2|~5~1' 
+-- Equation name is '_LC034', type is buried 
+-- synthesized logic cell 
+_LC034   = LCELL( _EQ052 $  GND);
+  _EQ052 =  _LC033 & !_LC049;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~2' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~2' 
+-- Equation name is '_LC010', type is buried 
+-- synthesized logic cell 
+_LC010   = LCELL( _EQ053 $  GND);
+  _EQ053 = !a1 &  a2 & !a3 &  b2 &  c2
+         #  a3 &  b1 & !b2 &  c2
+         # !a2 &  a3 &  b1 &  c2
+         #  a2 & !b1 &  b2 &  c2
+         # !b1 & !b2 & !c2;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~3' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~3' 
+-- Equation name is '_LC012', type is buried 
+-- synthesized logic cell 
+_LC012   = LCELL( _EQ054 $  GND);
+  _EQ054 = !a3 & !b2 & !c2
+         # !a2 & !b1 & !c2
+         # !a2 & !a3 & !c2
+         # !b1 & !b2 & !c3
+         # !a2 & !b2 & !c3;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~4' = '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|p~4' 
+-- Equation name is '_LC018', type is buried 
+-- synthesized logic cell 
+_LC018   = LCELL( _EQ055 $  GND);
+  _EQ055 = !a1 & !b1 & !c3
+         # !a1 & !a2 & !c3
+         # !b1 & !b2 & !c4
+         # !a1 & !b1 & !c4
+         # !b1 & !c3 & !c4;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~1' 
+-- Equation name is '_LC011', type is buried 
+-- synthesized logic cell 
+_LC011   = LCELL( _EQ056 $  _EQ057);
+  _EQ056 = !a1 &  a2 &  a3 &  b1 &  b2 & !c2 & !c3 & !c4 & !_LC002 & !_LC006 & 
+             !_LC007 &  _X008
+         #  a1 &  a2 &  a3 &  b1 &  b2 &  c2 & !c3 & !_LC002 & !_LC006 & 
+             !_LC007 &  _X008
+         #  a1 &  a2 & !a3 &  b1 &  b2 & !c2 & !c3 & !_LC002 & !_LC006 & 
+             !_LC007 &  _X008
+         # !a1 &  a2 & !a3 &  b2 &  c2 & !c3 & !c4 & !_LC002 & !_LC006 & 
+             !_LC007 &  _X008;
+  _X008  = EXP(!b1 & !b2 & !c2 & !c3);
+  _EQ057 = !_LC002 & !_LC006 & !_LC007 &  _X008;
+  _X008  = EXP(!b1 & !b2 & !c2 & !c3);
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~2' 
+-- Equation name is '_LC002', type is buried 
+-- synthesized logic cell 
+_LC002   = LCELL( _EQ058 $  GND);
+  _EQ058 = !a1 &  a3 &  b1 & !b2 &  c2 & !c3 & !c4
+         #  a2 & !b1 &  b2 &  c2 & !c3 & !c4
+         # !a2 &  a3 &  b1 & !b2 &  c2 & !c3
+         # !a1 &  a2 & !b1 &  b2 &  c2 & !c4
+         # !a1 & !a2 &  a3 &  b1 &  c2 & !c4;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~3' 
+-- Equation name is '_LC006', type is buried 
+-- synthesized logic cell 
+_LC006   = LCELL( _EQ059 $  GND);
+  _EQ059 = !a1 &  a2 & !b1 &  b2 &  c2 & !c3
+         # !a1 & !a2 &  a3 &  b1 &  c2 & !c3
+         # !a1 & !a3 & !b2 & !c2 & !c3 & !c4
+         # !a2 & !b1 & !c2 & !c3 & !c4
+         # !a2 & !a3 & !b2 & !c2 & !c3;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~3~4' 
+-- Equation name is '_LC007', type is buried 
+-- synthesized logic cell 
+_LC007   = LCELL( _EQ060 $  GND);
+  _EQ060 = !a1 & !a2 & !b1 & !c2 & !c4
+         # !a1 & !a2 & !a3 & !c2 & !c4
+         # !a1 & !a2 & !b1 & !c2 & !c3
+         # !a1 & !a2 & !a3 & !c2 & !c3
+         # !b1 & !b2 & !c2 & !c4;
+
+-- Node name is '|lab17_9_sum6:63|lab17_9_sum:2|summator:2|half-summator:2|~4~1' 
+-- Equation name is '_LC008', type is buried 
+-- synthesized logic cell 
+_LC008   = LCELL( _EQ061 $  _EQ062);
+  _EQ061 =  a1 &  a2 &  a3 &  b1 &  b2 &  c2 & !_LC010 & !_LC012 & !_LC018 & 
+              _X009 &  _X010
+         #  a1 &  a2 & !a3 &  b1 &  b2 & !c2 & !_LC010 & !_LC012 & !_LC018 & 
+              _X009 &  _X010
+         # !a1 &  a2 &  a3 &  b1 &  b2 & !c2 & !_LC010 & !_LC012 & !_LC018 & 
+              _X009 &  _X010
+         #  a1 &  a2 &  b1 &  b2 & !c3 & !_LC010 & !_LC012 & !_LC018 &  _X009 & 
+              _X010;
+  _X009  = EXP(!a1 & !a2 & !c4);
+  _X010  = EXP(!a1 & !c3 & !c4);
+  _EQ062 = !_LC010 & !_LC012 & !_LC018 &  _X009 &  _X010;
+  _X009  = EXP(!a1 & !a2 & !c4);
+  _X010  = EXP(!a1 & !c3 & !c4);
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                                       z:\lab17\lab17_9.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:01
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:01
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 5,114K

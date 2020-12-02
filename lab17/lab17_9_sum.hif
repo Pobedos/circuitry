@@ -35,15 +35,41 @@ FILES
 	{
 		summator [] []
 		{
+			1 [] [];
+		}
+	}
+	lab17_9_sum.gdf
+	{
+		lab17_9_sum [] []
+		{
 			0 [] [];
 		}
 	}
 }
 TREE
 {
-	summator::(0,0):(0): summator.gdf
+	lab17_9_sum::(0,0):(0): lab17_9_sum.gdf
 	{
-		half-summator::(0,0):(1): half-summator.gdf;
-		half-summator::(0,0):(2): half-summator.gdf;
+		summator::(0,0):(5): summator.gdf;
+		summator::(0,0):(4): summator.gdf
+		{
+			half-summator:2:(0,0):(1): half-summator.gdf;
+			half-summator:2:(0,0):(2): half-summator.gdf;
+		}
+		summator::(0,0):(3): summator.gdf
+		{
+			half-summator:2:(0,0):(1): half-summator.gdf;
+			half-summator:2:(0,0):(2): half-summator.gdf;
+		}
+		summator::(0,0):(2): summator.gdf
+		{
+			half-summator:2:(0,0):(1): half-summator.gdf;
+			half-summator:2:(0,0):(2): half-summator.gdf;
+		}
+		summator::(0,0):(1): summator.gdf
+		{
+			half-summator:2:(0,0):(1): half-summator.gdf;
+			half-summator:2:(0,0):(2): half-summator.gdf;
+		}
 	}
 }

@@ -28,7 +28,7 @@ FILES
 	{
 		half-summator [] []
 		{
-			2 [] [];
+			1 [] [];
 		}
 	}
 	summator.gdf
@@ -43,7 +43,7 @@ TREE
 {
 	summator::(0,0):(0): summator.gdf
 	{
-		half-summator::(0,0):(1): half-summator.gdf;
 		half-summator::(0,0):(2): half-summator.gdf;
+		half-summator::(0,0):(1): half-summator.gdf;
 	}
 }

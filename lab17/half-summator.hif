@@ -28,22 +28,11 @@ FILES
 	{
 		half-summator [] []
 		{
-			2 [] [];
-		}
-	}
-	summator.gdf
-	{
-		summator [] []
-		{
 			0 [] [];
 		}
 	}
 }
 TREE
 {
-	summator::(0,0):(0): summator.gdf
-	{
-		half-summator::(0,0):(1): half-summator.gdf;
-		half-summator::(0,0):(2): half-summator.gdf;
-	}
+	half-summator::(0,0):(0): half-summator.gdf;
 }
