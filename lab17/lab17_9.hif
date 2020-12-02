@@ -24,18 +24,11 @@ HIF003
 --
 FILES
 {
-	lab17_9_sum6.gdf
+	lab17_9_sum.gdf
 	{
-		lab17_9_sum6 [] []
+		lab17_9_sum [] []
 		{
-			4 [] [];
-		}
-	}
-	half-summator.gdf
-	{
-		half-summator [] []
-		{
-			3 [] [];
+			1 [] [];
 		}
 	}
 	summator.gdf
@@ -45,11 +38,18 @@ FILES
 			2 [] [];
 		}
 	}
-	lab17_9_sum.gdf
+	half-summator.gdf
 	{
-		lab17_9_sum [] []
+		half-summator [] []
 		{
-			1 [] [];
+			3 [] [];
+		}
+	}
+	lab17_9_sum6.gdf
+	{
+		lab17_9_sum6 [] []
+		{
+			4 [] [];
 		}
 	}
 	lab17_9.gdf
@@ -64,37 +64,24 @@ TREE
 {
 	lab17_9::(0,0):(0): lab17_9.gdf
 	{
-		lab17_9_sum6::(0,0):(63): lab17_9_sum6.gdf
+		lab17_9_sum::(0,0):(26): lab17_9_sum.gdf
 		{
-			lab17_9_sum:1:(0,0):(2): lab17_9_sum.gdf
+			summator:2:(0,0):(1): summator.gdf
 			{
-				summator:2:(0,0):(1): summator.gdf
-				{
-					half-summator:3:(0,0):(1): half-summator.gdf;
-					half-summator:3:(0,0):(2): half-summator.gdf;
-				}
-				summator:2:(0,0):(4): summator.gdf
-				{
-					half-summator:3:(0,0):(1): half-summator.gdf;
-					half-summator:3:(0,0):(2): half-summator.gdf;
-				}
-				summator:2:(0,0):(3): summator.gdf
-				{
-					half-summator:3:(0,0):(1): half-summator.gdf;
-					half-summator:3:(0,0):(2): half-summator.gdf;
-				}
-				summator:2:(0,0):(2): summator.gdf
-				{
-					half-summator:3:(0,0):(1): half-summator.gdf;
-					half-summator:3:(0,0):(2): half-summator.gdf;
-				}
+				half-summator:3:(0,0):(1): half-summator.gdf;
+				half-summator:3:(0,0):(2): half-summator.gdf;
+			}
+			summator:2:(0,0):(4): summator.gdf
+			{
+				half-summator:3:(0,0):(1): half-summator.gdf;
+				half-summator:3:(0,0):(2): half-summator.gdf;
 			}
 			summator:2:(0,0):(3): summator.gdf
 			{
 				half-summator:3:(0,0):(1): half-summator.gdf;
 				half-summator:3:(0,0):(2): half-summator.gdf;
 			}
-			summator:2:(0,0):(4): summator.gdf
+			summator:2:(0,0):(2): summator.gdf
 			{
 				half-summator:3:(0,0):(1): half-summator.gdf;
 				half-summator:3:(0,0):(2): half-summator.gdf;
@@ -136,18 +123,32 @@ TREE
 				half-summator:3:(0,0):(2): half-summator.gdf;
 			}
 		}
-		lab17_9_sum::(0,0):(61): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(60): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(59): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(52): lab17_9_sum.gdf;
-		summator::(0,0):(51): summator.gdf;
-		lab17_9_sum::(0,0):(34): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(29): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(28): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(27): lab17_9_sum.gdf;
-		lab17_9_sum::(0,0):(26): lab17_9_sum.gdf
+		lab17_9_sum6::(0,0):(63): lab17_9_sum6.gdf
 		{
-			summator:2:(0,0):(1): summator.gdf
+			lab17_9_sum:1:(0,0):(2): lab17_9_sum.gdf
+			{
+				summator:2:(0,0):(1): summator.gdf
+				{
+					half-summator:3:(0,0):(1): half-summator.gdf;
+					half-summator:3:(0,0):(2): half-summator.gdf;
+				}
+				summator:2:(0,0):(4): summator.gdf
+				{
+					half-summator:3:(0,0):(1): half-summator.gdf;
+					half-summator:3:(0,0):(2): half-summator.gdf;
+				}
+				summator:2:(0,0):(3): summator.gdf
+				{
+					half-summator:3:(0,0):(1): half-summator.gdf;
+					half-summator:3:(0,0):(2): half-summator.gdf;
+				}
+				summator:2:(0,0):(2): summator.gdf
+				{
+					half-summator:3:(0,0):(1): half-summator.gdf;
+					half-summator:3:(0,0):(2): half-summator.gdf;
+				}
+			}
+			summator:2:(0,0):(3): summator.gdf
 			{
 				half-summator:3:(0,0):(1): half-summator.gdf;
 				half-summator:3:(0,0):(2): half-summator.gdf;
@@ -157,17 +158,6 @@ TREE
 				half-summator:3:(0,0):(1): half-summator.gdf;
 				half-summator:3:(0,0):(2): half-summator.gdf;
 			}
-			summator:2:(0,0):(3): summator.gdf
-			{
-				half-summator:3:(0,0):(1): half-summator.gdf;
-				half-summator:3:(0,0):(2): half-summator.gdf;
-			}
-			summator:2:(0,0):(2): summator.gdf
-			{
-				half-summator:3:(0,0):(1): half-summator.gdf;
-				half-summator:3:(0,0):(2): half-summator.gdf;
-			}
 		}
-		7483::(0,0):(25): 7483.gdf;
 	}
 }

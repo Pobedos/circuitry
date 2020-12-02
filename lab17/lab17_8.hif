@@ -24,32 +24,32 @@ HIF003
 --
 FILES
 {
-	altshift.tdf
+	lpm_mult.tdf
 	{
-		altshift [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS] []
+		lpm_mult [USE_LPM_FOR_AHDL_OPERATORS,lpm_widtha,lpm_widthb,LPM_WIDTHP,LPM_WIDTHR=0,LPM_WIDTHS,LPM_REPRESENTATION=UNSIGNED,LPM_PIPELINE=0,LATENCY=0,INPUT_A_IS_CONSTANT=NO,INPUT_B_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,DEVICE_FAMILY,CARRY_CHAIN] [altshift.inc,bypassff.inc,multcore.inc,lpm_add_sub.inc,aglobal.inc]
 		{
-			4 [DEPTH=0,WIDTH=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result7,result6,result5,result4,result3,result2,result1,result0,data7,data6,data5,data4,data3,data2,data1,data0];
-		}
-	}
-	csa_add.tdf
-	{
-		csa_add [END_ADDER=0,width=4,size=6,USE_LPM_FOR_AHDL_OPERATORS] [csa_cell.inc,csa_add.inc,lpm_add_sub.inc]
-		{
-			3 [END_ADDER=1,width=1,size=8,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result7,result6,result5,result4,result3,result2,result1,result0,data0_7,data0_6,data0_5,data0_4,data0_3,data0_2,data0_1,data0_0];
+			1 [USE_LPM_FOR_AHDL_OPERATORS=OFF,lpm_widtha=4,lpm_widthb=4,LPM_WIDTHP=8,LPM_WIDTHR=0,LPM_WIDTHS=4,LPM_REPRESENTATION=UNSIGNED,LPM_PIPELINE=0,LATENCY=0,INPUT_A_IS_CONSTANT=NO,INPUT_B_IS_CONSTANT=YES,USE_EAB=OFF,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,DEVICE_FAMILY=MAX7000,CARRY_CHAIN=IGNORE] [dataa3,dataa2,dataa1,dataa0,datab3,datab2,datab1,datab0,result7,result6,result5,result4,result3,result2,result1,result0];
 		}
 	}
 	multcore.tdf
 	{
-		multcore [CARRY_CHAIN,DEVICE_FAMILY,MAXIMIZE_SPEED=5,USE_EAB=OFF,ONE_INPUT_IS_CONSTANT=NO,LATENCY=0,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHB,LPM_WIDTHA,USE_LPM_FOR_AHDL_OPERATORS] [aglobal.inc,lpm_add_sub.inc,csa_add.inc,mpar_add.inc,muleabz.inc,mul_lfrg.inc]
+		multcore [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTHA,LPM_WIDTHB,LPM_REPRESENTATION=UNSIGNED,LATENCY=0,ONE_INPUT_IS_CONSTANT=NO,USE_EAB=OFF,MAXIMIZE_SPEED=5,DEVICE_FAMILY,CARRY_CHAIN] [mul_lfrg.inc,muleabz.inc,mpar_add.inc,csa_add.inc,lpm_add_sub.inc,aglobal.inc]
 		{
-			2 [CARRY_CHAIN=IGNORE,DEVICE_FAMILY=MAX7000,MAXIMIZE_SPEED=5,USE_EAB=OFF,ONE_INPUT_IS_CONSTANT=YES,LATENCY=1,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHB=4,LPM_WIDTHA=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result7,result6,result5,result4,result3,result2,result1,result0,dataa3,dataa2,dataa1,dataa0,datab3,datab2,datab1,datab0];
+			2 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTHA=4,LPM_WIDTHB=4,LPM_REPRESENTATION=UNSIGNED,LATENCY=1,ONE_INPUT_IS_CONSTANT=YES,USE_EAB=OFF,MAXIMIZE_SPEED=5,DEVICE_FAMILY=MAX7000,CARRY_CHAIN=IGNORE] [datab0,datab1,datab2,datab3,dataa0,dataa1,dataa2,dataa3,result0,result1,result2,result3,result4,result5,result6,result7];
 		}
 	}
-	lpm_mult.tdf
+	csa_add.tdf
 	{
-		lpm_mult [CARRY_CHAIN,DEVICE_FAMILY,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,USE_EAB=OFF,INPUT_B_IS_CONSTANT=NO,INPUT_A_IS_CONSTANT=NO,LATENCY=0,LPM_PIPELINE=0,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHS,LPM_WIDTHR=0,LPM_WIDTHP,lpm_widthb,lpm_widtha,USE_LPM_FOR_AHDL_OPERATORS] [aglobal.inc,lpm_add_sub.inc,multcore.inc,bypassff.inc,altshift.inc]
+		csa_add [USE_LPM_FOR_AHDL_OPERATORS,size=6,width=4,END_ADDER=0] [lpm_add_sub.inc,csa_add.inc,csa_cell.inc]
 		{
-			1 [CARRY_CHAIN=IGNORE,DEVICE_FAMILY=MAX7000,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,USE_EAB=OFF,INPUT_B_IS_CONSTANT=YES,INPUT_A_IS_CONSTANT=NO,LATENCY=0,LPM_PIPELINE=0,LPM_REPRESENTATION=UNSIGNED,LPM_WIDTHS=4,LPM_WIDTHR=0,LPM_WIDTHP=8,lpm_widthb=4,lpm_widtha=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0,result1,result2,result3,result4,result5,result6,result7,datab0,datab1,datab2,datab3,dataa0,dataa1,dataa2,dataa3];
+			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF,size=8,width=1,END_ADDER=1] [data0_0,data0_1,data0_2,data0_3,data0_4,data0_5,data0_6,data0_7,result0,result1,result2,result3,result4,result5,result6,result7];
+		}
+	}
+	altshift.tdf
+	{
+		altshift [USE_LPM_FOR_AHDL_OPERATORS,WIDTH=4,DEPTH=0] []
+		{
+			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=8,DEPTH=0] [data0,data1,data2,data3,data4,data5,data6,data7,result0,result1,result2,result3,result4,result5,result6,result7];
 		}
 	}
 	lab17_8.gdf
@@ -66,11 +66,11 @@ TREE
 	{
 		lpm_mult::(0,0):(1): lpm_mult.tdf
 		{
+			altshift:4:(219,3):(76,external_latency_ffs): altshift.tdf;
 			multcore:2:(180,5):(49,mult_core): multcore.tdf
 			{
 				csa_add:3:(178,6):(45,padder): csa_add.tdf;
 			}
-			altshift:4:(219,3):(76,external_latency_ffs): altshift.tdf;
 		}
 	}
 }
