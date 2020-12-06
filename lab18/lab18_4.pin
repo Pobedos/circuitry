@@ -21,37 +21,38 @@
 
 
 N.C. = Not Connected.
-VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
-VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
-GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
 RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 ----------------------------------------------------------------------------
 
-CHIP "lab17_10" ASSIGNED TO AN EPF10K30ETC144-1
+CHIP "lab18_4" ASSIGNED TO AN EPF10K20TC144-3
 TCK                              : 1
 CONF_DONE                        : 2
 nCEO                             : 3
 TDO                              : 4
 VCCIO                            : 5
 VCCINT                           : 6
-B4                               : 7
-B2                               : 8
-B8                               : 9
-B7                               : 10
-RESERVED                         : 11
-RESERVED                         : 12
-RESERVED                         : 13
+data1                            : 7
+RESERVED                         : 8
+data2                            : 9
+data3                            : 10
+data4                            : 11
+data5                            : 12
+q5                               : 13
 RESERVED                         : 14
-GND                              : 15
-GND                              : 16
-RESERVED                         : 17
-RESERVED                         : 18
-RESERVED                         : 19
+GNDIO                            : 15
+GNDINT                           : 16
+data6                            : 17
+data7                            : 18
+q7                               : 19
 RESERVED                         : 20
 RESERVED                         : 21
 RESERVED                         : 22
-RESERVED                         : 23
+q6                               : 23
 VCCIO                            : 24
 VCCINT                           : 25
 RESERVED                         : 26
@@ -68,7 +69,7 @@ RESERVED                         : 36
 RESERVED                         : 37
 RESERVED                         : 38
 RESERVED                         : 39
-GND                              : 40
+GNDIO                            : 40
 RESERVED                         : 41
 RESERVED                         : 42
 RESERVED                         : 43
@@ -78,30 +79,30 @@ RESERVED                         : 46
 RESERVED                         : 47
 RESERVED                         : 48
 RESERVED                         : 49
-GND                              : 50
+GNDIO                            : 50
 RESERVED                         : 51
 VCCINT                           : 52
 VCCINT                           : 53
-A3                               : 54
-B3                               : 55
-A4                               : 56
-GND                              : 57
-GND                              : 58
+address1                         : 54
+address2                         : 55
+we                               : 56
+GNDINT                           : 57
+GNDINT                           : 58
 RESERVED                         : 59
 RESERVED                         : 60
 VCCIO                            : 61
 RESERVED                         : 62
-P10                              : 63
-P5                               : 64
+RESERVED                         : 63
+RESERVED                         : 64
 RESERVED                         : 65
-GND                              : 66
+GNDIO                            : 66
 RESERVED                         : 67
-D2                               : 68
+RESERVED                         : 68
 RESERVED                         : 69
-P12                              : 70
+RESERVED                         : 70
 VCCIO                            : 71
-P8                               : 72
-P3                               : 73
+address7                         : 72
+address8                         : 73
 nCONFIG                          : 74
 VCCINT                           : 75
 MSEL1                            : 76
@@ -109,55 +110,55 @@ MSEL0                            : 77
 RESERVED                         : 78
 RESERVED                         : 79
 RESERVED                         : 80
-P6                               : 81
+RESERVED                         : 81
 RESERVED                         : 82
 RESERVED                         : 83
-GND                              : 84
-GND                              : 85
+GNDINT                           : 84
+GNDIO                            : 85
 RESERVED                         : 86
 RESERVED                         : 87
 RESERVED                         : 88
 RESERVED                         : 89
 RESERVED                         : 90
 RESERVED                         : 91
-RESERVED                         : 92
+q4                               : 92
 VCCINT                           : 93
 VCCIO                            : 94
 RESERVED                         : 95
 RESERVED                         : 96
-P7                               : 97
-B6                               : 98
-B5                               : 99
-C1                               : 100
-D1                               : 101
-C3                               : 102
-GND                              : 103
-GND                              : 104
+RESERVED                         : 97
+q3                               : 98
+RESERVED                         : 99
+q0                               : 100
+q1                               : 101
+RESERVED                         : 102
+GNDINT                           : 103
+GNDIO                            : 104
 TDI                              : 105
 nCE                              : 106
 DCLK                             : 107
 DATA0                            : 108
-C2                               : 109
-P4                               : 110
-C4                               : 111
-P9                               : 112
+RESERVED                         : 109
+address6                         : 110
+address5                         : 111
+address9                         : 112
 RESERVED                         : 113
-P11                              : 114
+RESERVED                         : 114
 VCCIO                            : 115
-P2                               : 116
-P1                               : 117
+RESERVED                         : 116
+RESERVED                         : 117
 RESERVED                         : 118
 RESERVED                         : 119
 RESERVED                         : 120
 RESERVED                         : 121
 RESERVED                         : 122
 VCCINT                           : 123
-A2                               : 124
-B1                               : 125
-A1                               : 126
-GND                              : 127
+address4                         : 124
+address3                         : 125
+address0                         : 126
+GNDINT                           : 127
 RESERVED                         : 128
-GND                              : 129
+GNDIO                            : 129
 RESERVED                         : 130
 RESERVED                         : 131
 RESERVED                         : 132
@@ -167,9 +168,9 @@ RESERVED                         : 135
 RESERVED                         : 136
 RESERVED                         : 137
 RESERVED                         : 138
-GND                              : 139
+GNDIO                            : 139
 RESERVED                         : 140
 RESERVED                         : 141
 RESERVED                         : 142
-RESERVED                         : 143
-RESERVED                         : 144
+data0                            : 143
+q2                               : 144

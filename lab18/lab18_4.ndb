@@ -1,0 +1,49 @@
+NDB006
+The number of symbol table entries is: 2
+The length of the symbol table is: 40
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|LPM_RAM_DQ:1|altram:sram|
+
+The number of name info structs is : 36
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	8	>	?	@	A	B	C	D	E	address0	"(
+#	Ky&|	!	8	>	?	@	A	B	C	D	E	address1	"'
+$	Ky&|	!	8	>	?	@	A	B	C	D	E	address2	"&
+%	Ky&|	!	8	>	?	@	A	B	C	D	E	address3	"%
+&	Ky&|	!	8	>	?	@	A	B	C	D	E	address4	"$
+'	Ky&|	!	8	>	?	@	A	B	C	D	E	address5	"#
+(	Ky&|	!	8	>	?	@	A	B	C	D	E	address6	""
+)	Ky&|	!	8	>	?	@	A	B	C	D	E	address7	"!
+*	Ky&|	!	8	>	?	@	A	B	C	D	E	address8	~
++	Ky&|	!	8	>	?	@	A	B	C	D	E	address9	}
+,	Ky&|	!	1	>	data0	|
+-	Ky&|	!	1	?	data1	{
+.	Ky&|	!	1	@	data2	z
+/	Ky&|	!	1	A	data3	y
+0	Ky&|	!	1	B	data4	x
+1	Ky&|	!	1	C	data5	w
+2	Ky&|	!	1	D	data6	v
+3	Ky&|	!	1	E	data7	u
+4	IGdq	!	q0	t
+5	IGdq	!	q1	s
+6	IGdq	!	q2	r
+7	IGdq	!	q3	q
+8	IGdq	!	q4	p
+9	IGdq	!	q5	o
+:	IGdq	!	q6	n
+;	IGdq	!	q7	m
+<	(@>U^	!	8	>	?	@	A	B	C	D	E	we	")
+=	#/?91	.	89	4	content	0	#^
+>	#1pY}	.	98	12	1	4	segment0_0	4	#f
+?	#1pY}	.	98	12	1	5	segment0_1	4	#e
+@	#1pY}	.	98	12	1	6	segment0_2	4	#d
+A	#1pY}	.	98	12	1	7	segment0_3	4	#c
+B	#1pY}	.	98	12	1	8	segment0_4	4	#b
+C	#1pY}	.	98	12	1	9	segment0_5	4	#a
+D	#1pY}	.	98	12	1	:	segment0_6	4	#`
+E	#1pY}	.	98	12	1	;	segment0_7	4	#_

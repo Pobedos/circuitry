@@ -1,0 +1,569 @@
+Project Information                                       z:\lab18\lab18_4.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 12/06/20 17:20:31
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+lab18_4   EPF10K20TC144-3  19     8      0    8192      66 %    0        0  %
+
+User Pins:                 19     8      0  
+
+
+
+Project Information                                       z:\lab18\lab18_4.rpt
+
+** EMBEDDED ARRAYS **
+
+
+|LPM_RAM_DQ:1|altram:sram|content: MEMORY (
+               width        =    8;
+               depth        = 1024;
+               segmentsize  = 1024;
+               mode         = 0;
+         )
+         OF SEGMENTS (
+               |LPM_RAM_DQ:1|altram:sram|segment0_7,
+               |LPM_RAM_DQ:1|altram:sram|segment0_6,
+               |LPM_RAM_DQ:1|altram:sram|segment0_5,
+               |LPM_RAM_DQ:1|altram:sram|segment0_4,
+               |LPM_RAM_DQ:1|altram:sram|segment0_3,
+               |LPM_RAM_DQ:1|altram:sram|segment0_2,
+               |LPM_RAM_DQ:1|altram:sram|segment0_1,
+               |LPM_RAM_DQ:1|altram:sram|segment0_0
+);
+
+
+
+
+Project Information                                       z:\lab18\lab18_4.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lpm_ram_dq:1|
+|lpm_ram_dq:1|altram:sram|
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+***** Logic for device 'lab18_4' compiled without errors.
+
+
+
+
+Device: EPF10K20TC144-3
+
+FLEX 10K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+
+                                                                                         
+                                                                                         
+                    R R R   R R R R   R R R R   R   a a a   R R R R R R R   R R a a a R  
+                    E E E   E E E E   E E E E   E   d d d   E E E E E E E   E E d d d E  
+                    S S S   S S S S   S S S S   S G d d d V S S S S S S S   S S d d d S  
+                  d E E E G E E E E V E E E E G E N r r r C E E E E E E E V E E r r r E  
+                  a R R R N R R R R C R R R R N R D e e e C R R R R R R R C R R e e e R  
+                  t V V V D V V V V C V V V V D V I s s s I V V V V V V V C V V s s s V  
+                q a E E E I E E E E I E E E E I E N s s s N E E E E E E E I E E s s s E  
+                2 0 D D D O D D D D O D D D D O D T 0 3 4 T D D D D D D D O D D 9 5 6 D  
+              --------------------------------------------------------------------------_ 
+             / 144 142 140 138 136 134 132 130 128 126 124 122 120 118 116 114 112 110   |_ 
+            /    143 141 139 137 135 133 131 129 127 125 123 121 119 117 115 113 111 109    | 
+      #TCK |  1                                                                         108 | ^DATA0 
+^CONF_DONE |  2                                                                         107 | ^DCLK 
+     ^nCEO |  3                                                                         106 | ^nCE 
+      #TDO |  4                                                                         105 | #TDI 
+     VCCIO |  5                                                                         104 | GNDIO 
+    VCCINT |  6                                                                         103 | GNDINT 
+     data1 |  7                                                                         102 | RESERVED 
+  RESERVED |  8                                                                         101 | q1 
+     data2 |  9                                                                         100 | q0 
+     data3 | 10                                                                          99 | RESERVED 
+     data4 | 11                                                                          98 | q3 
+     data5 | 12                                                                          97 | RESERVED 
+        q5 | 13                                                                          96 | RESERVED 
+  RESERVED | 14                                                                          95 | RESERVED 
+     GNDIO | 15                                                                          94 | VCCIO 
+    GNDINT | 16                                                                          93 | VCCINT 
+     data6 | 17                                                                          92 | q4 
+     data7 | 18                                                                          91 | RESERVED 
+        q7 | 19                             EPF10K20TC144-3                              90 | RESERVED 
+  RESERVED | 20                                                                          89 | RESERVED 
+  RESERVED | 21                                                                          88 | RESERVED 
+  RESERVED | 22                                                                          87 | RESERVED 
+        q6 | 23                                                                          86 | RESERVED 
+     VCCIO | 24                                                                          85 | GNDIO 
+    VCCINT | 25                                                                          84 | GNDINT 
+  RESERVED | 26                                                                          83 | RESERVED 
+  RESERVED | 27                                                                          82 | RESERVED 
+  RESERVED | 28                                                                          81 | RESERVED 
+  RESERVED | 29                                                                          80 | RESERVED 
+  RESERVED | 30                                                                          79 | RESERVED 
+  RESERVED | 31                                                                          78 | RESERVED 
+  RESERVED | 32                                                                          77 | ^MSEL0 
+  RESERVED | 33                                                                          76 | ^MSEL1 
+      #TMS | 34                                                                          75 | VCCINT 
+  ^nSTATUS | 35                                                                          74 | ^nCONFIG 
+  RESERVED | 36                                                                          73 | address8 
+           |      38  40  42  44  46  48  50  52  54  56  58  60  62  64  66  68  70  72  _| 
+            \   37  39  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69  71   | 
+             \--------------------------------------------------------------------------- 
+                R R R G R R R R V R R R R G R V V a a w G G R R V R R R R G R R R R V a  
+                E E E N E E E E C E E E E N E C C d d e N N E E C E E E E N E E E E C d  
+                S S S D S S S S C S S S S D S C C d d   D D S S C S S S S D S S S S C d  
+                E E E I E E E E I E E E E I E I I r r   I I E E I E E E E I E E E E I r  
+                R R R O R R R R O R R R R O R N N e e   N N R R O R R R R O R R R R O e  
+                V V V   V V V V   V V V V   V T T s s   T T V V   V V V V   V V V V   s  
+                E E E   E E E E   E E E E   E     s s       E E   E E E E   E E E E   s  
+                D D D   D D D D   D D D D   D     1 2       D D   D D D D   D D D D   7  
+                                                                                         
+                                                                                         
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs (TMS, TCK, TDI) should be tied to VCC when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+A25      8/8 (100%)   0/8 (  0%)   2/8 ( 25%)    0/2    2/2      12/22( 54%)   
+B25      8/8 (100%)   1/8 ( 12%)   1/8 ( 12%)    0/2    2/2      12/22( 54%)   
+C25      8/8 (100%)   0/8 (  0%)   2/8 ( 25%)    0/2    2/2      12/22( 54%)   
+D25      8/8 (100%)   0/8 (  0%)   2/8 ( 25%)    0/2    2/2      12/22( 54%)   
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            21/96     ( 21%)
+Total logic cells used:                          0/1152   (  0%)
+Total embedded cells used:                      32/48     ( 66%)
+Total EABs used:                                 4/6      ( 66%)
+Average fan-in:                                 0.00/4    (  0%)
+Total fan-in:                                   0/4608    (  0%)
+
+Total input pins required:                      19
+Total input I/O cell registers required:         0
+Total output pins required:                      8
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                      0
+Total flipflops required:                        0
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         0/1152   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0      0/8  
+ B:      0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0      0/8  
+ C:      0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0      0/8  
+ D:      0   0   0   0   0   0   0   0   0   0   0   0   8   0   0   0   0   0   0   0   0   0   0   0   0      0/8  
+ E:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ F:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+Total:   0   0   0   0   0   0   0   0   0   0   0   0  32   0   0   0   0   0   0   0   0   0   0   0   0      0/32 
+
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+ 126      -     -    -    --      INPUT                0    0    0    8  address0
+  54      -     -    -    --      INPUT                0    0    0    8  address1
+  55      -     -    -    --      INPUT                0    0    0    8  address2
+ 125      -     -    -    --      INPUT                0    0    0    8  address3
+ 124      -     -    -    --      INPUT                0    0    0    8  address4
+ 111      -     -    -    01      INPUT                0    0    0    8  address5
+ 110      -     -    -    01      INPUT                0    0    0    8  address6
+  72      -     -    -    03      INPUT                0    0    0    8  address7
+  73      -     -    -    01      INPUT                0    0    0    8  address8
+ 112      -     -    -    02      INPUT                0    0    0    8  address9
+ 143      -     -    A    --      INPUT                0    0    0    1  data0
+   7      -     -    A    --      INPUT                0    0    0    1  data1
+   9      -     -    B    --      INPUT                0    0    0    1  data2
+  10      -     -    B    --      INPUT                0    0    0    1  data3
+  11      -     -    C    --      INPUT                0    0    0    1  data4
+  12      -     -    C    --      INPUT                0    0    0    1  data5
+  17      -     -    D    --      INPUT                0    0    0    1  data6
+  18      -     -    D    --      INPUT                0    0    0    1  data7
+  56      -     -    -    --      INPUT  G             0    0    0    0  we
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+ 100      -     -    A    --     OUTPUT                0    1    0    0  q0
+ 101      -     -    A    --     OUTPUT                0    1    0    0  q1
+ 144      -     -    A    --     OUTPUT                0    1    0    0  q2
+  98      -     -    B    --     OUTPUT                0    1    0    0  q3
+  92      -     -    C    --     OUTPUT                0    1    0    0  q4
+  13      -     -    C    --     OUTPUT                0    1    0    0  q5
+  23      -     -    D    --     OUTPUT                0    1    0    0  q6
+  19      -     -    D    --     OUTPUT                0    1    0    0  q7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      -     2    A    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_0
+   -      -     1    A    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_1
+   -      -     2    B    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_2
+   -      -     1    B    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_3
+   -      -     2    C    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_4
+   -      -     1    C    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_5
+   -      -     2    D    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_6
+   -      -     1    D    --   MEM_SGMT               11    0    1    0  |LPM_RAM_DQ:1|altram:sram|segment0_7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+p = Packed register
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:       5/ 96(  5%)     5/ 48( 10%)     0/ 48(  0%)    2/16( 12%)      3/16( 18%)     0/16(  0%)
+B:       3/ 96(  3%)     5/ 48( 10%)     0/ 48(  0%)    2/16( 12%)      1/16(  6%)     0/16(  0%)
+C:       4/ 96(  4%)     5/ 48( 10%)     0/ 48(  0%)    2/16( 12%)      2/16( 12%)     0/16(  0%)
+D:       4/ 96(  4%)     5/ 48( 10%)     0/ 48(  0%)    2/16( 12%)      2/16( 12%)     0/16(  0%)
+E:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
+F:       0/ 96(  0%)     0/ 48(  0%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      3/24( 12%)     3/4( 75%)      0/4(  0%)       0/4(  0%)
+02:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+03:      1/24(  4%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+05:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+06:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+07:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+08:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+09:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+10:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:                              z:\lab18\lab18_4.rpt
+lab18_4
+
+** EQUATIONS **
+
+address0 : INPUT;
+address1 : INPUT;
+address2 : INPUT;
+address3 : INPUT;
+address4 : INPUT;
+address5 : INPUT;
+address6 : INPUT;
+address7 : INPUT;
+address8 : INPUT;
+address9 : INPUT;
+data0    : INPUT;
+data1    : INPUT;
+data2    : INPUT;
+data3    : INPUT;
+data4    : INPUT;
+data5    : INPUT;
+data6    : INPUT;
+data7    : INPUT;
+we       : INPUT;
+
+-- Node name is 'q0' 
+-- Equation name is 'q0', type is output 
+q0       =  _EC2_A;
+
+-- Node name is 'q1' 
+-- Equation name is 'q1', type is output 
+q1       =  _EC1_A;
+
+-- Node name is 'q2' 
+-- Equation name is 'q2', type is output 
+q2       =  _EC2_B;
+
+-- Node name is 'q3' 
+-- Equation name is 'q3', type is output 
+q3       =  _EC1_B;
+
+-- Node name is 'q4' 
+-- Equation name is 'q4', type is output 
+q4       =  _EC2_C;
+
+-- Node name is 'q5' 
+-- Equation name is 'q5', type is output 
+q5       =  _EC1_C;
+
+-- Node name is 'q6' 
+-- Equation name is 'q6', type is output 
+q6       =  _EC2_D;
+
+-- Node name is 'q7' 
+-- Equation name is 'q7', type is output 
+q7       =  _EC1_D;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_0' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC2_A', type is memory 
+_EC2_A   = MEMORY_SEGMENT( data0, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_1' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC1_A', type is memory 
+_EC1_A   = MEMORY_SEGMENT( data1, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_2' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC2_B', type is memory 
+_EC2_B   = MEMORY_SEGMENT( data2, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_3' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC1_B', type is memory 
+_EC1_B   = MEMORY_SEGMENT( data3, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_4' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC2_C', type is memory 
+_EC2_C   = MEMORY_SEGMENT( data4, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_5' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC1_C', type is memory 
+_EC1_C   = MEMORY_SEGMENT( data5, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_6' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC2_D', type is memory 
+_EC2_D   = MEMORY_SEGMENT( data6, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|segment0_7' from file "altram.tdf" line 98, column 12
+-- Equation name is '_EC1_D', type is memory 
+_EC1_D   = MEMORY_SEGMENT( data7, VCC, VCC, GLOBAL( we), VCC, address0, address1, address2, address3, address4, address5, address6, address7, address8, address9, VCC,);
+
+
+
+Project Information                                       z:\lab18\lab18_4.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'FLEX10K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:01
+   --------------------------             --------
+   Total Time                             00:00:02
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 19,196K

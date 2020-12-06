@@ -21,79 +21,54 @@
 
 
 N.C. = Not Connected.
-VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
-VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCC = Dedicated power pin, which MUST be connected to VCC.
 GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
 RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 ----------------------------------------------------------------------------
 
-CHIP "lab17_8" ASSIGNED TO AN EPM7096LC68-7
+CHIP "lab17_8" ASSIGNED TO AN EPM7032LC44-6
 GND                              : 1
 GND                              : 2
-VCCINT                           : 3
-dataa3                           : 4
-dataa2                           : 5
-GND                              : 6
-dataa1                           : 7
-dataa0                           : 8
-datab3                           : 9
-RESERVED                         : 10
-VCCIO                            : 11
-result2                          : 12
+VCC                              : 3
+dataa0                           : 4
+datab3                           : 5
+datab2                           : 6
+datab1                           : 7
+datab0                           : 8
+dataa3                           : 9
+GND                              : 10
+dataa2                           : 11
+dataa1                           : 12
 result0                          : 13
-RESERVED                         : 14
-datab2                           : 15
-GND                              : 16
-RESERVED                         : 17
+result1                          : 14
+VCC                              : 15
+result3                          : 16
+result2                          : 17
 RESERVED                         : 18
-result3                          : 19
-datab1                           : 20
-VCCIO                            : 21
-result1                          : 22
-datab0                           : 23
+RESERVED                         : 19
+RESERVED                         : 20
+RESERVED                         : 21
+GND                              : 22
+VCC                              : 23
 RESERVED                         : 24
 RESERVED                         : 25
-GND                              : 26
+RESERVED                         : 26
 RESERVED                         : 27
 RESERVED                         : 28
 RESERVED                         : 29
-RESERVED                         : 30
-VCCIO                            : 31
+GND                              : 30
+RESERVED                         : 31
 RESERVED                         : 32
 RESERVED                         : 33
-GND                              : 34
-VCCINT                           : 35
-RESERVED                         : 36
-RESERVED                         : 37
-GND                              : 38
-RESERVED                         : 39
+RESERVED                         : 34
+VCC                              : 35
+result7                          : 36
+result6                          : 37
+result5                          : 38
+result4                          : 39
 RESERVED                         : 40
 RESERVED                         : 41
-RESERVED                         : 42
-VCCIO                            : 43
-RESERVED                         : 44
-RESERVED                         : 45
-RESERVED                         : 46
-result4                          : 47
-GND                              : 48
-result6                          : 49
-RESERVED                         : 50
-RESERVED                         : 51
-RESERVED                         : 52
-VCCIO                            : 53
-RESERVED                         : 54
-RESERVED                         : 55
-RESERVED                         : 56
-RESERVED                         : 57
-GND                              : 58
-RESERVED                         : 59
-RESERVED                         : 60
-result7                          : 61
-result5                          : 62
-VCCIO                            : 63
-RESERVED                         : 64
-RESERVED                         : 65
-GND                              : 66
-GND                              : 67
-GND                              : 68
+GND                              : 42
+GND                              : 43
+GND                              : 44
