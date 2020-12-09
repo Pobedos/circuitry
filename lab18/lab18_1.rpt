@@ -1,8 +1,8 @@
-Project Information                      c:\program files\max2work\lab18_1.rpt
+Project Information                                       z:\lab18\lab18_1.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 12/04/20 18:44:12
+Compiled: 12/06/20 21:20:56
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -42,7 +42,7 @@ User Pins:                 4        1        0
 
 
 
-Project Information                      c:\program files\max2work\lab18_1.rpt
+Project Information                                       z:\lab18\lab18_1.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
@@ -51,7 +51,7 @@ Project Information                      c:\program files\max2work\lab18_1.rpt
 INFO: Signal 'C' chosen for auto global Clock
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ***** Logic for device 'lab18_1' compiled without errors.
@@ -105,7 +105,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** RESOURCE USAGE **
@@ -139,7 +139,7 @@ Synthesized logic cells:                         0/  32   (  0%)
 
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** INPUTS **
@@ -167,7 +167,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** OUTPUTS **
@@ -187,7 +187,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** BURIED LOGIC **
@@ -210,7 +210,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -243,7 +243,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_1.rpt
+Device-Specific Information:                              z:\lab18\lab18_1.rpt
 lab18_1
 
 ** EQUATIONS **
@@ -289,7 +289,7 @@ _LC021   = DFFE( D $  GND, GLOBAL( C),  VCC,  VCC,  _EQ005);
 
 
 
-Project Information                      c:\program files\max2work\lab18_1.rpt
+Project Information                                       z:\lab18\lab18_1.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -366,16 +366,16 @@ Compilation Times
 
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
-   Logic Synthesizer                      00:00:00
+   Logic Synthesizer                      00:00:01
    Partitioner                            00:00:00
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
-   Assembler                              00:00:00
+   Assembler                              00:00:01
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:02
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 2,939K
+Peak memory allocated during compilation  = 2,602K

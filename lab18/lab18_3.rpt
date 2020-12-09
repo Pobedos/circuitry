@@ -1,8 +1,8 @@
-Project Information                      c:\program files\max2work\lab18_3.rpt
+Project Information                                       z:\lab18\lab18_3.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 12/05/20 10:50:43
+Compiled: 12/06/20 21:30:17
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -42,7 +42,7 @@ User Pins:                 12       16       0
 
 
 
-Project Information                      c:\program files\max2work\lab18_3.rpt
+Project Information                                       z:\lab18\lab18_3.rpt
 
 ** AUTO GLOBAL SIGNALS **
 
@@ -51,7 +51,7 @@ Project Information                      c:\program files\max2work\lab18_3.rpt
 INFO: Signal 'rd' chosen for auto global Output Enable
 
 
-Project Information                      c:\program files\max2work\lab18_3.rpt
+Project Information                                       z:\lab18\lab18_3.rpt
 
 ** FILE HIERARCHY **
 
@@ -65,7 +65,7 @@ Project Information                      c:\program files\max2work\lab18_3.rpt
 |74244:32|
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ***** Logic for device 'lab18_3' compiled without errors.
@@ -119,7 +119,7 @@ RESERVED = Unused I/O pin, which MUST be left unconnected.
 
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** RESOURCE USAGE **
@@ -155,7 +155,7 @@ Synthesized logic cells:                         0/  64   (  0%)
 
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** INPUTS **
@@ -191,7 +191,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** OUTPUTS **
@@ -226,7 +226,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** BURIED LOGIC **
@@ -277,7 +277,7 @@ t = Turbo logic cell
 r = Fitter-inserted logic cell
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -344,7 +344,7 @@ LC38 -> - - * - - - - - - - - - - - - - | - * - - | <-- |74374:19|:17
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -392,7 +392,7 @@ LC60 -> - * - - - - - - - - - - - - - - | - - * - | <-- |74374:19|:14
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** LOGIC CELL INTERCONNECTIONS **
@@ -438,7 +438,7 @@ Pin
 - = The logic cell or pin is not an input to the logic cell (or LAB).
 
 
-Device-Specific Information:             c:\program files\max2work\lab18_3.rpt
+Device-Specific Information:                              z:\lab18\lab18_3.rpt
 lab18_3
 
 ** EQUATIONS **
@@ -728,7 +728,7 @@ _LC031   = DFFE( d7 $  GND,  _EQ040,  VCC,  VCC,  VCC);
 
 
 
-Project Information                      c:\program files\max2work\lab18_3.rpt
+Project Information                                       z:\lab18\lab18_3.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -806,15 +806,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 3,106K
+Peak memory allocated during compilation  = 3,333K
