@@ -2,7 +2,7 @@ Project Information                                       z:\lab18\lab18_3.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 12/10/20 16:46:19
+Compiled: 12/10/20 17:01:58
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -817,4 +817,4 @@ Compilation Times
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 4,832K
+Peak memory allocated during compilation  = 5,141K
