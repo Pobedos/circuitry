@@ -18,5 +18,6 @@ process(A, D, C)begin
 	end if;
 end process;
 Q <= dL(conv_integer(unsigned(A)));
+
 END behav;
 
