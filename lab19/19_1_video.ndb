@@ -37,7 +37,7 @@ $^	|BUSMUX:5|lpm_mux:52|muxlut:166|
 .E	|rs:19|
 .M	|rs:21|
 
-The number of name info structs is : 999
+The number of name info structs is : 1003
 
 InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
 -------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
@@ -162,7 +162,7 @@ z	IeEA	&x	471	33	:46	6^
 ":	IeEA	(`	491	19	:44	7U
 ";	IeEA	(`	490	57	:45	7V
 "<	IeEA	(`	491	40	:46	7W
-"=	L8f/	(`	491	30	10	$(	$)	$*	$+	$,	$-	$.	$/	+Y	?	:47	7X
+"=	L8f/	(`	491	30	10	$(	$)	$*	$+	$,	$-	$.	$/	+[	?	:47	7X
 ">	IeEA	(`	493	25	:48	7Y
 "?	IeEA	(`	493	25	:49	7Z
 "@	IeEA	(`	493	46	:50	7[
@@ -182,10 +182,10 @@ z	IeEA	&x	471	33	:46	6^
 "N	IeEA	(`	493	36	:64	7i
 "O	IeEA	(`	121	6	aeb_out	7P
 "P	IeEA	(`	122	6	agb_out	7Q
-"Q	L7gU	(`	491	30	1	"=	~47~1	P$
-"R	L7gU	(`	491	30	1	"=	~47~2	P%
-"S	L7gU	(`	491	30	1	"=	~47~3	P&
-"T	L7gU	(`	491	30	1	"=	~47~4	P'
+"Q	L7gU	(`	491	30	1	"=	~47~1	P.
+"R	L7gU	(`	491	30	1	"=	~47~2	P1
+"S	L7gU	(`	491	30	1	"=	~47~3	P4
+"T	L7gU	(`	491	30	1	"=	~47~4	P7
 "U	IeEA	)m	593	46	:169	:\
 "V	IeEA	)m	593	46	:170	:]
 "W	IeEA	)m	593	46	:171	:^
@@ -436,7 +436,7 @@ $~	IeEA	*c	196	63	:98	>H
 %2	IeEA	*/	321	13	cin_node	=N
 %3	IeEA	+G	92	48	:110	BD
 %4	IeEA	+G	92	48	anode0_1	BE
-%5	L7gU	+G	92	48	1	%7	anode0_1~1	P:
+%5	L7gU	+G	92	48	1	%7	anode0_1~1	PB
 %6	IeEA	+G	94	48	anode1_1	BF
 %7	L8f/	+G	62	11	1	%\	dec_out0	BC
 %8	IeEA	+G	62	11	dec_out1	BB
@@ -475,7 +475,7 @@ $~	IeEA	*c	196	63	:98	>H
 %Y	IeEA	-!	79	52	anode6_3	Di
 %Z	IeEA	-!	79	52	anode7_1	Dj
 %[	IeEA	-!	79	52	anode7_2	Dk
-%\	L8f/	-!	79	52	3	5	+U	+Y	anode7_3	Dl
+%\	L8f/	-!	79	52	3	5	+U	+[	anode7_3	Dl
 %]	IeEA	,*	77	52	:101	CM
 %^	IeEA	,*	77	52	:103	CO
 %_	IeEA	,*	77	52	:105	CQ
@@ -1032,11 +1032,15 @@ $~	IeEA	*c	196	63	:98	>H
 +R	L8e}	z	64	7	1	&h	dffs5	,&
 +S	L8e}	z	64	7	1	&i	dffs6	,%
 +T	L8e}	z	64	7	1	&j	dffs7	,$
-+U	L)p?	.E	+W	2	+Y	+U	:5	E9
-+V	IVOQ	.E	+X	:6	E:
-+W	INv_	.E	+U	Q	E9
-+X	INu}	.E	+V	QB	E:
-+Y	L)p?	.M	+[	10	,	*+	*,	*-	*.	*/	*0	*1	*2	+Y	:5	ED
-+Z	IVOQ	.M	+\	:6	EE
-+[	INv_	.M	+Y	Q	ED
-+\	INu}	.M	+Z	QB	EE
++U	L)p?	.E	+Y	2	+[	+U	:1	E9
++V	IVOQ	.E	+Z	:2	E:
++W	IGdW	.E	:7	E;
++X	IGdW	.E	:8	E<
++Y	INv_	.E	+U	Q	E9
++Z	INu}	.E	+V	QB	E:
++[	L)p?	.M	+_	10	,	*+	*,	*-	*.	*/	*0	*1	*2	+[	:1	EF
++\	IVOQ	.M	+`	:2	EG
++]	IGdW	.M	:7	EH
++^	IGdW	.M	:8	EI
++_	INv_	.M	+[	Q	EF
++`	INu}	.M	+\	QB	EG

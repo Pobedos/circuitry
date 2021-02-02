@@ -1,8 +1,8 @@
-Project Information                   c:\program files\max2work\19_1_video.rpt
+Project Information                                    z:\lab19\19_1_video.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 01/30/21 18:30:03
+Compiled: 02/03/21 03:36:43
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -43,7 +43,7 @@ User Pins:                 18     11     0
 
 
 
-Project Information                   c:\program files\max2work\19_1_video.rpt
+Project Information                                    z:\lab19\19_1_video.rpt
 
 ** FILE HIERARCHY **
 
@@ -99,7 +99,7 @@ Project Information                   c:\program files\max2work\19_1_video.rpt
 |rs:21|
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ***** Logic for device '19_1_video' compiled without errors.
@@ -183,7 +183,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** RESOURCE USAGE **
@@ -249,7 +249,7 @@ Total:   8   8   7   4   5   8   8   8   8   1   4   0   0   8   8   0   0   0  
 
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** INPUTS **
@@ -292,7 +292,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** OUTPUTS **
@@ -323,7 +323,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** BURIED LOGIC **
@@ -347,7 +347,7 @@ Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
    -      1     -    C    06       AND2                0    4    0    3  |LPM_COUNTER:18|lpm_counter:c2|lpm_add_sub:add_sub|addcore:adder|:129
    -      4     -    C    02       AND2                0    3    0    2  |LPM_COUNTER:18|lpm_counter:c2|lpm_add_sub:add_sub|addcore:adder|:137
    -      2     -    C    02       AND2    s           0    3    0    1  |LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|anode0_1~1
-   -      5     -    C    06        OR2        !       0    4    1    2  |LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|declut:sub_decoder0|anode7_3
+   -      5     -    C    06       AND2                0    4    1    2  |LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|declut:sub_decoder0|anode7_3
    -      7     -    C    06      LCELL                0    3    0    1  |LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|dec_out0
    -      4     -    A    07       DFFE   +            1    2    0    1  |LPM_DFF:7|dffs0
    -      6     -    A    01       DFFE   +            1    2    0    1  |LPM_DFF:7|dffs1
@@ -413,8 +413,8 @@ Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
    -      4     -    B    08       DFFE   +            0    1    1    2  |LPM_DFF:14|dffs5
    -      7     -    C    13       DFFE   +            0    1    1    2  |LPM_DFF:14|dffs6
    -      1     -    A    14       DFFE   +            0    1    1    2  |LPM_DFF:14|dffs7
-   -      6     -    C    02        OR2        !       1    1    0    1  |rs:19|Q (|rs:19|:5)
-   -      1     -    C    02        OR2        !       0    3    1    8  |rs:21|Q (|rs:21|:5)
+   -      6     -    C    02        OR2        !       1    1    0    1  |rs:19|Q (|rs:19|:1)
+   -      1     -    C    02        OR2        !       0    3    1    8  |rs:21|Q (|rs:21|:1)
 
 
 Code:
@@ -427,7 +427,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -473,7 +473,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** CLOCK SIGNALS **
@@ -482,7 +482,7 @@ Type     Fan-out       Name
 INPUT       72         CLK
 
 
-Device-Specific Information:          c:\program files\max2work\19_1_video.rpt
+Device-Specific Information:                           z:\lab19\19_1_video.rpt
 19_1_video
 
 ** EQUATIONS **
@@ -667,12 +667,8 @@ _LC2_C2  = LCELL( _EQ016);
 
 -- Node name is '|LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|declut:sub_decoder0|anode7_3' from file "declut.tdf" line 79, column 52
 -- Equation name is '_LC5_C6', type is buried 
-!_LC5_C6 = _LC5_C6~NOT;
-_LC5_C6~NOT = LCELL( _EQ017);
-  _EQ017 = !_LC6_C6
-         # !_LC3_C6
-         # !_LC4_C6
-         # !_LC7_C6;
+_LC5_C6  = LCELL( _EQ017);
+  _EQ017 =  _LC3_C6 &  _LC4_C6 &  _LC6_C6 &  _LC7_C6;
 
 -- Node name is '|LPM_COUNTER:18|lpm_counter:c2|lpm_decode:decode|declut:decoder|dec_out0' from file "declut.tdf" line 62, column 11
 -- Equation name is '_LC7_C6', type is buried 
@@ -951,23 +947,25 @@ _LC7_C13 = DFFE( _LC1_C13, GLOBAL( CLK),  VCC,  VCC,  VCC);
 -- Equation name is '_LC1_A14', type is buried 
 _LC1_A14 = DFFE( _LC4_A14, GLOBAL( CLK),  VCC,  VCC,  VCC);
 
--- Node name is '|rs:19|:5' = '|rs:19|Q' 
+-- Node name is '|rs:19|:1' = '|rs:19|Q' 
 -- Equation name is '_LC6_C2', type is buried 
 !_LC6_C2 = _LC6_C2~NOT;
 _LC6_C2~NOT = LCELL( _EQ027);
-  _EQ027 = !_LC6_C2 &  Query
-         # !_LC5_C6 &  Query;
+  _EQ027 = !_LC6_C2 & !Query
+         #  _LC5_C6 & !Query;
 
--- Node name is '|rs:21|:5' = '|rs:21|Q' 
+-- Node name is '|rs:21|:1' = '|rs:21|Q' 
 -- Equation name is '_LC1_C2', type is buried 
 !_LC1_C2 = _LC1_C2~NOT;
 _LC1_C2~NOT = LCELL( _EQ028);
-  _EQ028 =  _LC1_A3 & !_LC1_C2 &  _LC6_C2
-         #  _LC1_A3 & !_LC5_C6 &  _LC6_C2;
+  _EQ028 = !_LC1_C2 & !_LC6_C2
+         #  _LC5_C6 & !_LC6_C2
+         # !_LC1_A3 & !_LC1_C2
+         # !_LC1_A3 &  _LC5_C6;
 
 
 
-Project Information                   c:\program files\max2work\19_1_video.rpt
+Project Information                                    z:\lab19\19_1_video.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -1044,15 +1042,15 @@ Compilation Times
    Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:00
+   Partitioner                            00:00:01
    Fitter                                 00:00:00
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:00
+   Total Time                             00:00:01
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 17,891K
+Peak memory allocated during compilation  = 26,301K

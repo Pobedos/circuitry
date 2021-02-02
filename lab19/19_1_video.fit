@@ -1,6 +1,6 @@
 -- MAX+plus II Compiler Fit File      
 -- Version 9.01 07/30/98              
--- Compiled: 01/30/21 18:30:03        
+-- Compiled: 02/03/21 03:36:43        
 
 -- Copyright (C) 1988-1998 Altera Corporation
 -- Any megafunction design, and related net list (encrypted or decrypted),
@@ -139,8 +139,8 @@ BEGIN
     "|LPM_DFF:14|dffs5"            : LOCATION   = LC4_B8 ;
     "|LPM_DFF:14|dffs6"            : LOCATION   = LC7_C13;
     "|LPM_DFF:14|dffs7"            : LOCATION   = LC1_A14;
-    "|rs:19|:5"                    : LOCATION   = LC6_C2 ;  -- |rs:19|Q
-    "|rs:21|:5"                    : LOCATION   = LC1_C2 ;  -- |rs:21|Q
+    "|rs:19|:1"                    : LOCATION   = LC6_C2 ;  -- |rs:19|Q
+    "|rs:21|:1"                    : LOCATION   = LC1_C2 ;  -- |rs:21|Q
 
 END;
 
