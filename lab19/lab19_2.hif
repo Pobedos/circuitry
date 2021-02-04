@@ -63,5 +63,14 @@ FILES
 }
 TREE
 {
-	lab19_2::(0,0):(0): lab19_2.vhd;
+	lab19_2::(0,0):(0): lab19_2.vhd
+	{
+		lpm_add_sub:5:(30,17):(467): lpm_add_sub.tdf
+		{
+			addcore:6:(211,4):(48,adder): addcore.tdf;
+			altshift:7:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+	}
 }
