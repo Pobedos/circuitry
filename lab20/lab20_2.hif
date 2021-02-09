@@ -24,34 +24,34 @@ HIF003
 --
 FILES
 {
-	altshift.tdf
+	lpm_add_sub.tdf
 	{
-		altshift [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS] []
+		lpm_add_sub [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY,STYLE] [aglobal.inc,altshift.inc,bypassff.inc,look_add.inc,addcore.inc,lpm_add_sub.inc]
 		{
-			7 [DEPTH=0,WIDTH=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result4,result3,result2,result1,result0,data4,data3,data2,data1,data0];
-			4 [DEPTH=0,WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0,data0];
-			3 [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result3,result2,result1,result0,data3,data2,data1,data0];
+			1 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=4,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAB0,DATAB1,DATAB2,DATAB3,CIN,RESULT0,RESULT1,RESULT2,RESULT3];
+			5 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=5,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4];
 		}
 	}
 	addcore.tdf
 	{
-		addcore [DEVICE_FAMILY,CARRY_CHAIN_LENGTH,CARRY_CHAIN,CONSTANT_CIN,width,USE_LPM_FOR_AHDL_OPERATORS] [addcore.inc,aglobal.inc]
+		addcore [USE_LPM_FOR_AHDL_OPERATORS,width,CONSTANT_CIN,CARRY_CHAIN,CARRY_CHAIN_LENGTH,DEVICE_FAMILY] [aglobal.inc,addcore.inc]
 		{
-			6 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result4,result3,result2,result1,result0,dataa4,dataa3,dataa2,dataa1,dataa0,datab4,datab3,datab2,datab1,datab0,cin];
-			2 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result3,result2,result1,result0,dataa3,dataa2,dataa1,dataa0,datab3,datab2,datab1,datab0,cin];
+			2 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=4,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,dataa0,dataa1,dataa2,dataa3,result0,result1,result2,result3];
+			6 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=5,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,datab4,dataa0,dataa1,dataa2,dataa3,dataa4,result0,result1,result2,result3,result4];
 		}
 	}
-	lpm_add_sub.tdf
+	altshift.tdf
 	{
-		lpm_add_sub [STYLE,DEVICE_FAMILY,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] [lpm_add_sub.inc,addcore.inc,look_add.inc,bypassff.inc,altshift.inc,aglobal.inc]
+		altshift [USE_LPM_FOR_AHDL_OPERATORS,WIDTH=4,DEPTH=0] []
 		{
-			5 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
-			1 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB3,DATAB2,DATAB1,DATAB0,DATAA3,DATAA2,DATAA1,DATAA0];
+			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=4,DEPTH=0] [data0,data1,data2,data3,result0,result1,result2,result3];
+			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=1,DEPTH=0] [data0,result0];
+			7 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=5,DEPTH=0] [data0,data1,data2,data3,data4,result0,result1,result2,result3,result4];
 		}
 	}
 	lab20_2.vhd
 	{
-		lab20_2 [] [U1147235.DLS,U7449008.DLS]
+		lab20_2 [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -61,19 +61,19 @@ TREE
 {
 	lab20_2::(0,0):(0): lab20_2.vhd
 	{
-		lpm_add_sub:1:(58,9):(3479): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
-			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
-			addcore:2:(211,4):(45,adder): addcore.tdf;
-		}
 		lpm_add_sub:1:(46,9):(2383): lpm_add_sub.tdf
 		{
-			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
-			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
 			addcore:2:(211,4):(45,adder): addcore.tdf;
+			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:1:(58,9):(3479): lpm_add_sub.tdf
+		{
+			addcore:2:(211,4):(45,adder): addcore.tdf;
+			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
 		}
 	}
 }
