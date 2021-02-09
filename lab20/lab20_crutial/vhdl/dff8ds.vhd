@@ -1,0 +1,181 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY dff8ds IS
+PORT( CLKF	:	IN	STD_LOGIC;
+	  CLKB	:	IN	STD_LOGIC;
+
+	  DF0	:	IN	STD_LOGIC;
+      DF1	:	IN	STD_LOGIC;
+      DF2	:	IN	STD_LOGIC;
+      DF3	:	IN	STD_LOGIC;
+      DF4	:	IN	STD_LOGIC;
+      DF5	:	IN	STD_LOGIC;
+      DF6	:	IN	STD_LOGIC;
+      DF7	:	IN	STD_LOGIC;
+
+	  DB0	:	IN	STD_LOGIC;
+      DB1	:	IN	STD_LOGIC;
+      DB2	:	IN	STD_LOGIC;
+      DB3	:	IN	STD_LOGIC;
+      DB4	:	IN	STD_LOGIC;
+      DB5	:	IN	STD_LOGIC;
+      DB6	:	IN	STD_LOGIC;
+      DB7	:	IN	STD_LOGIC;
+
+	  Q0	:	INOUT	STD_LOGIC;
+      Q1	:	INOUT	STD_LOGIC;
+      Q2	:	INOUT	STD_LOGIC;
+      Q3	:	INOUT	STD_LOGIC;
+      Q4	:	INOUT	STD_LOGIC;
+      Q5	:	INOUT	STD_LOGIC;
+      Q6	:	INOUT	STD_LOGIC;
+      Q7	:	INOUT	STD_LOGIC;
+
+	TMP_MUXQ0	:	INOUT	STD_LOGIC;
+	TMP_MUXQ1	:	INOUT	STD_LOGIC;
+	TMP_MUXQ2	:	INOUT	STD_LOGIC;
+	TMP_MUXQ3	:	INOUT	STD_LOGIC;
+	TMP_MUXQ4	:	INOUT	STD_LOGIC;
+	TMP_MUXQ5	:	INOUT	STD_LOGIC;
+	TMP_MUXQ6	:	INOUT	STD_LOGIC;
+	TMP_MUXQ7	:	INOUT	STD_LOGIC;
+	TMP_T		:	INOUT	STD_LOGIC;
+	TMP_CLK1	:	INOUT	STD_LOGIC;
+	TMP_CLK2	:	INOUT	STD_LOGIC;
+	TMP_CLK	:	INOUT	STD_LOGIC
+);
+END dff8ds;
+
+ARCHITECTURE arch OF dff8ds IS
+
+COMPONENT aa5or2
+PORT
+(
+	A		: IN	STD_LOGIC;
+	B		: IN	STD_LOGIC;
+	Q		: INOUT	STD_LOGIC
+);	
+END COMPONENT;
+
+COMPONENT aa5dff
+PORT
+(
+	D		:  IN	  STD_LOGIC;
+	CLK		:  IN	  STD_LOGIC;
+	Q		:  INOUT  STD_LOGIC
+);
+END COMPONENT;
+
+COMPONENT mux8x2
+PORT
+(
+	CHOOSE : IN STD_LOGIC;
+	A0 : IN STD_LOGIC;
+	A1 : IN STD_LOGIC;
+	A2 : IN STD_LOGIC;
+	A3 : IN STD_LOGIC;
+	A4 : IN STD_LOGIC;
+	A5 : IN STD_LOGIC;
+	A6 : IN STD_LOGIC;
+	A7 : IN STD_LOGIC;
+
+	B0 : IN STD_LOGIC;
+	B1 : IN STD_LOGIC;
+	B2 : IN STD_LOGIC;
+	B3 : IN STD_LOGIC;
+	B4 : IN STD_LOGIC;
+	B5 : IN STD_LOGIC;
+	B6 : IN STD_LOGIC;
+	B7 : IN STD_LOGIC;
+
+	Q0 : INOUT STD_LOGIC;
+	Q1 : INOUT STD_LOGIC;
+	Q2 : INOUT STD_LOGIC;
+	Q3 : INOUT STD_LOGIC;
+	Q4 : INOUT STD_LOGIC;
+	Q5 : INOUT STD_LOGIC;
+	Q6 : INOUT STD_LOGIC;
+	Q7 : INOUT STD_LOGIC	
+);	
+END COMPONENT;
+
+COMPONENT rstrigger
+PORT
+(
+	S	: IN	STD_LOGIC;
+	R   : IN	STD_LOGIC;
+	Q	: INOUT	STD_LOGIC
+);	
+END COMPONENT;
+
+COMPONENT aa5delay
+PORT
+(
+	A		: IN	STD_LOGIC;
+	Q		: INOUT	STD_LOGIC
+);
+END COMPONENT;
+
+BEGIN
+
+rstr : rstrigger
+PORT MAP( CLKB, CLKF, TMP_T );
+mx : mux8x2
+PORT MAP( TMP_T, DF0, DF1, DF2, DF3, DF4, DF5, DF6, DF7, 
+                 DB0, DB1, DB2, DB3, DB4, DB5, DB6, DB7,
+		         TMP_MUXQ0, TMP_MUXQ1, TMP_MUXQ2, TMP_MUXQ3,
+		         TMP_MUXQ4, TMP_MUXQ5, TMP_MUXQ6, TMP_MUXQ7 );
+clkor : aa5or2
+PORT MAP( CLKB, CLKF, TMP_CLK1 );
+dff0 : aa5dff
+PORT MAP ( TMP_MUXQ0, TMP_CLK, Q0 );
+dff1 : aa5dff
+PORT MAP ( TMP_MUXQ1, TMP_CLK, Q1 );
+dff2 : aa5dff
+PORT MAP ( TMP_MUXQ2, TMP_CLK, Q2 );
+dff3 : aa5dff
+PORT MAP ( TMP_MUXQ3, TMP_CLK, Q3 );
+dff4 : aa5dff
+PORT MAP ( TMP_MUXQ4, TMP_CLK, Q4 );
+dff5 : aa5dff
+PORT MAP ( TMP_MUXQ5, TMP_CLK, Q5 );
+dff6 : aa5dff
+PORT MAP ( TMP_MUXQ6, TMP_CLK, Q6 );
+dff7 : aa5dff
+PORT MAP ( TMP_MUXQ7, TMP_CLK, Q7 );
+
+del1 : aa5delay
+PORT MAP( TMP_CLK1, TMP_CLK2 );
+del2 : aa5delay
+PORT MAP( TMP_CLK2, TMP_CLK );
+
+END arch;
+
+CONFIGURATION conf OF dff8ds IS
+	FOR arch
+
+		FOR rstr : rstrigger
+			USE ENTITY work.rstrigger(arch);
+		END FOR;
+
+		FOR clkor : aa5or2
+			USE ENTITY work.aa5or2(arch);
+		END FOR;
+
+		FOR del1, del2 : aa5delay
+			USE ENTITY work.aa5delay(arch);
+		END FOR;
+
+		FOR mx : mux8x2
+			USE ENTITY work.mux8x2(arch);
+		END FOR;
+
+		FOR dff0, dff1, dff2, dff3, dff4, dff5, dff6, dff7 : aa5dff
+			USE ENTITY work.aa5dff (arch);
+		END FOR;
+
+	END FOR;
+END conf;
+
+

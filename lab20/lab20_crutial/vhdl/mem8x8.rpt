@@ -1,0 +1,1233 @@
+Project Information               k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 09/22/13 19:27:29
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+MEM8X8
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+mem8x8    EPF10K10TC144-3  9      0      64   0         0  %    64       11 %
+
+User Pins:                 9      0      64 
+
+
+
+Project Information               k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+
+** FILE HIERARCHY **
+
+
+
+|mem8:mm0|
+|mem8:mm0|aa5dff:dff0|
+|mem8:mm0|aa5dff:dff1|
+|mem8:mm0|aa5dff:dff2|
+|mem8:mm0|aa5dff:dff3|
+|mem8:mm0|aa5dff:dff4|
+|mem8:mm0|aa5dff:dff5|
+|mem8:mm0|aa5dff:dff6|
+|mem8:mm0|aa5dff:dff7|
+|mem8:mm1|
+|mem8:mm1|aa5dff:dff0|
+|mem8:mm1|aa5dff:dff1|
+|mem8:mm1|aa5dff:dff2|
+|mem8:mm1|aa5dff:dff3|
+|mem8:mm1|aa5dff:dff4|
+|mem8:mm1|aa5dff:dff5|
+|mem8:mm1|aa5dff:dff6|
+|mem8:mm1|aa5dff:dff7|
+|mem8:mm2|
+|mem8:mm2|aa5dff:dff0|
+|mem8:mm2|aa5dff:dff1|
+|mem8:mm2|aa5dff:dff2|
+|mem8:mm2|aa5dff:dff3|
+|mem8:mm2|aa5dff:dff4|
+|mem8:mm2|aa5dff:dff5|
+|mem8:mm2|aa5dff:dff6|
+|mem8:mm2|aa5dff:dff7|
+|mem8:mm3|
+|mem8:mm3|aa5dff:dff0|
+|mem8:mm3|aa5dff:dff1|
+|mem8:mm3|aa5dff:dff2|
+|mem8:mm3|aa5dff:dff3|
+|mem8:mm3|aa5dff:dff4|
+|mem8:mm3|aa5dff:dff5|
+|mem8:mm3|aa5dff:dff6|
+|mem8:mm3|aa5dff:dff7|
+|mem8:mm4|
+|mem8:mm4|aa5dff:dff0|
+|mem8:mm4|aa5dff:dff1|
+|mem8:mm4|aa5dff:dff2|
+|mem8:mm4|aa5dff:dff3|
+|mem8:mm4|aa5dff:dff4|
+|mem8:mm4|aa5dff:dff5|
+|mem8:mm4|aa5dff:dff6|
+|mem8:mm4|aa5dff:dff7|
+|mem8:mm5|
+|mem8:mm5|aa5dff:dff0|
+|mem8:mm5|aa5dff:dff1|
+|mem8:mm5|aa5dff:dff2|
+|mem8:mm5|aa5dff:dff3|
+|mem8:mm5|aa5dff:dff4|
+|mem8:mm5|aa5dff:dff5|
+|mem8:mm5|aa5dff:dff6|
+|mem8:mm5|aa5dff:dff7|
+|mem8:mm6|
+|mem8:mm6|aa5dff:dff0|
+|mem8:mm6|aa5dff:dff1|
+|mem8:mm6|aa5dff:dff2|
+|mem8:mm6|aa5dff:dff3|
+|mem8:mm6|aa5dff:dff4|
+|mem8:mm6|aa5dff:dff5|
+|mem8:mm6|aa5dff:dff6|
+|mem8:mm6|aa5dff:dff7|
+|mem8:mm7|
+|mem8:mm7|aa5dff:dff0|
+|mem8:mm7|aa5dff:dff1|
+|mem8:mm7|aa5dff:dff2|
+|mem8:mm7|aa5dff:dff3|
+|mem8:mm7|aa5dff:dff4|
+|mem8:mm7|aa5dff:dff5|
+|mem8:mm7|aa5dff:dff6|
+|mem8:mm7|aa5dff:dff7|
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+***** Logic for device 'mem8x8' compiled without errors.
+
+
+
+
+Device: EPF10K10TC144-3
+
+FLEX 10K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+    MultiVolt I/O                              = OFF
+
+                                                                                         
+                                                                                         
+                R R R R R   R R R R   R   R R   R                                        
+                E E E E E   E E E E   E   E E   E                                        
+                S S S S S   S S S S   S   S S   S G G     V                              
+                E E E E E G E E E E V E   E E G E N N     C               V              
+                R R R R R N R R R R C R   R R N R D D     C T T T T T T T C T T T T T T  
+                V V V V V D V V V V C V   V V D V I I     I 2 1 2 2 4 1 1 C 6 6 6 5 5 5  
+                E E E E E I E E E E I E Q E E I E N N D D N Q Q Q Q Q Q Q I Q Q Q Q Q Q  
+                D D D D D O D D D D O D 6 D D O D T T 7 5 T 4 5 0 2 0 6 7 O 3 0 2 4 3 7  
+              --------------------------------------------------------------------------_ 
+             / 144 142 140 138 136 134 132 130 128 126 124 122 120 118 116 114 112 110   |_ 
+            /    143 141 139 137 135 133 131 129 127 125 123 121 119 117 115 113 111 109    | 
+      #TCK |  1                                                                         108 | ^DATA0 
+^CONF_DONE |  2                                                                         107 | ^DCLK 
+     ^nCEO |  3                                                                         106 | ^nCE 
+      #TDO |  4                                                                         105 | #TDI 
+     VCCIO |  5                                                                         104 | GNDIO 
+    VCCINT |  6                                                                         103 | GNDINT 
+        D6 |  7                                                                         102 | T0Q0 
+        D0 |  8                                                                         101 | T0Q6 
+        Q5 |  9                                                                         100 | T6Q6 
+        Q7 | 10                                                                          99 | T0Q7 
+      T3Q4 | 11                                                                          98 | T6Q4 
+      T4Q2 | 12                                                                          97 | T5Q6 
+      T4Q3 | 13                                                                          96 | T5Q0 
+        Q3 | 14                                                                          95 | T6Q5 
+     GNDIO | 15                                                                          94 | VCCIO 
+    GNDINT | 16                                                                          93 | VCCINT 
+  RESERVED | 17                                                                          92 | T2Q1 
+      T4Q5 | 18                                                                          91 | T0Q3 
+        Q4 | 19                             EPF10K10TC144-3                              90 | T3Q1 
+        D4 | 20                                                                          89 | T0Q4 
+      T4Q4 | 21                                                                          88 | T0Q5 
+      T3Q6 | 22                                                                          87 | T3Q7 
+        D3 | 23                                                                          86 | T4Q6 
+     VCCIO | 24                                                                          85 | GNDIO 
+    VCCINT | 25                                                                          84 | GNDINT 
+        Q1 | 26                                                                          83 | T3Q3 
+      T5Q2 | 27                                                                          82 | T2Q6 
+  RESERVED | 28                                                                          81 | T1Q1 
+      T5Q1 | 29                                                                          80 | T0Q1 
+      T6Q1 | 30                                                                          79 | T1Q2 
+        Q2 | 31                                                                          78 | T0Q2 
+        Q0 | 32                                                                          77 | ^MSEL0 
+      T3Q5 | 33                                                                          76 | ^MSEL1 
+      #TMS | 34                                                                          75 | VCCINT 
+  ^nSTATUS | 35                                                                          74 | ^nCONFIG 
+  RESERVED | 36                                                                          73 | T5Q5 
+           |      38  40  42  44  46  48  50  52  54  56  58  60  62  64  66  68  70  72  _| 
+            \   37  39  41  43  45  47  49  51  53  55  57  59  61  63  65  67  69  71   | 
+             \--------------------------------------------------------------------------- 
+                R R R G R R R R V R R R R G R V V D C D G G T T V T T T T G T T T T V T  
+                E E E N E E E E C E E E E N E C C 2 L 1 N N 3 2 C 2 3 1 1 N 4 4 2 1 C 6  
+                S S S D S S S S C S S S S D S C C   K   D D Q Q C Q Q Q Q D Q Q Q Q C Q  
+                E E E I E E E E I E E E E I E I I       I I 2 7 I 5 0 3 4 I 1 7 3 0 I 7  
+                R R R O R R R R O R R R R O R N N       N N     O         O         O    
+                V V V   V V V V   V V V V   V T T       T T                              
+                E E E   E E E E   E E E E   E                                            
+                D D D   D D D D   D D D D   D                                            
+                                                                                         
+                                                                                         
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs (TMS, TCK, TDI) should be tied to VCC when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+A2       5/ 8( 62%)   1/ 8( 12%)   4/ 8( 50%)    1/2    0/2       5/22( 22%)   
+A3       5/ 8( 62%)   3/ 8( 37%)   4/ 8( 50%)    1/2    0/2       5/22( 22%)   
+A5       4/ 8( 50%)   2/ 8( 25%)   3/ 8( 37%)    1/2    0/2       4/22( 18%)   
+A6       4/ 8( 50%)   4/ 8( 50%)   0/ 8(  0%)    1/2    0/2       4/22( 18%)   
+A12      4/ 8( 50%)   3/ 8( 37%)   2/ 8( 25%)    1/2    0/2       4/22( 18%)   
+B1       6/ 8( 75%)   5/ 8( 62%)   1/ 8( 12%)    1/2    0/2       6/22( 27%)   
+B7       4/ 8( 50%)   4/ 8( 50%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B8       4/ 8( 50%)   1/ 8( 12%)   3/ 8( 37%)    1/2    0/2       4/22( 18%)   
+B9       4/ 8( 50%)   4/ 8( 50%)   0/ 8(  0%)    1/2    0/2       4/22( 18%)   
+B11      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    0/2       3/22( 13%)   
+C4       5/ 8( 62%)   3/ 8( 37%)   2/ 8( 25%)    1/2    0/2       5/22( 22%)   
+C9       4/ 8( 50%)   2/ 8( 25%)   4/ 8( 50%)    1/2    0/2       4/22( 18%)   
+C10      4/ 8( 50%)   1/ 8( 12%)   3/ 8( 37%)    1/2    0/2       4/22( 18%)   
+C11      4/ 8( 50%)   3/ 8( 37%)   2/ 8( 25%)    1/2    0/2       4/22( 18%)   
+C12      4/ 8( 50%)   3/ 8( 37%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 5/6      ( 83%)
+Total I/O pins used:                            68/96     ( 70%)
+Total logic cells used:                         64/576    ( 11%)
+Total embedded cells used:                       0/24     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 1.00/4    ( 25%)
+Total fan-in:                                  64/2304    (  2%)
+
+Total input pins required:                       9
+Total input I/O cell registers required:         0
+Total output pins required:                      0
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:              64
+Total reserved pins required                     0
+Total logic cells required:                     64
+Total flipflops required:                       64
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         0/ 576   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      0   5   5   0   4   4   0   0   0   0   0   4   0   0   0   0   0   0   0   0   0   0   0   0   0     22/0  
+ B:      6   0   0   0   0   0   4   4   4   0   3   0   0   0   0   0   0   0   0   0   0   0   0   0   0     21/0  
+ C:      0   0   0   5   0   0   0   0   4   4   4   4   0   0   0   0   0   0   0   0   0   0   0   0   0     21/0  
+
+Total:   6   5   5   5   4   4   4   4   8   4   7   8   0   0   0   0   0   0   0   0   0   0   0   0   0     64/0  
+
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  55      -     -    -    --      INPUT  G             0    0    0    0  CLK
+   8      -     -    A    --      INPUT                0    0    0    1  D0
+  56      -     -    -    --      INPUT                0    0    0    1  D1
+  54      -     -    -    --      INPUT                0    0    0    1  D2
+  23      -     -    B    --      INPUT                0    0    0    1  D3
+  20      -     -    B    --      INPUT                0    0    0    1  D4
+ 124      -     -    -    --      INPUT                0    0    0    1  D5
+   7      -     -    A    --      INPUT                0    0    0    1  D6
+ 125      -     -    -    --      INPUT                0    0    0    1  D7
+  32      -     -    C    --      BIDIR                0    1    0    0  Q0
+  26      -     -    C    --      BIDIR                0    1    0    0  Q1
+  31      -     -    C    --      BIDIR                0    1    0    0  Q2
+  14      -     -    A    --      BIDIR                0    1    0    0  Q3
+  19      -     -    B    --      BIDIR                0    1    0    0  Q4
+   9      -     -    A    --      BIDIR                0    1    0    0  Q5
+ 132      -     -    -    16      BIDIR                0    1    0    0  Q6
+  10      -     -    A    --      BIDIR                0    1    0    0  Q7
+ 102      -     -    A    --      BIDIR                0    1    0    1  T0Q0
+  80      -     -    C    --      BIDIR                0    1    0    1  T0Q1
+  78      -     -    C    --      BIDIR                0    1    0    1  T0Q2
+  91      -     -    B    --      BIDIR                0    1    0    1  T0Q3
+  89      -     -    B    --      BIDIR                0    1    0    1  T0Q4
+  88      -     -    B    --      BIDIR                0    1    0    1  T0Q5
+ 101      -     -    A    --      BIDIR                0    1    0    1  T0Q6
+  99      -     -    A    --      BIDIR                0    1    0    1  T0Q7
+  70      -     -    -    05      BIDIR                0    1    0    1  T1Q0
+  81      -     -    C    --      BIDIR                0    1    0    1  T1Q1
+  79      -     -    C    --      BIDIR                0    1    0    1  T1Q2
+  64      -     -    -    10      BIDIR                0    1    0    1  T1Q3
+  65      -     -    -    09      BIDIR                0    1    0    1  T1Q4
+ 121      -     -    -    10      BIDIR                0    1    0    1  T1Q5
+ 117      -     -    -    06      BIDIR                0    1    0    1  T1Q6
+ 116      -     -    -    05      BIDIR                0    1    0    1  T1Q7
+ 120      -     -    -    09      BIDIR                0    1    0    1  T2Q0
+  92      -     -    B    --      BIDIR                0    1    0    1  T2Q1
+ 119      -     -    -    08      BIDIR                0    1    0    1  T2Q2
+  69      -     -    -    06      BIDIR                0    1    0    1  T2Q3
+ 122      -     -    -    12      BIDIR                0    1    0    1  T2Q4
+  62      -     -    -    11      BIDIR                0    1    0    1  T2Q5
+  82      -     -    C    --      BIDIR                0    1    0    1  T2Q6
+  60      -     -    -    12      BIDIR                0    1    0    1  T2Q7
+  63      -     -    -    11      BIDIR                0    1    0    1  T3Q0
+  90      -     -    B    --      BIDIR                0    1    0    1  T3Q1
+  59      -     -    -    12      BIDIR                0    1    0    1  T3Q2
+  83      -     -    C    --      BIDIR                0    1    0    1  T3Q3
+  11      -     -    A    --      BIDIR                0    1    0    1  T3Q4
+  33      -     -    C    --      BIDIR                0    1    0    1  T3Q5
+  22      -     -    B    --      BIDIR                0    1    0    1  T3Q6
+  87      -     -    B    --      BIDIR                0    1    0    1  T3Q7
+ 118      -     -    -    07      BIDIR                0    1    0    1  T4Q0
+  67      -     -    -    08      BIDIR                0    1    0    1  T4Q1
+  12      -     -    A    --      BIDIR                0    1    0    1  T4Q2
+  13      -     -    A    --      BIDIR                0    1    0    1  T4Q3
+  21      -     -    B    --      BIDIR                0    1    0    1  T4Q4
+  18      -     -    B    --      BIDIR                0    1    0    1  T4Q5
+  86      -     -    B    --      BIDIR                0    1    0    1  T4Q6
+  68      -     -    -    07      BIDIR                0    1    0    1  T4Q7
+  96      -     -    A    --      BIDIR                0    1    0    1  T5Q0
+  29      -     -    C    --      BIDIR                0    1    0    1  T5Q1
+  27      -     -    C    --      BIDIR                0    1    0    1  T5Q2
+ 110      -     -    -    01      BIDIR                0    1    0    1  T5Q3
+ 111      -     -    -    02      BIDIR                0    1    0    1  T5Q4
+  73      -     -    -    02      BIDIR                0    1    0    1  T5Q5
+  97      -     -    A    --      BIDIR                0    1    0    1  T5Q6
+ 109      -     -    -    01      BIDIR                0    1    0    1  T5Q7
+ 113      -     -    -    03      BIDIR                0    1    0    1  T6Q0
+  30      -     -    C    --      BIDIR                0    1    0    1  T6Q1
+ 112      -     -    -    03      BIDIR                0    1    0    1  T6Q2
+ 114      -     -    -    04      BIDIR                0    1    0    1  T6Q3
+  98      -     -    A    --      BIDIR                0    1    0    1  T6Q4
+  95      -     -    A    --      BIDIR                0    1    0    1  T6Q5
+ 100      -     -    A    --      BIDIR                0    1    0    1  T6Q6
+  72      -     -    -    04      BIDIR                0    1    0    1  T6Q7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  32      -     -    C    --        TRI                0    1    0    0  Q0
+  26      -     -    C    --        TRI                0    1    0    0  Q1
+  31      -     -    C    --        TRI                0    1    0    0  Q2
+  14      -     -    A    --        TRI                0    1    0    0  Q3
+  19      -     -    B    --        TRI                0    1    0    0  Q4
+   9      -     -    A    --        TRI                0    1    0    0  Q5
+ 132      -     -    -    16        TRI                0    1    0    0  Q6
+  10      -     -    A    --        TRI                0    1    0    0  Q7
+ 102      -     -    A    --        TRI                0    1    0    1  T0Q0
+  80      -     -    C    --        TRI                0    1    0    1  T0Q1
+  78      -     -    C    --        TRI                0    1    0    1  T0Q2
+  91      -     -    B    --        TRI                0    1    0    1  T0Q3
+  89      -     -    B    --        TRI                0    1    0    1  T0Q4
+  88      -     -    B    --        TRI                0    1    0    1  T0Q5
+ 101      -     -    A    --        TRI                0    1    0    1  T0Q6
+  99      -     -    A    --        TRI                0    1    0    1  T0Q7
+  70      -     -    -    05        TRI                0    1    0    1  T1Q0
+  81      -     -    C    --        TRI                0    1    0    1  T1Q1
+  79      -     -    C    --        TRI                0    1    0    1  T1Q2
+  64      -     -    -    10        TRI                0    1    0    1  T1Q3
+  65      -     -    -    09        TRI                0    1    0    1  T1Q4
+ 121      -     -    -    10        TRI                0    1    0    1  T1Q5
+ 117      -     -    -    06        TRI                0    1    0    1  T1Q6
+ 116      -     -    -    05        TRI                0    1    0    1  T1Q7
+ 120      -     -    -    09        TRI                0    1    0    1  T2Q0
+  92      -     -    B    --        TRI                0    1    0    1  T2Q1
+ 119      -     -    -    08        TRI                0    1    0    1  T2Q2
+  69      -     -    -    06        TRI                0    1    0    1  T2Q3
+ 122      -     -    -    12        TRI                0    1    0    1  T2Q4
+  62      -     -    -    11        TRI                0    1    0    1  T2Q5
+  82      -     -    C    --        TRI                0    1    0    1  T2Q6
+  60      -     -    -    12        TRI                0    1    0    1  T2Q7
+  63      -     -    -    11        TRI                0    1    0    1  T3Q0
+  90      -     -    B    --        TRI                0    1    0    1  T3Q1
+  59      -     -    -    12        TRI                0    1    0    1  T3Q2
+  83      -     -    C    --        TRI                0    1    0    1  T3Q3
+  11      -     -    A    --        TRI                0    1    0    1  T3Q4
+  33      -     -    C    --        TRI                0    1    0    1  T3Q5
+  22      -     -    B    --        TRI                0    1    0    1  T3Q6
+  87      -     -    B    --        TRI                0    1    0    1  T3Q7
+ 118      -     -    -    07        TRI                0    1    0    1  T4Q0
+  67      -     -    -    08        TRI                0    1    0    1  T4Q1
+  12      -     -    A    --        TRI                0    1    0    1  T4Q2
+  13      -     -    A    --        TRI                0    1    0    1  T4Q3
+  21      -     -    B    --        TRI                0    1    0    1  T4Q4
+  18      -     -    B    --        TRI                0    1    0    1  T4Q5
+  86      -     -    B    --        TRI                0    1    0    1  T4Q6
+  68      -     -    -    07        TRI                0    1    0    1  T4Q7
+  96      -     -    A    --        TRI                0    1    0    1  T5Q0
+  29      -     -    C    --        TRI                0    1    0    1  T5Q1
+  27      -     -    C    --        TRI                0    1    0    1  T5Q2
+ 110      -     -    -    01        TRI                0    1    0    1  T5Q3
+ 111      -     -    -    02        TRI                0    1    0    1  T5Q4
+  73      -     -    -    02        TRI                0    1    0    1  T5Q5
+  97      -     -    A    --        TRI                0    1    0    1  T5Q6
+ 109      -     -    -    01        TRI                0    1    0    1  T5Q7
+ 113      -     -    -    03        TRI                0    1    0    1  T6Q0
+  30      -     -    C    --        TRI                0    1    0    1  T6Q1
+ 112      -     -    -    03        TRI                0    1    0    1  T6Q2
+ 114      -     -    -    04        TRI                0    1    0    1  T6Q3
+  98      -     -    A    --        TRI                0    1    0    1  T6Q4
+  95      -     -    A    --        TRI                0    1    0    1  T6Q5
+ 100      -     -    A    --        TRI                0    1    0    1  T6Q6
+  72      -     -    -    04        TRI                0    1    0    1  T6Q7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      1     -    A    02       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff0|QS (|mem8:mm0|aa5dff:dff0|:4)
+   -      3     -    C    04       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff1|QS (|mem8:mm0|aa5dff:dff1|:4)
+   -      7     -    C    09       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff2|QS (|mem8:mm0|aa5dff:dff2|:4)
+   -      2     -    B    01       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff3|QS (|mem8:mm0|aa5dff:dff3|:4)
+   -      5     -    B    11       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff4|QS (|mem8:mm0|aa5dff:dff4|:4)
+   -      6     -    B    11       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff5|QS (|mem8:mm0|aa5dff:dff5|:4)
+   -      2     -    A    05       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff6|QS (|mem8:mm0|aa5dff:dff6|:4)
+   -      4     -    A    05       DFFE   +            1    0    1    0  |mem8:mm0|aa5dff:dff7|QS (|mem8:mm0|aa5dff:dff7|:4)
+   -      4     -    A    06       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff0|QS (|mem8:mm1|aa5dff:dff0|:4)
+   -      3     -    C    09       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff1|QS (|mem8:mm1|aa5dff:dff1|:4)
+   -      5     -    C    09       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff2|QS (|mem8:mm1|aa5dff:dff2|:4)
+   -      5     -    B    09       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff3|QS (|mem8:mm1|aa5dff:dff3|:4)
+   -      4     -    B    09       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff4|QS (|mem8:mm1|aa5dff:dff4|:4)
+   -      2     -    B    09       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff5|QS (|mem8:mm1|aa5dff:dff5|:4)
+   -      1     -    A    06       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff6|QS (|mem8:mm1|aa5dff:dff6|:4)
+   -      2     -    A    06       DFFE   +            0    1    1    0  |mem8:mm1|aa5dff:dff7|QS (|mem8:mm1|aa5dff:dff7|:4)
+   -      1     -    B    09       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff0|QS (|mem8:mm2|aa5dff:dff0|:4)
+   -      1     -    B    08       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff1|QS (|mem8:mm2|aa5dff:dff1|:4)
+   -      2     -    B    08       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff2|QS (|mem8:mm2|aa5dff:dff2|:4)
+   -      3     -    A    06       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff3|QS (|mem8:mm2|aa5dff:dff3|:4)
+   -      1     -    A    12       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff4|QS (|mem8:mm2|aa5dff:dff4|:4)
+   -      2     -    A    12       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff5|QS (|mem8:mm2|aa5dff:dff5|:4)
+   -      1     -    C    12       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff6|QS (|mem8:mm2|aa5dff:dff6|:4)
+   -      2     -    C    12       DFFE   +            0    1    1    0  |mem8:mm2|aa5dff:dff7|QS (|mem8:mm2|aa5dff:dff7|:4)
+   -      3     -    C    12       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff0|QS (|mem8:mm3|aa5dff:dff0|:4)
+   -      3     -    B    08       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff1|QS (|mem8:mm3|aa5dff:dff1|:4)
+   -      4     -    C    12       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff2|QS (|mem8:mm3|aa5dff:dff2|:4)
+   -      1     -    C    11       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff3|QS (|mem8:mm3|aa5dff:dff3|:4)
+   -      5     -    C    11       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff4|QS (|mem8:mm3|aa5dff:dff4|:4)
+   -      8     -    C    11       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff5|QS (|mem8:mm3|aa5dff:dff5|:4)
+   -      6     -    C    11       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff6|QS (|mem8:mm3|aa5dff:dff6|:4)
+   -      6     -    B    08       DFFE   +            0    1    1    0  |mem8:mm3|aa5dff:dff7|QS (|mem8:mm3|aa5dff:dff7|:4)
+   -      1     -    B    07       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff0|QS (|mem8:mm4|aa5dff:dff0|:4)
+   -      4     -    B    07       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff1|QS (|mem8:mm4|aa5dff:dff1|:4)
+   -      5     -    A    12       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff2|QS (|mem8:mm4|aa5dff:dff2|:4)
+   -      7     -    A    05       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff3|QS (|mem8:mm4|aa5dff:dff3|:4)
+   -      5     -    A    05       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff4|QS (|mem8:mm4|aa5dff:dff4|:4)
+   -      2     -    C    10       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff5|QS (|mem8:mm4|aa5dff:dff5|:4)
+   -      8     -    B    07       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff6|QS (|mem8:mm4|aa5dff:dff6|:4)
+   -      2     -    B    07       DFFE   +            0    1    1    0  |mem8:mm4|aa5dff:dff7|QS (|mem8:mm4|aa5dff:dff7|:4)
+   -      6     -    A    02       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff0|QS (|mem8:mm5|aa5dff:dff0|:4)
+   -      3     -    C    10       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff1|QS (|mem8:mm5|aa5dff:dff1|:4)
+   -      1     -    C    10       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff2|QS (|mem8:mm5|aa5dff:dff2|:4)
+   -      1     -    B    01       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff3|QS (|mem8:mm5|aa5dff:dff3|:4)
+   -      3     -    B    01       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff4|QS (|mem8:mm5|aa5dff:dff4|:4)
+   -      4     -    B    01       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff5|QS (|mem8:mm5|aa5dff:dff5|:4)
+   -      5     -    A    02       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff6|QS (|mem8:mm5|aa5dff:dff6|:4)
+   -      2     -    A    02       DFFE   +            0    1    1    0  |mem8:mm5|aa5dff:dff7|QS (|mem8:mm5|aa5dff:dff7|:4)
+   -      1     -    A    03       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff0|QS (|mem8:mm6|aa5dff:dff0|:4)
+   -      5     -    C    10       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff1|QS (|mem8:mm6|aa5dff:dff1|:4)
+   -      2     -    C    04       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff2|QS (|mem8:mm6|aa5dff:dff2|:4)
+   -      4     -    C    04       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff3|QS (|mem8:mm6|aa5dff:dff3|:4)
+   -      5     -    A    03       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff4|QS (|mem8:mm6|aa5dff:dff4|:4)
+   -      8     -    A    03       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff5|QS (|mem8:mm6|aa5dff:dff5|:4)
+   -      3     -    A    03       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff6|QS (|mem8:mm6|aa5dff:dff6|:4)
+   -      1     -    C    04       DFFE   +            0    1    1    0  |mem8:mm6|aa5dff:dff7|QS (|mem8:mm6|aa5dff:dff7|:4)
+   -      6     -    C    04       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff0|QS (|mem8:mm7|aa5dff:dff0|:4)
+   -      1     -    C    09       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff1|QS (|mem8:mm7|aa5dff:dff1|:4)
+   -      6     -    B    01       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff2|QS (|mem8:mm7|aa5dff:dff2|:4)
+   -      8     -    B    01       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff3|QS (|mem8:mm7|aa5dff:dff3|:4)
+   -      3     -    B    11       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff4|QS (|mem8:mm7|aa5dff:dff4|:4)
+   -      3     -    A    02       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff5|QS (|mem8:mm7|aa5dff:dff5|:4)
+   -      2     -    A    03       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff6|QS (|mem8:mm7|aa5dff:dff6|:4)
+   -      3     -    A    12       DFFE   +            0    1    1    0  |mem8:mm7|aa5dff:dff7|QS (|mem8:mm7|aa5dff:dff7|:4)
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+p = Packed register
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:      20/ 96( 20%)    19/ 48( 39%)     0/ 48(  0%)    2/16( 12%)      0/16(  0%)    14/16( 87%)
+B:      16/ 96( 16%)    16/ 48( 33%)     0/ 48(  0%)    2/16( 12%)      0/16(  0%)    11/16( 68%)
+C:      17/ 96( 17%)    18/ 48( 37%)     0/ 48(  0%)    0/16(  0%)      0/16(  0%)    13/16( 81%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      7/24( 29%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+02:      4/24( 16%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+03:      6/24( 25%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+04:      4/24( 16%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+05:      5/24( 20%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+06:      6/24( 25%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+07:      4/24( 16%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+08:      6/24( 25%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+09:      4/24( 16%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+10:      5/24( 20%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+11:      6/24( 25%)     0/4(  0%)      0/4(  0%)       2/4( 50%)
+12:      6/24( 25%)     0/4(  0%)      0/4(  0%)       3/4( 75%)
+13:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      1/24(  4%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** CLOCK SIGNALS **
+
+Type     Fan-out       Name
+INPUT       64         CLK
+
+
+Device-Specific Information:      k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+mem8x8
+
+** EQUATIONS **
+
+CLK      : INPUT;
+D0       : INPUT;
+D1       : INPUT;
+D2       : INPUT;
+D3       : INPUT;
+D4       : INPUT;
+D5       : INPUT;
+D6       : INPUT;
+D7       : INPUT;
+
+-- Node name is 'Q0' 
+-- Equation name is 'Q0', type is bidir 
+Q0       = TRI(_LC6_C4,  VCC);
+
+-- Node name is 'Q1' 
+-- Equation name is 'Q1', type is bidir 
+Q1       = TRI(_LC1_C9,  VCC);
+
+-- Node name is 'Q2' 
+-- Equation name is 'Q2', type is bidir 
+Q2       = TRI(_LC6_B1,  VCC);
+
+-- Node name is 'Q3' 
+-- Equation name is 'Q3', type is bidir 
+Q3       = TRI(_LC8_B1,  VCC);
+
+-- Node name is 'Q4' 
+-- Equation name is 'Q4', type is bidir 
+Q4       = TRI(_LC3_B11,  VCC);
+
+-- Node name is 'Q5' 
+-- Equation name is 'Q5', type is bidir 
+Q5       = TRI(_LC3_A2,  VCC);
+
+-- Node name is 'Q6' 
+-- Equation name is 'Q6', type is bidir 
+Q6       = TRI(_LC2_A3,  VCC);
+
+-- Node name is 'Q7' 
+-- Equation name is 'Q7', type is bidir 
+Q7       = TRI(_LC3_A12,  VCC);
+
+-- Node name is 'T0Q0' 
+-- Equation name is 'T0Q0', type is bidir 
+T0Q0     = TRI(_LC1_A2,  VCC);
+
+-- Node name is 'T0Q1' 
+-- Equation name is 'T0Q1', type is bidir 
+T0Q1     = TRI(_LC3_C4,  VCC);
+
+-- Node name is 'T0Q2' 
+-- Equation name is 'T0Q2', type is bidir 
+T0Q2     = TRI(_LC7_C9,  VCC);
+
+-- Node name is 'T0Q3' 
+-- Equation name is 'T0Q3', type is bidir 
+T0Q3     = TRI(_LC2_B1,  VCC);
+
+-- Node name is 'T0Q4' 
+-- Equation name is 'T0Q4', type is bidir 
+T0Q4     = TRI(_LC5_B11,  VCC);
+
+-- Node name is 'T0Q5' 
+-- Equation name is 'T0Q5', type is bidir 
+T0Q5     = TRI(_LC6_B11,  VCC);
+
+-- Node name is 'T0Q6' 
+-- Equation name is 'T0Q6', type is bidir 
+T0Q6     = TRI(_LC2_A5,  VCC);
+
+-- Node name is 'T0Q7' 
+-- Equation name is 'T0Q7', type is bidir 
+T0Q7     = TRI(_LC4_A5,  VCC);
+
+-- Node name is 'T1Q0' 
+-- Equation name is 'T1Q0', type is bidir 
+T1Q0     = TRI(_LC4_A6,  VCC);
+
+-- Node name is 'T1Q1' 
+-- Equation name is 'T1Q1', type is bidir 
+T1Q1     = TRI(_LC3_C9,  VCC);
+
+-- Node name is 'T1Q2' 
+-- Equation name is 'T1Q2', type is bidir 
+T1Q2     = TRI(_LC5_C9,  VCC);
+
+-- Node name is 'T1Q3' 
+-- Equation name is 'T1Q3', type is bidir 
+T1Q3     = TRI(_LC5_B9,  VCC);
+
+-- Node name is 'T1Q4' 
+-- Equation name is 'T1Q4', type is bidir 
+T1Q4     = TRI(_LC4_B9,  VCC);
+
+-- Node name is 'T1Q5' 
+-- Equation name is 'T1Q5', type is bidir 
+T1Q5     = TRI(_LC2_B9,  VCC);
+
+-- Node name is 'T1Q6' 
+-- Equation name is 'T1Q6', type is bidir 
+T1Q6     = TRI(_LC1_A6,  VCC);
+
+-- Node name is 'T1Q7' 
+-- Equation name is 'T1Q7', type is bidir 
+T1Q7     = TRI(_LC2_A6,  VCC);
+
+-- Node name is 'T2Q0' 
+-- Equation name is 'T2Q0', type is bidir 
+T2Q0     = TRI(_LC1_B9,  VCC);
+
+-- Node name is 'T2Q1' 
+-- Equation name is 'T2Q1', type is bidir 
+T2Q1     = TRI(_LC1_B8,  VCC);
+
+-- Node name is 'T2Q2' 
+-- Equation name is 'T2Q2', type is bidir 
+T2Q2     = TRI(_LC2_B8,  VCC);
+
+-- Node name is 'T2Q3' 
+-- Equation name is 'T2Q3', type is bidir 
+T2Q3     = TRI(_LC3_A6,  VCC);
+
+-- Node name is 'T2Q4' 
+-- Equation name is 'T2Q4', type is bidir 
+T2Q4     = TRI(_LC1_A12,  VCC);
+
+-- Node name is 'T2Q5' 
+-- Equation name is 'T2Q5', type is bidir 
+T2Q5     = TRI(_LC2_A12,  VCC);
+
+-- Node name is 'T2Q6' 
+-- Equation name is 'T2Q6', type is bidir 
+T2Q6     = TRI(_LC1_C12,  VCC);
+
+-- Node name is 'T2Q7' 
+-- Equation name is 'T2Q7', type is bidir 
+T2Q7     = TRI(_LC2_C12,  VCC);
+
+-- Node name is 'T3Q0' 
+-- Equation name is 'T3Q0', type is bidir 
+T3Q0     = TRI(_LC3_C12,  VCC);
+
+-- Node name is 'T3Q1' 
+-- Equation name is 'T3Q1', type is bidir 
+T3Q1     = TRI(_LC3_B8,  VCC);
+
+-- Node name is 'T3Q2' 
+-- Equation name is 'T3Q2', type is bidir 
+T3Q2     = TRI(_LC4_C12,  VCC);
+
+-- Node name is 'T3Q3' 
+-- Equation name is 'T3Q3', type is bidir 
+T3Q3     = TRI(_LC1_C11,  VCC);
+
+-- Node name is 'T3Q4' 
+-- Equation name is 'T3Q4', type is bidir 
+T3Q4     = TRI(_LC5_C11,  VCC);
+
+-- Node name is 'T3Q5' 
+-- Equation name is 'T3Q5', type is bidir 
+T3Q5     = TRI(_LC8_C11,  VCC);
+
+-- Node name is 'T3Q6' 
+-- Equation name is 'T3Q6', type is bidir 
+T3Q6     = TRI(_LC6_C11,  VCC);
+
+-- Node name is 'T3Q7' 
+-- Equation name is 'T3Q7', type is bidir 
+T3Q7     = TRI(_LC6_B8,  VCC);
+
+-- Node name is 'T4Q0' 
+-- Equation name is 'T4Q0', type is bidir 
+T4Q0     = TRI(_LC1_B7,  VCC);
+
+-- Node name is 'T4Q1' 
+-- Equation name is 'T4Q1', type is bidir 
+T4Q1     = TRI(_LC4_B7,  VCC);
+
+-- Node name is 'T4Q2' 
+-- Equation name is 'T4Q2', type is bidir 
+T4Q2     = TRI(_LC5_A12,  VCC);
+
+-- Node name is 'T4Q3' 
+-- Equation name is 'T4Q3', type is bidir 
+T4Q3     = TRI(_LC7_A5,  VCC);
+
+-- Node name is 'T4Q4' 
+-- Equation name is 'T4Q4', type is bidir 
+T4Q4     = TRI(_LC5_A5,  VCC);
+
+-- Node name is 'T4Q5' 
+-- Equation name is 'T4Q5', type is bidir 
+T4Q5     = TRI(_LC2_C10,  VCC);
+
+-- Node name is 'T4Q6' 
+-- Equation name is 'T4Q6', type is bidir 
+T4Q6     = TRI(_LC8_B7,  VCC);
+
+-- Node name is 'T4Q7' 
+-- Equation name is 'T4Q7', type is bidir 
+T4Q7     = TRI(_LC2_B7,  VCC);
+
+-- Node name is 'T5Q0' 
+-- Equation name is 'T5Q0', type is bidir 
+T5Q0     = TRI(_LC6_A2,  VCC);
+
+-- Node name is 'T5Q1' 
+-- Equation name is 'T5Q1', type is bidir 
+T5Q1     = TRI(_LC3_C10,  VCC);
+
+-- Node name is 'T5Q2' 
+-- Equation name is 'T5Q2', type is bidir 
+T5Q2     = TRI(_LC1_C10,  VCC);
+
+-- Node name is 'T5Q3' 
+-- Equation name is 'T5Q3', type is bidir 
+T5Q3     = TRI(_LC1_B1,  VCC);
+
+-- Node name is 'T5Q4' 
+-- Equation name is 'T5Q4', type is bidir 
+T5Q4     = TRI(_LC3_B1,  VCC);
+
+-- Node name is 'T5Q5' 
+-- Equation name is 'T5Q5', type is bidir 
+T5Q5     = TRI(_LC4_B1,  VCC);
+
+-- Node name is 'T5Q6' 
+-- Equation name is 'T5Q6', type is bidir 
+T5Q6     = TRI(_LC5_A2,  VCC);
+
+-- Node name is 'T5Q7' 
+-- Equation name is 'T5Q7', type is bidir 
+T5Q7     = TRI(_LC2_A2,  VCC);
+
+-- Node name is 'T6Q0' 
+-- Equation name is 'T6Q0', type is bidir 
+T6Q0     = TRI(_LC1_A3,  VCC);
+
+-- Node name is 'T6Q1' 
+-- Equation name is 'T6Q1', type is bidir 
+T6Q1     = TRI(_LC5_C10,  VCC);
+
+-- Node name is 'T6Q2' 
+-- Equation name is 'T6Q2', type is bidir 
+T6Q2     = TRI(_LC2_C4,  VCC);
+
+-- Node name is 'T6Q3' 
+-- Equation name is 'T6Q3', type is bidir 
+T6Q3     = TRI(_LC4_C4,  VCC);
+
+-- Node name is 'T6Q4' 
+-- Equation name is 'T6Q4', type is bidir 
+T6Q4     = TRI(_LC5_A3,  VCC);
+
+-- Node name is 'T6Q5' 
+-- Equation name is 'T6Q5', type is bidir 
+T6Q5     = TRI(_LC8_A3,  VCC);
+
+-- Node name is 'T6Q6' 
+-- Equation name is 'T6Q6', type is bidir 
+T6Q6     = TRI(_LC3_A3,  VCC);
+
+-- Node name is 'T6Q7' 
+-- Equation name is 'T6Q7', type is bidir 
+T6Q7     = TRI(_LC1_C4,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff0|:4' = '|mem8:mm0|aa5dff:dff0|QS' 
+-- Equation name is '_LC1_A2', type is buried 
+_LC1_A2  = DFFE( D0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff1|:4' = '|mem8:mm0|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_C4', type is buried 
+_LC3_C4  = DFFE( D1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff2|:4' = '|mem8:mm0|aa5dff:dff2|QS' 
+-- Equation name is '_LC7_C9', type is buried 
+_LC7_C9  = DFFE( D2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff3|:4' = '|mem8:mm0|aa5dff:dff3|QS' 
+-- Equation name is '_LC2_B1', type is buried 
+_LC2_B1  = DFFE( D3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff4|:4' = '|mem8:mm0|aa5dff:dff4|QS' 
+-- Equation name is '_LC5_B11', type is buried 
+_LC5_B11 = DFFE( D4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff5|:4' = '|mem8:mm0|aa5dff:dff5|QS' 
+-- Equation name is '_LC6_B11', type is buried 
+_LC6_B11 = DFFE( D5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff6|:4' = '|mem8:mm0|aa5dff:dff6|QS' 
+-- Equation name is '_LC2_A5', type is buried 
+_LC2_A5  = DFFE( D6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm0|aa5dff:dff7|:4' = '|mem8:mm0|aa5dff:dff7|QS' 
+-- Equation name is '_LC4_A5', type is buried 
+_LC4_A5  = DFFE( D7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff0|:4' = '|mem8:mm1|aa5dff:dff0|QS' 
+-- Equation name is '_LC4_A6', type is buried 
+_LC4_A6  = DFFE( T0Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff1|:4' = '|mem8:mm1|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_C9', type is buried 
+_LC3_C9  = DFFE( T0Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff2|:4' = '|mem8:mm1|aa5dff:dff2|QS' 
+-- Equation name is '_LC5_C9', type is buried 
+_LC5_C9  = DFFE( T0Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff3|:4' = '|mem8:mm1|aa5dff:dff3|QS' 
+-- Equation name is '_LC5_B9', type is buried 
+_LC5_B9  = DFFE( T0Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff4|:4' = '|mem8:mm1|aa5dff:dff4|QS' 
+-- Equation name is '_LC4_B9', type is buried 
+_LC4_B9  = DFFE( T0Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff5|:4' = '|mem8:mm1|aa5dff:dff5|QS' 
+-- Equation name is '_LC2_B9', type is buried 
+_LC2_B9  = DFFE( T0Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff6|:4' = '|mem8:mm1|aa5dff:dff6|QS' 
+-- Equation name is '_LC1_A6', type is buried 
+_LC1_A6  = DFFE( T0Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm1|aa5dff:dff7|:4' = '|mem8:mm1|aa5dff:dff7|QS' 
+-- Equation name is '_LC2_A6', type is buried 
+_LC2_A6  = DFFE( T0Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff0|:4' = '|mem8:mm2|aa5dff:dff0|QS' 
+-- Equation name is '_LC1_B9', type is buried 
+_LC1_B9  = DFFE( T1Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff1|:4' = '|mem8:mm2|aa5dff:dff1|QS' 
+-- Equation name is '_LC1_B8', type is buried 
+_LC1_B8  = DFFE( T1Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff2|:4' = '|mem8:mm2|aa5dff:dff2|QS' 
+-- Equation name is '_LC2_B8', type is buried 
+_LC2_B8  = DFFE( T1Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff3|:4' = '|mem8:mm2|aa5dff:dff3|QS' 
+-- Equation name is '_LC3_A6', type is buried 
+_LC3_A6  = DFFE( T1Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff4|:4' = '|mem8:mm2|aa5dff:dff4|QS' 
+-- Equation name is '_LC1_A12', type is buried 
+_LC1_A12 = DFFE( T1Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff5|:4' = '|mem8:mm2|aa5dff:dff5|QS' 
+-- Equation name is '_LC2_A12', type is buried 
+_LC2_A12 = DFFE( T1Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff6|:4' = '|mem8:mm2|aa5dff:dff6|QS' 
+-- Equation name is '_LC1_C12', type is buried 
+_LC1_C12 = DFFE( T1Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm2|aa5dff:dff7|:4' = '|mem8:mm2|aa5dff:dff7|QS' 
+-- Equation name is '_LC2_C12', type is buried 
+_LC2_C12 = DFFE( T1Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff0|:4' = '|mem8:mm3|aa5dff:dff0|QS' 
+-- Equation name is '_LC3_C12', type is buried 
+_LC3_C12 = DFFE( T2Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff1|:4' = '|mem8:mm3|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_B8', type is buried 
+_LC3_B8  = DFFE( T2Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff2|:4' = '|mem8:mm3|aa5dff:dff2|QS' 
+-- Equation name is '_LC4_C12', type is buried 
+_LC4_C12 = DFFE( T2Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff3|:4' = '|mem8:mm3|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_C11', type is buried 
+_LC1_C11 = DFFE( T2Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff4|:4' = '|mem8:mm3|aa5dff:dff4|QS' 
+-- Equation name is '_LC5_C11', type is buried 
+_LC5_C11 = DFFE( T2Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff5|:4' = '|mem8:mm3|aa5dff:dff5|QS' 
+-- Equation name is '_LC8_C11', type is buried 
+_LC8_C11 = DFFE( T2Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff6|:4' = '|mem8:mm3|aa5dff:dff6|QS' 
+-- Equation name is '_LC6_C11', type is buried 
+_LC6_C11 = DFFE( T2Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm3|aa5dff:dff7|:4' = '|mem8:mm3|aa5dff:dff7|QS' 
+-- Equation name is '_LC6_B8', type is buried 
+_LC6_B8  = DFFE( T2Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff0|:4' = '|mem8:mm4|aa5dff:dff0|QS' 
+-- Equation name is '_LC1_B7', type is buried 
+_LC1_B7  = DFFE( T3Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff1|:4' = '|mem8:mm4|aa5dff:dff1|QS' 
+-- Equation name is '_LC4_B7', type is buried 
+_LC4_B7  = DFFE( T3Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff2|:4' = '|mem8:mm4|aa5dff:dff2|QS' 
+-- Equation name is '_LC5_A12', type is buried 
+_LC5_A12 = DFFE( T3Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff3|:4' = '|mem8:mm4|aa5dff:dff3|QS' 
+-- Equation name is '_LC7_A5', type is buried 
+_LC7_A5  = DFFE( T3Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff4|:4' = '|mem8:mm4|aa5dff:dff4|QS' 
+-- Equation name is '_LC5_A5', type is buried 
+_LC5_A5  = DFFE( T3Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff5|:4' = '|mem8:mm4|aa5dff:dff5|QS' 
+-- Equation name is '_LC2_C10', type is buried 
+_LC2_C10 = DFFE( T3Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff6|:4' = '|mem8:mm4|aa5dff:dff6|QS' 
+-- Equation name is '_LC8_B7', type is buried 
+_LC8_B7  = DFFE( T3Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm4|aa5dff:dff7|:4' = '|mem8:mm4|aa5dff:dff7|QS' 
+-- Equation name is '_LC2_B7', type is buried 
+_LC2_B7  = DFFE( T3Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff0|:4' = '|mem8:mm5|aa5dff:dff0|QS' 
+-- Equation name is '_LC6_A2', type is buried 
+_LC6_A2  = DFFE( T4Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff1|:4' = '|mem8:mm5|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_C10', type is buried 
+_LC3_C10 = DFFE( T4Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff2|:4' = '|mem8:mm5|aa5dff:dff2|QS' 
+-- Equation name is '_LC1_C10', type is buried 
+_LC1_C10 = DFFE( T4Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff3|:4' = '|mem8:mm5|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_B1', type is buried 
+_LC1_B1  = DFFE( T4Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff4|:4' = '|mem8:mm5|aa5dff:dff4|QS' 
+-- Equation name is '_LC3_B1', type is buried 
+_LC3_B1  = DFFE( T4Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff5|:4' = '|mem8:mm5|aa5dff:dff5|QS' 
+-- Equation name is '_LC4_B1', type is buried 
+_LC4_B1  = DFFE( T4Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff6|:4' = '|mem8:mm5|aa5dff:dff6|QS' 
+-- Equation name is '_LC5_A2', type is buried 
+_LC5_A2  = DFFE( T4Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm5|aa5dff:dff7|:4' = '|mem8:mm5|aa5dff:dff7|QS' 
+-- Equation name is '_LC2_A2', type is buried 
+_LC2_A2  = DFFE( T4Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff0|:4' = '|mem8:mm6|aa5dff:dff0|QS' 
+-- Equation name is '_LC1_A3', type is buried 
+_LC1_A3  = DFFE( T5Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff1|:4' = '|mem8:mm6|aa5dff:dff1|QS' 
+-- Equation name is '_LC5_C10', type is buried 
+_LC5_C10 = DFFE( T5Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff2|:4' = '|mem8:mm6|aa5dff:dff2|QS' 
+-- Equation name is '_LC2_C4', type is buried 
+_LC2_C4  = DFFE( T5Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff3|:4' = '|mem8:mm6|aa5dff:dff3|QS' 
+-- Equation name is '_LC4_C4', type is buried 
+_LC4_C4  = DFFE( T5Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff4|:4' = '|mem8:mm6|aa5dff:dff4|QS' 
+-- Equation name is '_LC5_A3', type is buried 
+_LC5_A3  = DFFE( T5Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff5|:4' = '|mem8:mm6|aa5dff:dff5|QS' 
+-- Equation name is '_LC8_A3', type is buried 
+_LC8_A3  = DFFE( T5Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff6|:4' = '|mem8:mm6|aa5dff:dff6|QS' 
+-- Equation name is '_LC3_A3', type is buried 
+_LC3_A3  = DFFE( T5Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm6|aa5dff:dff7|:4' = '|mem8:mm6|aa5dff:dff7|QS' 
+-- Equation name is '_LC1_C4', type is buried 
+_LC1_C4  = DFFE( T5Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff0|:4' = '|mem8:mm7|aa5dff:dff0|QS' 
+-- Equation name is '_LC6_C4', type is buried 
+_LC6_C4  = DFFE( T6Q0, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff1|:4' = '|mem8:mm7|aa5dff:dff1|QS' 
+-- Equation name is '_LC1_C9', type is buried 
+_LC1_C9  = DFFE( T6Q1, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff2|:4' = '|mem8:mm7|aa5dff:dff2|QS' 
+-- Equation name is '_LC6_B1', type is buried 
+_LC6_B1  = DFFE( T6Q2, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff3|:4' = '|mem8:mm7|aa5dff:dff3|QS' 
+-- Equation name is '_LC8_B1', type is buried 
+_LC8_B1  = DFFE( T6Q3, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff4|:4' = '|mem8:mm7|aa5dff:dff4|QS' 
+-- Equation name is '_LC3_B11', type is buried 
+_LC3_B11 = DFFE( T6Q4, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff5|:4' = '|mem8:mm7|aa5dff:dff5|QS' 
+-- Equation name is '_LC3_A2', type is buried 
+_LC3_A2  = DFFE( T6Q5, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff6|:4' = '|mem8:mm7|aa5dff:dff6|QS' 
+-- Equation name is '_LC2_A3', type is buried 
+_LC2_A3  = DFFE( T6Q6, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+-- Node name is '|mem8:mm7|aa5dff:dff7|:4' = '|mem8:mm7|aa5dff:dff7|QS' 
+-- Equation name is '_LC3_A12', type is buried 
+_LC3_A12 = DFFE( T6Q7, GLOBAL( CLK),  VCC,  VCC,  VCC);
+
+
+
+Project Information               k:\polytekh\max+plusii\lab19\vhdl\mem8x8.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'FLEX10K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:05
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:02
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:07
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 16,114K

@@ -1,0 +1,116 @@
+-- Copyright (C) 1988-1998 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "cashmem" ASSIGNED TO AN EPF10K10LC84-3
+DATA5                            : 1
+TAG1                             : 2
+CADDR0                           : 3
+VCCINT                           : 4
+CADDR1                           : 5
+RESERVED                         : 6
+RESERVED                         : 7
+RESERVED                         : 8
+RESERVED                         : 9
+DATA1                            : 10
+DATA7                            : 11
+DATA0                            : 12
+DCLK                             : 13
+nCE                              : 14
+TDI                              : 15
+ERASE7                           : 16
+ERASE0                           : 17
+CADDR2                           : 18
+R3                               : 19
+VCCINT                           : 20
+RESERVED                         : 21
+RESERVED                         : 22
+R2                               : 23
+RESERVED                         : 24
+RESERVED                         : 25
+GNDINT                           : 26
+RESERVED                         : 27
+CASHOUT7                         : 28
+CASHOUT1                         : 29
+CASHOUT4                         : 30
+MSEL0                            : 31
+MSEL1                            : 32
+VCCINT                           : 33
+nCONFIG                          : 34
+R0                               : 35
+RESERVED                         : 36
+R5                               : 37
+R4                               : 38
+Hit                              : 39
+VCCINT                           : 40
+GNDINT                           : 41
+DATA3                            : 42
+DATA4                            : 43
+TAG0                             : 44
+VCCINT                           : 45
+GNDINT                           : 46
+DATA2                            : 47
+DATA6                            : 48
+R6                               : 49
+RESERVED                         : 50
+RESERVED                         : 51
+RESERVED                         : 52
+RESERVED                         : 53
+R7                               : 54
+nSTATUS                          : 55
+nTRST                            : 56
+TMS                              : 57
+CASHOUT0                         : 58
+CASHOUT5                         : 59
+CASHOUT6                         : 60
+CASHOUT2                         : 61
+RESERVED                         : 62
+VCCINT                           : 63
+CASHOUT3                         : 64
+ERASE2                           : 65
+R1                               : 66
+ERASE1                           : 67
+GNDINT                           : 68
+ERASE5                           : 69
+ERASE4                           : 70
+ERASE3                           : 71
+ERASE6                           : 72
+WR                               : 73
+TDO                              : 74
+nCEO                             : 75
+CONF_DONE                        : 76
+TCK                              : 77
+RESERVED                         : 78
+RESERVED                         : 79
+RESERVED                         : 80
+RESERVED                         : 81
+GNDINT                           : 82
+DATA0                            : 83
+TAG2                             : 84

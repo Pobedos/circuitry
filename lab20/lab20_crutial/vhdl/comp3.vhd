@@ -1,0 +1,39 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY comp3 IS
+
+	PORT
+	(
+		A0 : IN STD_LOGIC;
+		A1 : IN STD_LOGIC;
+		A2 : IN STD_LOGIC;
+
+		B0 : IN STD_LOGIC;
+		B1 : IN STD_LOGIC;
+		B2 : IN STD_LOGIC;
+
+		AEQB : INOUT STD_LOGIC
+	);
+	
+END comp3;
+
+ARCHITECTURE arch OF comp3 IS
+
+	SIGNAL	AEQBS	: STD_LOGIC;
+	
+BEGIN
+
+	PROCESS ( A0, A1, A2, B0, B1, B2 )
+	BEGIN
+    	IF ( (A0 = B0) AND (A1 = B1) AND (A2 = B2) ) THEN
+			AEQBS <= '1';
+		ELSE
+			AEQBS <= '0';
+		END IF;
+	END PROCESS;
+
+	AEQB <= AEQBS;
+
+END arch;
+

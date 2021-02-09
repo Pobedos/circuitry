@@ -1,0 +1,157 @@
+NDB006
+The number of symbol table entries is: 9
+The length of the symbol table is: 125
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|aa5dff:dff0|
+<	|aa5dff:dff1|
+J	|aa5dff:dff2|
+X	|aa5dff:dff3|
+f	|aa5dff:dff4|
+t	|aa5dff:dff5|
+"$	|aa5dff:dff6|
+"2	|aa5dff:dff7|
+
+The number of name info structs is : 137
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	(@\6H	!	5	7	8	@	O	^	m	|	"-	"<	"K	CLK	m
+#	L8ef	!	6	11	1	@	D0	n
+$	L8ef	!	7	7	1	O	D1	o
+%	L8ef	!	8	7	1	^	D2	p
+&	L8ef	!	9	7	1	m	D3	q
+'	L8ef	!	10	7	1	|	D4	r
+(	L8ef	!	11	7	1	"-	D5	s
+)	L8ef	!	12	7	1	"<	D6	t
+*	L8ef	!	13	7	1	"K	D7	u
++	IeE]	!	15	11	Q0	v
+,	IeE]	!	16	7	Q1	w
+-	IeE]	!	17	7	Q2	x
+.	IeE]	!	18	7	Q3	y
+/	IeE]	!	19	7	Q4	z
+0	IeE]	!	20	7	Q5	{
+1	IeE]	!	21	7	Q6	|
+2	IeE]	!	22	7	Q7	}
+3	IGdW	.	:15	"S
+4	IGdW	.	:16	"T
+5	IGdW	.	:17	"U
+6	IGdW	.	:18	"V
+7	IGdW	.	:19	"W
+8	IGdW	.	:20	"X
+9	IGdW	.	:21	"Y
+:	IGdW	.	:22	"Z
+;	IGdW	.	:23	"[
+<	IGdW	.	:24	"\
+=	IGdW	.	:25	"]
+>	IGdW	.	:26	"^
+?	IeEA	.	10	17	:30	"b
+@	LGPw	.	A	17	9	1	+	:4	"H
+A	INvO	.	@	QS	"H
+B	IGdW	<	:15	"v
+C	IGdW	<	:16	"w
+D	IGdW	<	:17	"x
+E	IGdW	<	:18	"y
+F	IGdW	<	:19	"z
+G	IGdW	<	:20	"{
+H	IGdW	<	:21	"|
+I	IGdW	<	:22	"}
+J	IGdW	<	:23	"~
+K	IGdW	<	:24	#!
+L	IGdW	<	:25	#"
+M	IGdW	<	:26	##
+N	IeEA	<	10	17	:30	#'
+O	LGPw	<	P	17	9	1	,	:4	"k
+P	INvO	<	O	QS	"k
+Q	IGdW	J	:15	#:
+R	IGdW	J	:16	#;
+S	IGdW	J	:17	#<
+T	IGdW	J	:18	#=
+U	IGdW	J	:19	#>
+V	IGdW	J	:20	#?
+W	IGdW	J	:21	#@
+X	IGdW	J	:22	#A
+Y	IGdW	J	:23	#B
+Z	IGdW	J	:24	#C
+[	IGdW	J	:25	#D
+\	IGdW	J	:26	#E
+]	IeEA	J	10	17	:30	#I
+^	LGPw	J	_	17	9	1	-	:4	#/
+_	INvO	J	^	QS	#/
+`	IGdW	X	:15	#\
+a	IGdW	X	:16	#]
+b	IGdW	X	:17	#^
+c	IGdW	X	:18	#_
+d	IGdW	X	:19	#`
+e	IGdW	X	:20	#a
+f	IGdW	X	:21	#b
+g	IGdW	X	:22	#c
+h	IGdW	X	:23	#d
+i	IGdW	X	:24	#e
+j	IGdW	X	:25	#f
+k	IGdW	X	:26	#g
+l	IeEA	X	10	17	:30	#k
+m	LGPw	X	n	17	9	1	.	:4	#Q
+n	INvO	X	m	QS	#Q
+o	IGdW	f	:15	#~
+p	IGdW	f	:16	$!
+q	IGdW	f	:17	$"
+r	IGdW	f	:18	$#
+s	IGdW	f	:19	$$
+t	IGdW	f	:20	$%
+u	IGdW	f	:21	$&
+v	IGdW	f	:22	$'
+w	IGdW	f	:23	$(
+x	IGdW	f	:24	$)
+y	IGdW	f	:25	$*
+z	IGdW	f	:26	$+
+{	IeEA	f	10	17	:30	$/
+|	LGPw	f	}	17	9	1	/	:4	#s
+}	INvO	f	|	QS	#s
+~	IGdW	t	:15	$B
+"!	IGdW	t	:16	$C
+""	IGdW	t	:17	$D
+"#	IGdW	t	:18	$E
+"$	IGdW	t	:19	$F
+"%	IGdW	t	:20	$G
+"&	IGdW	t	:21	$H
+"'	IGdW	t	:22	$I
+"(	IGdW	t	:23	$J
+")	IGdW	t	:24	$K
+"*	IGdW	t	:25	$L
+"+	IGdW	t	:26	$M
+",	IeEA	t	10	17	:30	$Q
+"-	LGPw	t	".	17	9	1	0	:4	$7
+".	INvO	t	"-	QS	$7
+"/	IGdW	"$	:15	$d
+"0	IGdW	"$	:16	$e
+"1	IGdW	"$	:17	$f
+"2	IGdW	"$	:18	$g
+"3	IGdW	"$	:19	$h
+"4	IGdW	"$	:20	$i
+"5	IGdW	"$	:21	$j
+"6	IGdW	"$	:22	$k
+"7	IGdW	"$	:23	$l
+"8	IGdW	"$	:24	$m
+"9	IGdW	"$	:25	$n
+":	IGdW	"$	:26	$o
+";	IeEA	"$	10	17	:30	$s
+"<	LGPw	"$	"=	17	9	1	1	:4	$Y
+"=	INvO	"$	"<	QS	$Y
+">	IGdW	"2	:15	%(
+"?	IGdW	"2	:16	%)
+"@	IGdW	"2	:17	%*
+"A	IGdW	"2	:18	%+
+"B	IGdW	"2	:19	%,
+"C	IGdW	"2	:20	%-
+"D	IGdW	"2	:21	%.
+"E	IGdW	"2	:22	%/
+"F	IGdW	"2	:23	%0
+"G	IGdW	"2	:24	%1
+"H	IGdW	"2	:25	%2
+"I	IGdW	"2	:26	%3
+"J	IeEA	"2	10	17	:30	%7
+"K	LGPw	"2	"L	17	9	1	2	:4	${
+"L	INvO	"2	"K	QS	${

@@ -1,0 +1,100 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 88
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IGdW	!	:118	#&
+#	IGdW	!	:119	#'
+$	IGdW	!	:120	#(
+%	IGdW	!	:121	#)
+&	IGdW	!	:122	#*
+'	IGdW	!	:123	#+
+(	IGdW	!	:124	#,
+)	IGdW	!	:125	#-
+*	IGdW	!	:126	#.
++	Ky'E	!	1	r	:127	#/
+,	IGdW	!	:128	#0
+-	IGdW	!	:129	#1
+.	IGdW	!	:130	#2
+/	IGdW	!	:131	#3
+0	IGdW	!	:132	#4
+1	Ky'E	!	1	s	:133	#5
+2	IGdW	!	:134	#6
+3	IGdW	!	:135	#7
+4	IGdW	!	:136	#8
+5	IGdW	!	:137	#9
+6	IGdW	!	:138	#:
+7	Ky'E	!	1	t	:139	#;
+8	IGdW	!	:140	#<
+9	IGdW	!	:141	#=
+:	IGdW	!	:142	#>
+;	IGdW	!	:143	#?
+<	IGdW	!	:144	#@
+=	Ky'E	!	1	u	:145	#A
+>	IGdW	!	:146	#B
+?	IGdW	!	:147	#C
+@	IGdW	!	:148	#D
+A	IGdW	!	:149	#E
+B	IGdW	!	:150	#F
+C	Ky'E	!	1	v	:151	#G
+D	IGdW	!	:152	#H
+E	IGdW	!	:153	#I
+F	IGdW	!	:154	#J
+G	IGdW	!	:155	#K
+H	IGdW	!	:156	#L
+I	Ky'E	!	1	w	:157	#M
+J	IGdW	!	:158	#N
+K	IGdW	!	:159	#O
+L	IGdW	!	:160	#P
+M	IGdW	!	:161	#Q
+N	IGdW	!	:162	#R
+O	Ky'E	!	1	x	:163	#S
+P	IGdW	!	:164	#T
+Q	IGdW	!	:165	#U
+R	IGdW	!	:166	#V
+S	IGdW	!	:167	#W
+T	IGdW	!	:168	#X
+U	Ky'E	!	1	y	:169	#Y
+V	IGdW	!	:170	#Z
+W	IGdW	!	:171	#[
+X	IeEA	!	27	17	:196	#t
+Y	IeEA	!	28	17	:197	#u
+Z	IeEA	!	29	17	:198	#v
+[	IeEA	!	30	17	:199	#w
+\	IeEA	!	31	17	:200	#x
+]	IeEA	!	32	17	:201	#y
+^	IeEA	!	33	17	:202	#z
+_	IeEA	!	34	17	:203	#{
+`	IeEA	!	45	9	:53	"C
+a	L8ef	!	9	17	1	+	A0	n
+b	L8ef	!	10	17	1	1	A1	o
+c	L8ef	!	11	17	1	7	A2	p
+d	L8ef	!	12	17	1	=	A3	q
+e	L8ef	!	13	17	1	C	A4	r
+f	L8ef	!	14	17	1	I	A5	s
+g	L8ef	!	15	17	1	O	A6	t
+h	L8ef	!	16	17	1	U	A7	u
+i	L8ef	!	18	17	1	+	B0	v
+j	L8ef	!	19	17	1	1	B1	w
+k	L8ef	!	20	17	1	7	B2	x
+l	L8ef	!	21	17	1	=	B3	y
+m	L8ef	!	22	17	1	C	B4	z
+n	L8ef	!	23	17	1	I	B5	{
+o	L8ef	!	24	17	1	O	B6	|
+p	L8ef	!	25	17	1	U	B7	}
+q	L8ef	!	8	17	8	+	1	7	=	C	I	O	U	CHOOSE	m
+r	IeE]	!	27	17	Q0	~
+s	IeE]	!	28	17	Q1	"!
+t	IeE]	!	29	17	Q2	""
+u	IeE]	!	30	17	Q3	"#
+v	IeE]	!	31	17	Q4	"$
+w	IeE]	!	32	17	Q5	"%
+x	IeE]	!	33	17	Q6	"&
+y	IeE]	!	34	17	Q7	"'

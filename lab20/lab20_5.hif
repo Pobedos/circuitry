@@ -24,13 +24,6 @@ HIF003
 --
 FILES
 {
-	rs.gdf
-	{
-		rs [] []
-		{
-			1 [] [];
-		}
-	}
 	lpm_ram_dq.tdf
 	{
 		lpm_ram_dq [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_WIDTHAD,LPM_NUMWORDS,LPM_INDATA=REGISTERED,LPM_ADDRESS_CONTROL=REGISTERED,LPM_OUTDATA=REGISTERED,LPM_FILE=NO_FILE,DEVICE_FAMILY] [aglobal.inc,lpm_decode.inc,lpm_mux.inc,altram.inc]

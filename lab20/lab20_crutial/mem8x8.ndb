@@ -1,0 +1,165 @@
+NDB006
+The number of symbol table entries is: 9
+The length of the symbol table is: 87
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|dff8:4|
+7	|dff8:5|
+@	|dff8:6|
+I	|dff8:7|
+R	|dff8:8|
+[	|dff8:9|
+d	|dff8:10|
+n	|dff8:11|
+
+The number of name info structs is : 145
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	(@>U^	!	64	S	T	U	V	W	X	Y	Z	c	d	e	f	g	h	i	j	s	t	u	v	w	x	y	z	"%	"&	"'	"(	")	"*	"+	",	"5	"6	"7	"8	"9	":	";	"<	"E	"F	"G	"H	"I	"J	"K	"L	3	4	5	6	7	8	9	:	C	D	E	F	G	H	I	J	CLK	u
+#	Ky&|	!	1	"%	DATA0	t
+$	Ky&|	!	1	"&	DATA1	s
+%	Ky&|	!	1	"'	DATA2	r
+&	Ky&|	!	1	"(	DATA3	q
+'	Ky&|	!	1	")	DATA4	p
+(	Ky&|	!	1	"*	DATA5	o
+)	Ky&|	!	1	"+	DATA6	n
+*	Ky&|	!	1	",	DATA7	m
++	IGdq	!	Q0	}
+,	IGdq	!	Q1	|
+-	IGdq	!	Q2	{
+.	IGdq	!	Q3	z
+/	IGdq	!	Q4	y
+0	IGdq	!	Q5	x
+1	IGdq	!	Q6	w
+2	IGdq	!	Q7	v
+3	L)p/	d	;	1	"E	:1	%w
+4	L)p/	d	<	1	"F	:2	%~
+5	L)p/	d	=	1	"G	:3	%}
+6	L)p/	d	>	1	"H	:4	%|
+7	L)p/	d	?	1	"I	:5	%{
+8	L)p/	d	@	1	"J	:6	%z
+9	L)p/	d	A	1	"K	:7	%y
+:	L)p/	d	B	1	"L	:8	%x
+;	INvO	d	3	Q0	%w
+<	INvO	d	4	Q1	%~
+=	INvO	d	5	Q2	%}
+>	INvO	d	6	Q3	%|
+?	INvO	d	7	Q4	%{
+@	INvO	d	8	Q5	%z
+A	INvO	d	9	Q6	%y
+B	INvO	d	:	Q7	%x
+C	L)p/	n	K	1	3	:1	&:
+D	L)p/	n	L	1	4	:2	&A
+E	L)p/	n	M	1	5	:3	&@
+F	L)p/	n	N	1	6	:4	&?
+G	L)p/	n	O	1	7	:5	&>
+H	L)p/	n	P	1	8	:6	&=
+I	L)p/	n	Q	1	9	:7	&<
+J	L)p/	n	R	1	:	:8	&;
+K	INvO	n	C	Q0	&:
+L	INvO	n	D	Q1	&A
+M	INvO	n	E	Q2	&@
+N	INvO	n	F	Q3	&?
+O	INvO	n	G	Q4	&>
+P	INvO	n	H	Q5	&=
+Q	INvO	n	I	Q6	&<
+R	INvO	n	J	Q7	&;
+S	L)p/	.	[	1	C	:1	#l
+T	L)p/	.	\	1	D	:2	#s
+U	L)p/	.	]	1	E	:3	#r
+V	L)p/	.	^	1	F	:4	#q
+W	L)p/	.	_	1	G	:5	#p
+X	L)p/	.	`	1	H	:6	#o
+Y	L)p/	.	a	1	I	:7	#n
+Z	L)p/	.	b	1	J	:8	#m
+[	INvO	.	S	Q0	#l
+\	INvO	.	T	Q1	#s
+]	INvO	.	U	Q2	#r
+^	INvO	.	V	Q3	#q
+_	INvO	.	W	Q4	#p
+`	INvO	.	X	Q5	#o
+a	INvO	.	Y	Q6	#n
+b	INvO	.	Z	Q7	#m
+c	L)p/	7	k	1	S	:1	$0
+d	L)p/	7	l	1	T	:2	$7
+e	L)p/	7	m	1	U	:3	$6
+f	L)p/	7	n	1	V	:4	$5
+g	L)p/	7	o	1	W	:5	$4
+h	L)p/	7	p	1	X	:6	$3
+i	L)p/	7	q	1	Y	:7	$2
+j	L)p/	7	r	1	Z	:8	$1
+k	INvO	7	c	Q0	$0
+l	INvO	7	d	Q1	$7
+m	INvO	7	e	Q2	$6
+n	INvO	7	f	Q3	$5
+o	INvO	7	g	Q4	$4
+p	INvO	7	h	Q5	$3
+q	INvO	7	i	Q6	$2
+r	INvO	7	j	Q7	$1
+s	L)p/	@	{	1	c	:1	$Q
+t	L)p/	@	|	1	d	:2	$X
+u	L)p/	@	}	1	e	:3	$W
+v	L)p/	@	~	1	f	:4	$V
+w	L)p/	@	"!	1	g	:5	$U
+x	L)p/	@	""	1	h	:6	$T
+y	L)p/	@	"#	1	i	:7	$S
+z	L)p/	@	"$	1	j	:8	$R
+{	INvO	@	s	Q0	$Q
+|	INvO	@	t	Q1	$X
+}	INvO	@	u	Q2	$W
+~	INvO	@	v	Q3	$V
+"!	INvO	@	w	Q4	$U
+""	INvO	@	x	Q5	$T
+"#	INvO	@	y	Q6	$S
+"$	INvO	@	z	Q7	$R
+"%	L)p/	I	"-	1	s	:1	$r
+"&	L)p/	I	".	1	t	:2	$y
+"'	L)p/	I	"/	1	u	:3	$x
+"(	L)p/	I	"0	1	v	:4	$w
+")	L)p/	I	"1	1	w	:5	$v
+"*	L)p/	I	"2	1	x	:6	$u
+"+	L)p/	I	"3	1	y	:7	$t
+",	L)p/	I	"4	1	z	:8	$s
+"-	INvO	I	"%	Q0	$r
+".	INvO	I	"&	Q1	$y
+"/	INvO	I	"'	Q2	$x
+"0	INvO	I	"(	Q3	$w
+"1	INvO	I	")	Q4	$v
+"2	INvO	I	"*	Q5	$u
+"3	INvO	I	"+	Q6	$t
+"4	INvO	I	",	Q7	$s
+"5	L)p/	R	"=	1	+	:1	%5
+"6	L)p/	R	">	1	,	:2	%<
+"7	L)p/	R	"?	1	-	:3	%;
+"8	L)p/	R	"@	1	.	:4	%:
+"9	L)p/	R	"A	1	/	:5	%9
+":	L)p/	R	"B	1	0	:6	%8
+";	L)p/	R	"C	1	1	:7	%7
+"<	L)p/	R	"D	1	2	:8	%6
+"=	INvO	R	"5	Q0	%5
+">	INvO	R	"6	Q1	%<
+"?	INvO	R	"7	Q2	%;
+"@	INvO	R	"8	Q3	%:
+"A	INvO	R	"9	Q4	%9
+"B	INvO	R	":	Q5	%8
+"C	INvO	R	";	Q6	%7
+"D	INvO	R	"<	Q7	%6
+"E	L)p/	[	"M	1	"5	:1	%V
+"F	L)p/	[	"N	1	"6	:2	%]
+"G	L)p/	[	"O	1	"7	:3	%\
+"H	L)p/	[	"P	1	"8	:4	%[
+"I	L)p/	[	"Q	1	"9	:5	%Z
+"J	L)p/	[	"R	1	":	:6	%Y
+"K	L)p/	[	"S	1	";	:7	%X
+"L	L)p/	[	"T	1	"<	:8	%W
+"M	INvO	[	"E	Q0	%V
+"N	INvO	[	"F	Q1	%]
+"O	INvO	[	"G	Q2	%\
+"P	INvO	[	"H	Q3	%[
+"Q	INvO	[	"I	Q4	%Z
+"R	INvO	[	"J	Q5	%Y
+"S	INvO	[	"K	Q6	%X
+"T	INvO	[	"L	Q7	%W

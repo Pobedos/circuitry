@@ -1,0 +1,646 @@
+Project Information                    k:\polytekh\max+plusii\lab20\dff8ds.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 09/29/13 11:52:56
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+dff8ds    EPF10K10LC84-3   18     16     0    0         0  %    19       3  %
+
+User Pins:                 18     16     0  
+
+
+
+Project Information                    k:\polytekh\max+plusii\lab20\dff8ds.rpt
+
+** FILE HIERARCHY **
+
+
+
+|rs:17|
+|mux8x2:18|
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+***** Logic for device 'dff8ds' compiled without errors.
+
+
+
+
+Device: EPF10K10LC84-3
+
+FLEX 10K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+
+                                                                         ^     
+                                                                         C     
+                                        R                 R  R  R  R     O     
+                                        E                 E  E  E  E     N     
+                                     V  S              G  S  S  S  S     F     
+                                     C  E              N  E  E  E  E     _  ^  
+                                     C  R        C     D  R  R  R  R  #  D  n  
+                Q  D  Q  Q  D  D  Q  I  V  D  D  L  Q  I  V  V  V  V  T  O  C  
+                F  B  F  F  B  B  B  N  E  F  F  K  F  N  E  E  E  E  C  N  E  
+                1  5  0  4  3  4  3  T  D  7  4  B  2  T  D  D  D  D  K  E  O  
+              -----------------------------------------------------------------_ 
+            /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+    ^DATA0 | 12                                                              74 | #TDO 
+     ^DCLK | 13                                                              73 | DF2 
+      ^nCE | 14                                                              72 | DF1 
+      #TDI | 15                                                              71 | DF0 
+      CLKF | 16                                                              70 | DB7 
+       DB0 | 17                                                              69 | DB6 
+       DB1 | 18                                                              68 | GNDINT 
+       DB2 | 19                                                              67 | RESERVED 
+    VCCINT | 20                                                              66 | RESERVED 
+       QB6 | 21                                                              65 | RESERVED 
+       QB2 | 22                        EPF10K10LC84-3                        64 | RESERVED 
+  RESERVED | 23                                                              63 | VCCINT 
+       QF6 | 24                                                              62 | RESERVED 
+  RESERVED | 25                                                              61 | RESERVED 
+    GNDINT | 26                                                              60 | RESERVED 
+       QB1 | 27                                                              59 | RESERVED 
+       QF5 | 28                                                              58 | RESERVED 
+       QF3 | 29                                                              57 | #TMS 
+  RESERVED | 30                                                              56 | #nTRST 
+    ^MSEL0 | 31                                                              55 | ^nSTATUS 
+    ^MSEL1 | 32                                                              54 | RESERVED 
+           |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+             ------------------------------------------------------------------ 
+                V  ^  Q  Q  Q  Q  Q  V  G  D  D  D  V  G  R  R  R  R  R  R  R  
+                C  n  B  B  B  B  F  C  N  F  F  F  C  N  E  E  E  E  E  E  E  
+                C  C  7  5  4  0  7  C  D  5  3  6  C  D  S  S  S  S  S  S  S  
+                I  O                 I  I           I  I  E  E  E  E  E  E  E  
+                N  N                 N  N           N  N  R  R  R  R  R  R  R  
+                T  F                 T  T           T  T  V  V  V  V  V  V  V  
+                   I                                      E  E  E  E  E  E  E  
+                   G                                      D  D  D  D  D  D  D  
+                                                                               
+                                                                               
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs (TMS, TCK, TDI) should be tied to VCC when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+A1       3/ 8( 37%)   3/ 8( 37%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+A2       2/ 8( 25%)   2/ 8( 25%)   2/ 8( 25%)    1/2    0/2       6/22( 27%)   
+A3       2/ 8( 25%)   2/ 8( 25%)   1/ 8( 12%)    1/2    0/2       5/22( 22%)   
+A4       2/ 8( 25%)   2/ 8( 25%)   1/ 8( 12%)    1/2    0/2       5/22( 22%)   
+A5       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A6       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A7       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A8       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A9       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A10      1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    0/2    0/2       1/22(  4%)   
+A11      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A12      3/ 8( 37%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2       2/22(  9%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            28/53     ( 52%)
+Total logic cells used:                         19/576    (  3%)
+Total embedded cells used:                       0/24     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 2.00/4    ( 50%)
+Total fan-in:                                  38/2304    (  1%)
+
+Total input pins required:                      18
+Total input I/O cell registers required:         0
+Total output pins required:                     16
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:               0
+Total reserved pins required                     0
+Total logic cells required:                     19
+Total flipflops required:                        8
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         0/ 576   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      3   2   2   2   1   1   1   1   1   1   1   3   0   0   0   0   0   0   0   0   0   0   0   0   0     19/0  
+ B:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+ C:      0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0      0/0  
+
+Total:   3   2   2   2   1   1   1   1   1   1   1   3   0   0   0   0   0   0   0   0   0   0   0   0   0     19/0  
+
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  84      -     -    -    --      INPUT                0    0    0    2  CLKB
+  16      -     -    A    --      INPUT                0    0    0    2  CLKF
+  17      -     -    A    --      INPUT                0    0    0    1  DB0
+  18      -     -    A    --      INPUT                0    0    0    1  DB1
+  19      -     -    A    --      INPUT                0    0    0    1  DB2
+   7      -     -    -    03      INPUT                0    0    0    1  DB3
+   6      -     -    -    04      INPUT                0    0    0    1  DB4
+  10      -     -    -    01      INPUT                0    0    0    1  DB5
+  69      -     -    A    --      INPUT                0    0    0    1  DB6
+  70      -     -    A    --      INPUT                0    0    0    1  DB7
+  71      -     -    A    --      INPUT                0    0    0    1  DF0
+  72      -     -    A    --      INPUT                0    0    0    1  DF1
+  73      -     -    A    --      INPUT                0    0    0    1  DF2
+  43      -     -    -    --      INPUT                0    0    0    1  DF3
+   1      -     -    -    --      INPUT                0    0    0    1  DF4
+  42      -     -    -    --      INPUT                0    0    0    1  DF5
+  44      -     -    -    --      INPUT                0    0    0    1  DF6
+   2      -     -    -    --      INPUT                0    0    0    1  DF7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  38      -     -    -    10     OUTPUT                0    1    0    0  QB0
+  27      -     -    C    --     OUTPUT                0    1    0    0  QB1
+  22      -     -    B    --     OUTPUT                0    1    0    0  QB2
+   5      -     -    -    05     OUTPUT                0    1    0    0  QB3
+  37      -     -    -    09     OUTPUT                0    1    0    0  QB4
+  36      -     -    -    07     OUTPUT                0    1    0    0  QB5
+  21      -     -    B    --     OUTPUT                0    1    0    0  QB6
+  35      -     -    -    06     OUTPUT                0    1    0    0  QB7
+   9      -     -    -    02     OUTPUT                0    1    0    0  QF0
+  11      -     -    -    01     OUTPUT                0    1    0    0  QF1
+  83      -     -    -    13     OUTPUT                0    1    0    0  QF2
+  29      -     -    C    --     OUTPUT                0    1    0    0  QF3
+   8      -     -    -    03     OUTPUT                0    1    0    0  QF4
+  28      -     -    C    --     OUTPUT                0    1    0    0  QF5
+  24      -     -    B    --     OUTPUT                0    1    0    0  QF6
+  39      -     -    -    11     OUTPUT                0    1    0    0  QF7
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      3     -    A    12        OR2        !       2    0    0    8  |rs:17|T (|rs:17|:7)
+   -      1     -    A    02       DFFE                2    2    1    1  :1
+   -      3     -    A    01       DFFE                2    2    1    1  :2
+   -      1     -    A    01       DFFE                2    2    1    1  :3
+   -      5     -    A    01       DFFE                2    2    1    1  :4
+   -      2     -    A    04       DFFE                2    2    1    1  :5
+   -      3     -    A    03       DFFE                2    2    1    1  :6
+   -      5     -    A    02       DFFE                2    2    1    1  :7
+   -      1     -    A    11       DFFE                2    2    1    1  :8
+   -      1     -    A    10      LCELL                0    1    1    0  :26
+   -      1     -    A    03      LCELL                0    1    1    0  :35
+   -      1     -    A    04      LCELL                0    1    1    0  :36
+   -      1     -    A    05      LCELL                0    1    1    0  :37
+   -      1     -    A    06      LCELL                0    1    1    0  :38
+   -      1     -    A    07      LCELL                0    1    1    0  :39
+   -      1     -    A    08      LCELL                0    1    1    0  :40
+   -      1     -    A    09      LCELL                0    1    1    0  :41
+   -      2     -    A    12      LCELL                2    0    0    1  :42
+   -      1     -    A    12      LCELL                0    1    0    8  :43
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+p = Packed register
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:      10/ 96( 10%)    12/ 48( 25%)     0/ 48(  0%)    9/16( 56%)      0/16(  0%)     0/16(  0%)
+B:       0/ 96(  0%)     3/ 48(  6%)     0/ 48(  0%)    0/16(  0%)      3/16( 18%)     0/16(  0%)
+C:       0/ 96(  0%)     3/ 48(  6%)     0/ 48(  0%)    0/16(  0%)      3/16( 18%)     0/16(  0%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      4/24( 16%)     1/4( 25%)      1/4( 25%)       0/4(  0%)
+02:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+03:      4/24( 16%)     1/4( 25%)      1/4( 25%)       0/4(  0%)
+04:      2/24(  8%)     1/4( 25%)      0/4(  0%)       0/4(  0%)
+05:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+06:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+07:      2/24(  8%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+08:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+09:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+10:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+11:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      1/24(  4%)     0/4(  0%)      1/4( 25%)       0/4(  0%)
+14:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** CLOCK SIGNALS **
+
+Type     Fan-out       Name
+LCELL        8         :43
+
+
+Device-Specific Information:           k:\polytekh\max+plusii\lab20\dff8ds.rpt
+dff8ds
+
+** EQUATIONS **
+
+CLKB     : INPUT;
+CLKF     : INPUT;
+DB0      : INPUT;
+DB1      : INPUT;
+DB2      : INPUT;
+DB3      : INPUT;
+DB4      : INPUT;
+DB5      : INPUT;
+DB6      : INPUT;
+DB7      : INPUT;
+DF0      : INPUT;
+DF1      : INPUT;
+DF2      : INPUT;
+DF3      : INPUT;
+DF4      : INPUT;
+DF5      : INPUT;
+DF6      : INPUT;
+DF7      : INPUT;
+
+-- Node name is 'QB0' 
+-- Equation name is 'QB0', type is output 
+QB0      =  _LC1_A10;
+
+-- Node name is 'QB1' 
+-- Equation name is 'QB1', type is output 
+QB1      =  _LC1_A3;
+
+-- Node name is 'QB2' 
+-- Equation name is 'QB2', type is output 
+QB2      =  _LC1_A4;
+
+-- Node name is 'QB3' 
+-- Equation name is 'QB3', type is output 
+QB3      =  _LC1_A5;
+
+-- Node name is 'QB4' 
+-- Equation name is 'QB4', type is output 
+QB4      =  _LC1_A9;
+
+-- Node name is 'QB5' 
+-- Equation name is 'QB5', type is output 
+QB5      =  _LC1_A8;
+
+-- Node name is 'QB6' 
+-- Equation name is 'QB6', type is output 
+QB6      =  _LC1_A7;
+
+-- Node name is 'QB7' 
+-- Equation name is 'QB7', type is output 
+QB7      =  _LC1_A6;
+
+-- Node name is 'QF0' 
+-- Equation name is 'QF0', type is output 
+QF0      =  _LC1_A2;
+
+-- Node name is 'QF1' 
+-- Equation name is 'QF1', type is output 
+QF1      =  _LC3_A1;
+
+-- Node name is 'QF2' 
+-- Equation name is 'QF2', type is output 
+QF2      =  _LC1_A1;
+
+-- Node name is 'QF3' 
+-- Equation name is 'QF3', type is output 
+QF3      =  _LC5_A1;
+
+-- Node name is 'QF4' 
+-- Equation name is 'QF4', type is output 
+QF4      =  _LC2_A4;
+
+-- Node name is 'QF5' 
+-- Equation name is 'QF5', type is output 
+QF5      =  _LC3_A3;
+
+-- Node name is 'QF6' 
+-- Equation name is 'QF6', type is output 
+QF6      =  _LC5_A2;
+
+-- Node name is 'QF7' 
+-- Equation name is 'QF7', type is output 
+QF7      =  _LC1_A11;
+
+-- Node name is '|rs:17|:7' = '|rs:17|T' 
+-- Equation name is '_LC3_A12', type is buried 
+!_LC3_A12 = _LC3_A12~NOT;
+_LC3_A12~NOT = LCELL( _EQ001);
+  _EQ001 = !CLKB & !_LC3_A12
+         # !CLKB &  CLKF;
+
+-- Node name is ':1' 
+-- Equation name is '_LC1_A2', type is buried 
+_LC1_A2  = DFFE( _EQ002,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ002 =  DF0 & !_LC3_A12
+         #  DB0 &  _LC3_A12;
+
+-- Node name is ':2' 
+-- Equation name is '_LC3_A1', type is buried 
+_LC3_A1  = DFFE( _EQ003,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ003 =  DF1 & !_LC3_A12
+         #  DB1 &  _LC3_A12;
+
+-- Node name is ':3' 
+-- Equation name is '_LC1_A1', type is buried 
+_LC1_A1  = DFFE( _EQ004,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ004 =  DF2 & !_LC3_A12
+         #  DB2 &  _LC3_A12;
+
+-- Node name is ':4' 
+-- Equation name is '_LC5_A1', type is buried 
+_LC5_A1  = DFFE( _EQ005,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ005 =  DF3 & !_LC3_A12
+         #  DB3 &  _LC3_A12;
+
+-- Node name is ':5' 
+-- Equation name is '_LC2_A4', type is buried 
+_LC2_A4  = DFFE( _EQ006,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ006 =  DF4 & !_LC3_A12
+         #  DB4 &  _LC3_A12;
+
+-- Node name is ':6' 
+-- Equation name is '_LC3_A3', type is buried 
+_LC3_A3  = DFFE( _EQ007,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ007 =  DF5 & !_LC3_A12
+         #  DB5 &  _LC3_A12;
+
+-- Node name is ':7' 
+-- Equation name is '_LC5_A2', type is buried 
+_LC5_A2  = DFFE( _EQ008,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ008 =  DF6 & !_LC3_A12
+         #  DB6 &  _LC3_A12;
+
+-- Node name is ':8' 
+-- Equation name is '_LC1_A11', type is buried 
+_LC1_A11 = DFFE( _EQ009,  _LC1_A12,  VCC,  VCC,  VCC);
+  _EQ009 =  DF7 & !_LC3_A12
+         #  DB7 &  _LC3_A12;
+
+-- Node name is ':26' 
+-- Equation name is '_LC1_A10', type is buried 
+_LC1_A10 = LCELL( _LC1_A2);
+
+-- Node name is ':35' 
+-- Equation name is '_LC1_A3', type is buried 
+_LC1_A3  = LCELL( _LC3_A1);
+
+-- Node name is ':36' 
+-- Equation name is '_LC1_A4', type is buried 
+_LC1_A4  = LCELL( _LC1_A1);
+
+-- Node name is ':37' 
+-- Equation name is '_LC1_A5', type is buried 
+_LC1_A5  = LCELL( _LC5_A1);
+
+-- Node name is ':38' 
+-- Equation name is '_LC1_A6', type is buried 
+_LC1_A6  = LCELL( _LC1_A11);
+
+-- Node name is ':39' 
+-- Equation name is '_LC1_A7', type is buried 
+_LC1_A7  = LCELL( _LC5_A2);
+
+-- Node name is ':40' 
+-- Equation name is '_LC1_A8', type is buried 
+_LC1_A8  = LCELL( _LC3_A3);
+
+-- Node name is ':41' 
+-- Equation name is '_LC1_A9', type is buried 
+_LC1_A9  = LCELL( _LC2_A4);
+
+-- Node name is ':42' 
+-- Equation name is '_LC2_A12', type is buried 
+_LC2_A12 = LCELL( _EQ010);
+  _EQ010 =  CLKF
+         #  CLKB;
+
+-- Node name is ':43' 
+-- Equation name is '_LC1_A12', type is buried 
+_LC1_A12 = LCELL( _LC2_A12);
+
+
+
+Project Information                    k:\polytekh\max+plusii\lab20\dff8ds.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'FLEX10K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:00
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:01
+   Assembler                              00:00:01
+   --------------------------             --------
+   Total Time                             00:00:04
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 15,135K

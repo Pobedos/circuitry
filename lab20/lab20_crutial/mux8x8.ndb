@@ -1,0 +1,275 @@
+NDB006
+The number of symbol table entries is: 10
+The length of the symbol table is: 123
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|aa5tri8:5|
+:	|aa5tri8:6|
+F	|aa5tri8:7|
+R	|aa5tri8:8|
+^	|aa5tri8:4|
+j	|aa5tri8:3|
+v	|aa5tri8:2|
+"$	|aa5tri8:1|
+"0	|deshifr8:35|
+
+The number of name info structs is : 254
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky'E	!	1	n	:22	$:
+#	Ky'E	!	1	m	:23	$A
+$	Ky'E	!	1	p	:24	$?
+%	Ky'E	!	1	o	:25	$@
+&	Ky'E	!	1	t	:26	$;
+'	Ky'E	!	1	s	:27	$<
+(	Ky'E	!	1	r	:28	$=
+)	Ky'E	!	1	q	:29	$>
+*	Ky&|	!	29	":	";	"<	"=	">	"7	"8	"9	"z	"{	"|	"}	"~	"w	"x	"y	#,	#-	#.	#/	#0	#)	#*	#+	#<	#=	#?	#B	#C	ADRESS0	o
++	Ky&|	!	29	":	";	"<	"=	">	"7	"8	"9	"z	"{	"|	"}	"~	"w	"x	"y	#,	#-	#.	#/	#0	#)	#*	#+	#<	#=	#?	#B	#C	ADRESS1	n
+,	Ky&|	!	29	":	";	"<	"=	">	"7	"8	"9	"z	"{	"|	"}	"~	"w	"x	"y	#,	#-	#.	#/	#0	#)	#*	#+	#<	#=	#?	#B	#C	ADRESS2	m
+-	Ky&|	!	1	#P	DATA00	"Q
+.	Ky&|	!	1	#M	DATA01	"P
+/	Ky&|	!	1	#V	DATA02	"O
+0	Ky&|	!	1	#S	DATA03	"N
+1	Ky&|	!	1	#b	DATA04	"M
+2	Ky&|	!	1	#_	DATA05	"L
+3	Ky&|	!	1	#\	DATA06	"K
+4	Ky&|	!	1	#Y	DATA07	"J
+5	Ky&|	!	1	#P	DATA10	"I
+6	Ky&|	!	1	#M	DATA11	"H
+7	Ky&|	!	1	#V	DATA12	"G
+8	Ky&|	!	1	#S	DATA13	"F
+9	Ky&|	!	1	#b	DATA14	"E
+:	Ky&|	!	1	#_	DATA15	"D
+;	Ky&|	!	1	#\	DATA16	"C
+<	Ky&|	!	1	#Y	DATA17	"B
+=	Ky&|	!	1	":	DATA20	"A
+>	Ky&|	!	1	";	DATA21	"@
+?	Ky&|	!	1	"<	DATA22	"?
+@	Ky&|	!	1	"=	DATA23	">
+A	Ky&|	!	1	"9	DATA24	"=
+B	Ky&|	!	1	"8	DATA25	"<
+C	Ky&|	!	1	"7	DATA26	";
+D	Ky&|	!	1	">	DATA27	":
+E	Ky&|	!	1	#Q	DATA30	"9
+F	Ky&|	!	1	#N	DATA31	"8
+G	Ky&|	!	1	#W	DATA32	"7
+H	Ky&|	!	1	#T	DATA33	"6
+I	Ky&|	!	1	#c	DATA34	"5
+J	Ky&|	!	1	#`	DATA35	"4
+K	Ky&|	!	1	#]	DATA36	"3
+L	Ky&|	!	1	#Z	DATA37	"2
+M	Ky&|	!	1	#,	DATA40	"1
+N	Ky&|	!	1	#-	DATA41	"0
+O	Ky&|	!	1	#.	DATA42	"/
+P	Ky&|	!	1	#/	DATA43	".
+Q	Ky&|	!	1	#+	DATA44	"-
+R	Ky&|	!	1	#*	DATA45	",
+S	Ky&|	!	1	#)	DATA46	"+
+T	Ky&|	!	1	#0	DATA47	"*
+U	Ky&|	!	1	"z	DATA50	")
+V	Ky&|	!	1	"{	DATA51	"(
+W	Ky&|	!	1	"|	DATA52	"'
+X	Ky&|	!	1	"}	DATA53	"&
+Y	Ky&|	!	1	"y	DATA54	"%
+Z	Ky&|	!	1	"x	DATA55	"$
+[	Ky&|	!	1	"w	DATA56	"#
+\	Ky&|	!	1	"~	DATA57	""
+]	Ky&|	!	1	#O	DATA60	"!
+^	Ky&|	!	1	#L	DATA61	~
+_	Ky&|	!	1	#U	DATA62	}
+`	Ky&|	!	1	#R	DATA63	|
+a	Ky&|	!	1	#a	DATA64	{
+b	Ky&|	!	1	#^	DATA65	z
+c	Ky&|	!	1	#[	DATA66	y
+d	Ky&|	!	1	#X	DATA67	x
+e	Ky&|	!	1	#	DATA70	w
+f	Ky&|	!	1	"	DATA71	v
+g	Ky&|	!	1	%	DATA72	u
+h	Ky&|	!	1	$	DATA73	t
+i	Ky&|	!	1	)	DATA74	s
+j	Ky&|	!	1	(	DATA75	r
+k	Ky&|	!	1	'	DATA76	q
+l	Ky&|	!	1	&	DATA77	p
+m	IGdq	!	QOUT0	"Y
+n	IGdq	!	QOUT1	"X
+o	IGdq	!	QOUT2	"W
+p	IGdq	!	QOUT3	"V
+q	IGdq	!	QOUT4	"U
+r	IGdq	!	QOUT5	"T
+s	IGdq	!	QOUT6	"S
+t	IGdq	!	QOUT7	"R
+u	IVOQ	"$	"%	:10	'D
+v	IVOQ	"$	"$	:11	'F
+w	IVOQ	"$	"#	:12	'E
+x	IVOQ	"$	}	:5	'B
+y	IVOQ	"$	~	:6	'I
+z	IVOQ	"$	"!	:7	'H
+{	IVOQ	"$	""	:8	'G
+|	IVOQ	"$	"&	:9	'C
+}	INu}	"$	x	Q0	'B
+~	INu}	"$	y	Q1	'I
+"!	INu}	"$	z	Q2	'H
+""	INu}	"$	{	Q3	'G
+"#	INu}	"$	w	Q4	'E
+"$	INu}	"$	v	Q5	'F
+"%	INu}	"$	u	Q6	'D
+"&	INu}	"$	|	Q7	'C
+"'	IVOQ	v	"5	:10	'#
+"(	IVOQ	v	"4	:11	'%
+")	IVOQ	v	"3	:12	'$
+"*	IVOQ	v	"/	:5	'!
+"+	IVOQ	v	"0	:6	'(
+",	IVOQ	v	"1	:7	''
+"-	IVOQ	v	"2	:8	'&
+".	IVOQ	v	"6	:9	'"
+"/	INu}	v	"*	Q0	'!
+"0	INu}	v	"+	Q1	'(
+"1	INu}	v	",	Q2	''
+"2	INu}	v	"-	Q3	'&
+"3	INu}	v	")	Q4	'$
+"4	INu}	v	"(	Q5	'%
+"5	INu}	v	"'	Q6	'#
+"6	INu}	v	".	Q7	'"
+"7	L)p?	j	"E	1	#]	:10	&`
+"8	L)p?	j	"D	1	#`	:11	&b
+"9	L)p?	j	"C	1	#c	:12	&a
+":	L)p?	j	"?	1	#Q	:5	&^
+";	L)p?	j	"@	1	#N	:6	&e
+"<	L)p?	j	"A	1	#W	:7	&d
+"=	L)p?	j	"B	1	#T	:8	&c
+">	L)p?	j	"F	1	#Z	:9	&_
+"?	INv_	j	":	Q0	&^
+"@	INv_	j	";	Q1	&e
+"A	INv_	j	"<	Q2	&d
+"B	INv_	j	"=	Q3	&c
+"C	INv_	j	"9	Q4	&a
+"D	INv_	j	"8	Q5	&b
+"E	INv_	j	"7	Q6	&`
+"F	INv_	j	">	Q7	&_
+"G	IVOQ	^	"U	:10	&?
+"H	IVOQ	^	"T	:11	&A
+"I	IVOQ	^	"S	:12	&@
+"J	IVOQ	^	"O	:5	&=
+"K	IVOQ	^	"P	:6	&D
+"L	IVOQ	^	"Q	:7	&C
+"M	IVOQ	^	"R	:8	&B
+"N	IVOQ	^	"V	:9	&>
+"O	INu}	^	"J	Q0	&=
+"P	INu}	^	"K	Q1	&D
+"Q	INu}	^	"L	Q2	&C
+"R	INu}	^	"M	Q3	&B
+"S	INu}	^	"I	Q4	&@
+"T	INu}	^	"H	Q5	&A
+"U	INu}	^	"G	Q6	&?
+"V	INu}	^	"N	Q7	&>
+"W	IVOQ	.	"e	:10	$v
+"X	IVOQ	.	"d	:11	$x
+"Y	IVOQ	.	"c	:12	$w
+"Z	IVOQ	.	"_	:5	$t
+"[	IVOQ	.	"`	:6	${
+"\	IVOQ	.	"a	:7	$z
+"]	IVOQ	.	"b	:8	$y
+"^	IVOQ	.	"f	:9	$u
+"_	INu}	.	"Z	Q0	$t
+"`	INu}	.	"[	Q1	${
+"a	INu}	.	"\	Q2	$z
+"b	INu}	.	"]	Q3	$y
+"c	INu}	.	"Y	Q4	$w
+"d	INu}	.	"X	Q5	$x
+"e	INu}	.	"W	Q6	$v
+"f	INu}	.	"^	Q7	$u
+"g	IVOQ	:	"u	:10	%:
+"h	IVOQ	:	"t	:11	%<
+"i	IVOQ	:	"s	:12	%;
+"j	IVOQ	:	"o	:5	%8
+"k	IVOQ	:	"p	:6	%?
+"l	IVOQ	:	"q	:7	%>
+"m	IVOQ	:	"r	:8	%=
+"n	IVOQ	:	"v	:9	%9
+"o	INu}	:	"j	Q0	%8
+"p	INu}	:	"k	Q1	%?
+"q	INu}	:	"l	Q2	%>
+"r	INu}	:	"m	Q3	%=
+"s	INu}	:	"i	Q4	%;
+"t	INu}	:	"h	Q5	%<
+"u	INu}	:	"g	Q6	%:
+"v	INu}	:	"n	Q7	%9
+"w	L)p?	F	#'	1	#[	:10	%[
+"x	L)p?	F	#&	1	#^	:11	%]
+"y	L)p?	F	#%	1	#a	:12	%\
+"z	L)p?	F	#!	1	#O	:5	%Y
+"{	L)p?	F	#"	1	#L	:6	%`
+"|	L)p?	F	##	1	#U	:7	%_
+"}	L)p?	F	#$	1	#R	:8	%^
+"~	L)p?	F	#(	1	#X	:9	%Z
+#!	INv_	F	"z	Q0	%Y
+#"	INv_	F	"{	Q1	%`
+##	INv_	F	"|	Q2	%_
+#$	INv_	F	"}	Q3	%^
+#%	INv_	F	"y	Q4	%\
+#&	INv_	F	"x	Q5	%]
+#'	INv_	F	"w	Q6	%[
+#(	INv_	F	"~	Q7	%Z
+#)	L)p?	R	#7	1	#[	:10	%|
+#*	L)p?	R	#6	1	#^	:11	%~
+#+	L)p?	R	#5	1	#a	:12	%}
+#,	L)p?	R	#1	1	#O	:5	%z
+#-	L)p?	R	#2	1	#L	:6	&#
+#.	L)p?	R	#3	1	#U	:7	&"
+#/	L)p?	R	#4	1	#R	:8	&!
+#0	L)p?	R	#8	1	#X	:9	%{
+#1	INv_	R	#,	Q0	%z
+#2	INv_	R	#-	Q1	&#
+#3	INv_	R	#.	Q2	&"
+#4	INv_	R	#/	Q3	&!
+#5	INv_	R	#+	Q4	%}
+#6	INv_	R	#*	Q5	%~
+#7	INv_	R	#)	Q6	%|
+#8	INv_	R	#0	Q7	%{
+#9	IGdW	"0	:22	']
+#:	IGdW	"0	:23	'_
+#;	IGdW	"0	:24	'^
+#<	L)p?	"0	#D	8	#M	#P	#S	#V	#Y	#\	#_	#b	:25	'`
+#=	L)p?	"0	#E	8	#M	#P	#S	#V	#Y	#\	#_	#b	:26	'g
+#>	IVOQ	"0	#F	:27	'f
+#?	L)p?	"0	#G	8	#N	#Q	#T	#W	#Z	#]	#`	#c	:28	'e
+#@	IVOQ	"0	#H	:29	'd
+#A	IVOQ	"0	#I	:30	'c
+#B	L)p?	"0	#J	8	#L	#O	#R	#U	#X	#[	#^	#a	:31	'b
+#C	L)p?	"0	#K	8	"	#	$	%	&	'	(	)	:32	'a
+#D	INv_	"0	#<	F0	'`
+#E	INv_	"0	#=	F1	'g
+#F	INu}	"0	#>	F2	'f
+#G	INv_	"0	#?	F3	'e
+#H	INu}	"0	#@	F4	'd
+#I	INu}	"0	#A	F5	'c
+#J	INv_	"0	#B	F6	'b
+#K	INv_	"0	#C	F7	'a
+#L	Kx(k	!	1	"	~22~1	)s
+#M	Kx(k	!	1	#N	~22~2	)y
+#N	Kx(k	!	1	"	~22~3	)z
+#O	Kx(k	!	1	#	~23~1	)`
+#P	Kx(k	!	1	#Q	~23~2	)i
+#Q	Kx(k	!	1	#	~23~3	)j
+#R	Kx(k	!	1	$	~24~1	*5
+#S	Kx(k	!	1	#T	~24~2	*;
+#T	Kx(k	!	1	$	~24~3	*<
+#U	Kx(k	!	1	%	~25~1	*%
+#V	Kx(k	!	1	#W	~25~2	*+
+#W	Kx(k	!	1	%	~25~3	*,
+#X	Kx(k	!	1	&	~26~1	*u
+#Y	Kx(k	!	1	#Z	~26~2	*{
+#Z	Kx(k	!	1	&	~26~3	*|
+#[	Kx(k	!	1	'	~27~1	*e
+#\	Kx(k	!	1	#]	~27~2	*k
+#]	Kx(k	!	1	'	~27~3	*l
+#^	Kx(k	!	1	(	~28~1	*U
+#_	Kx(k	!	1	#`	~28~2	*[
+#`	Kx(k	!	1	(	~28~3	*\
+#a	Kx(k	!	1	)	~29~1	*E
+#b	Kx(k	!	1	#c	~29~2	*K
+#c	Kx(k	!	1	)	~29~3	*L

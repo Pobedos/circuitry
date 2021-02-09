@@ -1,0 +1,49 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY comp8 IS
+
+	PORT
+	(
+		A0 : IN STD_LOGIC;
+		A1 : IN STD_LOGIC;
+		A2 : IN STD_LOGIC;
+		A3 : IN STD_LOGIC;
+		A4 : IN STD_LOGIC;
+		A5 : IN STD_LOGIC;
+		A6 : IN STD_LOGIC;
+		A7 : IN STD_LOGIC;
+
+		B0 : IN STD_LOGIC;
+		B1 : IN STD_LOGIC;
+		B2 : IN STD_LOGIC;
+		B3 : IN STD_LOGIC;
+		B4 : IN STD_LOGIC;
+		B5 : IN STD_LOGIC;
+		B6 : IN STD_LOGIC;
+		B7 : IN STD_LOGIC;
+
+		AEQB : INOUT STD_LOGIC
+	);
+	
+END comp8;
+
+ARCHITECTURE arch OF comp8 IS
+
+	SIGNAL	AEQBS	: STD_LOGIC;
+	
+BEGIN
+
+	PROCESS ( A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7 )
+	BEGIN
+    	IF ( (A0 = B0) AND (A1 = B1) AND (A2 = B2) AND (A3 = B3) AND
+             (A4 = B4) AND (A5 = B5) AND (A6 = B6) AND (A7 = B7) ) THEN
+			AEQBS <= '1';
+		ELSE
+			AEQBS <= '0';
+		END IF;
+	END PROCESS;
+
+	AEQB <= AEQBS;
+
+END arch;

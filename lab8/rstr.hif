@@ -26,14 +26,14 @@ FILES
 {
 	notand.vhd
 	{
-		notand [] [U1147235.DLS,U7449008.DLS]
+		notand [] [U7449008.DLS,U1147235.DLS]
 		{
 			1 [] [];
 		}
 	}
 	rstr.vhd
 	{
-		rstr [] [U1147235.DLS,U7449008.DLS]
+		rstr [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -43,7 +43,7 @@ TREE
 {
 	rstr::(0,0):(0): rstr.vhd
 	{
-		notand:1:(19,5):(5,u1): notand.vhd;
 		notand:1:(21,5):(6,u2): notand.vhd;
+		notand:1:(19,5):(5,u1): notand.vhd;
 	}
 }

@@ -1,0 +1,62 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY mux8x2 IS
+
+	PORT
+	(
+		CHOOSE : IN STD_LOGIC;
+		A0 : IN STD_LOGIC;
+		A1 : IN STD_LOGIC;
+		A2 : IN STD_LOGIC;
+		A3 : IN STD_LOGIC;
+		A4 : IN STD_LOGIC;
+		A5 : IN STD_LOGIC;
+		A6 : IN STD_LOGIC;
+		A7 : IN STD_LOGIC;
+
+		B0 : IN STD_LOGIC;
+		B1 : IN STD_LOGIC;
+		B2 : IN STD_LOGIC;
+		B3 : IN STD_LOGIC;
+		B4 : IN STD_LOGIC;
+		B5 : IN STD_LOGIC;
+		B6 : IN STD_LOGIC;
+		B7 : IN STD_LOGIC;
+
+		Q0 : INOUT STD_LOGIC;
+		Q1 : INOUT STD_LOGIC;
+		Q2 : INOUT STD_LOGIC;
+		Q3 : INOUT STD_LOGIC;
+		Q4 : INOUT STD_LOGIC;
+		Q5 : INOUT STD_LOGIC;
+		Q6 : INOUT STD_LOGIC;
+		Q7 : INOUT STD_LOGIC	
+	);
+	
+END mux8x2;
+
+ARCHITECTURE arch OF mux8x2 IS
+
+	SIGNAL	Q0S, Q1S, Q2S, Q3S, Q4S, Q5S, Q6S, Q7S	: STD_LOGIC;
+	
+BEGIN
+
+	PROCESS ( CHOOSE, A0, A1, A2, A3, A4, A5, A6, A7, B0, B1, B2, B3, B4, B5, B6, B7 )
+	BEGIN
+    	IF CHOOSE='0' THEN
+			Q0S <= A0;	Q1S <= A1;	Q2S <= A2;	Q3S <= A3;
+			Q4S <= A4;	Q5S <= A5;	Q6S <= A6;	Q7S <= A7;
+		ELSE
+			Q0S <= B0;	Q1S <= B1;	Q2S <= B2;	Q3S <= B3;
+			Q4S <= B4;	Q5S <= B5;	Q6S <= B6;	Q7S <= B7;
+		END IF;
+	END PROCESS;
+
+			
+	Q0 <= Q0S;	Q1 <= Q1S;	Q2 <= Q2S;	Q3 <= Q3S;
+	Q4 <= Q4S;	Q5 <= Q5S;	Q6 <= Q6S;	Q7 <= Q7S;
+
+END arch;
+
+

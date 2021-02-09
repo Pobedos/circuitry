@@ -26,7 +26,7 @@ FILES
 {
 	rstr1.vhd
 	{
-		rstr1 [] [U7449008.DLS,U1147235.DLS]
+		rstr1 [] [U1147235.DLS,U7449008.DLS]
 		{
 			0 [] [];
 		}

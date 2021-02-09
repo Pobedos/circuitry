@@ -1,0 +1,240 @@
+-- Copyright (C) 1988-1998 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "fbuffer" ASSIGNED TO AN EPF10K10QC208-3
+TCK                              : 1
+CONF_DONE                        : 2
+nCEO                             : 3
+TDO                              : 4
+VCCIO                            : 5
+VCCINT                           : 6
+N.C.                             : 7
+N.C.                             : 8
+N.C.                             : 9
+TMP_DFFQ74                       : 10
+TMP_DFFQ06                       : 11
+TMP_DFFQ47                       : 12
+TMP_DFFQ37                       : 13
+N.C.                             : 14
+N.C.                             : 15
+TMP_DFFQ04                       : 16
+TMP_DFFQ36                       : 17
+TMP_DFFQ07                       : 18
+TMP_DFFQ34                       : 19
+GNDIO                            : 20
+GNDINT                           : 21
+VCCIO                            : 22
+VCCINT                           : 23
+TMP_DFFQ72                       : 24
+TMP_DFFQ32                       : 25
+TMP_DFFQ02                       : 26
+TMP_DFFQ31                       : 27
+TMP_DFFQ05                       : 28
+TMP_DFFQ35                       : 29
+TMP_DFFQ71                       : 30
+TMP_DFFQ01                       : 31
+GNDIO                            : 32
+GNDINT                           : 33
+VCCIO                            : 34
+VCCINT                           : 35
+N.C.                             : 36
+N.C.                             : 37
+TMP_DFFQ60                       : 38
+TMP_DFFQ00                       : 39
+TMP_DFFQ63                       : 40
+TMP_DFFQ30                       : 41
+VCCIO                            : 42
+VCCINT                           : 43
+TMP_DFFQ70                       : 44
+TMP_DFFQ33                       : 45
+TMP_DFFQ03                       : 46
+TMP_DFFQ73                       : 47
+GNDIO                            : 48
+GNDINT                           : 49
+TMS                              : 50
+nTRST                            : 51
+nSTATUS                          : 52
+TMP_MUXQ2                        : 53
+TMP_MUXQ6                        : 54
+TMP_MUXQ1                        : 55
+RESERVED                         : 56
+TMP_DFFQ61                       : 57
+RESERVED                         : 58
+GNDIO                            : 59
+RESERVED                         : 60
+RESERVED                         : 61
+RESERVED                         : 62
+TMP_MUXQ0                        : 63
+RESERVED                         : 64
+RESERVED                         : 65
+VCCIO                            : 66
+TMP_DFFQ52                       : 67
+TMP_DFFQ62                       : 68
+TMP_DFFQ75                       : 69
+TMP_DFFQ12                       : 70
+RESERVED                         : 71
+GNDIO                            : 72
+TMP_DFFQ76                       : 73
+RESERVED                         : 74
+RESERVED                         : 75
+VCCINT                           : 76
+VCCINT                           : 77
+AWR0                             : 78
+RD                               : 79
+DATA5                            : 80
+GNDINT                           : 81
+GNDINT                           : 82
+TMP_DFFQ54                       : 83
+VCCIO                            : 84
+TMP_F4                           : 85
+RESERVED                         : 86
+TMP_F1                           : 87
+TMP_MUXQ4                        : 88
+TMP_F5                           : 89
+RESERVED                         : 90
+GNDIO                            : 91
+RESERVED                         : 92
+RESERVED                         : 93
+RESERVED                         : 94
+Q6                               : 95
+TMP_DFFQ51                       : 96
+Q5                               : 97
+VCCIO                            : 98
+TMP_DFFQ41                       : 99
+DATA3                            : 100
+DATA4                            : 101
+TMP_DFFQ56                       : 102
+ARD1                             : 103
+ARD0                             : 104
+nCONFIG                          : 105
+VCCINT                           : 106
+MSEL1                            : 107
+MSEL0                            : 108
+VCCINT                           : 109
+VCCIO                            : 110
+TMP_DFFQ23                       : 111
+TMP_DFFQ10                       : 112
+N.C.                             : 113
+N.C.                             : 114
+TMP_DFFQ40                       : 115
+TMP_DFFQ53                       : 116
+VCCINT                           : 117
+VCCIO                            : 118
+TMP_DFFQ43                       : 119
+TMP_DFFQ20                       : 120
+TMP_DFFQ50                       : 121
+TMP_DFFQ13                       : 122
+GNDINT                           : 123
+GNDIO                            : 124
+N.C.                             : 125
+N.C.                             : 126
+TMP_DFFQ22                       : 127
+Q0                               : 128
+GNDINT                           : 129
+GNDIO                            : 130
+TMP_DFFQ42                       : 131
+TMP_DFFQ11                       : 132
+TMP_DFFQ45                       : 133
+TMP_DFFQ15                       : 134
+Q2                               : 135
+TMP_DFFQ25                       : 136
+VCCINT                           : 137
+VCCIO                            : 138
+N.C.                             : 139
+N.C.                             : 140
+TMP_DFFQ44                       : 141
+TMP_DFFQ16                       : 142
+TMP_DFFQ24                       : 143
+TMP_DFFQ17                       : 144
+VCCINT                           : 145
+VCCIO                            : 146
+TMP_DFFQ26                       : 147
+TMP_DFFQ46                       : 148
+TMP_DFFQ14                       : 149
+TMP_DFFQ27                       : 150
+GNDINT                           : 151
+GNDIO                            : 152
+TDI                              : 153
+nCE                              : 154
+DCLK                             : 155
+DATA0                            : 156
+DATA2                            : 157
+TMP_DFFQ57                       : 158
+DATA0                            : 159
+WR                               : 160
+RESERVED                         : 161
+ARD2                             : 162
+DATA7                            : 163
+DATA6                            : 164
+VCCIO                            : 165
+TMP_DFFQ55                       : 166
+Q7                               : 167
+Q1                               : 168
+RESERVED                         : 169
+RESERVED                         : 170
+GNDIO                            : 171
+RESERVED                         : 172
+TMP_F3                           : 173
+TMP_F0                           : 174
+TMP_F2                           : 175
+TMP_F6                           : 176
+RESERVED                         : 177
+VCCIO                            : 178
+TMP_F7                           : 179
+TMP_MUXQ5                        : 180
+VCCINT                           : 181
+AWR2                             : 182
+DATA1                            : 183
+AWR1                             : 184
+GNDINT                           : 185
+TMP_DFFQ66                       : 186
+TMP_DFFQ77                       : 187
+GNDIO                            : 188
+TMP_DFFQ67                       : 189
+TMP_DFFQ65                       : 190
+RESERVED                         : 191
+TMP_DFFQ21                       : 192
+RESERVED                         : 193
+VCCIO                            : 194
+Q4                               : 195
+RESERVED                         : 196
+Q3                               : 197
+RESERVED                         : 198
+TMP_MUXQ3                        : 199
+TMP_DFFQ64                       : 200
+GNDIO                            : 201
+TMP_MUXQ7                        : 202
+RESERVED                         : 203
+RESERVED                         : 204
+RESERVED                         : 205
+RESERVED                         : 206
+RESERVED                         : 207
+RESERVED                         : 208

@@ -1,0 +1,1420 @@
+Project Informationc:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 09/30/15 11:37:54
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+LIFO
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input Output Bidir  Memory  Memory  			 LCs
+POF       Device          Pins  Pins   Pins   Bits % Utilized  LCs  % Utilized
+
+lifo      EPF10K10LC84-3   11     0      19   0         0  %    100      17 %
+
+User Pins:                 11     0      19 
+
+
+
+Project Informationc:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+
+** FILE HIERARCHY **
+
+
+
+|counter:rcntr|
+|counter:wcntr|
+|rstrigger:rstr|
+|comp3:cmp|
+|aa5and2:fand|
+|aa5and2:eand|
+|lbuffer:buf|
+|lbuffer:buf|dff8ds:dff8ds_0|
+|lbuffer:buf|dff8ds:dff8ds_0|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_0|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_0|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_1|
+|lbuffer:buf|dff8ds:dff8ds_1|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_1|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_1|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_2|
+|lbuffer:buf|dff8ds:dff8ds_2|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_2|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_2|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_3|
+|lbuffer:buf|dff8ds:dff8ds_3|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_3|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_3|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_4|
+|lbuffer:buf|dff8ds:dff8ds_4|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_4|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_4|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_5|
+|lbuffer:buf|dff8ds:dff8ds_5|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_5|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_5|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_6|
+|lbuffer:buf|dff8ds:dff8ds_6|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_6|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_6|aa5delay:del2|
+|lbuffer:buf|dff8ds:dff8ds_7|
+|lbuffer:buf|dff8ds:dff8ds_7|rstrigger:rstr|
+|lbuffer:buf|dff8ds:dff8ds_7|mux8x2:mx|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5or2:clkor|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff0|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff1|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff2|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff3|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff4|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff5|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff6|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff7|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5delay:del1|
+|lbuffer:buf|dff8ds:dff8ds_7|aa5delay:del2|
+|lbuffer:buf|mem8:mem8_out|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff0|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff1|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff2|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff3|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff4|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff5|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff6|
+|lbuffer:buf|mem8:mem8_out|aa5dff:dff7|
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+***** Logic for device 'lifo' compiled without errors.
+
+
+
+
+Device: EPF10K10LC84-3
+
+FLEX 10K Configuration Scheme: Passive Serial
+
+Device Options:
+    User-Supplied Start-Up Clock               = OFF
+    Auto-Restart Configuration on Frame Error  = OFF
+    Release Clears Before Tri-States           = OFF
+    Enable Chip_Wide Reset                     = OFF
+    Enable Chip-Wide Output Enable             = OFF
+    Enable INIT_DONE Output                    = OFF
+    JTAG User Code                             = 7f
+
+                                                                         ^     
+                                                                         C     
+                R  R  R  R  R  R        R           R     R  R  R  R     O     
+                E  E  E  E  E  E        E           E     E  E  E  E     N     
+                S  S  S  S  S  S     V  S           S  G  S  S  S  S     F     
+                E  E  E  E  E  E  E  C  E  D     D  E  N  E  E  E  E     _  ^  
+                R  R  R  R  R  R  M  C  R  A     A  R  D  R  R  R  R  #  D  n  
+                V  V  V  V  V  V  P  I  V  T     T  V  I  V  V  V  V  T  O  C  
+                E  E  E  E  E  E  T  N  E  A  W  A  E  N  E  E  E  E  C  N  E  
+                D  D  D  D  D  D  Y  T  D  7  R  6  D  T  D  D  D  D  K  E  O  
+              -----------------------------------------------------------------_ 
+            /  11 10  9  8  7  6  5  4  3  2  1 84 83 82 81 80 79 78 77 76 75   | 
+    ^DATA0 | 12                                                              74 | #TDO 
+     ^DCLK | 13                                                              73 | DATA4 
+      ^nCE | 14                                                              72 | DATA0 
+      #TDI | 15                                                              71 | TMP_AWR1 
+  TMP_ARD0 | 16                                                              70 | TMP_AWR2 
+  TMP_AWR0 | 17                                                              69 | DATA3 
+  TMP_ARD1 | 18                                                              68 | GNDINT 
+  TMP_ARD2 | 19                                                              67 | DATA2 
+    VCCINT | 20                                                              66 | DATA1 
+        Q2 | 21                                                              65 | Q6 
+  TMP_REQW | 22                        EPF10K10LC84-3                        64 | Q5 
+     TMP_T | 23                                                              63 | VCCINT 
+    TMP_TI | 24                                                              62 | RESERVED 
+        Q1 | 25                                                              61 | RESERVED 
+    GNDINT | 26                                                              60 | RESERVED 
+        Q7 | 27                                                              59 | RESERVED 
+  RESERVED | 28                                                              58 | RESERVED 
+  RESERVED | 29                                                              57 | #TMS 
+  RESERVED | 30                                                              56 | #nTRST 
+    ^MSEL0 | 31                                                              55 | ^nSTATUS 
+    ^MSEL1 | 32                                                              54 | RESERVED 
+           |_  33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53  _| 
+             ------------------------------------------------------------------ 
+                V  ^  F  Q  Q  Q  R  V  G  R  R  D  V  G  R  R  R  R  R  R  R  
+                C  n  U  0  4  3  E  C  N  E  D  A  C  N  E  E  E  E  E  E  E  
+                C  C  L           S  C  D  S     T  C  D  S  S  S  S  S  S  S  
+                I  O  L           E  I  I  E     A  I  I  E  E  E  E  E  E  E  
+                N  N              R  N  N  T     5  N  N  R  R  R  R  R  R  R  
+                T  F              V  T  T           T  T  V  V  V  V  V  V  V  
+                   I              E                       E  E  E  E  E  E  E  
+                   G              D                       D  D  D  D  D  D  D  
+                                                                               
+                                                                               
+
+
+N.C. = Not Connected.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (5.0 volts).
+GNDINT = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+GNDIO = Dedicated ground pin, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+^ = Dedicated configuration pin.
++ = Reserved configuration pin, which is tri-stated during user mode.
+* = Reserved configuration pin, which drives out in user mode.
+PDn = Power Down pin. 
+@ = Special-purpose pin. 
+# = JTAG Boundary-Scan Testing/In-System Programming or Configuration Pin. The JTAG inputs (TMS, TCK, TDI) should be tied to VCC when not in use.
+& = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** RESOURCE USAGE **
+
+Logic                Column       Row                                   
+Array                Interconnect Interconnect         Clears/     External  
+Block   Logic Cells  Driven       Driven       Clocks  Presets   Interconnect
+A1       5/ 8( 62%)   1/ 8( 12%)   3/ 8( 37%)    1/2    1/2       6/22( 27%)   
+A2       3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    1/2       3/22( 13%)   
+A5       2/ 8( 25%)   2/ 8( 25%)   2/ 8( 25%)    0/2    0/2       2/22(  9%)   
+A7       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    1/2    0/2       1/22(  4%)   
+A8       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    1/2    0/2       1/22(  4%)   
+A9       1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    1/2    0/2       1/22(  4%)   
+A10      1/ 8( 12%)   1/ 8( 12%)   0/ 8(  0%)    1/2    0/2       1/22(  4%)   
+A13      3/ 8( 37%)   3/ 8( 37%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+A14      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A15      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A17      6/ 8( 75%)   2/ 8( 25%)   4/ 8( 50%)    1/2    0/2      10/22( 45%)   
+A18      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A19      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+A20      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A21      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+A22      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+A23      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+A24      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B3       2/ 8( 25%)   0/ 8(  0%)   2/ 8( 25%)    0/2    0/2       2/22(  9%)   
+B4       3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    0/2       3/22( 13%)   
+B6       2/ 8( 25%)   2/ 8( 25%)   0/ 8(  0%)    0/2    0/2       3/22( 13%)   
+B11      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       1/22(  4%)   
+B13      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B14      6/ 8( 75%)   3/ 8( 37%)   3/ 8( 37%)    2/2    0/2      10/22( 45%)   
+B15      3/ 8( 37%)   3/ 8( 37%)   3/ 8( 37%)    0/2    0/2       2/22(  9%)   
+B16      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B17      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B18      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B19      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B20      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+B21      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+B22      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+B23      1/ 8( 12%)   1/ 8( 12%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+B24      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+C7       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+C8       1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+C12      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    0/2    0/2       2/22(  9%)   
+C13      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    0/2    0/2       2/22(  9%)   
+C14      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       4/22( 18%)   
+C15      1/ 8( 12%)   0/ 8(  0%)   1/ 8( 12%)    1/2    0/2       3/22( 13%)   
+C16      3/ 8( 37%)   3/ 8( 37%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+C17      2/ 8( 25%)   0/ 8(  0%)   2/ 8( 25%)    2/2    0/2       8/22( 36%)   
+C18      3/ 8( 37%)   2/ 8( 25%)   3/ 8( 37%)    1/2    0/2       8/22( 36%)   
+C19      2/ 8( 25%)   1/ 8( 12%)   2/ 8( 25%)    2/2    0/2       8/22( 36%)   
+C20      2/ 8( 25%)   1/ 8( 12%)   2/ 8( 25%)    2/2    0/2       7/22( 31%)   
+C21      2/ 8( 25%)   1/ 8( 12%)   2/ 8( 25%)    2/2    0/2       7/22( 31%)   
+C22      3/ 8( 37%)   0/ 8(  0%)   3/ 8( 37%)    2/2    0/2       9/22( 40%)   
+C23      2/ 8( 25%)   0/ 8(  0%)   2/ 8( 25%)    2/2    0/2       6/22( 27%)   
+C24      8/ 8(100%)   0/ 8(  0%)   4/ 8( 50%)    2/2    0/2       8/22( 36%)   
+
+
+Embedded             Column       Row                                   
+Array     Embedded   Interconnect Interconnect         Read/      External  
+Block     Cells      Driven       Driven       Clocks  Write    Interconnect
+
+
+Total dedicated input pins used:                 6/6      (100%)
+Total I/O pins used:                            24/53     ( 45%)
+Total logic cells used:                        100/576    ( 17%)
+Total embedded cells used:                       0/24     (  0%)
+Total EABs used:                                 0/3      (  0%)
+Average fan-in:                                 2.69/4    ( 67%)
+Total fan-in:                                 269/2304    ( 11%)
+
+Total input pins required:                      11
+Total input I/O cell registers required:         0
+Total output pins required:                      0
+Total output I/O cell registers required:        0
+Total buried I/O cell registers required:        0
+Total bidirectional pins required:              19
+Total reserved pins required                     0
+Total logic cells required:                    100
+Total flipflops required:                       78
+Total packed registers required:                 0
+Total logic cells in carry chains:               0
+Total number of carry chains:                    0
+Total logic cells in cascade chains:             0
+Total number of cascade chains:                  0
+Total single-pin Clock Enables required:         0
+Total single-pin Output Enables required:        0
+
+Synthesized logic cells:                         1/ 576   (  0%)
+
+Logic Cell and Embedded Cell Counts
+
+Column:  01  02  03  04  05  06  07  08  09  10  11  12  EA  13  14  15  16  17  18  19  20  21  22  23  24  Total(LC/EC)
+ A:      5   3   0   0   2   0   1   1   1   1   0   0   0   3   1   1   0   6   1   3   1   1   1   1   1     34/0  
+ B:      0   0   2   3   0   2   0   0   0   0   1   0   0   1   6   3   1   1   1   1   3   3   1   1   1     31/0  
+ C:      0   0   0   0   0   0   1   1   0   0   0   3   0   1   1   1   3   2   3   2   2   2   3   2   8     35/0  
+
+Total:   5   3   2   3   2   2   2   2   1   1   1   3   0   5   8   5   4   9   5   6   6   6   5   4  10    100/0  
+
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** INPUTS **
+
+                                                    Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+  72      -     -    A    --      INPUT                0    0    0    1  DATA0
+  66      -     -    B    --      INPUT                0    0    0    1  DATA1
+  67      -     -    B    --      INPUT                0    0    0    1  DATA2
+  69      -     -    A    --      INPUT                0    0    0    1  DATA3
+  73      -     -    A    --      INPUT                0    0    0    1  DATA4
+  44      -     -    -    --      INPUT                0    0    0    1  DATA5
+  84      -     -    -    --      INPUT                0    0    0    1  DATA6
+   2      -     -    -    --      INPUT                0    0    0    1  DATA7
+   5      -     -    -    05      BIDIR                0    1    0    0  EMPTY
+  35      -     -    -    06      BIDIR                0    1    0    0  FULL
+  36      -     -    -    07      BIDIR                0    1    0    0  Q0
+  25      -     -    B    --      BIDIR                0    1    0    0  Q1
+  21      -     -    B    --      BIDIR                0    1    0    0  Q2
+  38      -     -    -    10      BIDIR                0    1    0    0  Q3
+  37      -     -    -    09      BIDIR                0    1    0    0  Q4
+  64      -     -    B    --      BIDIR                0    1    0    0  Q5
+  65      -     -    B    --      BIDIR                0    1    0    0  Q6
+  27      -     -    C    --      BIDIR                0    1    0    0  Q7
+  43      -     -    -    --      INPUT  G             0    0    0   18  RD
+  42      -     -    -    --      INPUT  G             0    0    0    0  RESET
+  16      -     -    A    --      BIDIR                0    1    0    4  TMP_ARD0
+  18      -     -    A    --      BIDIR                0    1    0    3  TMP_ARD1
+  19      -     -    A    --      BIDIR                0    1    0    2  TMP_ARD2
+  17      -     -    A    --      BIDIR                0    1    0    4  TMP_AWR0
+  71      -     -    A    --      BIDIR                0    1    0    3  TMP_AWR1
+  70      -     -    A    --      BIDIR                0    1    0    2  TMP_AWR2
+  22      -     -    B    --      BIDIR                0    1    0    2  TMP_REQW
+  23      -     -    B    --      BIDIR                0    1    0    1  TMP_T
+  24      -     -    B    --      BIDIR                0    1    0    1  TMP_TI
+   1      -     -    -    --      INPUT  G             0    0    0   18  WR
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+G = Global Source. Fan-out destinations counted here do not include destinations
+that are driven using global routing resources. Refer to the Auto Global Signals,
+Clock Signals, Clear Signals, Synchronous Load Signals, and Synchronous Clear Signals
+Sections of this Report File for information on which signals' fan-outs are used as
+Clock, Clear, Preset, Output Enable, and synchronous Load signals.
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** OUTPUTS **
+
+       Fed By Fed By                                Fan-In    Fan-Out
+ Pin     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   5      -     -    -    05        TRI                0    1    0    0  EMPTY
+  35      -     -    -    06        TRI                0    1    0    0  FULL
+  36      -     -    -    07        TRI                0    1    0    0  Q0
+  25      -     -    B    --        TRI                0    1    0    0  Q1
+  21      -     -    B    --        TRI                0    1    0    0  Q2
+  38      -     -    -    10        TRI                0    1    0    0  Q3
+  37      -     -    -    09        TRI                0    1    0    0  Q4
+  64      -     -    B    --        TRI                0    1    0    0  Q5
+  65      -     -    B    --        TRI                0    1    0    0  Q6
+  27      -     -    C    --        TRI                0    1    0    0  Q7
+  16      -     -    A    --        TRI                0    1    0    4  TMP_ARD0
+  18      -     -    A    --        TRI                0    1    0    3  TMP_ARD1
+  19      -     -    A    --        TRI                0    1    0    2  TMP_ARD2
+  17      -     -    A    --        TRI                0    1    0    4  TMP_AWR0
+  71      -     -    A    --        TRI                0    1    0    3  TMP_AWR1
+  70      -     -    A    --        TRI                0    1    0    2  TMP_AWR2
+  22      -     -    B    --        TRI                0    1    0    2  TMP_REQW
+  23      -     -    B    --        TRI                0    1    0    1  TMP_T
+  24      -     -    B    --        TRI                0    1    0    1  TMP_TI
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+@ = Uses single-pin Clock Enable
+& = Uses single-pin Output Enable
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** BURIED LOGIC **
+
+                                                    Fan-In    Fan-Out
+ IOC     LC     EC   Row  Col  Primitive    Code      INP  FBK  OUT  FBK  Name
+   -      2     -    B    06       AND2                0    2    1    0  |aa5and2:eand|:10
+   -      1     -    B    06       AND2                0    2    1    0  |aa5and2:fand|:10
+   -      1     -    A    01        OR2    s           0    4    0    1  |comp3:cmp|~38~1
+   -      2     -    A    01        OR2                0    3    1    0  |comp3:cmp|:38
+   -      1     -    A    02       DFFE   +            0    1    1    0  |counter:rcntr|Q1S (|counter:rcntr|:6)
+   -      5     -    A    02       DFFE   +            0    2    1    0  |counter:rcntr|Q2S (|counter:rcntr|:7)
+   -      7     -    A    02       DFFE   +            0    3    1    0  |counter:rcntr|Q3S (|counter:rcntr|:8)
+   -      3     -    A    01       DFFE   +            0    1    1    0  |counter:wcntr|Q1S (|counter:wcntr|:6)
+   -      4     -    A    01       DFFE   +            0    2    1    0  |counter:wcntr|Q2S (|counter:wcntr|:7)
+   -      5     -    A    01       DFFE   +            0    3    1    0  |counter:wcntr|Q3S (|counter:wcntr|:8)
+   -      6     -    A    17       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff0|:4)
+   -      3     -    B    13       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff1|:4)
+   -      2     -    B    20       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff2|:4)
+   -      2     -    A    17       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff3|:4)
+   -      3     -    A    17       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff4|:4)
+   -      3     -    B    20       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff5|:4)
+   -      5     -    B    20       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff6|:4)
+   -      4     -    A    17       DFFE                1    3    0    2  |lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff7|:4)
+   -      7     -    A    17        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_0|aa5or2:clkor|:10
+   -      5     -    A    17        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_0|rstrigger:rstr|:66
+   -      2     -    A    20       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff0|:4)
+   -      1     -    B    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff1|:4)
+   -      6     -    B    21       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff2|:4)
+   -      1     -    A    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff3|:4)
+   -      8     -    A    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff4|:4)
+   -      4     -    B    21       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff5|:4)
+   -      3     -    B    21       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff6|:4)
+   -      6     -    A    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff7|:4)
+   -      4     -    A    22        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_1|aa5or2:clkor|:10
+   -      6     -    A    05        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_1|rstrigger:rstr|:66
+   -      2     -    A    15       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff0|:4)
+   -      3     -    B    16       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff1|:4)
+   -      6     -    B    17       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff2|:4)
+   -      1     -    A    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff3|:4)
+   -      1     -    A    18       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff4|:4)
+   -      5     -    B    18       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff5|:4)
+   -      4     -    B    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff6|:4)
+   -      2     -    A    21       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff7|:4)
+   -      8     -    A    23        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_2|aa5or2:clkor|:10
+   -      2     -    A    05        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_2|rstrigger:rstr|:66
+   -      3     -    A    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff0|:4)
+   -      1     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff1|:4)
+   -      2     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff2|:4)
+   -      1     -    A    13       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff3|:4)
+   -      3     -    A    13       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff4|:4)
+   -      2     -    B    22       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff5|:4)
+   -      4     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff6|:4)
+   -      5     -    A    13       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff7|:4)
+   -      5     -    B    15        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_3|aa5or2:clkor|:10
+   -      1     -    B    15        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_3|rstrigger:rstr|:66
+   -      6     -    C    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff0|:4)
+   -      6     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff1|:4)
+   -      5     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff2|:4)
+   -      3     -    C    16       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff3|:4)
+   -      4     -    C    16       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff4|:4)
+   -      2     -    C    16       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff5|:4)
+   -      3     -    B    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff6|:4)
+   -      6     -    C    21       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff7|:4)
+   -      2     -    B    15        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_4|aa5or2:clkor|:10
+   -      1     -    B    23        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_4|rstrigger:rstr|:66
+   -      6     -    C    23       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff0|:4)
+   -      1     -    C    20       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff1|:4)
+   -      3     -    C    18       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff2|:4)
+   -      1     -    C    22       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff3|:4)
+   -      1     -    C    18       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff4|:4)
+   -      5     -    C    22       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff5|:4)
+   -      2     -    C    18       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff6|:4)
+   -      3     -    C    17       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff7|:4)
+   -      5     -    C    07        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_5|aa5or2:clkor|:10
+   -      3     -    C    12        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_5|rstrigger:rstr|:66
+   -      5     -    C    23       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff0|:4)
+   -      4     -    C    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff1|:4)
+   -      7     -    C    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff2|:4)
+   -      2     -    C    14       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff3|:4)
+   -      5     -    C    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff4|:4)
+   -      1     -    C    17       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff5|:4)
+   -      6     -    C    24       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff6|:4)
+   -      3     -    C    19       DFFE                0    4    0    2  |lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff7|:4)
+   -      1     -    C    12        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_6|aa5or2:clkor|:10
+   -      2     -    C    13        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_6|rstrigger:rstr|:66
+   -      3     -    C    22       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff0|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff0|:4)
+   -      8     -    C    24       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff1|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff1|:4)
+   -      3     -    C    24       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff2|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff2|:4)
+   -      4     -    C    20       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff3|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff3|:4)
+   -      2     -    C    24       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff4|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff4|:4)
+   -      7     -    C    15       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff5|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff5|:4)
+   -      1     -    C    24       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff6|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff6|:4)
+   -      1     -    C    21       DFFE                0    3    0    1  |lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff7|QS (|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff7|:4)
+   -      4     -    C    12        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_7|aa5or2:clkor|:10
+   -      6     -    C    08        OR2                2    0    0    8  |lbuffer:buf|dff8ds:dff8ds_7|rstrigger:rstr|:66
+   -      1     -    A    07       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff0|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff0|:4)
+   -      8     -    B    11       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff1|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff1|:4)
+   -      1     -    B    04       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff2|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff2|:4)
+   -      1     -    A    10       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff3|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff3|:4)
+   -      1     -    A    09       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff4|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff4|:4)
+   -      6     -    B    04       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff5|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff5|:4)
+   -      5     -    B    04       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff6|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff6|:4)
+   -      1     -    A    08       DFFE   +            0    1    1    0  |lbuffer:buf|mem8:mem8_out|aa5dff:dff7|QS (|lbuffer:buf|mem8:mem8_out|aa5dff:dff7|:4)
+   -      4     -    B    03        OR2                2    0    1    0  |rstrigger:rstr|:66
+   -      6     -    B    03        OR2                2    0    1    0  |rstrigger:rstr|:72
+
+
+Code:
+
+s = Synthesized pin or logic cell
++ = Synchronous flipflop
+/ = Slow slew-rate output
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+p = Packed register
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** FASTTRACK INTERCONNECT UTILIZATION **
+
+Row FastTrack Interconnect:
+
+          Global         Left Half-      Right Half-
+         FastTrack       FastTrack       FastTrack 
+Row     Interconnect    Interconnect    Interconnect    Input Pins     Output Pins     Bidir Pins
+A:      17/ 96( 17%)     4/ 48(  8%)    20/ 48( 41%)    3/16( 18%)      0/16(  0%)     6/16( 37%)
+B:      13/ 96( 13%)     5/ 48( 10%)    24/ 48( 50%)    2/16( 12%)      0/16(  0%)     7/16( 43%)
+C:       5/ 96(  5%)     1/ 48(  2%)    36/ 48( 75%)    0/16(  0%)      0/16(  0%)     1/16(  6%)
+
+
+Column FastTrack Interconnect:
+
+         FastTrack                                 
+Column  Interconnect    Input Pins     Output Pins     Bidir Pins
+01:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+02:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+03:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+04:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+05:      2/24(  8%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+06:      2/24(  8%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+07:      1/24(  4%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+08:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+09:      1/24(  4%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+10:      1/24(  4%)     0/4(  0%)      0/4(  0%)       1/4( 25%)
+11:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+12:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+13:      5/24( 20%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+14:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+15:      2/24(  8%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+16:      4/24( 16%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+17:      2/24(  8%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+18:      2/24(  8%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+19:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+20:      2/24(  8%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+21:      3/24( 12%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+22:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+23:      1/24(  4%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+24:      2/24(  8%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** CLOCK SIGNALS **
+
+Type     Fan-out       Name
+INPUT       29         RD
+INPUT       21         WR
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_0|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_1|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_2|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_3|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_4|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_5|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_6|aa5or2:clkor|:10
+LCELL        8         |lbuffer:buf|dff8ds:dff8ds_7|aa5or2:clkor|:10
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** CLEAR SIGNALS **
+
+Type     Fan-out       Name
+INPUT        6         RESET
+
+
+Device-Specific Information:c:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+lifo
+
+** EQUATIONS **
+
+DATA0    : INPUT;
+DATA1    : INPUT;
+DATA2    : INPUT;
+DATA3    : INPUT;
+DATA4    : INPUT;
+DATA5    : INPUT;
+DATA6    : INPUT;
+DATA7    : INPUT;
+RD       : INPUT;
+RESET    : INPUT;
+WR       : INPUT;
+
+-- Node name is 'EMPTY' 
+-- Equation name is 'EMPTY', type is bidir 
+EMPTY    = TRI(_LC2_B6,  VCC);
+
+-- Node name is 'FULL' 
+-- Equation name is 'FULL', type is bidir 
+FULL     = TRI(_LC1_B6,  VCC);
+
+-- Node name is 'Q0' 
+-- Equation name is 'Q0', type is bidir 
+Q0       = TRI(_LC1_A7,  VCC);
+
+-- Node name is 'Q1' 
+-- Equation name is 'Q1', type is bidir 
+Q1       = TRI(_LC8_B11,  VCC);
+
+-- Node name is 'Q2' 
+-- Equation name is 'Q2', type is bidir 
+Q2       = TRI(_LC1_B4,  VCC);
+
+-- Node name is 'Q3' 
+-- Equation name is 'Q3', type is bidir 
+Q3       = TRI(_LC1_A10,  VCC);
+
+-- Node name is 'Q4' 
+-- Equation name is 'Q4', type is bidir 
+Q4       = TRI(_LC1_A9,  VCC);
+
+-- Node name is 'Q5' 
+-- Equation name is 'Q5', type is bidir 
+Q5       = TRI(_LC6_B4,  VCC);
+
+-- Node name is 'Q6' 
+-- Equation name is 'Q6', type is bidir 
+Q6       = TRI(_LC5_B4,  VCC);
+
+-- Node name is 'Q7' 
+-- Equation name is 'Q7', type is bidir 
+Q7       = TRI(_LC1_A8,  VCC);
+
+-- Node name is 'TMP_ARD0' 
+-- Equation name is 'TMP_ARD0', type is bidir 
+TMP_ARD0 = TRI(_LC1_A2,  VCC);
+
+-- Node name is 'TMP_ARD1' 
+-- Equation name is 'TMP_ARD1', type is bidir 
+TMP_ARD1 = TRI(_LC5_A2,  VCC);
+
+-- Node name is 'TMP_ARD2' 
+-- Equation name is 'TMP_ARD2', type is bidir 
+TMP_ARD2 = TRI(_LC7_A2,  VCC);
+
+-- Node name is 'TMP_AWR0' 
+-- Equation name is 'TMP_AWR0', type is bidir 
+TMP_AWR0 = TRI(_LC3_A1,  VCC);
+
+-- Node name is 'TMP_AWR1' 
+-- Equation name is 'TMP_AWR1', type is bidir 
+TMP_AWR1 = TRI(_LC4_A1,  VCC);
+
+-- Node name is 'TMP_AWR2' 
+-- Equation name is 'TMP_AWR2', type is bidir 
+TMP_AWR2 = TRI(_LC5_A1,  VCC);
+
+-- Node name is 'TMP_REQW' 
+-- Equation name is 'TMP_REQW', type is bidir 
+TMP_REQW = TRI(_LC2_A1,  VCC);
+
+-- Node name is 'TMP_T' 
+-- Equation name is 'TMP_T', type is bidir 
+TMP_T    = TRI(_LC4_B3,  VCC);
+
+-- Node name is 'TMP_TI' 
+-- Equation name is 'TMP_TI', type is bidir 
+TMP_TI   = TRI(_LC6_B3,  VCC);
+
+-- Node name is '|aa5and2:eand|:10' 
+-- Equation name is '_LC2_B6', type is buried 
+_LC2_B6  = LCELL( _EQ001);
+  _EQ001 =  TMP_REQW &  TMP_TI;
+
+-- Node name is '|aa5and2:fand|:10' 
+-- Equation name is '_LC1_B6', type is buried 
+_LC1_B6  = LCELL( _EQ002);
+  _EQ002 =  TMP_REQW &  TMP_T;
+
+-- Node name is '|comp3:cmp|~38~1' 
+-- Equation name is '_LC1_A1', type is buried 
+-- synthesized logic cell 
+_LC1_A1  = LCELL( _EQ003);
+  _EQ003 =  TMP_ARD1 &  TMP_ARD2 &  TMP_AWR1 &  TMP_AWR2
+         # !TMP_ARD1 &  TMP_ARD2 & !TMP_AWR1 &  TMP_AWR2
+         #  TMP_ARD1 & !TMP_ARD2 &  TMP_AWR1 & !TMP_AWR2
+         # !TMP_ARD1 & !TMP_ARD2 & !TMP_AWR1 & !TMP_AWR2;
+
+-- Node name is '|comp3:cmp|:38' 
+-- Equation name is '_LC2_A1', type is buried 
+_LC2_A1  = LCELL( _EQ004);
+  _EQ004 =  _LC1_A1 &  TMP_ARD0 &  TMP_AWR0
+         #  _LC1_A1 & !TMP_ARD0 & !TMP_AWR0;
+
+-- Node name is '|counter:rcntr|:6' = '|counter:rcntr|Q1S' 
+-- Equation name is '_LC1_A2', type is buried 
+_LC1_A2  = DFFE(!TMP_ARD0, GLOBAL( RD), GLOBAL(!RESET),  VCC,  VCC);
+
+-- Node name is '|counter:rcntr|:7' = '|counter:rcntr|Q2S' 
+-- Equation name is '_LC5_A2', type is buried 
+_LC5_A2  = DFFE( _EQ005, GLOBAL( RD), GLOBAL(!RESET),  VCC,  VCC);
+  _EQ005 =  TMP_ARD0 & !TMP_ARD1
+         # !TMP_ARD0 &  TMP_ARD1;
+
+-- Node name is '|counter:rcntr|:8' = '|counter:rcntr|Q3S' 
+-- Equation name is '_LC7_A2', type is buried 
+_LC7_A2  = DFFE( _EQ006, GLOBAL( RD), GLOBAL(!RESET),  VCC,  VCC);
+  _EQ006 = !TMP_ARD0 &  TMP_ARD2
+         # !TMP_ARD1 &  TMP_ARD2
+         #  TMP_ARD0 &  TMP_ARD1 & !TMP_ARD2;
+
+-- Node name is '|counter:wcntr|:6' = '|counter:wcntr|Q1S' 
+-- Equation name is '_LC3_A1', type is buried 
+_LC3_A1  = DFFE(!TMP_AWR0, GLOBAL( WR), GLOBAL(!RESET),  VCC,  VCC);
+
+-- Node name is '|counter:wcntr|:7' = '|counter:wcntr|Q2S' 
+-- Equation name is '_LC4_A1', type is buried 
+_LC4_A1  = DFFE( _EQ007, GLOBAL( WR), GLOBAL(!RESET),  VCC,  VCC);
+  _EQ007 =  TMP_AWR0 & !TMP_AWR1
+         # !TMP_AWR0 &  TMP_AWR1;
+
+-- Node name is '|counter:wcntr|:8' = '|counter:wcntr|Q3S' 
+-- Equation name is '_LC5_A1', type is buried 
+_LC5_A1  = DFFE( _EQ008, GLOBAL( WR), GLOBAL(!RESET),  VCC,  VCC);
+  _EQ008 = !TMP_AWR0 &  TMP_AWR2
+         # !TMP_AWR1 &  TMP_AWR2
+         #  TMP_AWR0 &  TMP_AWR1 & !TMP_AWR2;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff0|QS' 
+-- Equation name is '_LC6_A17', type is buried 
+_LC6_A17 = DFFE( _EQ009,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ009 =  _LC2_A20 &  _LC5_A17
+         #  DATA0 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_B13', type is buried 
+_LC3_B13 = DFFE( _EQ010,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ010 =  _LC1_B19 &  _LC5_A17
+         #  DATA1 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff2|QS' 
+-- Equation name is '_LC2_B20', type is buried 
+_LC2_B20 = DFFE( _EQ011,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ011 =  _LC5_A17 &  _LC6_B21
+         #  DATA2 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff3|QS' 
+-- Equation name is '_LC2_A17', type is buried 
+_LC2_A17 = DFFE( _EQ012,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ012 =  _LC1_A19 &  _LC5_A17
+         #  DATA3 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff4|QS' 
+-- Equation name is '_LC3_A17', type is buried 
+_LC3_A17 = DFFE( _EQ013,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ013 =  _LC5_A17 &  _LC8_A19
+         #  DATA4 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff5|QS' 
+-- Equation name is '_LC3_B20', type is buried 
+_LC3_B20 = DFFE( _EQ014,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ014 =  _LC4_B21 &  _LC5_A17
+         #  DATA5 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff6|QS' 
+-- Equation name is '_LC5_B20', type is buried 
+_LC5_B20 = DFFE( _EQ015,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ015 =  _LC3_B21 &  _LC5_A17
+         #  DATA6 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_0|aa5dff:dff7|QS' 
+-- Equation name is '_LC4_A17', type is buried 
+_LC4_A17 = DFFE( _EQ016,  _LC7_A17,  VCC,  VCC,  VCC);
+  _EQ016 =  _LC5_A17 &  _LC6_A19
+         #  DATA7 & !_LC5_A17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|aa5or2:clkor|:10' 
+-- Equation name is '_LC7_A17', type is buried 
+_LC7_A17 = LCELL( _EQ017);
+  _EQ017 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_0|rstrigger:rstr|:66' 
+-- Equation name is '_LC5_A17', type is buried 
+_LC5_A17 = LCELL( _EQ018);
+  _EQ018 =  RD
+         #  _LC5_A17 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff0|QS' 
+-- Equation name is '_LC2_A20', type is buried 
+_LC2_A20 = DFFE( _EQ019,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ019 = !_LC6_A5 &  _LC6_A17
+         #  _LC2_A15 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff1|QS' 
+-- Equation name is '_LC1_B19', type is buried 
+_LC1_B19 = DFFE( _EQ020,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ020 =  _LC3_B13 & !_LC6_A5
+         #  _LC3_B16 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff2|QS' 
+-- Equation name is '_LC6_B21', type is buried 
+_LC6_B21 = DFFE( _EQ021,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ021 =  _LC2_B20 & !_LC6_A5
+         #  _LC6_A5 &  _LC6_B17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_A19', type is buried 
+_LC1_A19 = DFFE( _EQ022,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ022 =  _LC2_A17 & !_LC6_A5
+         #  _LC1_A14 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff4|QS' 
+-- Equation name is '_LC8_A19', type is buried 
+_LC8_A19 = DFFE( _EQ023,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ023 =  _LC3_A17 & !_LC6_A5
+         #  _LC1_A18 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff5|QS' 
+-- Equation name is '_LC4_B21', type is buried 
+_LC4_B21 = DFFE( _EQ024,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ024 =  _LC3_B20 & !_LC6_A5
+         #  _LC5_B18 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff6|QS' 
+-- Equation name is '_LC3_B21', type is buried 
+_LC3_B21 = DFFE( _EQ025,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ025 =  _LC5_B20 & !_LC6_A5
+         #  _LC4_B24 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_1|aa5dff:dff7|QS' 
+-- Equation name is '_LC6_A19', type is buried 
+_LC6_A19 = DFFE( _EQ026,  _LC4_A22,  VCC,  VCC,  VCC);
+  _EQ026 =  _LC4_A17 & !_LC6_A5
+         #  _LC2_A21 &  _LC6_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|aa5or2:clkor|:10' 
+-- Equation name is '_LC4_A22', type is buried 
+_LC4_A22 = LCELL( _EQ027);
+  _EQ027 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_1|rstrigger:rstr|:66' 
+-- Equation name is '_LC6_A5', type is buried 
+_LC6_A5  = LCELL( _EQ028);
+  _EQ028 =  RD
+         #  _LC6_A5 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff0|QS' 
+-- Equation name is '_LC2_A15', type is buried 
+_LC2_A15 = DFFE( _EQ029,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ029 = !_LC2_A5 &  _LC2_A20
+         #  _LC2_A5 &  _LC3_A24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff1|QS' 
+-- Equation name is '_LC3_B16', type is buried 
+_LC3_B16 = DFFE( _EQ030,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ030 =  _LC1_B19 & !_LC2_A5
+         #  _LC1_B14 &  _LC2_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff2|QS' 
+-- Equation name is '_LC6_B17', type is buried 
+_LC6_B17 = DFFE( _EQ031,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ031 = !_LC2_A5 &  _LC6_B21
+         #  _LC2_A5 &  _LC2_B14;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_A14', type is buried 
+_LC1_A14 = DFFE( _EQ032,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ032 =  _LC1_A19 & !_LC2_A5
+         #  _LC1_A13 &  _LC2_A5;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff4|QS' 
+-- Equation name is '_LC1_A18', type is buried 
+_LC1_A18 = DFFE( _EQ033,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ033 = !_LC2_A5 &  _LC8_A19
+         #  _LC2_A5 &  _LC3_A13;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff5|QS' 
+-- Equation name is '_LC5_B18', type is buried 
+_LC5_B18 = DFFE( _EQ034,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ034 = !_LC2_A5 &  _LC4_B21
+         #  _LC2_A5 &  _LC2_B22;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff6|QS' 
+-- Equation name is '_LC4_B24', type is buried 
+_LC4_B24 = DFFE( _EQ035,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ035 = !_LC2_A5 &  _LC3_B21
+         #  _LC2_A5 &  _LC4_B14;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_2|aa5dff:dff7|QS' 
+-- Equation name is '_LC2_A21', type is buried 
+_LC2_A21 = DFFE( _EQ036,  _LC8_A23,  VCC,  VCC,  VCC);
+  _EQ036 = !_LC2_A5 &  _LC6_A19
+         #  _LC2_A5 &  _LC5_A13;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|aa5or2:clkor|:10' 
+-- Equation name is '_LC8_A23', type is buried 
+_LC8_A23 = LCELL( _EQ037);
+  _EQ037 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_2|rstrigger:rstr|:66' 
+-- Equation name is '_LC2_A5', type is buried 
+_LC2_A5  = LCELL( _EQ038);
+  _EQ038 =  RD
+         #  _LC2_A5 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff0|QS' 
+-- Equation name is '_LC3_A24', type is buried 
+_LC3_A24 = DFFE( _EQ039,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ039 = !_LC1_B15 &  _LC2_A15
+         #  _LC1_B15 &  _LC6_C19;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff1|QS' 
+-- Equation name is '_LC1_B14', type is buried 
+_LC1_B14 = DFFE( _EQ040,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ040 = !_LC1_B15 &  _LC3_B16
+         #  _LC1_B15 &  _LC6_B14;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff2|QS' 
+-- Equation name is '_LC2_B14', type is buried 
+_LC2_B14 = DFFE( _EQ041,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ041 = !_LC1_B15 &  _LC6_B17
+         #  _LC1_B15 &  _LC5_B14;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_A13', type is buried 
+_LC1_A13 = DFFE( _EQ042,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ042 =  _LC1_A14 & !_LC1_B15
+         #  _LC1_B15 &  _LC3_C16;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff4|QS' 
+-- Equation name is '_LC3_A13', type is buried 
+_LC3_A13 = DFFE( _EQ043,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ043 =  _LC1_A18 & !_LC1_B15
+         #  _LC1_B15 &  _LC4_C16;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff5|QS' 
+-- Equation name is '_LC2_B22', type is buried 
+_LC2_B22 = DFFE( _EQ044,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ044 = !_LC1_B15 &  _LC5_B18
+         #  _LC1_B15 &  _LC2_C16;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff6|QS' 
+-- Equation name is '_LC4_B14', type is buried 
+_LC4_B14 = DFFE( _EQ045,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ045 = !_LC1_B15 &  _LC4_B24
+         #  _LC1_B15 &  _LC3_B14;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_3|aa5dff:dff7|QS' 
+-- Equation name is '_LC5_A13', type is buried 
+_LC5_A13 = DFFE( _EQ046,  _LC5_B15,  VCC,  VCC,  VCC);
+  _EQ046 = !_LC1_B15 &  _LC2_A21
+         #  _LC1_B15 &  _LC6_C21;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|aa5or2:clkor|:10' 
+-- Equation name is '_LC5_B15', type is buried 
+_LC5_B15 = LCELL( _EQ047);
+  _EQ047 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_3|rstrigger:rstr|:66' 
+-- Equation name is '_LC1_B15', type is buried 
+_LC1_B15 = LCELL( _EQ048);
+  _EQ048 =  RD
+         #  _LC1_B15 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff0|QS' 
+-- Equation name is '_LC6_C19', type is buried 
+_LC6_C19 = DFFE( _EQ049,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ049 = !_LC1_B23 &  _LC3_A24
+         #  _LC1_B23 &  _LC6_C23;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff1|QS' 
+-- Equation name is '_LC6_B14', type is buried 
+_LC6_B14 = DFFE( _EQ050,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ050 =  _LC1_B14 & !_LC1_B23
+         #  _LC1_B23 &  _LC1_C20;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff2|QS' 
+-- Equation name is '_LC5_B14', type is buried 
+_LC5_B14 = DFFE( _EQ051,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ051 = !_LC1_B23 &  _LC2_B14
+         #  _LC1_B23 &  _LC3_C18;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff3|QS' 
+-- Equation name is '_LC3_C16', type is buried 
+_LC3_C16 = DFFE( _EQ052,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ052 =  _LC1_A13 & !_LC1_B23
+         #  _LC1_B23 &  _LC1_C22;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff4|QS' 
+-- Equation name is '_LC4_C16', type is buried 
+_LC4_C16 = DFFE( _EQ053,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ053 = !_LC1_B23 &  _LC3_A13
+         #  _LC1_B23 &  _LC1_C18;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff5|QS' 
+-- Equation name is '_LC2_C16', type is buried 
+_LC2_C16 = DFFE( _EQ054,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ054 = !_LC1_B23 &  _LC2_B22
+         #  _LC1_B23 &  _LC5_C22;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff6|QS' 
+-- Equation name is '_LC3_B14', type is buried 
+_LC3_B14 = DFFE( _EQ055,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ055 = !_LC1_B23 &  _LC4_B14
+         #  _LC1_B23 &  _LC2_C18;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_4|aa5dff:dff7|QS' 
+-- Equation name is '_LC6_C21', type is buried 
+_LC6_C21 = DFFE( _EQ056,  _LC2_B15,  VCC,  VCC,  VCC);
+  _EQ056 = !_LC1_B23 &  _LC5_A13
+         #  _LC1_B23 &  _LC3_C17;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|aa5or2:clkor|:10' 
+-- Equation name is '_LC2_B15', type is buried 
+_LC2_B15 = LCELL( _EQ057);
+  _EQ057 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_4|rstrigger:rstr|:66' 
+-- Equation name is '_LC1_B23', type is buried 
+_LC1_B23 = LCELL( _EQ058);
+  _EQ058 =  RD
+         #  _LC1_B23 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff0|QS' 
+-- Equation name is '_LC6_C23', type is buried 
+_LC6_C23 = DFFE( _EQ059,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ059 = !_LC3_C12 &  _LC6_C19
+         #  _LC3_C12 &  _LC5_C23;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff1|QS' 
+-- Equation name is '_LC1_C20', type is buried 
+_LC1_C20 = DFFE( _EQ060,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ060 = !_LC3_C12 &  _LC6_B14
+         #  _LC3_C12 &  _LC4_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff2|QS' 
+-- Equation name is '_LC3_C18', type is buried 
+_LC3_C18 = DFFE( _EQ061,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ061 = !_LC3_C12 &  _LC5_B14
+         #  _LC3_C12 &  _LC7_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_C22', type is buried 
+_LC1_C22 = DFFE( _EQ062,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ062 = !_LC3_C12 &  _LC3_C16
+         #  _LC2_C14 &  _LC3_C12;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff4|QS' 
+-- Equation name is '_LC1_C18', type is buried 
+_LC1_C18 = DFFE( _EQ063,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ063 = !_LC3_C12 &  _LC4_C16
+         #  _LC3_C12 &  _LC5_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff5|QS' 
+-- Equation name is '_LC5_C22', type is buried 
+_LC5_C22 = DFFE( _EQ064,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ064 =  _LC2_C16 & !_LC3_C12
+         #  _LC1_C17 &  _LC3_C12;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff6|QS' 
+-- Equation name is '_LC2_C18', type is buried 
+_LC2_C18 = DFFE( _EQ065,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ065 =  _LC3_B14 & !_LC3_C12
+         #  _LC3_C12 &  _LC6_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_5|aa5dff:dff7|QS' 
+-- Equation name is '_LC3_C17', type is buried 
+_LC3_C17 = DFFE( _EQ066,  _LC5_C7,  VCC,  VCC,  VCC);
+  _EQ066 = !_LC3_C12 &  _LC6_C21
+         #  _LC3_C12 &  _LC3_C19;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|aa5or2:clkor|:10' 
+-- Equation name is '_LC5_C7', type is buried 
+_LC5_C7  = LCELL( _EQ067);
+  _EQ067 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_5|rstrigger:rstr|:66' 
+-- Equation name is '_LC3_C12', type is buried 
+_LC3_C12 = LCELL( _EQ068);
+  _EQ068 =  RD
+         #  _LC3_C12 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff0|QS' 
+-- Equation name is '_LC5_C23', type is buried 
+_LC5_C23 = DFFE( _EQ069,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ069 = !_LC2_C13 &  _LC6_C23
+         #  _LC2_C13 &  _LC3_C22;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff1|QS' 
+-- Equation name is '_LC4_C24', type is buried 
+_LC4_C24 = DFFE( _EQ070,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ070 =  _LC1_C20 & !_LC2_C13
+         #  _LC2_C13 &  _LC8_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff2|QS' 
+-- Equation name is '_LC7_C24', type is buried 
+_LC7_C24 = DFFE( _EQ071,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ071 = !_LC2_C13 &  _LC3_C18
+         #  _LC2_C13 &  _LC3_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff3|QS' 
+-- Equation name is '_LC2_C14', type is buried 
+_LC2_C14 = DFFE( _EQ072,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ072 =  _LC1_C22 & !_LC2_C13
+         #  _LC2_C13 &  _LC4_C20;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff4|QS' 
+-- Equation name is '_LC5_C24', type is buried 
+_LC5_C24 = DFFE( _EQ073,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ073 =  _LC1_C18 & !_LC2_C13
+         #  _LC2_C13 &  _LC2_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff5|QS' 
+-- Equation name is '_LC1_C17', type is buried 
+_LC1_C17 = DFFE( _EQ074,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ074 = !_LC2_C13 &  _LC5_C22
+         #  _LC2_C13 &  _LC7_C15;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff6|QS' 
+-- Equation name is '_LC6_C24', type is buried 
+_LC6_C24 = DFFE( _EQ075,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ075 = !_LC2_C13 &  _LC2_C18
+         #  _LC1_C24 &  _LC2_C13;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_6|aa5dff:dff7|QS' 
+-- Equation name is '_LC3_C19', type is buried 
+_LC3_C19 = DFFE( _EQ076,  _LC1_C12,  VCC,  VCC,  VCC);
+  _EQ076 = !_LC2_C13 &  _LC3_C17
+         #  _LC1_C21 &  _LC2_C13;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|aa5or2:clkor|:10' 
+-- Equation name is '_LC1_C12', type is buried 
+_LC1_C12 = LCELL( _EQ077);
+  _EQ077 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_6|rstrigger:rstr|:66' 
+-- Equation name is '_LC2_C13', type is buried 
+_LC2_C13 = LCELL( _EQ078);
+  _EQ078 =  RD
+         #  _LC2_C13 & !WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff0|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff0|QS' 
+-- Equation name is '_LC3_C22', type is buried 
+_LC3_C22 = DFFE( _EQ079,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ079 =  _LC5_C23 & !_LC6_C8
+         #  _LC3_C22 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff1|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff1|QS' 
+-- Equation name is '_LC8_C24', type is buried 
+_LC8_C24 = DFFE( _EQ080,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ080 =  _LC4_C24 & !_LC6_C8
+         #  _LC6_C8 &  _LC8_C24;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff2|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff2|QS' 
+-- Equation name is '_LC3_C24', type is buried 
+_LC3_C24 = DFFE( _EQ081,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ081 = !_LC6_C8 &  _LC7_C24
+         #  _LC3_C24 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff3|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff3|QS' 
+-- Equation name is '_LC4_C20', type is buried 
+_LC4_C20 = DFFE( _EQ082,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ082 =  _LC2_C14 & !_LC6_C8
+         #  _LC4_C20 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff4|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff4|QS' 
+-- Equation name is '_LC2_C24', type is buried 
+_LC2_C24 = DFFE( _EQ083,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ083 =  _LC5_C24 & !_LC6_C8
+         #  _LC2_C24 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff5|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff5|QS' 
+-- Equation name is '_LC7_C15', type is buried 
+_LC7_C15 = DFFE( _EQ084,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ084 =  _LC1_C17 & !_LC6_C8
+         #  _LC6_C8 &  _LC7_C15;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff6|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff6|QS' 
+-- Equation name is '_LC1_C24', type is buried 
+_LC1_C24 = DFFE( _EQ085,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ085 = !_LC6_C8 &  _LC6_C24
+         #  _LC1_C24 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff7|:4' = '|lbuffer:buf|dff8ds:dff8ds_7|aa5dff:dff7|QS' 
+-- Equation name is '_LC1_C21', type is buried 
+_LC1_C21 = DFFE( _EQ086,  _LC4_C12,  VCC,  VCC,  VCC);
+  _EQ086 =  _LC3_C19 & !_LC6_C8
+         #  _LC1_C21 &  _LC6_C8;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|aa5or2:clkor|:10' 
+-- Equation name is '_LC4_C12', type is buried 
+_LC4_C12 = LCELL( _EQ087);
+  _EQ087 =  RD
+         #  WR;
+
+-- Node name is '|lbuffer:buf|dff8ds:dff8ds_7|rstrigger:rstr|:66' 
+-- Equation name is '_LC6_C8', type is buried 
+_LC6_C8  = LCELL( _EQ088);
+  _EQ088 =  RD
+         #  _LC6_C8 & !WR;
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff0|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff0|QS' 
+-- Equation name is '_LC1_A7', type is buried 
+_LC1_A7  = DFFE( _LC6_A17, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff1|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff1|QS' 
+-- Equation name is '_LC8_B11', type is buried 
+_LC8_B11 = DFFE( _LC3_B13, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff2|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff2|QS' 
+-- Equation name is '_LC1_B4', type is buried 
+_LC1_B4  = DFFE( _LC2_B20, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff3|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff3|QS' 
+-- Equation name is '_LC1_A10', type is buried 
+_LC1_A10 = DFFE( _LC2_A17, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff4|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff4|QS' 
+-- Equation name is '_LC1_A9', type is buried 
+_LC1_A9  = DFFE( _LC3_A17, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff5|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff5|QS' 
+-- Equation name is '_LC6_B4', type is buried 
+_LC6_B4  = DFFE( _LC3_B20, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff6|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff6|QS' 
+-- Equation name is '_LC5_B4', type is buried 
+_LC5_B4  = DFFE( _LC5_B20, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|lbuffer:buf|mem8:mem8_out|aa5dff:dff7|:4' = '|lbuffer:buf|mem8:mem8_out|aa5dff:dff7|QS' 
+-- Equation name is '_LC1_A8', type is buried 
+_LC1_A8  = DFFE( _LC4_A17, GLOBAL( RD),  VCC,  VCC,  VCC);
+
+-- Node name is '|rstrigger:rstr|:66' 
+-- Equation name is '_LC4_B3', type is buried 
+_LC4_B3  = LCELL( _EQ089);
+  _EQ089 =  _LC4_B3 & !RD
+         #  WR;
+
+-- Node name is '|rstrigger:rstr|:72' 
+-- Equation name is '_LC6_B3', type is buried 
+_LC6_B3  = LCELL( _EQ090);
+  _EQ090 =  _LC6_B3 & !WR
+         #  RD & !WR;
+
+
+
+Project Informationc:\program files\max2work\20\fifolifokesh\fifolifokesh\vhdl\lifo.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Multi-Level
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'FLEX10K' family
+
+      CARRY_CHAIN                         = ignore
+      CARRY_CHAIN_LENGTH                  = 32
+      CASCADE_CHAIN                       = ignore
+      CASCADE_CHAIN_LENGTH                = 2
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SUBFACTOR_EXTRACTION                = on
+      IGNORE_SOFT_BUFFERS                 = on
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:01
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:01
+   Fitter                                 00:00:00
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:02
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 19,197K

@@ -1,0 +1,54 @@
+NDB006
+The number of symbol table entries is: 1
+The length of the symbol table is: 13
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+
+The number of name info structs is : 42
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	IeEA	!	30	17	:35	"3
+#	IeEA	!	30	17	:39	"7
+$	IeEA	!	30	17	:43	";
+%	IeEA	!	30	17	:45	"=
+&	IGdW	!	:50	"B
+'	IGdW	!	:51	"C
+(	IGdW	!	:52	"D
+)	IGdW	!	:53	"E
+*	IGdW	!	:54	"F
++	IGdW	!	:55	"G
+,	IGdW	!	:56	"H
+-	IGdW	!	:57	"I
+.	IGdW	!	:58	"J
+/	IGdW	!	:59	"K
+0	It0+	!	F	19	9	:6	t
+1	IGdW	!	:60	"L
+2	IGdW	!	:61	"M
+3	IGdW	!	:62	"N
+4	IGdW	!	:63	"O
+5	IGdW	!	:64	"P
+6	IGdW	!	:65	"Q
+7	IGdW	!	:66	"R
+8	IGdW	!	:67	"S
+9	IGdW	!	:68	"T
+:	IGdW	!	:69	"U
+;	It0+	!	H	19	9	:7	u
+<	IGdW	!	:70	"V
+=	IGdW	!	:71	"W
+>	IGdW	!	:72	"X
+?	IGdW	!	:73	"Y
+@	It0+	!	J	19	9	:8	v
+A	IeEA	!	10	17	:89	"i
+B	IeEA	!	11	17	:90	"j
+C	IeEA	!	12	17	:91	"k
+D	(@\6H	!	8	17	3	E	G	I	CLK	o
+E	L8ei	!	10	17	3	E	G	I	Q1	q
+F	INum	!	0	Q1S	t
+G	L8ei	!	11	17	2	G	I	Q2	r
+H	INum	!	;	Q2S	u
+I	L8ei	!	12	17	1	I	Q3	s
+J	INum	!	@	Q3S	v
+K	L8ef	!	9	17	3	E	G	I	RESET	p
