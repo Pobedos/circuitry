@@ -1,0 +1,186 @@
+NDB006
+The number of symbol table entries is: 23
+The length of the symbol table is: 1022
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|LPM_RAM_DQ:1|altram:sram|
+I	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:75|
+z	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:88|
+"M	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:101|
+#!	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:114|
+#S	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:127|
+$'	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:140|
+$Y	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:153|
+%-	|LPM_RAM_DQ:1|altram:sram|lpm_mux:mux|muxlut:166|
+%_	|LPM_RAM_DQ:1|altram:sram|lpm_decode:decode|
+&.	|LPM_RAM_DQ:3|altram:sram|
+&I	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:75|
+&z	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:88|
+'M	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:101|
+(!	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:114|
+(S	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:127|
+)'	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:140|
+)Y	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:153|
+*-	|LPM_RAM_DQ:3|altram:sram|lpm_mux:mux|muxlut:166|
+*_	|LPM_RAM_DQ:3|altram:sram|lpm_decode:decode|
++.	|LPM_COMPARE:2|
++>	|LPM_COMPARE:2|comptree:comparator|cmpchain:cmp_end|
+
+The number of name info structs is : 152
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	Ky&|	!	1	+	data0	~
+#	Ky&|	!	1	,	data1	}
+$	Ky&|	!	1	-	data2	|
+%	Ky&|	!	1	.	data3	{
+&	Ky&|	!	1	/	data4	z
+'	Ky&|	!	1	0	data5	y
+(	Ky&|	!	1	1	data6	x
+)	Ky&|	!	1	2	data7	w
+*	NLG+	!	13	hit	""
++	Ky&}	!	1	+	out0	"*
+,	Ky&}	!	1	,	out1	")
+-	Ky&}	!	1	-	out2	"(
+.	Ky&}	!	1	.	out3	"'
+/	Ky&}	!	1	/	out4	"&
+0	Ky&}	!	1	0	out5	"%
+1	Ky&}	!	1	1	out6	"$
+2	Ky&}	!	1	2	out7	"#
+3	Ky&|	!	2	*	S	tag0	v
+4	Ky&|	!	2	*	T	tag1	u
+5	Ky&|	!	2	*	U	tag2	t
+6	Ky&|	!	2	*	V	tag3	s
+7	Ky&|	!	2	*	W	tag4	r
+8	Ky&|	!	2	*	X	tag5	q
+9	Ky&|	!	2	*	Y	tag6	p
+:	Ky&|	!	2	*	Z	tag7	o
+;	Ky&|	!	16	S	T	U	V	W	X	Y	Z	+	,	-	.	/	0	1	2	we	"!
+<	IeEA	+.	419	8	:128	/>
+=	IeEA	+.	428	9	:129	/?
+>	IeEA	+.	429	23	:130	/@
+?	IeEA	+.	429	9	:131	/A
+@	IeEA	+.	430	21	:132	/B
+A	IeEA	+>	526	29	:52	0<
+B	IeEA	+>	526	54	:53	0=
+C	IeEA	+>	530	35	:55	0?
+D	IeEA	+>	531	29	:56	0@
+E	IeEA	+>	530	52	:57	0A
+F	IeEA	+>	530	35	:59	0C
+G	IeEA	+>	531	29	:60	0D
+H	IeEA	+>	530	52	:61	0E
+I	IeEA	+>	539	39	:63	0G
+J	IeEA	+>	540	35	:64	0H
+K	IeEA	+>	539	62	:65	0I
+L	IeEA	+>	540	58	:66	0J
+M	IeEA	+>	256	6	aeb_out	07
+N	IeEA	+>	257	6	agb_out	08
+O	IeEA	+>	526	42	ecasc0	0>
+P	IeEA	+>	531	44	ecasc1	0B
+Q	IeEA	+>	531	44	ecasc2	0F
+R	IeEA	.	330	23	:104	$C
+S	L8f/	.	138	12	2	*	S	latches0_0	$B
+T	L8f/	.	138	12	2	*	T	latches0_1	$A
+U	L8f/	.	138	12	2	*	U	latches0_2	$@
+V	L8f/	.	138	12	2	*	V	latches0_3	$?
+W	L8f/	.	138	12	2	*	W	latches0_4	$>
+X	L8f/	.	138	12	2	*	X	latches0_5	$=
+Y	L8f/	.	138	12	2	*	Y	latches0_6	$<
+Z	L8f/	.	138	12	2	*	Z	latches0_7	$;
+[	IeE1	.	138	12	latches1_0	$:
+\	IeE1	.	138	12	latches1_1	$9
+]	IeE1	.	138	12	latches1_2	$8
+^	IeE1	.	138	12	latches1_3	$7
+_	IeE1	.	138	12	latches1_4	$6
+`	IeE1	.	138	12	latches1_5	$5
+a	IeE1	.	138	12	latches1_6	$4
+b	IeE1	.	138	12	latches1_7	$3
+c	IeEA	%_	144	25	:44	(E
+d	IeEA	%_	144	25	eq_node0	(F
+e	IeEA	%_	146	25	eq_node1	(G
+f	IeEA	"M	128	30	:36	')
+g	IeEA	"M	128	30	:37	'*
+h	IeEA	"M	128	52	:38	'+
+i	IeEA	"M	128	40	result_node	',
+j	IeEA	#!	128	30	:36	'<
+k	IeEA	#!	128	30	:37	'=
+l	IeEA	#!	128	52	:38	'>
+m	IeEA	#!	128	40	result_node	'?
+n	IeEA	#S	128	30	:36	'O
+o	IeEA	#S	128	30	:37	'P
+p	IeEA	#S	128	52	:38	'Q
+q	IeEA	#S	128	40	result_node	'R
+r	IeEA	$'	128	30	:36	'b
+s	IeEA	$'	128	30	:37	'c
+t	IeEA	$'	128	52	:38	'd
+u	IeEA	$'	128	40	result_node	'e
+v	IeEA	$Y	128	30	:36	'u
+w	IeEA	$Y	128	30	:37	'v
+x	IeEA	$Y	128	52	:38	'w
+y	IeEA	$Y	128	40	result_node	'x
+z	IeEA	%-	128	30	:36	(*
+{	IeEA	%-	128	30	:37	(+
+|	IeEA	%-	128	52	:38	(,
+}	IeEA	%-	128	40	result_node	(-
+~	IeEA	I	128	30	:36	&`
+"!	IeEA	I	128	30	:37	&a
+""	IeEA	I	128	52	:38	&b
+"#	IeEA	I	128	40	result_node	&c
+"$	IeEA	z	128	30	:36	&t
+"%	IeEA	z	128	30	:37	&u
+"&	IeEA	z	128	52	:38	&v
+"'	IeEA	z	128	40	result_node	&w
+"(	IeEA	&.	330	23	:104	*#
+")	IeE1	&.	138	12	latches0_0	*"
+"*	IeE1	&.	138	12	latches0_1	*!
+"+	IeE1	&.	138	12	latches0_2	)~
+",	IeE1	&.	138	12	latches0_3	)}
+"-	IeE1	&.	138	12	latches0_4	)|
+".	IeE1	&.	138	12	latches0_5	){
+"/	IeE1	&.	138	12	latches0_6	)z
+"0	IeE1	&.	138	12	latches0_7	)y
+"1	IeE1	&.	138	12	latches1_0	)x
+"2	IeE1	&.	138	12	latches1_1	)w
+"3	IeE1	&.	138	12	latches1_2	)v
+"4	IeE1	&.	138	12	latches1_3	)u
+"5	IeE1	&.	138	12	latches1_4	)t
+"6	IeE1	&.	138	12	latches1_5	)s
+"7	IeE1	&.	138	12	latches1_6	)r
+"8	IeE1	&.	138	12	latches1_7	)q
+"9	IeEA	*_	144	25	:44	.!
+":	IeEA	*_	144	25	eq_node0	."
+";	IeEA	*_	146	25	eq_node1	.#
+"<	IeEA	'M	128	30	:36	,c
+"=	IeEA	'M	128	30	:37	,d
+">	IeEA	'M	128	52	:38	,e
+"?	IeEA	'M	128	40	result_node	,f
+"@	IeEA	(!	128	30	:36	,v
+"A	IeEA	(!	128	30	:37	,w
+"B	IeEA	(!	128	52	:38	,x
+"C	IeEA	(!	128	40	result_node	,y
+"D	IeEA	(S	128	30	:36	-+
+"E	IeEA	(S	128	30	:37	-,
+"F	IeEA	(S	128	52	:38	--
+"G	IeEA	(S	128	40	result_node	-.
+"H	IeEA	)'	128	30	:36	->
+"I	IeEA	)'	128	30	:37	-?
+"J	IeEA	)'	128	52	:38	-@
+"K	IeEA	)'	128	40	result_node	-A
+"L	IeEA	)Y	128	30	:36	-Q
+"M	IeEA	)Y	128	30	:37	-R
+"N	IeEA	)Y	128	52	:38	-S
+"O	IeEA	)Y	128	40	result_node	-T
+"P	IeEA	*-	128	30	:36	-d
+"Q	IeEA	*-	128	30	:37	-e
+"R	IeEA	*-	128	52	:38	-f
+"S	IeEA	*-	128	40	result_node	-g
+"T	IeEA	&I	128	30	:36	,=
+"U	IeEA	&I	128	30	:37	,>
+"V	IeEA	&I	128	52	:38	,?
+"W	IeEA	&I	128	40	result_node	,@
+"X	IeEA	&z	128	30	:36	,P
+"Y	IeEA	&z	128	30	:37	,Q
+"Z	IeEA	&z	128	52	:38	,R
+"[	IeEA	&z	128	40	result_node	,S

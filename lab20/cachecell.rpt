@@ -1,0 +1,627 @@
+Project Information                                     z:\lab20\cachecell.rpt
+
+MAX+plus II Compiler Report File
+Version 9.01 07/30/98
+Compiled: 02/09/21 16:13:49
+
+Copyright (C) 1988-1998 Altera Corporation
+Any megafunction design, and related net list (encrypted or decrypted),
+support information, device programming or simulation file, and any other
+associated documentation or information provided by Altera or a partner
+under Altera's Megafunction Partnership Program may be used only to
+program PLD devices (but not masked PLD devices) from Altera.  Any other
+use of such megafunction design, net list, support information, device
+programming or simulation file, or any other related documentation or
+information is prohibited for any other purpose, including, but not
+limited to modification, reverse engineering, de-compiling, or use with
+any other silicon devices, unless such use is explicitly licensed under
+a separate agreement with Altera or a megafunction partner.  Title to
+the intellectual property, including patents, copyrights, trademarks,
+trade secrets, or maskworks, embodied in any such megafunction design,
+net list, support information, device programming or simulation file, or
+any other related documentation or information provided by Altera or a
+megafunction partner, remains with Altera, the megafunction partner, or
+their respective licensors.  No other licenses, including any licenses
+needed under any third party's intellectual property, are provided herein.
+
+
+
+***** Project compilation was successful
+
+
+
+
+** DEVICE SUMMARY **
+
+Chip/                     Input   Output   Bidir         Shareable
+POF       Device          Pins    Pins     Pins     LCs  Expanders  % Utilized
+
+cachecell
+      EPM7032LC44-6        17       9        0      17      12          53 %
+
+User Pins:                 17       9        0  
+
+
+
+Project Information                                     z:\lab20\cachecell.rpt
+
+** FILE HIERARCHY **
+
+
+
+|lpm_ram_dq:1|
+|lpm_ram_dq:1|altram:sram|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|altshift:external_latency_ffs|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:75|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:88|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:101|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:114|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:127|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:140|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:153|
+|lpm_ram_dq:1|altram:sram|lpm_mux:mux|muxlut:166|
+|lpm_ram_dq:1|altram:sram|lpm_decode:decode|
+|lpm_ram_dq:1|altram:sram|lpm_decode:decode|altshift:external_latency_ffs|
+|lpm_ram_dq:3|
+|lpm_ram_dq:3|altram:sram|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|altshift:external_latency_ffs|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:75|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:88|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:101|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:114|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:127|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:140|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:153|
+|lpm_ram_dq:3|altram:sram|lpm_mux:mux|muxlut:166|
+|lpm_ram_dq:3|altram:sram|lpm_decode:decode|
+|lpm_ram_dq:3|altram:sram|lpm_decode:decode|altshift:external_latency_ffs|
+|lpm_compare:2|
+|lpm_compare:2|comptree:comparator|
+|lpm_compare:2|comptree:comparator|cmpchain:cmp_end|
+|lpm_compare:2|altshift:aeb_ext_lat_ffs|
+|lpm_compare:2|altshift:agb_ext_lat_ffs|
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+***** Logic for device 'cachecell' compiled without errors.
+
+
+
+
+Device: EPM7032LC44-6
+
+Device Options:
+    Turbo Bit                                    = ON
+    Security Bit                                 = OFF
+
+                                               
+                                               
+                                               
+                 d                       d     
+              t  a  o                    a     
+              a  t  u  V  G  G  G  G  G  t     
+              g  a  t  C  N  N  N  N  N  a  w  
+              0  0  0  C  D  D  D  D  D  4  e  
+            -----------------------------------_ 
+          /   6  5  4  3  2  1 44 43 42 41 40   | 
+    tag1 |  7                                39 | out3 
+    tag2 |  8                                38 | out1 
+    tag3 |  9                                37 | out2 
+     GND | 10                                36 | out7 
+    tag4 | 11                                35 | VCC 
+    tag5 | 12         EPM7032LC44-6          34 | RESERVED 
+    tag6 | 13                                33 | out6 
+    tag7 | 14                                32 | out5 
+     VCC | 15                                31 | hit 
+   data7 | 16                                30 | GND 
+   data1 | 17                                29 | RESERVED 
+         |_  18 19 20 21 22 23 24 25 26 27 28  _| 
+           ------------------------------------ 
+              d  d  d  d  G  V  R  R  R  o  R  
+              a  a  a  a  N  C  E  E  E  u  E  
+              t  t  t  t  D  C  S  S  S  t  S  
+              a  a  a  a        E  E  E  4  E  
+              6  2  3  5        R  R  R     R  
+                                V  V  V     V  
+                                E  E  E     E  
+                                D  D  D     D  
+
+
+N.C. = Not Connected.
+VCC = Dedicated power pin, which MUST be connected to VCC.
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** RESOURCE USAGE **
+
+                                                Shareable     External
+Logic Array Block     Logic Cells   I/O Pins    Expanders   Interconnect
+
+A:     LC1 - LC16     1/16(  6%)  16/16(100%)   0/16(  0%)   3/36(  8%) 
+B:    LC17 - LC32    16/16(100%)  10/16( 62%)  13/16( 81%)  31/36( 86%) 
+
+
+Total dedicated input pins used:                 0/4      (  0%)
+Total I/O pins used:                            26/32     ( 81%)
+Total logic cells used:                         17/32     ( 53%)
+Total shareable expanders used:                 12/32     ( 37%)
+Total Turbo logic cells used:                   17/32     ( 53%)
+Total shareable expanders not available (n/a):   1/32     (  3%)
+Average fan-in:                                  3.76
+Total fan-in:                                    64
+
+Total input pins required:                      17
+Total output pins required:                      9
+Total bidirectional pins required:               0
+Total logic cells required:                     17
+Total flipflops required:                        0
+Total product terms required:                   65
+Total logic cells lending parallel expanders:    0
+Total shareable expanders in database:          12
+
+Synthesized logic cells:                         0/  32   (  0%)
+
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** INPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+   5    (2)  (A)      INPUT               0      0   0    0    0    1    0  data0
+  17   (12)  (A)      INPUT               0      0   0    0    0    1    0  data1
+  19   (14)  (A)      INPUT               0      0   0    0    0    1    0  data2
+  20   (15)  (A)      INPUT               0      0   0    0    0    1    0  data3
+  41   (17)  (B)      INPUT               0      0   0    0    0    1    0  data4
+  21   (16)  (A)      INPUT               0      0   0    0    0    1    0  data5
+  18   (13)  (A)      INPUT               0      0   0    0    0    1    0  data6
+  16   (11)  (A)      INPUT               0      0   0    0    0    1    0  data7
+   6    (3)  (A)      INPUT               0      0   0    0    0    1    1  tag0
+   7    (4)  (A)      INPUT               0      0   0    0    0    1    1  tag1
+   8    (5)  (A)      INPUT               0      0   0    0    0    1    1  tag2
+   9    (6)  (A)      INPUT               0      0   0    0    0    1    1  tag3
+  11    (7)  (A)      INPUT               0      0   0    0    0    1    1  tag4
+  12    (8)  (A)      INPUT               0      0   0    0    0    1    1  tag5
+  13    (9)  (A)      INPUT               0      0   0    0    0    1    1  tag6
+  14   (10)  (A)      INPUT               0      0   0    0    0    1    1  tag7
+  40   (18)  (B)      INPUT               0      0   0    0    0    8    8  we
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** OUTPUTS **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+  31     26    B     OUTPUT      t       13      0   1    8    8    0    0  hit
+   4      1    A     OUTPUT      t        0      0   0    2    1    1    0  out0
+  38     20    B     OUTPUT      t        0      0   0    2    1    1    0  out1
+  37     21    B     OUTPUT      t        0      0   0    2    1    1    0  out2
+  39     19    B     OUTPUT      t        0      0   0    2    1    1    0  out3
+  27     29    B     OUTPUT      t        0      0   0    2    1    1    0  out4
+  32     25    B     OUTPUT      t        0      0   0    2    1    1    0  out5
+  33     24    B     OUTPUT      t        0      0   0    2    1    1    0  out6
+  36     22    B     OUTPUT      t        0      0   0    2    1    1    0  out7
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** BURIED LOGIC **
+
+                                         Shareable
+                                         Expanders     Fan-In    Fan-Out
+ Pin     LC  LAB  Primitive    Code   Total Shared n/a INP  FBK  OUT  FBK  Name
+ (25)    31    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_0
+ (41)    17    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_1
+ (24)    32    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_2
+ (40)    18    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_3
+ (34)    23    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_4
+ (29)    27    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_5
+ (28)    28    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_6
+ (26)    30    B      LCELL      t        0      0   0    2    1    1    1  |LPM_RAM_DQ:1|altram:sram|latches0_7
+
+
+Code:
+
+s = Synthesized pin or logic cell
+t = Turbo logic cell
++ = Synchronous flipflop
+! = NOT gate push-back
+r = Fitter-inserted logic cell
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'A':
+
+           Logic cells placed in LAB 'A'
+        +- LC1 out0
+        | 
+        |   Other LABs fed by signals
+        |   that feed LAB 'A'
+LC      | | A B |     Logic cells that feed LAB 'A':
+LC1  -> * | * - | <-- out0
+
+Pin
+5    -> * | * - | <-- data0
+40   -> * | * * | <-- we
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** LOGIC CELL INTERCONNECTIONS **
+
+Logic Array Block 'B':
+
+                                         Logic cells placed in LAB 'B'
+        +------------------------------- LC26 hit
+        | +----------------------------- LC31 |LPM_RAM_DQ:1|altram:sram|latches0_0
+        | | +--------------------------- LC17 |LPM_RAM_DQ:1|altram:sram|latches0_1
+        | | | +------------------------- LC32 |LPM_RAM_DQ:1|altram:sram|latches0_2
+        | | | | +----------------------- LC18 |LPM_RAM_DQ:1|altram:sram|latches0_3
+        | | | | | +--------------------- LC23 |LPM_RAM_DQ:1|altram:sram|latches0_4
+        | | | | | | +------------------- LC27 |LPM_RAM_DQ:1|altram:sram|latches0_5
+        | | | | | | | +----------------- LC28 |LPM_RAM_DQ:1|altram:sram|latches0_6
+        | | | | | | | | +--------------- LC30 |LPM_RAM_DQ:1|altram:sram|latches0_7
+        | | | | | | | | | +------------- LC20 out1
+        | | | | | | | | | | +----------- LC21 out2
+        | | | | | | | | | | | +--------- LC19 out3
+        | | | | | | | | | | | | +------- LC29 out4
+        | | | | | | | | | | | | | +----- LC25 out5
+        | | | | | | | | | | | | | | +--- LC24 out6
+        | | | | | | | | | | | | | | | +- LC22 out7
+        | | | | | | | | | | | | | | | | 
+        | | | | | | | | | | | | | | | |   Other LABs fed by signals
+        | | | | | | | | | | | | | | | |   that feed LAB 'B'
+LC      | | | | | | | | | | | | | | | | | A B |     Logic cells that feed LAB 'B':
+LC31 -> * * - - - - - - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_0
+LC17 -> * - * - - - - - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_1
+LC32 -> * - - * - - - - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_2
+LC18 -> * - - - * - - - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_3
+LC23 -> * - - - - * - - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_4
+LC27 -> * - - - - - * - - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_5
+LC28 -> * - - - - - - * - - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_6
+LC30 -> * - - - - - - - * - - - - - - - | - * | <-- |LPM_RAM_DQ:1|altram:sram|latches0_7
+LC20 -> - - - - - - - - - * - - - - - - | - * | <-- out1
+LC21 -> - - - - - - - - - - * - - - - - | - * | <-- out2
+LC19 -> - - - - - - - - - - - * - - - - | - * | <-- out3
+LC29 -> - - - - - - - - - - - - * - - - | - * | <-- out4
+LC25 -> - - - - - - - - - - - - - * - - | - * | <-- out5
+LC24 -> - - - - - - - - - - - - - - * - | - * | <-- out6
+LC22 -> - - - - - - - - - - - - - - - * | - * | <-- out7
+
+Pin
+17   -> - - - - - - - - - * - - - - - - | - * | <-- data1
+19   -> - - - - - - - - - - * - - - - - | - * | <-- data2
+20   -> - - - - - - - - - - - * - - - - | - * | <-- data3
+41   -> - - - - - - - - - - - - * - - - | - * | <-- data4
+21   -> - - - - - - - - - - - - - * - - | - * | <-- data5
+18   -> - - - - - - - - - - - - - - * - | - * | <-- data6
+16   -> - - - - - - - - - - - - - - - * | - * | <-- data7
+6    -> * * - - - - - - - - - - - - - - | - * | <-- tag0
+7    -> * - * - - - - - - - - - - - - - | - * | <-- tag1
+8    -> * - - * - - - - - - - - - - - - | - * | <-- tag2
+9    -> * - - - * - - - - - - - - - - - | - * | <-- tag3
+11   -> * - - - - * - - - - - - - - - - | - * | <-- tag4
+12   -> * - - - - - * - - - - - - - - - | - * | <-- tag5
+13   -> * - - - - - - * - - - - - - - - | - * | <-- tag6
+14   -> * - - - - - - - * - - - - - - - | - * | <-- tag7
+40   -> - * * * * * * * * * * * * * * * | * * | <-- we
+
+
+* = The logic cell or pin is an input to the logic cell (or LAB) through the PIA.
+- = The logic cell or pin is not an input to the logic cell (or LAB).
+
+
+Device-Specific Information:                            z:\lab20\cachecell.rpt
+cachecell
+
+** EQUATIONS **
+
+data0    : INPUT;
+data1    : INPUT;
+data2    : INPUT;
+data3    : INPUT;
+data4    : INPUT;
+data5    : INPUT;
+data6    : INPUT;
+data7    : INPUT;
+tag0     : INPUT;
+tag1     : INPUT;
+tag2     : INPUT;
+tag3     : INPUT;
+tag4     : INPUT;
+tag5     : INPUT;
+tag6     : INPUT;
+tag7     : INPUT;
+we       : INPUT;
+
+-- Node name is 'hit' 
+-- Equation name is 'hit', location is LC026, type is output.
+ hit     = LCELL( _EQ001 $  _EQ002);
+  _EQ001 =  _LC031 & !tag0 &  _X001 &  _X002 &  _X003 &  _X004 &  _X005 & 
+              _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011 &  _X012
+         # !_LC031 &  tag0 &  _X001 &  _X002 &  _X003 &  _X004 &  _X005 & 
+              _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011 &  _X012
+         #  _LC017 & !tag1 &  _X001 &  _X002 &  _X003 &  _X004 &  _X005 & 
+              _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011 &  _X012
+         # !_LC017 &  tag1 &  _X001 &  _X002 &  _X003 &  _X004 &  _X005 & 
+              _X006 &  _X007 &  _X008 &  _X009 &  _X010 &  _X011 &  _X012;
+  _X001  = EXP( _LC032 & !tag2);
+  _X002  = EXP( _LC027 & !tag5);
+  _X003  = EXP(!_LC032 &  tag2);
+  _X004  = EXP( _LC018 & !tag3);
+  _X005  = EXP(!_LC030 &  tag7);
+  _X006  = EXP( _LC030 & !tag7);
+  _X007  = EXP(!_LC028 &  tag6);
+  _X008  = EXP( _LC028 & !tag6);
+  _X009  = EXP(!_LC027 &  tag5);
+  _X010  = EXP(!_LC018 &  tag3);
+  _X011  = EXP(!_LC023 &  tag4);
+  _X012  = EXP( _LC023 & !tag4);
+  _EQ002 =  _X001 &  _X002 &  _X003 &  _X004 &  _X005 &  _X006 &  _X007 & 
+              _X008 &  _X009 &  _X010 &  _X011 &  _X012;
+  _X001  = EXP( _LC032 & !tag2);
+  _X002  = EXP( _LC027 & !tag5);
+  _X003  = EXP(!_LC032 &  tag2);
+  _X004  = EXP( _LC018 & !tag3);
+  _X005  = EXP(!_LC030 &  tag7);
+  _X006  = EXP( _LC030 & !tag7);
+  _X007  = EXP(!_LC028 &  tag6);
+  _X008  = EXP( _LC028 & !tag6);
+  _X009  = EXP(!_LC027 &  tag5);
+  _X010  = EXP(!_LC018 &  tag3);
+  _X011  = EXP(!_LC023 &  tag4);
+  _X012  = EXP( _LC023 & !tag4);
+
+-- Node name is 'out0' = '|LPM_RAM_DQ:3|altram:sram|latches0_0' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out0', type is output 
+ out0    = LCELL( _EQ003 $  GND);
+  _EQ003 =  data0 &  we
+         #  data0 &  out0
+         #  out0 & !we;
+
+-- Node name is 'out1' = '|LPM_RAM_DQ:3|altram:sram|latches0_1' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out1', type is output 
+ out1    = LCELL( _EQ004 $  GND);
+  _EQ004 =  data1 &  we
+         #  data1 &  out1
+         #  out1 & !we;
+
+-- Node name is 'out2' = '|LPM_RAM_DQ:3|altram:sram|latches0_2' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out2', type is output 
+ out2    = LCELL( _EQ005 $  GND);
+  _EQ005 =  data2 &  we
+         #  data2 &  out2
+         #  out2 & !we;
+
+-- Node name is 'out3' = '|LPM_RAM_DQ:3|altram:sram|latches0_3' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out3', type is output 
+ out3    = LCELL( _EQ006 $  GND);
+  _EQ006 =  data3 &  we
+         #  data3 &  out3
+         #  out3 & !we;
+
+-- Node name is 'out4' = '|LPM_RAM_DQ:3|altram:sram|latches0_4' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out4', type is output 
+ out4    = LCELL( _EQ007 $  GND);
+  _EQ007 =  data4 &  we
+         #  data4 &  out4
+         #  out4 & !we;
+
+-- Node name is 'out5' = '|LPM_RAM_DQ:3|altram:sram|latches0_5' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out5', type is output 
+ out5    = LCELL( _EQ008 $  GND);
+  _EQ008 =  data5 &  we
+         #  data5 &  out5
+         #  out5 & !we;
+
+-- Node name is 'out6' = '|LPM_RAM_DQ:3|altram:sram|latches0_6' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out6', type is output 
+ out6    = LCELL( _EQ009 $  GND);
+  _EQ009 =  data6 &  we
+         #  data6 &  out6
+         #  out6 & !we;
+
+-- Node name is 'out7' = '|LPM_RAM_DQ:3|altram:sram|latches0_7' from file "altram.tdf" line 138, column 12
+-- Equation name is 'out7', type is output 
+ out7    = LCELL( _EQ010 $  GND);
+  _EQ010 =  data7 &  we
+         #  data7 &  out7
+         #  out7 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_0' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC031', type is buried 
+_LC031   = LCELL( _EQ011 $  GND);
+  _EQ011 =  tag0 &  we
+         #  _LC031 &  tag0
+         #  _LC031 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_1' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC017', type is buried 
+_LC017   = LCELL( _EQ012 $  GND);
+  _EQ012 =  tag1 &  we
+         #  _LC017 &  tag1
+         #  _LC017 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_2' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC032', type is buried 
+_LC032   = LCELL( _EQ013 $  GND);
+  _EQ013 =  tag2 &  we
+         #  _LC032 &  tag2
+         #  _LC032 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_3' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC018', type is buried 
+_LC018   = LCELL( _EQ014 $  GND);
+  _EQ014 =  tag3 &  we
+         #  _LC018 &  tag3
+         #  _LC018 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_4' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC023', type is buried 
+_LC023   = LCELL( _EQ015 $  GND);
+  _EQ015 =  tag4 &  we
+         #  _LC023 &  tag4
+         #  _LC023 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_5' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC027', type is buried 
+_LC027   = LCELL( _EQ016 $  GND);
+  _EQ016 =  tag5 &  we
+         #  _LC027 &  tag5
+         #  _LC027 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_6' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC028', type is buried 
+_LC028   = LCELL( _EQ017 $  GND);
+  _EQ017 =  tag6 &  we
+         #  _LC028 &  tag6
+         #  _LC028 & !we;
+
+-- Node name is '|LPM_RAM_DQ:1|altram:sram|latches0_7' from file "altram.tdf" line 138, column 12
+-- Equation name is '_LC030', type is buried 
+_LC030   = LCELL( _EQ018 $  GND);
+  _EQ018 =  tag7 &  we
+         #  _LC030 &  tag7
+         #  _LC030 & !we;
+
+
+
+--     Shareable expanders that are duplicated in multiple LABs:
+--     (none)
+
+
+
+
+Project Information                                     z:\lab20\cachecell.rpt
+
+** COMPILATION SETTINGS & TIMES **
+
+Processing Menu Commands
+------------------------
+
+Design Doctor                             = off
+
+Logic Synthesis:
+
+   Synthesis Type Used                    = Standard
+
+   Default Synthesis Style                = NORMAL
+
+      Logic option settings in 'NORMAL' style for 'MAX7000' family
+
+      DECOMPOSE_GATES                     = on
+      DUPLICATE_LOGIC_EXTRACTION          = on
+      MINIMIZATION                        = full
+      MULTI_LEVEL_FACTORING               = on
+      NOT_GATE_PUSH_BACK                  = on
+      PARALLEL_EXPANDERS                  = off
+      REDUCE_LOGIC                        = on
+      REFACTORIZATION                     = on
+      REGISTER_OPTIMIZATION               = on
+      RESYNTHESIZE_NETWORK                = on
+      SLOW_SLEW_RATE                      = off
+      SOFT_BUFFER_INSERTION               = on
+      SUBFACTOR_EXTRACTION                = on
+      TURBO_BIT                           = on
+      XOR_SYNTHESIS                       = on
+      IGNORE_SOFT_BUFFERS                 = off
+      USE_LPM_FOR_AHDL_OPERATORS          = off
+
+   Other logic synthesis settings:
+
+      Automatic Global Clock              = on
+      Automatic Global Clear              = on
+      Automatic Global Preset             = on
+      Automatic Global Output Enable      = on
+      Automatic Fast I/O                  = off
+      Automatic Register Packing          = off
+      Automatic Open-Drain Pins           = on
+      Automatic Implement in EAB          = off
+      One-Hot State Machine Encoding      = off
+      Optimize                            = 5
+
+Default Timing Specifications: None
+
+Cut All Bidir Feedback Timing Paths       = on
+Cut All Clear & Preset Timing Paths       = on
+
+Ignore Timing Assignments                 = off
+
+Functional SNF Extractor                  = off
+
+Linked SNF Extractor                      = off
+Timing SNF Extractor                      = on
+Optimize Timing SNF                       = off
+Generate AHDL TDO File                    = off
+Fitter Settings                           = NORMAL
+Smart Recompile                           = off
+Total Recompile                           = off
+
+Interfaces Menu Commands
+------------------------
+
+EDIF Netlist Writer                       = off
+Verilog Netlist Writer                    = off
+VHDL Netlist Writer                       = off
+
+Compilation Times
+-----------------
+
+   Compiler Netlist Extractor             00:00:01
+   Database Builder                       00:00:00
+   Logic Synthesizer                      00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
+   Timing SNF Extractor                   00:00:00
+   Assembler                              00:00:00
+   --------------------------             --------
+   Total Time                             00:00:02
+
+
+Memory Allocated
+-----------------
+
+Peak memory allocated during compilation  = 3,247K
