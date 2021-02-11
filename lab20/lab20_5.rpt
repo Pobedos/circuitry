@@ -1,8 +1,8 @@
-Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
+Project Information                                       z:\lab20\lab20_5.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 02/09/21 20:46:09
+Compiled: 02/12/21 00:25:21
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -42,14 +42,14 @@ User Pins:                 21     25     0
 
 
 
-Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
+Project Information                                       z:\lab20\lab20_5.rpt
 
 ** PROJECT TIMING MESSAGES **
 
 Warning: Timing characteristics of device EPF10K50ETC144-1 are preliminary
 
 
-Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
+Project Information                                       z:\lab20\lab20_5.rpt
 
 ** EMBEDDED ARRAYS **
 
@@ -359,7 +359,7 @@ Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
 
 
 
-Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
+Project Information                                       z:\lab20\lab20_5.rpt
 
 ** FILE HIERARCHY **
 
@@ -553,7 +553,7 @@ Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
 |busmux:94|lpm_mux:52|muxlut:166|
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ***** Logic for device 'lab20_5' compiled without errors.
@@ -663,7 +663,7 @@ PDn = Power Down pin.
 $ = Pin has PCI I/O option enabled. Pin is neither '5.0 V'- nor '3.3 V'-tolerant. 
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** RESOURCE USAGE **
@@ -772,7 +772,7 @@ Total:   7   3   3   8   8   7   8   2   4   7   8   6   3   7   7   4   8  12 1
 
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** INPUTS **
@@ -814,7 +814,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** OUTPUTS **
@@ -860,7 +860,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** BURIED LOGIC **
@@ -1120,7 +1120,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -1185,7 +1185,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:     31/24(129%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:         z:\university\circuitry\lab20\lab20_5.rpt
+Device-Specific Information:                              z:\lab20\lab20_5.rpt
 lab20_5
 
 ** EQUATIONS **
@@ -2646,7 +2646,7 @@ _EC15_D  = MEMORY_SEGMENT( data7, VCC, VCC, _LC1_D10, VCC, _LC3_I8, VCC, VCC, VC
 
 
 
-Project Information                  z:\university\circuitry\lab20\lab20_5.rpt
+Project Information                                       z:\lab20\lab20_5.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -2720,17 +2720,17 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:02
+   Compiler Netlist Extractor             00:00:00
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:01
    Partitioner                            00:00:00
-   Fitter                                 00:00:03
-   Timing SNF Extractor                   00:00:01
+   Fitter                                 00:00:02
+   Timing SNF Extractor                   00:00:00
    --------------------------             --------
-   Total Time                             00:00:07
+   Total Time                             00:00:03
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 32,779K
+Peak memory allocated during compilation  = 31,708K

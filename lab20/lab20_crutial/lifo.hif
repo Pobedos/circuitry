@@ -98,7 +98,7 @@ FILES
 	{
 		rs [] []
 		{
-			2 [] [];
+			14 [] [];
 		}
 	}
 	aa5counter.gdf
@@ -129,47 +129,47 @@ TREE
 	{
 		aa5_lbuffer::(0,0):(39): aa5_lbuffer.gdf
 		{
-			dff8ds:12:(0,0):(32): dff8ds.gdf
+			dff8:5:(0,0):(25): dff8.gdf;
+			dff8ds:12:(0,0):(36): dff8ds.gdf
 			{
+				rs:14:(0,0):(17): rs.gdf;
 				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
-			}
-			dff8ds:12:(0,0):(35): dff8ds.gdf
-			{
-				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
-			}
-			dff8ds:12:(0,0):(39): dff8ds.gdf
-			{
-				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
-			}
-			dff8ds:12:(0,0):(38): dff8ds.gdf
-			{
-				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
-			}
-			dff8ds:12:(0,0):(34): dff8ds.gdf
-			{
-				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
-			}
-			dff8ds:12:(0,0):(37): dff8ds.gdf
-			{
-				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
 			}
 			dff8ds:12:(0,0):(33): dff8ds.gdf
 			{
+				rs:14:(0,0):(17): rs.gdf;
 				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
 			}
-			dff8ds:12:(0,0):(36): dff8ds.gdf
+			dff8ds:12:(0,0):(37): dff8ds.gdf
 			{
+				rs:14:(0,0):(17): rs.gdf;
 				mux8x2:13:(0,0):(18): mux8x2.gdf;
-				rs:2:(0,0):(17): rs.gdf;
 			}
-			dff8:5:(0,0):(25): dff8.gdf;
+			dff8ds:12:(0,0):(34): dff8ds.gdf
+			{
+				rs:14:(0,0):(17): rs.gdf;
+				mux8x2:13:(0,0):(18): mux8x2.gdf;
+			}
+			dff8ds:12:(0,0):(38): dff8ds.gdf
+			{
+				rs:14:(0,0):(17): rs.gdf;
+				mux8x2:13:(0,0):(18): mux8x2.gdf;
+			}
+			dff8ds:12:(0,0):(39): dff8ds.gdf
+			{
+				rs:14:(0,0):(17): rs.gdf;
+				mux8x2:13:(0,0):(18): mux8x2.gdf;
+			}
+			dff8ds:12:(0,0):(35): dff8ds.gdf
+			{
+				rs:14:(0,0):(17): rs.gdf;
+				mux8x2:13:(0,0):(18): mux8x2.gdf;
+			}
+			dff8ds:12:(0,0):(32): dff8ds.gdf
+			{
+				rs:14:(0,0):(17): rs.gdf;
+				mux8x2:13:(0,0):(18): mux8x2.gdf;
+			}
 		}
 		aa5_cut::(0,0):(38): aa5_cut.gdf;
 		aa5_cut::(0,0):(37): aa5_cut.gdf;

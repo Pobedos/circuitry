@@ -1,8 +1,8 @@
-Project Information        c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Project Information                            z:\lab20\lab20_crutial\lifo.rpt
 
 MAX+plus II Compiler Report File
 Version 9.01 07/30/98
-Compiled: 10/14/15 08:10:10
+Compiled: 02/12/21 00:03:52
 
 Copyright (C) 1988-1998 Altera Corporation
 Any megafunction design, and related net list (encrypted or decrypted),
@@ -42,7 +42,7 @@ User Pins:                 11     10     0
 
 
 
-Project Information        c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Project Information                            z:\lab20\lab20_crutial\lifo.rpt
 
 ** FILE HIERARCHY **
 
@@ -84,7 +84,7 @@ Project Information        c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
 |aa5_lbuffer:39|dff8ds:32|mux8x2:18|
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ***** Logic for device 'lifo' compiled without errors.
@@ -168,7 +168,7 @@ PDn = Power Down pin.
 & = JTAG pin used for I/O. When used as user I/O, JTAG pins must be kept stable before and during configuration.  JTAG pin stability prevents accidental loading of JTAG instructions.
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** RESOURCE USAGE **
@@ -267,7 +267,7 @@ Total:   9   8   8   8  10  11   7  11  10   3   2   9   0   6   8   8   7   6  
 
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** INPUTS **
@@ -303,7 +303,7 @@ Sections of this Report File for information on which signals' fan-outs are used
 Clock, Clear, Preset, Output Enable, and synchronous Load signals.
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** OUTPUTS **
@@ -333,7 +333,7 @@ r = Fitter-inserted logic cell
 & = Uses single-pin Output Enable
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** BURIED LOGIC **
@@ -533,7 +533,7 @@ r = Fitter-inserted logic cell
 p = Packed register
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** FASTTRACK INTERCONNECT UTILIZATION **
@@ -579,7 +579,7 @@ Column  Interconnect    Input Pins     Output Pins     Bidir Pins
 EA:      0/24(  0%)     0/4(  0%)      0/4(  0%)       0/4(  0%)
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** CLOCK SIGNALS **
@@ -601,7 +601,7 @@ DFF          3         |aa5counter:32|CNTR1
 DFF          3         |aa5counter:32|CNTR0
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** CLEAR SIGNALS **
@@ -610,7 +610,7 @@ Type     Fan-out       Name
 INPUT        6         RESET
 
 
-Device-Specific Information:c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Device-Specific Information:                   z:\lab20\lab20_crutial\lifo.rpt
 lifo
 
 ** EQUATIONS **
@@ -1579,7 +1579,7 @@ _LC3_C1~NOT = LCELL( _EQ088);
 
 
 
-Project Information        c:\strelnikov\20\fifolifokesh\fifolifokesh\lifo.rpt
+Project Information                            z:\lab20\lab20_crutial\lifo.rpt
 
 ** COMPILATION SETTINGS & TIMES **
 
@@ -1653,18 +1653,18 @@ VHDL Netlist Writer                       = off
 Compilation Times
 -----------------
 
-   Compiler Netlist Extractor             00:00:00
+   Compiler Netlist Extractor             00:00:01
    Database Builder                       00:00:00
    Logic Synthesizer                      00:00:00
-   Partitioner                            00:00:04
-   Fitter                                 00:00:00
+   Partitioner                            00:00:00
+   Fitter                                 00:00:01
    Timing SNF Extractor                   00:00:00
    Assembler                              00:00:00
    --------------------------             --------
-   Total Time                             00:00:04
+   Total Time                             00:00:02
 
 
 Memory Allocated
 -----------------
 
-Peak memory allocated during compilation  = 13,007K
+Peak memory allocated during compilation  = 12,726K
