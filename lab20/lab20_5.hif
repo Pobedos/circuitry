@@ -234,7 +234,6 @@ TREE
 				muxlut:23:(230,21):(77): muxlut.tdf;
 			}
 		}
-		lab12_1::(0,0):(74): lab12_1.gdf;
 		cachecell::(0,0):(73): cachecell.gdf
 		{
 			lpm_ram_dq:33:(0,0):(1): lpm_ram_dq.tdf
@@ -367,22 +366,6 @@ TREE
 				altshift:16:(306,2):(85,agb_ext_lat_ffs): altshift.tdf;
 			}
 		}
-		lpm_ram_dq::(0,0):(47): lpm_ram_dq.tdf;
-		lpm_ram_dq::(0,0):(45): lpm_ram_dq.tdf;
-		lpm_compare::(0,0):(23): lpm_compare.tdf;
-		lpm_ram_dq::(0,0):(25): lpm_ram_dq.tdf;
-		lpm_compare::(0,0):(41): lpm_compare.tdf;
-		lpm_ram_dq::(0,0):(42): lpm_ram_dq.tdf;
-		cachecell::(0,0):(50): cachecell.gdf;
-		cachecell::(0,0):(51): cachecell.gdf;
-		cachecell::(0,0):(52): cachecell.gdf;
-		cachecell::(0,0):(53): cachecell.gdf;
-		cachecell::(0,0):(54): cachecell.gdf;
-		cachecell::(0,0):(55): cachecell.gdf;
-		cachecell::(0,0):(56): cachecell.gdf;
-		cachecell::(0,0):(57): cachecell.gdf;
-		cachecell::(0,0):(59): cachecell.gdf;
-		cachecell::(0,0):(60): cachecell.gdf;
 		cachecell::(0,0):(61): cachecell.gdf
 		{
 			lpm_ram_dq:33:(0,0):(1): lpm_ram_dq.tdf

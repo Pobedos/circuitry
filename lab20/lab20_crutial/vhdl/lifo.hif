@@ -24,86 +24,86 @@ HIF003
 --
 FILES
 {
-	mem8.vhd
-	{
-		mem8 [] [U7449008.DLS,U1147235.DLS]
-		{
-			11 [] [];
-		}
-	}
-	aa5delay.vhd
-	{
-		aa5delay [] [U7449008.DLS,U1147235.DLS]
-		{
-			10 [] [];
-		}
-	}
-	aa5dff.vhd
-	{
-		aa5dff [] [U7449008.DLS,U1147235.DLS]
-		{
-			9 [] [];
-		}
-	}
-	aa5or2.vhd
-	{
-		aa5or2 [] [U7449008.DLS,U1147235.DLS]
-		{
-			8 [] [];
-		}
-	}
-	mux8x2.vhd
-	{
-		mux8x2 [] [U7449008.DLS,U1147235.DLS]
-		{
-			7 [] [];
-		}
-	}
-	dff8ds.vhd
-	{
-		dff8ds [] [U7449008.DLS,U1147235.DLS]
-		{
-			6 [] [];
-		}
-	}
-	lbuffer.vhd
-	{
-		lbuffer [] [U7449008.DLS,U1147235.DLS]
-		{
-			5 [] [];
-		}
-	}
-	aa5and2.vhd
-	{
-		aa5and2 [] [U7449008.DLS,U1147235.DLS]
-		{
-			4 [] [];
-		}
-	}
-	comp3.vhd
-	{
-		comp3 [] [U7449008.DLS,U1147235.DLS]
-		{
-			3 [] [];
-		}
-	}
-	rstrigger.vhd
-	{
-		rstrigger [] [U7449008.DLS,U1147235.DLS]
-		{
-			2 [] [];
-		}
-	}
 	counter.vhd
 	{
-		counter [] [U7449008.DLS,U1147235.DLS]
+		counter [] [U1147235.DLS,U7449008.DLS]
 		{
 			1 [] [];
 		}
 	}
+	rstrigger.vhd
+	{
+		rstrigger [] [U1147235.DLS,U7449008.DLS]
+		{
+			2 [] [];
+		}
+	}
+	comp3.vhd
+	{
+		comp3 [] [U1147235.DLS,U7449008.DLS]
+		{
+			3 [] [];
+		}
+	}
+	aa5and2.vhd
+	{
+		aa5and2 [] [U1147235.DLS,U7449008.DLS]
+		{
+			4 [] [];
+		}
+	}
+	lbuffer.vhd
+	{
+		lbuffer [] [U1147235.DLS,U7449008.DLS]
+		{
+			5 [] [];
+		}
+	}
+	dff8ds.vhd
+	{
+		dff8ds [] [U1147235.DLS,U7449008.DLS]
+		{
+			6 [] [];
+		}
+	}
+	mux8x2.vhd
+	{
+		mux8x2 [] [U1147235.DLS,U7449008.DLS]
+		{
+			7 [] [];
+		}
+	}
+	aa5or2.vhd
+	{
+		aa5or2 [] [U1147235.DLS,U7449008.DLS]
+		{
+			8 [] [];
+		}
+	}
+	aa5dff.vhd
+	{
+		aa5dff [] [U1147235.DLS,U7449008.DLS]
+		{
+			9 [] [];
+		}
+	}
+	aa5delay.vhd
+	{
+		aa5delay [] [U1147235.DLS,U7449008.DLS]
+		{
+			10 [] [];
+		}
+	}
+	mem8.vhd
+	{
+		mem8 [] [U1147235.DLS,U7449008.DLS]
+		{
+			11 [] [];
+		}
+	}
 	lifo.vhd
 	{
-		lifo [] [U7449008.DLS,U1147235.DLS]
+		lifo [] [U1147235.DLS,U7449008.DLS]
 		{
 			0 [] [];
 		}
@@ -113,153 +113,153 @@ TREE
 {
 	lifo::(0,0):(0): lifo.vhd
 	{
-		counter:1:(125,9):(31,rcntr): counter.vhd;
-		counter:1:(127,9):(32,wcntr): counter.vhd;
-		rstrigger:2:(129,8):(33,rstr): rstrigger.vhd;
-		comp3:3:(131,7):(34,cmp): comp3.vhd;
-		aa5and2:4:(133,8):(35,fand): aa5and2.vhd;
-		aa5and2:4:(135,8):(36,eand): aa5and2.vhd;
 		lbuffer:5:(137,7):(37,buf): lbuffer.vhd
 		{
-			dff8ds:6:(166,12):(83,dff8ds_0): dff8ds.vhd
+			mem8:11:(199,12):(91,mem8_out): mem8.vhd
 			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(170,12):(84,dff8ds_1): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(174,12):(85,dff8ds_2): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(178,12):(86,dff8ds_3): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(182,12):(87,dff8ds_4): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(186,12):(88,dff8ds_5): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
-			}
-			dff8ds:6:(190,12):(89,dff8ds_6): dff8ds.vhd
-			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
-				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5dff:9:(53,8):(25,dff7): aa5dff.vhd;
+				aa5dff:9:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:9:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:9:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:9:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:9:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:9:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:9:(39,8):(18,dff0): aa5dff.vhd;
 			}
 			dff8ds:6:(194,12):(90,dff8ds_7): dff8ds.vhd
 			{
-				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
-				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
-				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
-				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
-				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
-				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
-				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
-				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
-				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
-				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
-				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
-				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
 				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
 			}
-			mem8:11:(199,12):(91,mem8_out): mem8.vhd
+			dff8ds:6:(190,12):(89,dff8ds_6): dff8ds.vhd
 			{
-				aa5dff:9:(39,8):(18,dff0): aa5dff.vhd;
-				aa5dff:9:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:9:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:9:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:9:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:9:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:9:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:9:(53,8):(25,dff7): aa5dff.vhd;
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(186,12):(88,dff8ds_5): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(182,12):(87,dff8ds_4): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(178,12):(86,dff8ds_3): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(174,12):(85,dff8ds_2): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(170,12):(84,dff8ds_1): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
+			}
+			dff8ds:6:(166,12):(83,dff8ds_0): dff8ds.vhd
+			{
+				aa5delay:10:(150,8):(51,del2): aa5delay.vhd;
+				aa5delay:10:(148,8):(50,del1): aa5delay.vhd;
+				aa5dff:9:(145,8):(49,dff7): aa5dff.vhd;
+				aa5dff:9:(143,8):(48,dff6): aa5dff.vhd;
+				aa5dff:9:(141,8):(47,dff5): aa5dff.vhd;
+				aa5dff:9:(139,8):(46,dff4): aa5dff.vhd;
+				aa5dff:9:(137,8):(45,dff3): aa5dff.vhd;
+				aa5dff:9:(135,8):(44,dff2): aa5dff.vhd;
+				aa5dff:9:(133,8):(43,dff1): aa5dff.vhd;
+				aa5dff:9:(131,8):(42,dff0): aa5dff.vhd;
+				aa5or2:8:(129,9):(41,clkor): aa5or2.vhd;
+				mux8x2:7:(124,6):(40,mx): mux8x2.vhd;
+				rstrigger:2:(122,8):(39,rstr): rstrigger.vhd;
 			}
 		}
+		aa5and2:4:(135,8):(36,eand): aa5and2.vhd;
+		aa5and2:4:(133,8):(35,fand): aa5and2.vhd;
+		comp3:3:(131,7):(34,cmp): comp3.vhd;
+		rstrigger:2:(129,8):(33,rstr): rstrigger.vhd;
+		counter:1:(127,9):(32,wcntr): counter.vhd;
+		counter:1:(125,9):(31,rcntr): counter.vhd;
 	}
 }

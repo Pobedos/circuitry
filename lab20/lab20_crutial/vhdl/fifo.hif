@@ -24,72 +24,72 @@ HIF003
 --
 FILES
 {
-	counter.vhd
-	{
-		counter [] [U1147235.DLS,U7449008.DLS]
-		{
-			1 [] [];
-		}
-	}
-	rstrigger.vhd
-	{
-		rstrigger [] [U1147235.DLS,U7449008.DLS]
-		{
-			2 [] [];
-		}
-	}
-	comp3.vhd
-	{
-		comp3 [] [U1147235.DLS,U7449008.DLS]
-		{
-			3 [] [];
-		}
-	}
-	aa5and2.vhd
-	{
-		aa5and2 [] [U1147235.DLS,U7449008.DLS]
-		{
-			4 [] [];
-		}
-	}
-	fbuffer.vhd
-	{
-		fbuffer [] [U1147235.DLS,U7449008.DLS]
-		{
-			5 [] [];
-		}
-	}
-	demux8.vhd
-	{
-		demux8 [] [U1147235.DLS,U7449008.DLS]
-		{
-			6 [] [];
-		}
-	}
-	mem8.vhd
-	{
-		mem8 [] [U1147235.DLS,U7449008.DLS]
-		{
-			7 [] [];
-		}
-	}
-	aa5dff.vhd
-	{
-		aa5dff [] [U1147235.DLS,U7449008.DLS]
-		{
-			8 [] [];
-		}
-	}
 	mux8x8.vhd
 	{
-		mux8x8 [] [U1147235.DLS,U7449008.DLS]
+		mux8x8 [] [U7449008.DLS,U1147235.DLS]
 		{
 			9 [] [];
 		}
 	}
+	aa5dff.vhd
+	{
+		aa5dff [] [U7449008.DLS,U1147235.DLS]
+		{
+			8 [] [];
+		}
+	}
+	mem8.vhd
+	{
+		mem8 [] [U7449008.DLS,U1147235.DLS]
+		{
+			7 [] [];
+		}
+	}
+	demux8.vhd
+	{
+		demux8 [] [U7449008.DLS,U1147235.DLS]
+		{
+			6 [] [];
+		}
+	}
+	fbuffer.vhd
+	{
+		fbuffer [] [U7449008.DLS,U1147235.DLS]
+		{
+			5 [] [];
+		}
+	}
+	aa5and2.vhd
+	{
+		aa5and2 [] [U7449008.DLS,U1147235.DLS]
+		{
+			4 [] [];
+		}
+	}
+	comp3.vhd
+	{
+		comp3 [] [U7449008.DLS,U1147235.DLS]
+		{
+			3 [] [];
+		}
+	}
+	rstrigger.vhd
+	{
+		rstrigger [] [U7449008.DLS,U1147235.DLS]
+		{
+			2 [] [];
+		}
+	}
+	counter.vhd
+	{
+		counter [] [U7449008.DLS,U1147235.DLS]
+		{
+			1 [] [];
+		}
+	}
 	fifo.vhd
 	{
-		fifo [] [U1147235.DLS,U7449008.DLS]
+		fifo [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -99,115 +99,115 @@ TREE
 {
 	fifo::(0,0):(0): fifo.vhd
 	{
+		counter:1:(133,9):(31,rcntr): counter.vhd;
+		counter:1:(135,9):(32,wcntr): counter.vhd;
+		rstrigger:2:(137,8):(33,rstr): rstrigger.vhd;
+		comp3:3:(139,7):(34,cmp): comp3.vhd;
+		aa5and2:4:(141,8):(35,fand): aa5and2.vhd;
+		aa5and2:4:(143,8):(36,eand): aa5and2.vhd;
 		fbuffer:5:(145,7):(37,buf): fbuffer.vhd
 		{
-			mem8:7:(308,12):(115,mem8_out): mem8.vhd
+			demux8:6:(268,7):(105,dm8): demux8.vhd;
+			mem8:7:(271,10):(106,mem8_0): mem8.vhd
 			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
 				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mux8x8:9:(296,9):(114,mx8x8): mux8x8.vhd;
-			mem8:7:(292,10):(113,mem8_7): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
 				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mem8:7:(289,10):(112,mem8_6): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
 				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mem8:7:(286,10):(111,mem8_5): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
 				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mem8:7:(283,10):(110,mem8_4): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
 				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mem8:7:(280,10):(109,mem8_3): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
 				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
-			}
-			mem8:7:(277,10):(108,mem8_2): mem8.vhd
-			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
 				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
-				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
 			}
 			mem8:7:(274,10):(107,mem8_1): mem8.vhd
 			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
 				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
 			}
-			mem8:7:(271,10):(106,mem8_0): mem8.vhd
+			mem8:7:(277,10):(108,mem8_2): mem8.vhd
 			{
-				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
-				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
-				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
-				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
-				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
-				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
-				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
 				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
 			}
-			demux8:6:(268,7):(105,dm8): demux8.vhd;
+			mem8:7:(280,10):(109,mem8_3): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
+			mem8:7:(283,10):(110,mem8_4): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
+			mem8:7:(286,10):(111,mem8_5): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
+			mem8:7:(289,10):(112,mem8_6): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
+			mem8:7:(292,10):(113,mem8_7): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
+			mux8x8:9:(296,9):(114,mx8x8): mux8x8.vhd;
+			mem8:7:(308,12):(115,mem8_out): mem8.vhd
+			{
+				aa5dff:8:(39,8):(18,dff0): aa5dff.vhd;
+				aa5dff:8:(41,8):(19,dff1): aa5dff.vhd;
+				aa5dff:8:(43,8):(20,dff2): aa5dff.vhd;
+				aa5dff:8:(45,8):(21,dff3): aa5dff.vhd;
+				aa5dff:8:(47,8):(22,dff4): aa5dff.vhd;
+				aa5dff:8:(49,8):(23,dff5): aa5dff.vhd;
+				aa5dff:8:(51,8):(24,dff6): aa5dff.vhd;
+				aa5dff:8:(53,8):(25,dff7): aa5dff.vhd;
+			}
 		}
-		aa5and2:4:(143,8):(36,eand): aa5and2.vhd;
-		aa5and2:4:(141,8):(35,fand): aa5and2.vhd;
-		comp3:3:(139,7):(34,cmp): comp3.vhd;
-		rstrigger:2:(137,8):(33,rstr): rstrigger.vhd;
-		counter:1:(135,9):(32,wcntr): counter.vhd;
-		counter:1:(133,9):(31,rcntr): counter.vhd;
 	}
 }
