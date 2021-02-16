@@ -1,0 +1,244 @@
+Analysis & Synthesis report for Fifo
+Mon Feb 15 22:23:13 2021
+Version 5.0 Build 148 04/26/2005 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. User-Specified and Inferred Latches
+  8. General Register Statistics
+  9. Analysis & Synthesis Equations
+ 10. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2005 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic       
+functions, and any output files any of the foregoing           
+(including device programming or simulation files), and any    
+associated documentation or information are expressly subject  
+to the terms and conditions of the Altera Program License      
+Subscription Agreement, Altera MegaCore Function License       
+Agreement, or other applicable license agreement, including,   
+without limitation, that your use is for the sole purpose of   
+programming logic devices manufactured by Altera and sold by   
+Altera or its authorized distributors.  Please refer to the    
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                           ;
++-----------------------------+------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Mon Feb 15 22:23:13 2021    ;
+; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
+; Revision Name               ; Fifo                                     ;
+; Top-level Entity Name       ; Fifo                                     ;
+; Family                      ; Stratix                                  ;
+; Total logic elements        ; 126                                      ;
+; Total pins                  ; 21                                       ;
+; Total virtual pins          ; 0                                        ;
+; Total memory bits           ; 0                                        ;
+; DSP block 9-bit elements    ; 0                                        ;
+; Total PLLs                  ; 0                                        ;
+; Total DLLs                  ; 0                                        ;
++-----------------------------+------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                     ;
++--------------------------------------------------------------------+--------------+---------------+
+; Option                                                             ; Setting      ; Default Value ;
++--------------------------------------------------------------------+--------------+---------------+
+; Top-level entity name                                              ; Fifo         ; Fifo          ;
+; Family name                                                        ; Stratix      ; Stratix       ;
+; Use smart compilation                                              ; Off          ; Off           ;
+; Restructure Multiplexers                                           ; Auto         ; Auto          ;
+; Create Debugging Nodes for IP Cores                                ; off          ; off           ;
+; Preserve fewer node names                                          ; On           ; On            ;
+; Disable OpenCore Plus hardware evaluation                          ; Off          ; Off           ;
+; Verilog Version                                                    ; Verilog_2001 ; Verilog_2001  ;
+; VHDL Version                                                       ; VHDL93       ; VHDL93        ;
+; State Machine Processing                                           ; Auto         ; Auto          ;
+; Extract Verilog State Machines                                     ; On           ; On            ;
+; Extract VHDL State Machines                                        ; On           ; On            ;
+; Add Pass-Through Logic to Inferred RAMs                            ; On           ; On            ;
+; DSP Block Balancing                                                ; Auto         ; Auto          ;
+; Maximum DSP Block Usage                                            ; -1           ; -1            ;
+; NOT Gate Push-Back                                                 ; On           ; On            ;
+; Power-Up Don't Care                                                ; On           ; On            ;
+; Remove Redundant Logic Cells                                       ; Off          ; Off           ;
+; Remove Duplicate Registers                                         ; On           ; On            ;
+; Ignore CARRY Buffers                                               ; Off          ; Off           ;
+; Ignore CASCADE Buffers                                             ; Off          ; Off           ;
+; Ignore GLOBAL Buffers                                              ; Off          ; Off           ;
+; Ignore ROW GLOBAL Buffers                                          ; Off          ; Off           ;
+; Ignore LCELL Buffers                                               ; Off          ; Off           ;
+; Ignore SOFT Buffers                                                ; On           ; On            ;
+; Limit AHDL Integers to 32 Bits                                     ; Off          ; Off           ;
+; Optimization Technique -- Stratix/Stratix GX                       ; Balanced     ; Balanced      ;
+; Carry Chain Length -- Stratix/Stratix GX/Cyclone/MAX II/Cyclone II ; 70           ; 70            ;
+; Auto Carry Chains                                                  ; On           ; On            ;
+; Auto Open-Drain Pins                                               ; On           ; On            ;
+; Remove Duplicate Logic                                             ; On           ; On            ;
+; Perform WYSIWYG Primitive Resynthesis                              ; Off          ; Off           ;
+; Perform gate-level register retiming                               ; Off          ; Off           ;
+; Allow register retiming to trade off Tsu/Tco with Fmax             ; On           ; On            ;
+; Auto ROM Replacement                                               ; On           ; On            ;
+; Auto RAM Replacement                                               ; On           ; On            ;
+; Auto DSP Block Replacement                                         ; On           ; On            ;
+; Auto Shift Register Replacement                                    ; On           ; On            ;
+; Auto Clock Enable Replacement                                      ; On           ; On            ;
+; Allows Synchronous Control Signal Usage in Normal Mode Logic Cells ; On           ; On            ;
+; Auto RAM Block Balancing                                           ; On           ; On            ;
+; Auto Resource Sharing                                              ; Off          ; Off           ;
+; Allow Any RAM Size For Recognition                                 ; Off          ; Off           ;
+; Allow Any ROM Size For Recognition                                 ; Off          ; Off           ;
+; Allow Any Shift Register Size For Recognition                      ; Off          ; Off           ;
+; Maximum Number of M512 Memory Blocks                               ; -1           ; -1            ;
+; Maximum Number of M4K Memory Blocks                                ; -1           ; -1            ;
+; Maximum Number of M-RAM Memory Blocks                              ; -1           ; -1            ;
+; Ignore translate_off and translate_on Synthesis Directives         ; Off          ; Off           ;
+; Show Parameter Settings Tables in Synthesis Report                 ; On           ; On            ;
++--------------------------------------------------------------------+--------------+---------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path ;
++----------------------------------+-----------------+-----------------+------------------------------+
+; Fifo.vhd                         ; yes             ; User VHDL File  ; Z:/lab20/Quartus/Fifo.vhd    ;
++----------------------------------+-----------------+-----------------+------------------------------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++---------------------------------+-----------+
+; Resource                        ; Usage     ;
++---------------------------------+-----------+
+; Total logic elements            ; 126       ;
+; Total combinational functions   ; 56        ;
+;     -- Total 4-input functions  ; 43        ;
+;     -- Total 3-input functions  ; 10        ;
+;     -- Total 2-input functions  ; 3         ;
+;     -- Total 1-input functions  ; 0         ;
+;     -- Total 0-input functions  ; 0         ;
+; Combinational cells for routing ; 0         ;
+; Total registers                 ; 78        ;
+; I/O pins                        ; 21        ;
+; Maximum fan-out node            ; WR        ;
+; Maximum fan-out                 ; 69        ;
+; Total fan-out                   ; 456       ;
+; Average fan-out                 ; 3.10      ;
++---------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                        ;
++----------------------------+-------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+---------------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Full Hierarchy Name ;
++----------------------------+-------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+---------------------+
+; |Fifo                      ; 126 (126)   ; 78           ; 0           ; 0            ; 0       ; 0         ; 0         ; 21   ; 0            ; 48 (48)      ; 70 (70)           ; 8 (8)            ; 0 (0)           ; |Fifo               ;
++----------------------------+-------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+---------------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++---------------------------------------------------+
+; User-Specified and Inferred Latches               ;
++-----------------------------------------------+---+
+; Latch Name                                    ;   ;
++-----------------------------------------------+---+
+; FULL$latch                                    ;   ;
+; EMPTY$latch                                   ;   ;
+; Number of user-specified and inferred latches ; 2 ;
++-----------------------------------------------+---+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 78    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 8     ;
+; Number of registers using Asynchronous Clear ; 6     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 68    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------+
+; Analysis & Synthesis Equations ;
++--------------------------------+
+The equations can be found in Z:/lab20/Quartus/Fifo.map.eqn.
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
+    Info: Processing started: Mon Feb 15 22:23:10 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Fifo -c Fifo
+Info: Found 2 design units, including 1 entities, in source file Fifo.vhd
+    Info: Found design unit 1: Fifo-behav
+    Info: Found entity 1: Fifo
+Info: Elaborating entity "Fifo" for the top level hierarchy
+Warning: VHDL Process Statement warning at Fifo.vhd(30): signal "FULL" is read inside the Process Statement but isn't in the Process Statement's sensivitity list
+Warning: VHDL Process Statement warning at Fifo.vhd(31): signal "EMPTY" is read inside the Process Statement but isn't in the Process Statement's sensivitity list
+Warning: VHDL Process Statement warning at Fifo.vhd(41): signal "Reset" is read inside the Process Statement but isn't in the Process Statement's sensivitity list
+Warning: VHDL Process Statement warning at Fifo.vhd(53): signal "Reset" is read inside the Process Statement but isn't in the Process Statement's sensivitity list
+Warning: VHDL Process Statement warning at Fifo.vhd(20): signal or variable "FULL" may not be assigned a new value in every possible path through the Process Statement. Signal or variable "FULL" holds its previous value in every path with no new value assignment, which may create a combinational loop in the current design.
+Warning: VHDL Process Statement warning at Fifo.vhd(20): signal or variable "EMPTY" may not be assigned a new value in every possible path through the Process Statement. Signal or variable "EMPTY" holds its previous value in every path with no new value assignment, which may create a combinational loop in the current design.
+Info: One or more bidirs are fed by always enabled tri-state buffers
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[0]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[1]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[2]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[3]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[4]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[5]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[6]" is moved to its source
+    Info: Fanout of permanently enabled tri-state buffer feeding bidir "DO[7]" is moved to its source
+Warning: Latch FULL$latch has unsafe behavior
+    Warning: Ports D and ENA on the latch are fed by the same signal WR
+    Warning: Ports ENA and CLR on the latch are fed by the same signal reduce_nor~0
+Warning: Latch EMPTY$latch has unsafe behavior
+    Warning: Ports D and ENA on the latch are fed by the same signal WR
+    Warning: Ports ENA and CLR on the latch are fed by the same signal reduce_nor~0
+Warning: TRI or OPNDRN buffers permanently enabled
+    Warning: Node "FULL~1"
+    Warning: Node "EMPTY~1"
+    Warning: Node "DO[0]~72"
+    Warning: Node "DO[1]~73"
+    Warning: Node "DO[2]~74"
+    Warning: Node "DO[3]~75"
+    Warning: Node "DO[4]~76"
+    Warning: Node "DO[5]~77"
+    Warning: Node "DO[6]~78"
+    Warning: Node "DO[7]~79"
+Info: Implemented 147 device resources after synthesis - the final resource count might be different
+    Info: Implemented 11 input pins
+    Info: Implemented 0 output pins
+    Info: Implemented 10 bidirectional pins
+    Info: Implemented 126 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 23 warnings
+    Info: Processing ended: Mon Feb 15 22:23:13 2021
+    Info: Elapsed time: 00:00:03
+
+

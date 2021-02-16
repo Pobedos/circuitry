@@ -51,7 +51,7 @@ FILES
 	}
 	lab20_2.vhd
 	{
-		lab20_2 [] [U7449008.DLS,U1147235.DLS]
+		lab20_2 [] [U1147235.DLS,U7449008.DLS]
 		{
 			0 [] [];
 		}
@@ -61,19 +61,19 @@ TREE
 {
 	lab20_2::(0,0):(0): lab20_2.vhd
 	{
-		lpm_add_sub:1:(46,9):(2383): lpm_add_sub.tdf
+		lpm_add_sub:1:(59,9):(3479): lpm_add_sub.tdf
 		{
-			addcore:2:(211,4):(45,adder): addcore.tdf;
-			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
 			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
+			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
+			addcore:2:(211,4):(45,adder): addcore.tdf;
 		}
-		lpm_add_sub:1:(58,9):(3479): lpm_add_sub.tdf
+		lpm_add_sub:1:(47,9):(2383): lpm_add_sub.tdf
 		{
-			addcore:2:(211,4):(45,adder): addcore.tdf;
-			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
 			altshift:4:(225,2):(84,oflow_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(77,carry_ext_latency_ffs): altshift.tdf;
+			altshift:3:(221,2):(64,result_ext_latency_ffs): altshift.tdf;
+			addcore:2:(211,4):(45,adder): addcore.tdf;
 		}
 	}
 }

@@ -1,0 +1,2142 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--tagD[2][1] is tagD[2][1]
+--operation mode is normal
+
+tagD[2][1]_lut_out = tag[1];
+tagD[2][1] = DFFEAS(tagD[2][1]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][1] is tagD[4][1]
+--operation mode is normal
+
+tagD[4][1]_lut_out = tag[1];
+tagD[4][1] = DFFEAS(tagD[4][1]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][1] is tagD[0][1]
+--operation mode is normal
+
+tagD[0][1]_lut_out = tag[1];
+tagD[0][1] = DFFEAS(tagD[0][1]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L131 is Mux~304
+--operation mode is normal
+
+A1L131 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][1] # !numhit[2] & (tagD[0][1]));
+
+
+--tagD[6][1] is tagD[6][1]
+--operation mode is normal
+
+tagD[6][1]_lut_out = tag[1];
+tagD[6][1] = DFFEAS(tagD[6][1]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L231 is Mux~305
+--operation mode is normal
+
+A1L231 = numhit[1] & (A1L131 & (tagD[6][1]) # !A1L131 & tagD[2][1]) # !numhit[1] & (A1L131);
+
+
+--tagD[5][1] is tagD[5][1]
+--operation mode is normal
+
+tagD[5][1]_lut_out = tag[1];
+tagD[5][1] = DFFEAS(tagD[5][1]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][1] is tagD[3][1]
+--operation mode is normal
+
+tagD[3][1]_lut_out = tag[1];
+tagD[3][1] = DFFEAS(tagD[3][1]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][1] is tagD[1][1]
+--operation mode is normal
+
+tagD[1][1]_lut_out = tag[1];
+tagD[1][1] = DFFEAS(tagD[1][1]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L331 is Mux~306
+--operation mode is normal
+
+A1L331 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][1] # !numhit[1] & (tagD[1][1]));
+
+
+--tagD[7][1] is tagD[7][1]
+--operation mode is normal
+
+tagD[7][1]_lut_out = tag[1];
+tagD[7][1] = DFFEAS(tagD[7][1]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L431 is Mux~307
+--operation mode is normal
+
+A1L431 = numhit[2] & (A1L331 & (tagD[7][1]) # !A1L331 & tagD[5][1]) # !numhit[2] & (A1L331);
+
+
+--A1L281 is process0~1
+--operation mode is normal
+
+A1L281 = tag[1] $ (numhit[0] & (A1L431) # !numhit[0] & A1L231);
+
+
+--tagD[2][7] is tagD[2][7]
+--operation mode is normal
+
+tagD[2][7]_lut_out = tag[7];
+tagD[2][7] = DFFEAS(tagD[2][7]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][7] is tagD[4][7]
+--operation mode is normal
+
+tagD[4][7]_lut_out = tag[7];
+tagD[4][7] = DFFEAS(tagD[4][7]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][7] is tagD[0][7]
+--operation mode is normal
+
+tagD[0][7]_lut_out = tag[7];
+tagD[0][7] = DFFEAS(tagD[0][7]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L531 is Mux~308
+--operation mode is normal
+
+A1L531 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][7] # !numhit[2] & (tagD[0][7]));
+
+
+--tagD[6][7] is tagD[6][7]
+--operation mode is normal
+
+tagD[6][7]_lut_out = tag[7];
+tagD[6][7] = DFFEAS(tagD[6][7]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L631 is Mux~309
+--operation mode is normal
+
+A1L631 = numhit[1] & (A1L531 & (tagD[6][7]) # !A1L531 & tagD[2][7]) # !numhit[1] & (A1L531);
+
+
+--tagD[5][7] is tagD[5][7]
+--operation mode is normal
+
+tagD[5][7]_lut_out = tag[7];
+tagD[5][7] = DFFEAS(tagD[5][7]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][7] is tagD[3][7]
+--operation mode is normal
+
+tagD[3][7]_lut_out = tag[7];
+tagD[3][7] = DFFEAS(tagD[3][7]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][7] is tagD[1][7]
+--operation mode is normal
+
+tagD[1][7]_lut_out = tag[7];
+tagD[1][7] = DFFEAS(tagD[1][7]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L731 is Mux~310
+--operation mode is normal
+
+A1L731 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][7] # !numhit[1] & (tagD[1][7]));
+
+
+--tagD[7][7] is tagD[7][7]
+--operation mode is normal
+
+tagD[7][7]_lut_out = tag[7];
+tagD[7][7] = DFFEAS(tagD[7][7]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L831 is Mux~311
+--operation mode is normal
+
+A1L831 = numhit[2] & (A1L731 & (tagD[7][7]) # !A1L731 & tagD[5][7]) # !numhit[2] & (A1L731);
+
+
+--A1L681 is process0~7
+--operation mode is normal
+
+A1L681 = tag[7] $ (numhit[0] & (A1L831) # !numhit[0] & A1L631);
+
+
+--tagD[2][0] is tagD[2][0]
+--operation mode is normal
+
+tagD[2][0]_lut_out = tag[0];
+tagD[2][0] = DFFEAS(tagD[2][0]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][0] is tagD[4][0]
+--operation mode is normal
+
+tagD[4][0]_lut_out = tag[0];
+tagD[4][0] = DFFEAS(tagD[4][0]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][0] is tagD[0][0]
+--operation mode is normal
+
+tagD[0][0]_lut_out = tag[0];
+tagD[0][0] = DFFEAS(tagD[0][0]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L931 is Mux~312
+--operation mode is normal
+
+A1L931 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][0] # !numhit[2] & (tagD[0][0]));
+
+
+--tagD[6][0] is tagD[6][0]
+--operation mode is normal
+
+tagD[6][0]_lut_out = tag[0];
+tagD[6][0] = DFFEAS(tagD[6][0]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L041 is Mux~313
+--operation mode is normal
+
+A1L041 = numhit[1] & (A1L931 & (tagD[6][0]) # !A1L931 & tagD[2][0]) # !numhit[1] & (A1L931);
+
+
+--tagD[5][0] is tagD[5][0]
+--operation mode is normal
+
+tagD[5][0]_lut_out = tag[0];
+tagD[5][0] = DFFEAS(tagD[5][0]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][0] is tagD[3][0]
+--operation mode is normal
+
+tagD[3][0]_lut_out = tag[0];
+tagD[3][0] = DFFEAS(tagD[3][0]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][0] is tagD[1][0]
+--operation mode is normal
+
+tagD[1][0]_lut_out = tag[0];
+tagD[1][0] = DFFEAS(tagD[1][0]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L141 is Mux~314
+--operation mode is normal
+
+A1L141 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][0] # !numhit[1] & (tagD[1][0]));
+
+
+--tagD[7][0] is tagD[7][0]
+--operation mode is normal
+
+tagD[7][0]_lut_out = tag[0];
+tagD[7][0] = DFFEAS(tagD[7][0]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L241 is Mux~315
+--operation mode is normal
+
+A1L241 = numhit[2] & (A1L141 & (tagD[7][0]) # !A1L141 & tagD[5][0]) # !numhit[2] & (A1L141);
+
+
+--A1L181 is process0~0
+--operation mode is normal
+
+A1L181 = tag[0] $ (numhit[0] & (A1L241) # !numhit[0] & A1L041);
+
+
+--tagD[2][5] is tagD[2][5]
+--operation mode is normal
+
+tagD[2][5]_lut_out = tag[5];
+tagD[2][5] = DFFEAS(tagD[2][5]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][5] is tagD[4][5]
+--operation mode is normal
+
+tagD[4][5]_lut_out = tag[5];
+tagD[4][5] = DFFEAS(tagD[4][5]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][5] is tagD[0][5]
+--operation mode is normal
+
+tagD[0][5]_lut_out = tag[5];
+tagD[0][5] = DFFEAS(tagD[0][5]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L341 is Mux~316
+--operation mode is normal
+
+A1L341 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][5] # !numhit[2] & (tagD[0][5]));
+
+
+--tagD[6][5] is tagD[6][5]
+--operation mode is normal
+
+tagD[6][5]_lut_out = tag[5];
+tagD[6][5] = DFFEAS(tagD[6][5]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L441 is Mux~317
+--operation mode is normal
+
+A1L441 = numhit[1] & (A1L341 & (tagD[6][5]) # !A1L341 & tagD[2][5]) # !numhit[1] & (A1L341);
+
+
+--tagD[5][5] is tagD[5][5]
+--operation mode is normal
+
+tagD[5][5]_lut_out = tag[5];
+tagD[5][5] = DFFEAS(tagD[5][5]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][5] is tagD[3][5]
+--operation mode is normal
+
+tagD[3][5]_lut_out = tag[5];
+tagD[3][5] = DFFEAS(tagD[3][5]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][5] is tagD[1][5]
+--operation mode is normal
+
+tagD[1][5]_lut_out = tag[5];
+tagD[1][5] = DFFEAS(tagD[1][5]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L541 is Mux~318
+--operation mode is normal
+
+A1L541 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][5] # !numhit[1] & (tagD[1][5]));
+
+
+--tagD[7][5] is tagD[7][5]
+--operation mode is normal
+
+tagD[7][5]_lut_out = tag[5];
+tagD[7][5] = DFFEAS(tagD[7][5]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L641 is Mux~319
+--operation mode is normal
+
+A1L641 = numhit[2] & (A1L541 & (tagD[7][5]) # !A1L541 & tagD[5][5]) # !numhit[2] & (A1L541);
+
+
+--A1L481 is process0~5
+--operation mode is normal
+
+A1L481 = tag[5] $ (numhit[0] & (A1L641) # !numhit[0] & A1L441);
+
+
+--A1L091 is reduce_nor~486
+--operation mode is normal
+
+A1L091 = A1L281 # A1L681 # A1L181 # A1L481;
+
+
+--tagD[5][3] is tagD[5][3]
+--operation mode is normal
+
+tagD[5][3]_lut_out = tag[3];
+tagD[5][3] = DFFEAS(tagD[5][3]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][3] is tagD[3][3]
+--operation mode is normal
+
+tagD[3][3]_lut_out = tag[3];
+tagD[3][3] = DFFEAS(tagD[3][3]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][3] is tagD[1][3]
+--operation mode is normal
+
+tagD[1][3]_lut_out = tag[3];
+tagD[1][3] = DFFEAS(tagD[1][3]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L741 is Mux~320
+--operation mode is normal
+
+A1L741 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][3] # !numhit[1] & (tagD[1][3]));
+
+
+--tagD[7][3] is tagD[7][3]
+--operation mode is normal
+
+tagD[7][3]_lut_out = tag[3];
+tagD[7][3] = DFFEAS(tagD[7][3]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L841 is Mux~321
+--operation mode is normal
+
+A1L841 = numhit[2] & (A1L741 & (tagD[7][3]) # !A1L741 & tagD[5][3]) # !numhit[2] & (A1L741);
+
+
+--tagD[2][3] is tagD[2][3]
+--operation mode is normal
+
+tagD[2][3]_lut_out = tag[3];
+tagD[2][3] = DFFEAS(tagD[2][3]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][3] is tagD[4][3]
+--operation mode is normal
+
+tagD[4][3]_lut_out = tag[3];
+tagD[4][3] = DFFEAS(tagD[4][3]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][3] is tagD[0][3]
+--operation mode is normal
+
+tagD[0][3]_lut_out = tag[3];
+tagD[0][3] = DFFEAS(tagD[0][3]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L941 is Mux~322
+--operation mode is normal
+
+A1L941 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][3] # !numhit[2] & (tagD[0][3]));
+
+
+--tagD[6][3] is tagD[6][3]
+--operation mode is normal
+
+tagD[6][3]_lut_out = tag[3];
+tagD[6][3] = DFFEAS(tagD[6][3]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L051 is Mux~323
+--operation mode is normal
+
+A1L051 = numhit[1] & (A1L941 & (tagD[6][3]) # !A1L941 & tagD[2][3]) # !numhit[1] & (A1L941);
+
+
+--A1L151 is Mux~324
+--operation mode is normal
+
+A1L151 = numhit[0] & A1L841 # !numhit[0] & (A1L051);
+
+
+--tagD[5][4] is tagD[5][4]
+--operation mode is normal
+
+tagD[5][4]_lut_out = tag[4];
+tagD[5][4] = DFFEAS(tagD[5][4]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][4] is tagD[3][4]
+--operation mode is normal
+
+tagD[3][4]_lut_out = tag[4];
+tagD[3][4] = DFFEAS(tagD[3][4]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][4] is tagD[1][4]
+--operation mode is normal
+
+tagD[1][4]_lut_out = tag[4];
+tagD[1][4] = DFFEAS(tagD[1][4]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L251 is Mux~325
+--operation mode is normal
+
+A1L251 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][4] # !numhit[1] & (tagD[1][4]));
+
+
+--tagD[7][4] is tagD[7][4]
+--operation mode is normal
+
+tagD[7][4]_lut_out = tag[4];
+tagD[7][4] = DFFEAS(tagD[7][4]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L351 is Mux~326
+--operation mode is normal
+
+A1L351 = numhit[2] & (A1L251 & (tagD[7][4]) # !A1L251 & tagD[5][4]) # !numhit[2] & (A1L251);
+
+
+--tagD[2][4] is tagD[2][4]
+--operation mode is normal
+
+tagD[2][4]_lut_out = tag[4];
+tagD[2][4] = DFFEAS(tagD[2][4]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][4] is tagD[4][4]
+--operation mode is normal
+
+tagD[4][4]_lut_out = tag[4];
+tagD[4][4] = DFFEAS(tagD[4][4]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][4] is tagD[0][4]
+--operation mode is normal
+
+tagD[0][4]_lut_out = tag[4];
+tagD[0][4] = DFFEAS(tagD[0][4]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L451 is Mux~327
+--operation mode is normal
+
+A1L451 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][4] # !numhit[2] & (tagD[0][4]));
+
+
+--tagD[6][4] is tagD[6][4]
+--operation mode is normal
+
+tagD[6][4]_lut_out = tag[4];
+tagD[6][4] = DFFEAS(tagD[6][4]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L551 is Mux~328
+--operation mode is normal
+
+A1L551 = numhit[1] & (A1L451 & (tagD[6][4]) # !A1L451 & tagD[2][4]) # !numhit[1] & (A1L451);
+
+
+--A1L651 is Mux~329
+--operation mode is normal
+
+A1L651 = numhit[0] & A1L351 # !numhit[0] & (A1L551);
+
+
+--A1L191 is reduce_nor~487
+--operation mode is normal
+
+A1L191 = tag[3] & (tag[4] $ A1L651 # !A1L151) # !tag[3] & (A1L151 # tag[4] $ A1L651);
+
+
+--tagD[2][6] is tagD[2][6]
+--operation mode is normal
+
+tagD[2][6]_lut_out = tag[6];
+tagD[2][6] = DFFEAS(tagD[2][6]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][6] is tagD[4][6]
+--operation mode is normal
+
+tagD[4][6]_lut_out = tag[6];
+tagD[4][6] = DFFEAS(tagD[4][6]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][6] is tagD[0][6]
+--operation mode is normal
+
+tagD[0][6]_lut_out = tag[6];
+tagD[0][6] = DFFEAS(tagD[0][6]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L751 is Mux~330
+--operation mode is normal
+
+A1L751 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][6] # !numhit[2] & (tagD[0][6]));
+
+
+--tagD[6][6] is tagD[6][6]
+--operation mode is normal
+
+tagD[6][6]_lut_out = tag[6];
+tagD[6][6] = DFFEAS(tagD[6][6]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L851 is Mux~331
+--operation mode is normal
+
+A1L851 = numhit[1] & (A1L751 & (tagD[6][6]) # !A1L751 & tagD[2][6]) # !numhit[1] & (A1L751);
+
+
+--tagD[5][6] is tagD[5][6]
+--operation mode is normal
+
+tagD[5][6]_lut_out = tag[6];
+tagD[5][6] = DFFEAS(tagD[5][6]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][6] is tagD[3][6]
+--operation mode is normal
+
+tagD[3][6]_lut_out = tag[6];
+tagD[3][6] = DFFEAS(tagD[3][6]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][6] is tagD[1][6]
+--operation mode is normal
+
+tagD[1][6]_lut_out = tag[6];
+tagD[1][6] = DFFEAS(tagD[1][6]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L951 is Mux~332
+--operation mode is normal
+
+A1L951 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][6] # !numhit[1] & (tagD[1][6]));
+
+
+--tagD[7][6] is tagD[7][6]
+--operation mode is normal
+
+tagD[7][6]_lut_out = tag[6];
+tagD[7][6] = DFFEAS(tagD[7][6]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L061 is Mux~333
+--operation mode is normal
+
+A1L061 = numhit[2] & (A1L951 & (tagD[7][6]) # !A1L951 & tagD[5][6]) # !numhit[2] & (A1L951);
+
+
+--A1L581 is process0~6
+--operation mode is normal
+
+A1L581 = tag[6] $ (numhit[0] & (A1L061) # !numhit[0] & A1L851);
+
+
+--tagD[2][2] is tagD[2][2]
+--operation mode is normal
+
+tagD[2][2]_lut_out = tag[2];
+tagD[2][2] = DFFEAS(tagD[2][2]_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--tagD[4][2] is tagD[4][2]
+--operation mode is normal
+
+tagD[4][2]_lut_out = tag[2];
+tagD[4][2] = DFFEAS(tagD[4][2]_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--tagD[0][2] is tagD[0][2]
+--operation mode is normal
+
+tagD[0][2]_lut_out = tag[2];
+tagD[0][2] = DFFEAS(tagD[0][2]_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L161 is Mux~334
+--operation mode is normal
+
+A1L161 = numhit[1] & (numhit[2]) # !numhit[1] & (numhit[2] & tagD[4][2] # !numhit[2] & (tagD[0][2]));
+
+
+--tagD[6][2] is tagD[6][2]
+--operation mode is normal
+
+tagD[6][2]_lut_out = tag[2];
+tagD[6][2] = DFFEAS(tagD[6][2]_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L261 is Mux~335
+--operation mode is normal
+
+A1L261 = numhit[1] & (A1L161 & (tagD[6][2]) # !A1L161 & tagD[2][2]) # !numhit[1] & (A1L161);
+
+
+--tagD[5][2] is tagD[5][2]
+--operation mode is normal
+
+tagD[5][2]_lut_out = tag[2];
+tagD[5][2] = DFFEAS(tagD[5][2]_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--tagD[3][2] is tagD[3][2]
+--operation mode is normal
+
+tagD[3][2]_lut_out = tag[2];
+tagD[3][2] = DFFEAS(tagD[3][2]_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--tagD[1][2] is tagD[1][2]
+--operation mode is normal
+
+tagD[1][2]_lut_out = tag[2];
+tagD[1][2] = DFFEAS(tagD[1][2]_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L361 is Mux~336
+--operation mode is normal
+
+A1L361 = numhit[2] & (numhit[1]) # !numhit[2] & (numhit[1] & tagD[3][2] # !numhit[1] & (tagD[1][2]));
+
+
+--tagD[7][2] is tagD[7][2]
+--operation mode is normal
+
+tagD[7][2]_lut_out = tag[2];
+tagD[7][2] = DFFEAS(tagD[7][2]_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L461 is Mux~337
+--operation mode is normal
+
+A1L461 = numhit[2] & (A1L361 & (tagD[7][2]) # !A1L361 & tagD[5][2]) # !numhit[2] & (A1L361);
+
+
+--A1L381 is process0~2
+--operation mode is normal
+
+A1L381 = tag[2] $ (numhit[0] & (A1L461) # !numhit[0] & A1L261);
+
+
+--A1L981 is reduce_nor~0
+--operation mode is normal
+
+A1L981 = !A1L091 & !A1L191 & !A1L581 & !A1L381;
+
+
+--A1L242 is res~348
+--operation mode is normal
+
+A1L242 = read & (A1L981);
+
+
+--A1L291 is reduce_nor~488
+--operation mode is normal
+
+A1L291 = tag[1] & (tag[7] $ tagD[5][7] # !tagD[5][1]) # !tag[1] & (tagD[5][1] # tag[7] $ tagD[5][7]);
+
+
+--A1L391 is reduce_nor~489
+--operation mode is normal
+
+A1L391 = tag[0] & (tag[5] $ tagD[5][5] # !tagD[5][0]) # !tag[0] & (tagD[5][0] # tag[5] $ tagD[5][5]);
+
+
+--A1L491 is reduce_nor~490
+--operation mode is normal
+
+A1L491 = tag[3] & (tag[4] $ tagD[5][4] # !tagD[5][3]) # !tag[3] & (tagD[5][3] # tag[4] $ tagD[5][4]);
+
+
+--A1L591 is reduce_nor~491
+--operation mode is normal
+
+A1L591 = tag[6] & (tag[2] $ tagD[5][2] # !tagD[5][6]) # !tag[6] & (tagD[5][6] # tag[2] $ tagD[5][2]);
+
+
+--A1L691 is reduce_nor~492
+--operation mode is normal
+
+A1L691 = A1L291 # A1L391 # A1L491 # A1L591;
+
+
+--A1L791 is reduce_nor~493
+--operation mode is normal
+
+A1L791 = tag[1] & (tag[7] $ tagD[6][7] # !tagD[6][1]) # !tag[1] & (tagD[6][1] # tag[7] $ tagD[6][7]);
+
+
+--A1L891 is reduce_nor~494
+--operation mode is normal
+
+A1L891 = tag[0] & (tag[5] $ tagD[6][5] # !tagD[6][0]) # !tag[0] & (tagD[6][0] # tag[5] $ tagD[6][5]);
+
+
+--A1L991 is reduce_nor~495
+--operation mode is normal
+
+A1L991 = tag[3] & (tag[4] $ tagD[6][4] # !tagD[6][3]) # !tag[3] & (tagD[6][3] # tag[4] $ tagD[6][4]);
+
+
+--A1L002 is reduce_nor~496
+--operation mode is normal
+
+A1L002 = tag[6] & (tag[2] $ tagD[6][2] # !tagD[6][6]) # !tag[6] & (tagD[6][6] # tag[2] $ tagD[6][2]);
+
+
+--A1L102 is reduce_nor~497
+--operation mode is normal
+
+A1L102 = A1L791 # A1L891 # A1L991 # A1L002;
+
+
+--A1L202 is reduce_nor~498
+--operation mode is normal
+
+A1L202 = tag[1] & (tag[7] $ tagD[7][7] # !tagD[7][1]) # !tag[1] & (tagD[7][1] # tag[7] $ tagD[7][7]);
+
+
+--A1L302 is reduce_nor~499
+--operation mode is normal
+
+A1L302 = tag[0] & (tag[5] $ tagD[7][5] # !tagD[7][0]) # !tag[0] & (tagD[7][0] # tag[5] $ tagD[7][5]);
+
+
+--A1L402 is reduce_nor~500
+--operation mode is normal
+
+A1L402 = tag[3] & (tag[4] $ tagD[7][4] # !tagD[7][3]) # !tag[3] & (tagD[7][3] # tag[4] $ tagD[7][4]);
+
+
+--A1L502 is reduce_nor~501
+--operation mode is normal
+
+A1L502 = tag[6] & (tag[2] $ tagD[7][2] # !tagD[7][6]) # !tag[6] & (tagD[7][6] # tag[2] $ tagD[7][2]);
+
+
+--A1L602 is reduce_nor~502
+--operation mode is normal
+
+A1L602 = A1L202 # A1L302 # A1L402 # A1L502;
+
+
+--A1L702 is reduce_nor~503
+--operation mode is normal
+
+A1L702 = tag[1] & tagD[4][1] & (tag[7] $ !tagD[4][7]) # !tag[1] & !tagD[4][1] & (tag[7] $ !tagD[4][7]);
+
+
+--A1L802 is reduce_nor~504
+--operation mode is normal
+
+A1L802 = tag[0] & tagD[4][0] & (tag[5] $ !tagD[4][5]) # !tag[0] & !tagD[4][0] & (tag[5] $ !tagD[4][5]);
+
+
+--A1L902 is reduce_nor~505
+--operation mode is normal
+
+A1L902 = tag[3] & tagD[4][3] & (tag[4] $ !tagD[4][4]) # !tag[3] & !tagD[4][3] & (tag[4] $ !tagD[4][4]);
+
+
+--A1L012 is reduce_nor~506
+--operation mode is normal
+
+A1L012 = tag[6] & tagD[4][6] & (tag[2] $ !tagD[4][2]) # !tag[6] & !tagD[4][6] & (tag[2] $ !tagD[4][2]);
+
+
+--A1L112 is reduce_nor~507
+--operation mode is normal
+
+A1L112 = A1L702 & A1L802 & A1L902 & A1L012;
+
+
+--A1L961 is numhit~304
+--operation mode is normal
+
+A1L961 = A1L691 & A1L102 & A1L602 & !A1L112;
+
+
+--A1L212 is reduce_nor~508
+--operation mode is normal
+
+A1L212 = tag[1] & (tag[7] $ tagD[3][7] # !tagD[3][1]) # !tag[1] & (tagD[3][1] # tag[7] $ tagD[3][7]);
+
+
+--A1L312 is reduce_nor~509
+--operation mode is normal
+
+A1L312 = tag[0] & (tag[5] $ tagD[3][5] # !tagD[3][0]) # !tag[0] & (tagD[3][0] # tag[5] $ tagD[3][5]);
+
+
+--A1L412 is reduce_nor~510
+--operation mode is normal
+
+A1L412 = tag[3] & (tag[4] $ tagD[3][4] # !tagD[3][3]) # !tag[3] & (tagD[3][3] # tag[4] $ tagD[3][4]);
+
+
+--A1L512 is reduce_nor~511
+--operation mode is normal
+
+A1L512 = tag[6] & (tag[2] $ tagD[3][2] # !tagD[3][6]) # !tag[6] & (tagD[3][6] # tag[2] $ tagD[3][2]);
+
+
+--A1L612 is reduce_nor~512
+--operation mode is normal
+
+A1L612 = A1L212 # A1L312 # A1L412 # A1L512;
+
+
+--A1L712 is reduce_nor~513
+--operation mode is normal
+
+A1L712 = tag[1] & tagD[2][1] & (tag[7] $ !tagD[2][7]) # !tag[1] & !tagD[2][1] & (tag[7] $ !tagD[2][7]);
+
+
+--A1L812 is reduce_nor~514
+--operation mode is normal
+
+A1L812 = tag[0] & tagD[2][0] & (tag[5] $ !tagD[2][5]) # !tag[0] & !tagD[2][0] & (tag[5] $ !tagD[2][5]);
+
+
+--A1L912 is reduce_nor~515
+--operation mode is normal
+
+A1L912 = tag[3] & tagD[2][3] & (tag[4] $ !tagD[2][4]) # !tag[3] & !tagD[2][3] & (tag[4] $ !tagD[2][4]);
+
+
+--A1L022 is reduce_nor~516
+--operation mode is normal
+
+A1L022 = tag[6] & tagD[2][6] & (tag[2] $ !tagD[2][2]) # !tag[6] & !tagD[2][6] & (tag[2] $ !tagD[2][2]);
+
+
+--A1L122 is reduce_nor~517
+--operation mode is normal
+
+A1L122 = A1L712 & A1L812 & A1L912 & A1L022;
+
+
+--A1L071 is numhit~305
+--operation mode is normal
+
+A1L071 = A1L612 & (!A1L122);
+
+
+--A1L781 is process0~9
+--operation mode is normal
+
+A1L781 = tag[1] $ tagD[0][1];
+
+
+--A1L222 is reduce_nor~518
+--operation mode is normal
+
+A1L222 = tag[0] & (tag[5] $ tagD[0][5] # !tagD[0][0]) # !tag[0] & (tagD[0][0] # tag[5] $ tagD[0][5]);
+
+
+--A1L322 is reduce_nor~519
+--operation mode is normal
+
+A1L322 = A1L781 # A1L222 # tag[7] $ tagD[0][7];
+
+
+--A1L422 is reduce_nor~520
+--operation mode is normal
+
+A1L422 = tag[3] & (tag[4] $ tagD[0][4] # !tagD[0][3]) # !tag[3] & (tagD[0][3] # tag[4] $ tagD[0][4]);
+
+
+--A1L522 is reduce_nor~521
+--operation mode is normal
+
+A1L522 = tag[6] & (tag[2] $ tagD[0][2] # !tagD[0][6]) # !tag[6] & (tagD[0][6] # tag[2] $ tagD[0][2]);
+
+
+--A1L622 is reduce_nor~522
+--operation mode is normal
+
+A1L622 = tag[1] & tagD[1][1] & (tag[7] $ !tagD[1][7]) # !tag[1] & !tagD[1][1] & (tag[7] $ !tagD[1][7]);
+
+
+--A1L722 is reduce_nor~523
+--operation mode is normal
+
+A1L722 = tag[0] & tagD[1][0] & (tag[5] $ !tagD[1][5]) # !tag[0] & !tagD[1][0] & (tag[5] $ !tagD[1][5]);
+
+
+--A1L822 is reduce_nor~524
+--operation mode is normal
+
+A1L822 = tag[3] & tagD[1][3] & (tag[4] $ !tagD[1][4]) # !tag[3] & !tagD[1][3] & (tag[4] $ !tagD[1][4]);
+
+
+--A1L922 is reduce_nor~525
+--operation mode is normal
+
+A1L922 = tag[6] & tagD[1][6] & (tag[2] $ !tagD[1][2]) # !tag[6] & !tagD[1][6] & (tag[2] $ !tagD[1][2]);
+
+
+--A1L032 is reduce_nor~526
+--operation mode is normal
+
+A1L032 = A1L622 & A1L722 & A1L822 & A1L922;
+
+
+--A1L171 is numhit~306
+--operation mode is normal
+
+A1L171 = !A1L032 & (A1L322 # A1L422 # A1L522);
+
+
+--A1L271 is numhit~307
+--operation mode is normal
+
+A1L271 = A1L981 # A1L961 & A1L071 & A1L171;
+
+
+--A1L371 is numhit~308
+--operation mode is normal
+
+A1L371 = !A1L112 & (A1L032 & !A1L122 # !A1L612);
+
+
+--A1L471 is numhit~309
+--operation mode is normal
+
+A1L471 = A1L102 & (A1L371 # !A1L691) # !A1L602;
+
+
+--Dout_166 is Dout_166
+--operation mode is normal
+
+Dout_166_lut_out = awr[0];
+Dout_166 = DFFEAS(Dout_166_lut_out, wr, VCC, , , , , , );
+
+
+--A1L042 is res~8
+--operation mode is normal
+
+A1L042 = Dout_166 $ (A1L271 & (numhit[0]) # !A1L271 & A1L471);
+
+
+--A1L571 is numhit~310
+--operation mode is normal
+
+A1L571 = A1L691 & (!A1L112);
+
+
+--A1L671 is numhit~311
+--operation mode is normal
+
+A1L671 = A1L571 & !A1L071 # !A1L602 # !A1L102;
+
+
+--Dout_165 is Dout_165
+--operation mode is normal
+
+Dout_165_lut_out = awr[1];
+Dout_165 = DFFEAS(Dout_165_lut_out, wr, VCC, , , , , , );
+
+
+--A1L142 is res~9
+--operation mode is normal
+
+A1L142 = Dout_165 $ (A1L271 & (numhit[1]) # !A1L271 & A1L671);
+
+
+--Dout_167 is Dout_167
+--operation mode is normal
+
+Dout_167_lut_out = VCC;
+Dout_167 = DFFEAS(Dout_167_lut_out, wr, VCC, , , , , , );
+
+
+--A1L771 is numhit~312
+--operation mode is normal
+
+A1L771 = A1L271 & numhit[2] # !A1L271 & (!A1L961);
+
+
+--Dout_164 is Dout_164
+--operation mode is normal
+
+Dout_164_lut_out = awr[2];
+Dout_164 = DFFEAS(Dout_164_lut_out, wr, VCC, , , , , , );
+
+
+--A1L342 is res~349
+--operation mode is normal
+
+A1L342 = Dout_167 & (A1L771 $ !Dout_164);
+
+
+--A1L442 is res~350
+--operation mode is normal
+
+A1L442 = A1L242 & (A1L042 # A1L142 # !A1L342);
+
+
+--A1L47Q is Dout~56
+--operation mode is normal
+
+A1L47Q_lut_out = data[0];
+A1L47Q = DFFEAS(A1L47Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L871 is numhit~313
+--operation mode is normal
+
+A1L871 = A1L271 & numhit[0] # !A1L271 & (A1L471);
+
+
+--A1L28Q is Dout~64
+--operation mode is normal
+
+A1L28Q_lut_out = data[0];
+A1L28Q = DFFEAS(A1L28Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L971 is numhit~314
+--operation mode is normal
+
+A1L971 = A1L271 & numhit[1] # !A1L271 & (A1L671);
+
+
+--A1L66Q is Dout~48
+--operation mode is normal
+
+A1L66Q_lut_out = data[0];
+A1L66Q = DFFEAS(A1L66Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L89 is Dout~184
+--operation mode is normal
+
+A1L89 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L28Q # !A1L971 & (A1L66Q));
+
+
+--A1L09Q is Dout~72
+--operation mode is normal
+
+A1L09Q_lut_out = data[0];
+A1L09Q = DFFEAS(A1L09Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L99 is Dout~185
+--operation mode is normal
+
+A1L99 = A1L871 & (A1L89 & (A1L09Q) # !A1L89 & A1L47Q) # !A1L871 & (A1L89);
+
+
+--A1L05Q is Dout~32
+--operation mode is normal
+
+A1L05Q_lut_out = data[0];
+A1L05Q = DFFEAS(A1L05Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L24Q is Dout~24
+--operation mode is normal
+
+A1L24Q_lut_out = data[0];
+A1L24Q = DFFEAS(A1L24Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L43Q is Dout~16
+--operation mode is normal
+
+A1L43Q_lut_out = data[0];
+A1L43Q = DFFEAS(A1L43Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L001 is Dout~186
+--operation mode is normal
+
+A1L001 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L24Q # !A1L871 & (A1L43Q));
+
+
+--A1L85Q is Dout~40
+--operation mode is normal
+
+A1L85Q_lut_out = data[0];
+A1L85Q = DFFEAS(A1L85Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L101 is Dout~187
+--operation mode is normal
+
+A1L101 = A1L971 & (A1L001 & (A1L85Q) # !A1L001 & A1L05Q) # !A1L971 & (A1L001);
+
+
+--A1L542 is res~351
+--operation mode is normal
+
+A1L542 = A1L442 & (A1L771 & A1L99 # !A1L771 & (A1L101));
+
+
+--A1L642 is res~352
+--operation mode is normal
+
+A1L642 = A1L342 & (!A1L042 & !A1L142);
+
+
+--Dout_163 is Dout_163
+--operation mode is normal
+
+Dout_163_lut_out = data[0];
+Dout_163 = DFFEAS(Dout_163_lut_out, wr, VCC, , , , , , );
+
+
+--A1L742 is res~353
+--operation mode is normal
+
+A1L742 = A1L542 # A1L242 & A1L642 & Dout_163;
+
+
+--A1L57Q is Dout~57
+--operation mode is normal
+
+A1L57Q_lut_out = data[1];
+A1L57Q = DFFEAS(A1L57Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L38Q is Dout~65
+--operation mode is normal
+
+A1L38Q_lut_out = data[1];
+A1L38Q = DFFEAS(A1L38Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L76Q is Dout~49
+--operation mode is normal
+
+A1L76Q_lut_out = data[1];
+A1L76Q = DFFEAS(A1L76Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L201 is Dout~188
+--operation mode is normal
+
+A1L201 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L38Q # !A1L971 & (A1L76Q));
+
+
+--A1L19Q is Dout~73
+--operation mode is normal
+
+A1L19Q_lut_out = data[1];
+A1L19Q = DFFEAS(A1L19Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L301 is Dout~189
+--operation mode is normal
+
+A1L301 = A1L871 & (A1L201 & (A1L19Q) # !A1L201 & A1L57Q) # !A1L871 & (A1L201);
+
+
+--A1L15Q is Dout~33
+--operation mode is normal
+
+A1L15Q_lut_out = data[1];
+A1L15Q = DFFEAS(A1L15Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L34Q is Dout~25
+--operation mode is normal
+
+A1L34Q_lut_out = data[1];
+A1L34Q = DFFEAS(A1L34Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L53Q is Dout~17
+--operation mode is normal
+
+A1L53Q_lut_out = data[1];
+A1L53Q = DFFEAS(A1L53Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L401 is Dout~190
+--operation mode is normal
+
+A1L401 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L34Q # !A1L871 & (A1L53Q));
+
+
+--A1L95Q is Dout~41
+--operation mode is normal
+
+A1L95Q_lut_out = data[1];
+A1L95Q = DFFEAS(A1L95Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L501 is Dout~191
+--operation mode is normal
+
+A1L501 = A1L971 & (A1L401 & (A1L95Q) # !A1L401 & A1L15Q) # !A1L971 & (A1L401);
+
+
+--A1L842 is res~354
+--operation mode is normal
+
+A1L842 = A1L442 & (A1L771 & A1L301 # !A1L771 & (A1L501));
+
+
+--Dout_162 is Dout_162
+--operation mode is normal
+
+Dout_162_lut_out = data[1];
+Dout_162 = DFFEAS(Dout_162_lut_out, wr, VCC, , , , , , );
+
+
+--A1L942 is res~355
+--operation mode is normal
+
+A1L942 = A1L842 # A1L242 & A1L642 & Dout_162;
+
+
+--A1L67Q is Dout~58
+--operation mode is normal
+
+A1L67Q_lut_out = data[2];
+A1L67Q = DFFEAS(A1L67Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L48Q is Dout~66
+--operation mode is normal
+
+A1L48Q_lut_out = data[2];
+A1L48Q = DFFEAS(A1L48Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L86Q is Dout~50
+--operation mode is normal
+
+A1L86Q_lut_out = data[2];
+A1L86Q = DFFEAS(A1L86Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L601 is Dout~192
+--operation mode is normal
+
+A1L601 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L48Q # !A1L971 & (A1L86Q));
+
+
+--A1L29Q is Dout~74
+--operation mode is normal
+
+A1L29Q_lut_out = data[2];
+A1L29Q = DFFEAS(A1L29Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L701 is Dout~193
+--operation mode is normal
+
+A1L701 = A1L871 & (A1L601 & (A1L29Q) # !A1L601 & A1L67Q) # !A1L871 & (A1L601);
+
+
+--A1L25Q is Dout~34
+--operation mode is normal
+
+A1L25Q_lut_out = data[2];
+A1L25Q = DFFEAS(A1L25Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L44Q is Dout~26
+--operation mode is normal
+
+A1L44Q_lut_out = data[2];
+A1L44Q = DFFEAS(A1L44Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L63Q is Dout~18
+--operation mode is normal
+
+A1L63Q_lut_out = data[2];
+A1L63Q = DFFEAS(A1L63Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L801 is Dout~194
+--operation mode is normal
+
+A1L801 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L44Q # !A1L871 & (A1L63Q));
+
+
+--A1L06Q is Dout~42
+--operation mode is normal
+
+A1L06Q_lut_out = data[2];
+A1L06Q = DFFEAS(A1L06Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L901 is Dout~195
+--operation mode is normal
+
+A1L901 = A1L971 & (A1L801 & (A1L06Q) # !A1L801 & A1L25Q) # !A1L971 & (A1L801);
+
+
+--A1L052 is res~356
+--operation mode is normal
+
+A1L052 = A1L442 & (A1L771 & A1L701 # !A1L771 & (A1L901));
+
+
+--Dout_161 is Dout_161
+--operation mode is normal
+
+Dout_161_lut_out = data[2];
+Dout_161 = DFFEAS(Dout_161_lut_out, wr, VCC, , , , , , );
+
+
+--A1L152 is res~357
+--operation mode is normal
+
+A1L152 = A1L052 # A1L242 & A1L642 & Dout_161;
+
+
+--A1L77Q is Dout~59
+--operation mode is normal
+
+A1L77Q_lut_out = data[3];
+A1L77Q = DFFEAS(A1L77Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L58Q is Dout~67
+--operation mode is normal
+
+A1L58Q_lut_out = data[3];
+A1L58Q = DFFEAS(A1L58Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L96Q is Dout~51
+--operation mode is normal
+
+A1L96Q_lut_out = data[3];
+A1L96Q = DFFEAS(A1L96Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L011 is Dout~196
+--operation mode is normal
+
+A1L011 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L58Q # !A1L971 & (A1L96Q));
+
+
+--A1L39Q is Dout~75
+--operation mode is normal
+
+A1L39Q_lut_out = data[3];
+A1L39Q = DFFEAS(A1L39Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L111 is Dout~197
+--operation mode is normal
+
+A1L111 = A1L871 & (A1L011 & (A1L39Q) # !A1L011 & A1L77Q) # !A1L871 & (A1L011);
+
+
+--A1L35Q is Dout~35
+--operation mode is normal
+
+A1L35Q_lut_out = data[3];
+A1L35Q = DFFEAS(A1L35Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L54Q is Dout~27
+--operation mode is normal
+
+A1L54Q_lut_out = data[3];
+A1L54Q = DFFEAS(A1L54Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L73Q is Dout~19
+--operation mode is normal
+
+A1L73Q_lut_out = data[3];
+A1L73Q = DFFEAS(A1L73Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L211 is Dout~198
+--operation mode is normal
+
+A1L211 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L54Q # !A1L871 & (A1L73Q));
+
+
+--A1L16Q is Dout~43
+--operation mode is normal
+
+A1L16Q_lut_out = data[3];
+A1L16Q = DFFEAS(A1L16Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L311 is Dout~199
+--operation mode is normal
+
+A1L311 = A1L971 & (A1L211 & (A1L16Q) # !A1L211 & A1L35Q) # !A1L971 & (A1L211);
+
+
+--A1L252 is res~358
+--operation mode is normal
+
+A1L252 = A1L442 & (A1L771 & A1L111 # !A1L771 & (A1L311));
+
+
+--Dout_160 is Dout_160
+--operation mode is normal
+
+Dout_160_lut_out = data[3];
+Dout_160 = DFFEAS(Dout_160_lut_out, wr, VCC, , , , , , );
+
+
+--A1L352 is res~359
+--operation mode is normal
+
+A1L352 = A1L252 # A1L242 & A1L642 & Dout_160;
+
+
+--A1L87Q is Dout~60
+--operation mode is normal
+
+A1L87Q_lut_out = data[4];
+A1L87Q = DFFEAS(A1L87Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L68Q is Dout~68
+--operation mode is normal
+
+A1L68Q_lut_out = data[4];
+A1L68Q = DFFEAS(A1L68Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L07Q is Dout~52
+--operation mode is normal
+
+A1L07Q_lut_out = data[4];
+A1L07Q = DFFEAS(A1L07Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L411 is Dout~200
+--operation mode is normal
+
+A1L411 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L68Q # !A1L971 & (A1L07Q));
+
+
+--A1L49Q is Dout~76
+--operation mode is normal
+
+A1L49Q_lut_out = data[4];
+A1L49Q = DFFEAS(A1L49Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L511 is Dout~201
+--operation mode is normal
+
+A1L511 = A1L871 & (A1L411 & (A1L49Q) # !A1L411 & A1L87Q) # !A1L871 & (A1L411);
+
+
+--A1L45Q is Dout~36
+--operation mode is normal
+
+A1L45Q_lut_out = data[4];
+A1L45Q = DFFEAS(A1L45Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L64Q is Dout~28
+--operation mode is normal
+
+A1L64Q_lut_out = data[4];
+A1L64Q = DFFEAS(A1L64Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L83Q is Dout~20
+--operation mode is normal
+
+A1L83Q_lut_out = data[4];
+A1L83Q = DFFEAS(A1L83Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L611 is Dout~202
+--operation mode is normal
+
+A1L611 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L64Q # !A1L871 & (A1L83Q));
+
+
+--A1L26Q is Dout~44
+--operation mode is normal
+
+A1L26Q_lut_out = data[4];
+A1L26Q = DFFEAS(A1L26Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L711 is Dout~203
+--operation mode is normal
+
+A1L711 = A1L971 & (A1L611 & (A1L26Q) # !A1L611 & A1L45Q) # !A1L971 & (A1L611);
+
+
+--A1L452 is res~360
+--operation mode is normal
+
+A1L452 = A1L442 & (A1L771 & A1L511 # !A1L771 & (A1L711));
+
+
+--Dout_159 is Dout_159
+--operation mode is normal
+
+Dout_159_lut_out = data[4];
+Dout_159 = DFFEAS(Dout_159_lut_out, wr, VCC, , , , , , );
+
+
+--A1L552 is res~361
+--operation mode is normal
+
+A1L552 = A1L452 # A1L242 & A1L642 & Dout_159;
+
+
+--A1L97Q is Dout~61
+--operation mode is normal
+
+A1L97Q_lut_out = data[5];
+A1L97Q = DFFEAS(A1L97Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L78Q is Dout~69
+--operation mode is normal
+
+A1L78Q_lut_out = data[5];
+A1L78Q = DFFEAS(A1L78Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L17Q is Dout~53
+--operation mode is normal
+
+A1L17Q_lut_out = data[5];
+A1L17Q = DFFEAS(A1L17Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L811 is Dout~204
+--operation mode is normal
+
+A1L811 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L78Q # !A1L971 & (A1L17Q));
+
+
+--A1L59Q is Dout~77
+--operation mode is normal
+
+A1L59Q_lut_out = data[5];
+A1L59Q = DFFEAS(A1L59Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L911 is Dout~205
+--operation mode is normal
+
+A1L911 = A1L871 & (A1L811 & (A1L59Q) # !A1L811 & A1L97Q) # !A1L871 & (A1L811);
+
+
+--A1L55Q is Dout~37
+--operation mode is normal
+
+A1L55Q_lut_out = data[5];
+A1L55Q = DFFEAS(A1L55Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L74Q is Dout~29
+--operation mode is normal
+
+A1L74Q_lut_out = data[5];
+A1L74Q = DFFEAS(A1L74Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L93Q is Dout~21
+--operation mode is normal
+
+A1L93Q_lut_out = data[5];
+A1L93Q = DFFEAS(A1L93Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L021 is Dout~206
+--operation mode is normal
+
+A1L021 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L74Q # !A1L871 & (A1L93Q));
+
+
+--A1L36Q is Dout~45
+--operation mode is normal
+
+A1L36Q_lut_out = data[5];
+A1L36Q = DFFEAS(A1L36Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L121 is Dout~207
+--operation mode is normal
+
+A1L121 = A1L971 & (A1L021 & (A1L36Q) # !A1L021 & A1L55Q) # !A1L971 & (A1L021);
+
+
+--A1L652 is res~362
+--operation mode is normal
+
+A1L652 = A1L442 & (A1L771 & A1L911 # !A1L771 & (A1L121));
+
+
+--Dout_158 is Dout_158
+--operation mode is normal
+
+Dout_158_lut_out = data[5];
+Dout_158 = DFFEAS(Dout_158_lut_out, wr, VCC, , , , , , );
+
+
+--A1L752 is res~363
+--operation mode is normal
+
+A1L752 = A1L652 # A1L242 & A1L642 & Dout_158;
+
+
+--A1L08Q is Dout~62
+--operation mode is normal
+
+A1L08Q_lut_out = data[6];
+A1L08Q = DFFEAS(A1L08Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L88Q is Dout~70
+--operation mode is normal
+
+A1L88Q_lut_out = data[6];
+A1L88Q = DFFEAS(A1L88Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L27Q is Dout~54
+--operation mode is normal
+
+A1L27Q_lut_out = data[6];
+A1L27Q = DFFEAS(A1L27Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L221 is Dout~208
+--operation mode is normal
+
+A1L221 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L88Q # !A1L971 & (A1L27Q));
+
+
+--A1L69Q is Dout~78
+--operation mode is normal
+
+A1L69Q_lut_out = data[6];
+A1L69Q = DFFEAS(A1L69Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L321 is Dout~209
+--operation mode is normal
+
+A1L321 = A1L871 & (A1L221 & (A1L69Q) # !A1L221 & A1L08Q) # !A1L871 & (A1L221);
+
+
+--A1L65Q is Dout~38
+--operation mode is normal
+
+A1L65Q_lut_out = data[6];
+A1L65Q = DFFEAS(A1L65Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L84Q is Dout~30
+--operation mode is normal
+
+A1L84Q_lut_out = data[6];
+A1L84Q = DFFEAS(A1L84Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L04Q is Dout~22
+--operation mode is normal
+
+A1L04Q_lut_out = data[6];
+A1L04Q = DFFEAS(A1L04Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L421 is Dout~210
+--operation mode is normal
+
+A1L421 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L84Q # !A1L871 & (A1L04Q));
+
+
+--A1L46Q is Dout~46
+--operation mode is normal
+
+A1L46Q_lut_out = data[6];
+A1L46Q = DFFEAS(A1L46Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L521 is Dout~211
+--operation mode is normal
+
+A1L521 = A1L971 & (A1L421 & (A1L46Q) # !A1L421 & A1L65Q) # !A1L971 & (A1L421);
+
+
+--A1L852 is res~364
+--operation mode is normal
+
+A1L852 = A1L442 & (A1L771 & A1L321 # !A1L771 & (A1L521));
+
+
+--Dout_157 is Dout_157
+--operation mode is normal
+
+Dout_157_lut_out = data[6];
+Dout_157 = DFFEAS(Dout_157_lut_out, wr, VCC, , , , , , );
+
+
+--A1L952 is res~365
+--operation mode is normal
+
+A1L952 = A1L852 # A1L242 & A1L642 & Dout_157;
+
+
+--A1L18Q is Dout~63
+--operation mode is normal
+
+A1L18Q_lut_out = data[7];
+A1L18Q = DFFEAS(A1L18Q_lut_out, wr, VCC, , A1L81, , , , );
+
+
+--A1L98Q is Dout~71
+--operation mode is normal
+
+A1L98Q_lut_out = data[7];
+A1L98Q = DFFEAS(A1L98Q_lut_out, wr, VCC, , A1L71, , , , );
+
+
+--A1L37Q is Dout~55
+--operation mode is normal
+
+A1L37Q_lut_out = data[7];
+A1L37Q = DFFEAS(A1L37Q_lut_out, wr, VCC, , A1L51, , , , );
+
+
+--A1L621 is Dout~212
+--operation mode is normal
+
+A1L621 = A1L871 & (A1L971) # !A1L871 & (A1L971 & A1L98Q # !A1L971 & (A1L37Q));
+
+
+--A1L79Q is Dout~79
+--operation mode is normal
+
+A1L79Q_lut_out = data[7];
+A1L79Q = DFFEAS(A1L79Q_lut_out, wr, VCC, , A1L12, , , , );
+
+
+--A1L721 is Dout~213
+--operation mode is normal
+
+A1L721 = A1L871 & (A1L621 & (A1L79Q) # !A1L621 & A1L18Q) # !A1L871 & (A1L621);
+
+
+--A1L75Q is Dout~39
+--operation mode is normal
+
+A1L75Q_lut_out = data[7];
+A1L75Q = DFFEAS(A1L75Q_lut_out, wr, VCC, , A1L41, , , , );
+
+
+--A1L94Q is Dout~31
+--operation mode is normal
+
+A1L94Q_lut_out = data[7];
+A1L94Q = DFFEAS(A1L94Q_lut_out, wr, VCC, , A1L02, , , , );
+
+
+--A1L14Q is Dout~23
+--operation mode is normal
+
+A1L14Q_lut_out = data[7];
+A1L14Q = DFFEAS(A1L14Q_lut_out, wr, VCC, , A1L61, , , , );
+
+
+--A1L821 is Dout~214
+--operation mode is normal
+
+A1L821 = A1L971 & (A1L871) # !A1L971 & (A1L871 & A1L94Q # !A1L871 & (A1L14Q));
+
+
+--A1L56Q is Dout~47
+--operation mode is normal
+
+A1L56Q_lut_out = data[7];
+A1L56Q = DFFEAS(A1L56Q_lut_out, wr, VCC, , A1L91, , , , );
+
+
+--A1L921 is Dout~215
+--operation mode is normal
+
+A1L921 = A1L971 & (A1L821 & (A1L56Q) # !A1L821 & A1L75Q) # !A1L971 & (A1L821);
+
+
+--A1L062 is res~366
+--operation mode is normal
+
+A1L062 = A1L442 & (A1L771 & A1L721 # !A1L771 & (A1L921));
+
+
+--Dout_156 is Dout_156
+--operation mode is normal
+
+Dout_156_lut_out = data[7];
+Dout_156 = DFFEAS(Dout_156_lut_out, wr, VCC, , , , , , );
+
+
+--A1L162 is res~367
+--operation mode is normal
+
+A1L162 = A1L062 # A1L242 & A1L642 & Dout_156;
+
+
+--A1L081 is numhit~315
+--operation mode is normal
+
+A1L081 = A1L102 & (A1L371 # !A1L691);
+
+
+--numhit[0] is numhit[0]
+--operation mode is normal
+
+numhit[0] = A1L271 & (numhit[0]) # !A1L271 & (A1L081 # !A1L602);
+
+
+--A1L41 is Decoder~87
+--operation mode is normal
+
+A1L41 = awr[1] & (!awr[0] & !awr[2]);
+
+
+--numhit[1] is numhit[1]
+--operation mode is normal
+
+numhit[1] = A1L271 & (numhit[1]) # !A1L271 & A1L671;
+
+
+--A1L51 is Decoder~88
+--operation mode is normal
+
+A1L51 = awr[2] & (!awr[0] & !awr[1]);
+
+
+--numhit[2] is numhit[2]
+--operation mode is normal
+
+numhit[2] = A1L271 & (numhit[2]) # !A1L271 & !A1L961;
+
+
+--A1L61 is Decoder~89
+--operation mode is normal
+
+A1L61 = !awr[0] & !awr[2] & !awr[1];
+
+
+--A1L71 is Decoder~90
+--operation mode is normal
+
+A1L71 = awr[2] & awr[1] & (!awr[0]);
+
+
+--A1L81 is Decoder~91
+--operation mode is normal
+
+A1L81 = awr[0] & awr[2] & (!awr[1]);
+
+
+--A1L91 is Decoder~92
+--operation mode is normal
+
+A1L91 = awr[0] & awr[1] & (!awr[2]);
+
+
+--A1L02 is Decoder~93
+--operation mode is normal
+
+A1L02 = awr[0] & (!awr[2] & !awr[1]);
+
+
+--A1L12 is Decoder~94
+--operation mode is normal
+
+A1L12 = awr[0] & awr[2] & awr[1];
+
+
+--read is read
+--operation mode is input
+
+read = INPUT();
+
+
+--tag[1] is tag[1]
+--operation mode is input
+
+tag[1] = INPUT();
+
+
+--tag[7] is tag[7]
+--operation mode is input
+
+tag[7] = INPUT();
+
+
+--tag[0] is tag[0]
+--operation mode is input
+
+tag[0] = INPUT();
+
+
+--tag[5] is tag[5]
+--operation mode is input
+
+tag[5] = INPUT();
+
+
+--tag[3] is tag[3]
+--operation mode is input
+
+tag[3] = INPUT();
+
+
+--tag[4] is tag[4]
+--operation mode is input
+
+tag[4] = INPUT();
+
+
+--tag[6] is tag[6]
+--operation mode is input
+
+tag[6] = INPUT();
+
+
+--tag[2] is tag[2]
+--operation mode is input
+
+tag[2] = INPUT();
+
+
+--wr is wr
+--operation mode is input
+
+wr = INPUT();
+
+
+--awr[1] is awr[1]
+--operation mode is input
+
+awr[1] = INPUT();
+
+
+--awr[0] is awr[0]
+--operation mode is input
+
+awr[0] = INPUT();
+
+
+--awr[2] is awr[2]
+--operation mode is input
+
+awr[2] = INPUT();
+
+
+--data[0] is data[0]
+--operation mode is input
+
+data[0] = INPUT();
+
+
+--data[1] is data[1]
+--operation mode is input
+
+data[1] = INPUT();
+
+
+--data[2] is data[2]
+--operation mode is input
+
+data[2] = INPUT();
+
+
+--data[3] is data[3]
+--operation mode is input
+
+data[3] = INPUT();
+
+
+--data[4] is data[4]
+--operation mode is input
+
+data[4] = INPUT();
+
+
+--data[5] is data[5]
+--operation mode is input
+
+data[5] = INPUT();
+
+
+--data[6] is data[6]
+--operation mode is input
+
+data[6] = INPUT();
+
+
+--data[7] is data[7]
+--operation mode is input
+
+data[7] = INPUT();
+
+
+--res[0] is res[0]
+--operation mode is bidir
+
+res[0]_tri_out = TRI(A1L742, VCC);
+res[0] = BIDIR(res[0]_tri_out);
+
+
+--res[1] is res[1]
+--operation mode is bidir
+
+res[1]_tri_out = TRI(A1L942, VCC);
+res[1] = BIDIR(res[1]_tri_out);
+
+
+--res[2] is res[2]
+--operation mode is bidir
+
+res[2]_tri_out = TRI(A1L152, VCC);
+res[2] = BIDIR(res[2]_tri_out);
+
+
+--res[3] is res[3]
+--operation mode is bidir
+
+res[3]_tri_out = TRI(A1L352, VCC);
+res[3] = BIDIR(res[3]_tri_out);
+
+
+--res[4] is res[4]
+--operation mode is bidir
+
+res[4]_tri_out = TRI(A1L552, VCC);
+res[4] = BIDIR(res[4]_tri_out);
+
+
+--res[5] is res[5]
+--operation mode is bidir
+
+res[5]_tri_out = TRI(A1L752, VCC);
+res[5] = BIDIR(res[5]_tri_out);
+
+
+--res[6] is res[6]
+--operation mode is bidir
+
+res[6]_tri_out = TRI(A1L952, VCC);
+res[6] = BIDIR(res[6]_tri_out);
+
+
+--res[7] is res[7]
+--operation mode is bidir
+
+res[7]_tri_out = TRI(A1L162, VCC);
+res[7] = BIDIR(res[7]_tri_out);
+
+
+--hit is hit
+--operation mode is bidir
+
+hit_tri_out = TRI(A1L981, VCC);
+hit = BIDIR(hit_tri_out);
+
+

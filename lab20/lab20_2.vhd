@@ -37,6 +37,7 @@ else
 		EMPTY <= '1';
 	end if;
 end if;
+
 if(reset = '1') then
 	countWR := 0;
 elsif(rising_edge(WR)) then

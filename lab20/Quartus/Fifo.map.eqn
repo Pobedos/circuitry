@@ -1,0 +1,983 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L811Q is DO[0]~reg0
+--operation mode is normal
+
+A1L811Q_lut_out = countRD[2] & (A1L86) # !countRD[2] & A1L66;
+A1L811Q = DFFEAS(A1L811Q_lut_out, RD, VCC, , , A1L811Q, , , Reset);
+
+
+--A1L021Q is DO[1]~reg0
+--operation mode is normal
+
+A1L021Q_lut_out = countRD[2] & (A1L27) # !countRD[2] & A1L07;
+A1L021Q = DFFEAS(A1L021Q_lut_out, RD, VCC, , , A1L021Q, , , Reset);
+
+
+--A1L221Q is DO[2]~reg0
+--operation mode is normal
+
+A1L221Q_lut_out = countRD[2] & (A1L67) # !countRD[2] & A1L47;
+A1L221Q = DFFEAS(A1L221Q_lut_out, RD, VCC, , , A1L221Q, , , Reset);
+
+
+--A1L421Q is DO[3]~reg0
+--operation mode is normal
+
+A1L421Q_lut_out = countRD[2] & (A1L08) # !countRD[2] & A1L87;
+A1L421Q = DFFEAS(A1L421Q_lut_out, RD, VCC, , , A1L421Q, , , Reset);
+
+
+--A1L621Q is DO[4]~reg0
+--operation mode is normal
+
+A1L621Q_lut_out = countRD[2] & (A1L48) # !countRD[2] & A1L28;
+A1L621Q = DFFEAS(A1L621Q_lut_out, RD, VCC, , , A1L621Q, , , Reset);
+
+
+--A1L821Q is DO[5]~reg0
+--operation mode is normal
+
+A1L821Q_lut_out = countRD[2] & (A1L88) # !countRD[2] & A1L68;
+A1L821Q = DFFEAS(A1L821Q_lut_out, RD, VCC, , , A1L821Q, , , Reset);
+
+
+--A1L031Q is DO[6]~reg0
+--operation mode is normal
+
+A1L031Q_lut_out = countRD[2] & (A1L29) # !countRD[2] & A1L09;
+A1L031Q = DFFEAS(A1L031Q_lut_out, RD, VCC, , , A1L031Q, , , Reset);
+
+
+--A1L231Q is DO[7]~reg0
+--operation mode is normal
+
+A1L231Q_lut_out = countRD[2] & (A1L69) # !countRD[2] & A1L49;
+A1L231Q = DFFEAS(A1L231Q_lut_out, RD, VCC, , , A1L231Q, , , Reset);
+
+
+--A1L731 is process0~4
+--operation mode is normal
+
+A1L731 = WR & (!RD);
+
+
+--countWR[0] is countWR[0]
+--operation mode is normal
+
+countWR[0]_lut_out = !countWR[0];
+countWR[0] = DFFEAS(countWR[0]_lut_out, WR, !Reset, , , , , , );
+
+
+--countRD[0] is countRD[0]
+--operation mode is normal
+
+countRD[0]_lut_out = !countRD[0];
+countRD[0] = DFFEAS(countRD[0]_lut_out, RD, !Reset, , , , , , );
+
+
+--countRD[2] is countRD[2]
+--operation mode is normal
+
+countRD[2]_lut_out = !countRD[2];
+countRD[2] = DFFEAS(countRD[2]_lut_out, RD, !Reset, , A1L101, , , , );
+
+
+--countWR[2] is countWR[2]
+--operation mode is normal
+
+countWR[2]_lut_out = !countWR[2];
+countWR[2] = DFFEAS(countWR[2]_lut_out, WR, !Reset, , A1L601, , , , );
+
+
+--A1L141 is reduce_nor~19
+--operation mode is normal
+
+A1L141 = countWR[0] & (countRD[2] $ countWR[2] # !countRD[0]) # !countWR[0] & (countRD[0] # countRD[2] $ countWR[2]);
+
+
+--countWR[1] is countWR[1]
+--operation mode is normal
+
+countWR[1]_lut_out = !countWR[1];
+countWR[1] = DFFEAS(countWR[1]_lut_out, WR, !Reset, , countWR[0], , , , );
+
+
+--countRD[1] is countRD[1]
+--operation mode is normal
+
+countRD[1]_lut_out = !countRD[1];
+countRD[1] = DFFEAS(countRD[1]_lut_out, RD, !Reset, , countRD[0], , , , );
+
+
+--A1L041 is reduce_nor~0
+--operation mode is normal
+
+A1L041 = A1L141 # countWR[1] $ countRD[1];
+
+
+--A1L831 is process0~6
+--operation mode is normal
+
+A1L831 = RD # WR # A1L041;
+
+
+--FULL$latch is FULL$latch
+--operation mode is normal
+
+FULL$latch = !A1L041 & (A1L831 & A1L731 # !A1L831 & (FULL$latch));
+
+
+--EMPTY$latch is EMPTY$latch
+--operation mode is normal
+
+EMPTY$latch = !A1L041 & (A1L831 & !A1L731 # !A1L831 & (EMPTY$latch));
+
+
+--A1L71Q is buff~44
+--operation mode is normal
+
+A1L71Q_lut_out = DI[0];
+A1L71Q = DFFEAS(A1L71Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L9Q is buff~36
+--operation mode is normal
+
+A1L9Q_lut_out = DI[0];
+A1L9Q = DFFEAS(A1L9Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L1Q is buff~28
+--operation mode is normal
+
+A1L1Q_lut_out = DI[0];
+A1L1Q = DFFEAS(A1L1Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L56 is buff~156
+--operation mode is normal
+
+A1L56 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L9Q # !countRD[0] & (A1L1Q));
+
+
+--A1L52Q is buff~52
+--operation mode is normal
+
+A1L52Q_lut_out = DI[0];
+A1L52Q = DFFEAS(A1L52Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L66 is buff~157
+--operation mode is normal
+
+A1L66 = countRD[1] & (A1L56 & (A1L52Q) # !A1L56 & A1L71Q) # !countRD[1] & (A1L56);
+
+
+--A1L94Q is buff~76
+--operation mode is normal
+
+A1L94Q_lut_out = DI[0];
+A1L94Q = DFFEAS(A1L94Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L14Q is buff~68
+--operation mode is normal
+
+A1L14Q_lut_out = DI[0];
+A1L14Q = DFFEAS(A1L14Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L33Q is buff~60
+--operation mode is normal
+
+A1L33Q_lut_out = DI[0];
+A1L33Q = DFFEAS(A1L33Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L76 is buff~158
+--operation mode is normal
+
+A1L76 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L14Q # !countRD[0] & (A1L33Q));
+
+
+--A1L75Q is buff~84
+--operation mode is normal
+
+A1L75Q_lut_out = DI[0];
+A1L75Q = DFFEAS(A1L75Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L86 is buff~159
+--operation mode is normal
+
+A1L86 = countRD[1] & (A1L76 & (A1L75Q) # !A1L76 & A1L94Q) # !countRD[1] & (A1L76);
+
+
+--A1L01Q is buff~37
+--operation mode is normal
+
+A1L01Q_lut_out = DI[1];
+A1L01Q = DFFEAS(A1L01Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L81Q is buff~45
+--operation mode is normal
+
+A1L81Q_lut_out = DI[1];
+A1L81Q = DFFEAS(A1L81Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L2Q is buff~29
+--operation mode is normal
+
+A1L2Q_lut_out = DI[1];
+A1L2Q = DFFEAS(A1L2Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L96 is buff~160
+--operation mode is normal
+
+A1L96 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L81Q # !countRD[1] & (A1L2Q));
+
+
+--A1L62Q is buff~53
+--operation mode is normal
+
+A1L62Q_lut_out = DI[1];
+A1L62Q = DFFEAS(A1L62Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L07 is buff~161
+--operation mode is normal
+
+A1L07 = countRD[0] & (A1L96 & (A1L62Q) # !A1L96 & A1L01Q) # !countRD[0] & (A1L96);
+
+
+--A1L05Q is buff~77
+--operation mode is normal
+
+A1L05Q_lut_out = DI[1];
+A1L05Q = DFFEAS(A1L05Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L24Q is buff~69
+--operation mode is normal
+
+A1L24Q_lut_out = DI[1];
+A1L24Q = DFFEAS(A1L24Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L43Q is buff~61
+--operation mode is normal
+
+A1L43Q_lut_out = DI[1];
+A1L43Q = DFFEAS(A1L43Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L17 is buff~162
+--operation mode is normal
+
+A1L17 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L24Q # !countRD[0] & (A1L43Q));
+
+
+--A1L85Q is buff~85
+--operation mode is normal
+
+A1L85Q_lut_out = DI[1];
+A1L85Q = DFFEAS(A1L85Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L27 is buff~163
+--operation mode is normal
+
+A1L27 = countRD[1] & (A1L17 & (A1L85Q) # !A1L17 & A1L05Q) # !countRD[1] & (A1L17);
+
+
+--A1L11Q is buff~38
+--operation mode is normal
+
+A1L11Q_lut_out = DI[2];
+A1L11Q = DFFEAS(A1L11Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L91Q is buff~46
+--operation mode is normal
+
+A1L91Q_lut_out = DI[2];
+A1L91Q = DFFEAS(A1L91Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L3Q is buff~30
+--operation mode is normal
+
+A1L3Q_lut_out = DI[2];
+A1L3Q = DFFEAS(A1L3Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L37 is buff~164
+--operation mode is normal
+
+A1L37 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L91Q # !countRD[1] & (A1L3Q));
+
+
+--A1L72Q is buff~54
+--operation mode is normal
+
+A1L72Q_lut_out = DI[2];
+A1L72Q = DFFEAS(A1L72Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L47 is buff~165
+--operation mode is normal
+
+A1L47 = countRD[0] & (A1L37 & (A1L72Q) # !A1L37 & A1L11Q) # !countRD[0] & (A1L37);
+
+
+--A1L15Q is buff~78
+--operation mode is normal
+
+A1L15Q_lut_out = DI[2];
+A1L15Q = DFFEAS(A1L15Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L34Q is buff~70
+--operation mode is normal
+
+A1L34Q_lut_out = DI[2];
+A1L34Q = DFFEAS(A1L34Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L53Q is buff~62
+--operation mode is normal
+
+A1L53Q_lut_out = DI[2];
+A1L53Q = DFFEAS(A1L53Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L57 is buff~166
+--operation mode is normal
+
+A1L57 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L34Q # !countRD[0] & (A1L53Q));
+
+
+--A1L95Q is buff~86
+--operation mode is normal
+
+A1L95Q_lut_out = DI[2];
+A1L95Q = DFFEAS(A1L95Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L67 is buff~167
+--operation mode is normal
+
+A1L67 = countRD[1] & (A1L57 & (A1L95Q) # !A1L57 & A1L15Q) # !countRD[1] & (A1L57);
+
+
+--A1L21Q is buff~39
+--operation mode is normal
+
+A1L21Q_lut_out = DI[3];
+A1L21Q = DFFEAS(A1L21Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L02Q is buff~47
+--operation mode is normal
+
+A1L02Q_lut_out = DI[3];
+A1L02Q = DFFEAS(A1L02Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L4Q is buff~31
+--operation mode is normal
+
+A1L4Q_lut_out = DI[3];
+A1L4Q = DFFEAS(A1L4Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L77 is buff~168
+--operation mode is normal
+
+A1L77 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L02Q # !countRD[1] & (A1L4Q));
+
+
+--A1L82Q is buff~55
+--operation mode is normal
+
+A1L82Q_lut_out = DI[3];
+A1L82Q = DFFEAS(A1L82Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L87 is buff~169
+--operation mode is normal
+
+A1L87 = countRD[0] & (A1L77 & (A1L82Q) # !A1L77 & A1L21Q) # !countRD[0] & (A1L77);
+
+
+--A1L25Q is buff~79
+--operation mode is normal
+
+A1L25Q_lut_out = DI[3];
+A1L25Q = DFFEAS(A1L25Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L44Q is buff~71
+--operation mode is normal
+
+A1L44Q_lut_out = DI[3];
+A1L44Q = DFFEAS(A1L44Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L63Q is buff~63
+--operation mode is normal
+
+A1L63Q_lut_out = DI[3];
+A1L63Q = DFFEAS(A1L63Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L97 is buff~170
+--operation mode is normal
+
+A1L97 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L44Q # !countRD[0] & (A1L63Q));
+
+
+--A1L06Q is buff~87
+--operation mode is normal
+
+A1L06Q_lut_out = DI[3];
+A1L06Q = DFFEAS(A1L06Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L08 is buff~171
+--operation mode is normal
+
+A1L08 = countRD[1] & (A1L97 & (A1L06Q) # !A1L97 & A1L25Q) # !countRD[1] & (A1L97);
+
+
+--A1L31Q is buff~40
+--operation mode is normal
+
+A1L31Q_lut_out = DI[4];
+A1L31Q = DFFEAS(A1L31Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L12Q is buff~48
+--operation mode is normal
+
+A1L12Q_lut_out = DI[4];
+A1L12Q = DFFEAS(A1L12Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L5Q is buff~32
+--operation mode is normal
+
+A1L5Q_lut_out = DI[4];
+A1L5Q = DFFEAS(A1L5Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L18 is buff~172
+--operation mode is normal
+
+A1L18 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L12Q # !countRD[1] & (A1L5Q));
+
+
+--A1L92Q is buff~56
+--operation mode is normal
+
+A1L92Q_lut_out = DI[4];
+A1L92Q = DFFEAS(A1L92Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L28 is buff~173
+--operation mode is normal
+
+A1L28 = countRD[0] & (A1L18 & (A1L92Q) # !A1L18 & A1L31Q) # !countRD[0] & (A1L18);
+
+
+--A1L35Q is buff~80
+--operation mode is normal
+
+A1L35Q_lut_out = DI[4];
+A1L35Q = DFFEAS(A1L35Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L54Q is buff~72
+--operation mode is normal
+
+A1L54Q_lut_out = DI[4];
+A1L54Q = DFFEAS(A1L54Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L73Q is buff~64
+--operation mode is normal
+
+A1L73Q_lut_out = DI[4];
+A1L73Q = DFFEAS(A1L73Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L38 is buff~174
+--operation mode is normal
+
+A1L38 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L54Q # !countRD[0] & (A1L73Q));
+
+
+--A1L16Q is buff~88
+--operation mode is normal
+
+A1L16Q_lut_out = DI[4];
+A1L16Q = DFFEAS(A1L16Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L48 is buff~175
+--operation mode is normal
+
+A1L48 = countRD[1] & (A1L38 & (A1L16Q) # !A1L38 & A1L35Q) # !countRD[1] & (A1L38);
+
+
+--A1L41Q is buff~41
+--operation mode is normal
+
+A1L41Q_lut_out = DI[5];
+A1L41Q = DFFEAS(A1L41Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L22Q is buff~49
+--operation mode is normal
+
+A1L22Q_lut_out = DI[5];
+A1L22Q = DFFEAS(A1L22Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L6Q is buff~33
+--operation mode is normal
+
+A1L6Q_lut_out = DI[5];
+A1L6Q = DFFEAS(A1L6Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L58 is buff~176
+--operation mode is normal
+
+A1L58 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L22Q # !countRD[1] & (A1L6Q));
+
+
+--A1L03Q is buff~57
+--operation mode is normal
+
+A1L03Q_lut_out = DI[5];
+A1L03Q = DFFEAS(A1L03Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L68 is buff~177
+--operation mode is normal
+
+A1L68 = countRD[0] & (A1L58 & (A1L03Q) # !A1L58 & A1L41Q) # !countRD[0] & (A1L58);
+
+
+--A1L45Q is buff~81
+--operation mode is normal
+
+A1L45Q_lut_out = DI[5];
+A1L45Q = DFFEAS(A1L45Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L64Q is buff~73
+--operation mode is normal
+
+A1L64Q_lut_out = DI[5];
+A1L64Q = DFFEAS(A1L64Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L83Q is buff~65
+--operation mode is normal
+
+A1L83Q_lut_out = DI[5];
+A1L83Q = DFFEAS(A1L83Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L78 is buff~178
+--operation mode is normal
+
+A1L78 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L64Q # !countRD[0] & (A1L83Q));
+
+
+--A1L26Q is buff~89
+--operation mode is normal
+
+A1L26Q_lut_out = DI[5];
+A1L26Q = DFFEAS(A1L26Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L88 is buff~179
+--operation mode is normal
+
+A1L88 = countRD[1] & (A1L78 & (A1L26Q) # !A1L78 & A1L45Q) # !countRD[1] & (A1L78);
+
+
+--A1L51Q is buff~42
+--operation mode is normal
+
+A1L51Q_lut_out = DI[6];
+A1L51Q = DFFEAS(A1L51Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L32Q is buff~50
+--operation mode is normal
+
+A1L32Q_lut_out = DI[6];
+A1L32Q = DFFEAS(A1L32Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L7Q is buff~34
+--operation mode is normal
+
+A1L7Q_lut_out = DI[6];
+A1L7Q = DFFEAS(A1L7Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L98 is buff~180
+--operation mode is normal
+
+A1L98 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L32Q # !countRD[1] & (A1L7Q));
+
+
+--A1L13Q is buff~58
+--operation mode is normal
+
+A1L13Q_lut_out = DI[6];
+A1L13Q = DFFEAS(A1L13Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L09 is buff~181
+--operation mode is normal
+
+A1L09 = countRD[0] & (A1L98 & (A1L13Q) # !A1L98 & A1L51Q) # !countRD[0] & (A1L98);
+
+
+--A1L55Q is buff~82
+--operation mode is normal
+
+A1L55Q_lut_out = DI[6];
+A1L55Q = DFFEAS(A1L55Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L74Q is buff~74
+--operation mode is normal
+
+A1L74Q_lut_out = DI[6];
+A1L74Q = DFFEAS(A1L74Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L93Q is buff~66
+--operation mode is normal
+
+A1L93Q_lut_out = DI[6];
+A1L93Q = DFFEAS(A1L93Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L19 is buff~182
+--operation mode is normal
+
+A1L19 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L74Q # !countRD[0] & (A1L93Q));
+
+
+--A1L36Q is buff~90
+--operation mode is normal
+
+A1L36Q_lut_out = DI[6];
+A1L36Q = DFFEAS(A1L36Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L29 is buff~183
+--operation mode is normal
+
+A1L29 = countRD[1] & (A1L19 & (A1L36Q) # !A1L19 & A1L55Q) # !countRD[1] & (A1L19);
+
+
+--A1L61Q is buff~43
+--operation mode is normal
+
+A1L61Q_lut_out = DI[7];
+A1L61Q = DFFEAS(A1L61Q_lut_out, WR, VCC, , A1L441, , , , );
+
+
+--A1L42Q is buff~51
+--operation mode is normal
+
+A1L42Q_lut_out = DI[7];
+A1L42Q = DFFEAS(A1L42Q_lut_out, WR, VCC, , A1L341, , , , );
+
+
+--A1L8Q is buff~35
+--operation mode is normal
+
+A1L8Q_lut_out = DI[7];
+A1L8Q = DFFEAS(A1L8Q_lut_out, WR, VCC, , A1L541, , , , );
+
+
+--A1L39 is buff~184
+--operation mode is normal
+
+A1L39 = countRD[0] & (countRD[1]) # !countRD[0] & (countRD[1] & A1L42Q # !countRD[1] & (A1L8Q));
+
+
+--A1L23Q is buff~59
+--operation mode is normal
+
+A1L23Q_lut_out = DI[7];
+A1L23Q = DFFEAS(A1L23Q_lut_out, WR, VCC, , A1L641, , , , );
+
+
+--A1L49 is buff~185
+--operation mode is normal
+
+A1L49 = countRD[0] & (A1L39 & (A1L23Q) # !A1L39 & A1L61Q) # !countRD[0] & (A1L39);
+
+
+--A1L65Q is buff~83
+--operation mode is normal
+
+A1L65Q_lut_out = DI[7];
+A1L65Q = DFFEAS(A1L65Q_lut_out, WR, VCC, , A1L741, , , , );
+
+
+--A1L84Q is buff~75
+--operation mode is normal
+
+A1L84Q_lut_out = DI[7];
+A1L84Q = DFFEAS(A1L84Q_lut_out, WR, VCC, , A1L841, , , , );
+
+
+--A1L04Q is buff~67
+--operation mode is normal
+
+A1L04Q_lut_out = DI[7];
+A1L04Q = DFFEAS(A1L04Q_lut_out, WR, VCC, , A1L941, , , , );
+
+
+--A1L59 is buff~186
+--operation mode is normal
+
+A1L59 = countRD[1] & (countRD[0]) # !countRD[1] & (countRD[0] & A1L84Q # !countRD[0] & (A1L04Q));
+
+
+--A1L46Q is buff~91
+--operation mode is normal
+
+A1L46Q_lut_out = DI[7];
+A1L46Q = DFFEAS(A1L46Q_lut_out, WR, VCC, , A1L051, , , , );
+
+
+--A1L69 is buff~187
+--operation mode is normal
+
+A1L69 = countRD[1] & (A1L59 & (A1L46Q) # !A1L59 & A1L65Q) # !countRD[1] & (A1L59);
+
+
+--A1L101 is countRD[2]~31
+--operation mode is normal
+
+A1L101 = countRD[0] & countRD[1];
+
+
+--A1L601 is countWR[2]~31
+--operation mode is normal
+
+A1L601 = countWR[0] & countWR[1];
+
+
+--A1L341 is rtl~0
+--operation mode is normal
+
+A1L341 = countWR[1] & !countWR[0] & !countWR[2] & !Reset;
+
+
+--A1L441 is rtl~1
+--operation mode is normal
+
+A1L441 = countWR[0] & !countWR[2] & !countWR[1] & !Reset;
+
+
+--A1L541 is rtl~2
+--operation mode is normal
+
+A1L541 = !countWR[0] & !countWR[2] & !countWR[1] & !Reset;
+
+
+--A1L641 is rtl~3
+--operation mode is normal
+
+A1L641 = countWR[0] & countWR[1] & !countWR[2] & !Reset;
+
+
+--A1L741 is rtl~4
+--operation mode is normal
+
+A1L741 = countWR[2] & countWR[1] & !countWR[0] & !Reset;
+
+
+--A1L841 is rtl~5
+--operation mode is normal
+
+A1L841 = countWR[0] & countWR[2] & !countWR[1] & !Reset;
+
+
+--A1L941 is rtl~6
+--operation mode is normal
+
+A1L941 = countWR[2] & !countWR[0] & !countWR[1] & !Reset;
+
+
+--A1L051 is rtl~7
+--operation mode is normal
+
+A1L051 = countWR[0] & countWR[2] & countWR[1] & !Reset;
+
+
+--WR is WR
+--operation mode is input
+
+WR = INPUT();
+
+
+--RD is RD
+--operation mode is input
+
+RD = INPUT();
+
+
+--Reset is Reset
+--operation mode is input
+
+Reset = INPUT();
+
+
+--DI[0] is DI[0]
+--operation mode is input
+
+DI[0] = INPUT();
+
+
+--DI[1] is DI[1]
+--operation mode is input
+
+DI[1] = INPUT();
+
+
+--DI[2] is DI[2]
+--operation mode is input
+
+DI[2] = INPUT();
+
+
+--DI[3] is DI[3]
+--operation mode is input
+
+DI[3] = INPUT();
+
+
+--DI[4] is DI[4]
+--operation mode is input
+
+DI[4] = INPUT();
+
+
+--DI[5] is DI[5]
+--operation mode is input
+
+DI[5] = INPUT();
+
+
+--DI[6] is DI[6]
+--operation mode is input
+
+DI[6] = INPUT();
+
+
+--DI[7] is DI[7]
+--operation mode is input
+
+DI[7] = INPUT();
+
+
+--FULL is FULL
+--operation mode is bidir
+
+FULL_tri_out = TRI(FULL$latch, VCC);
+FULL = BIDIR(FULL_tri_out);
+
+
+--EMPTY is EMPTY
+--operation mode is bidir
+
+EMPTY_tri_out = TRI(EMPTY$latch, VCC);
+EMPTY = BIDIR(EMPTY_tri_out);
+
+
+--DO[0] is DO[0]
+--operation mode is bidir
+
+DO[0]_tri_out = TRI(A1L811Q, VCC);
+DO[0] = BIDIR(DO[0]_tri_out);
+
+
+--DO[1] is DO[1]
+--operation mode is bidir
+
+DO[1]_tri_out = TRI(A1L021Q, VCC);
+DO[1] = BIDIR(DO[1]_tri_out);
+
+
+--DO[2] is DO[2]
+--operation mode is bidir
+
+DO[2]_tri_out = TRI(A1L221Q, VCC);
+DO[2] = BIDIR(DO[2]_tri_out);
+
+
+--DO[3] is DO[3]
+--operation mode is bidir
+
+DO[3]_tri_out = TRI(A1L421Q, VCC);
+DO[3] = BIDIR(DO[3]_tri_out);
+
+
+--DO[4] is DO[4]
+--operation mode is bidir
+
+DO[4]_tri_out = TRI(A1L621Q, VCC);
+DO[4] = BIDIR(DO[4]_tri_out);
+
+
+--DO[5] is DO[5]
+--operation mode is bidir
+
+DO[5]_tri_out = TRI(A1L821Q, VCC);
+DO[5] = BIDIR(DO[5]_tri_out);
+
+
+--DO[6] is DO[6]
+--operation mode is bidir
+
+DO[6]_tri_out = TRI(A1L031Q, VCC);
+DO[6] = BIDIR(DO[6]_tri_out);
+
+
+--DO[7] is DO[7]
+--operation mode is bidir
+
+DO[7]_tri_out = TRI(A1L231Q, VCC);
+DO[7] = BIDIR(DO[7]_tri_out);
+
+
