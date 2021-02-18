@@ -195,6 +195,652 @@ divide 11 61 547 1 . 169
     (type (internal ALU_command 0 167 (enum disable pass1 log_and log_or log_xor log_mask incr1 add subtract multiply divide (to (i 0)(i 10)))))
   )
 )
+01000088 I alu_32_tb 5 ".\src\TestBench\ALU_32_TB.vhd" 152 209 1
+ TB_ARCHITECTURE 4500 1739 0 0
+12
+0
+12
+00000017
+1
+.\src\TestBench\ALU_32_TB.vhd
+0
+0 0 0 0 0 0
+1
+1
+30
+0
+30
+12 ~ ~ 0 0
+0
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.1
+0
+0
+0
+0
+#VLB_VERSION 52
+#INFO
+alu_32_tb
+E 1613685854.036
+1
+#ACCESS
+~
+ALU_32
+alu_32_types all .
+dp32_types all .
+.
+std
+.
+ieee
+std_logic_1164 all .
+.
+#OBJECTS
+TPD 0 30 70 1 . 20
+#SPECIFICATION 
+#END
+(unit (alu_32_tb 0 17 (TB_ARCHITECTURE 0 23 ))
+  (version v11)
+  (time 1613685958.961 2021.02.19 02:05:58)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard))(alu_32(alu_32_types))(alu_32(dp32_types))(ieee(std_logic_1164)))
+  (object
+    (generic (internal TPD ~extSTD.STANDARD.TIME 0 20 \1.1 ns\ (architecture -1 ((d 1100)))))
+    (signal (internal operand1 ~extalu_32.dp32_types.bit_32 0 37 (architecture (uni ))))
+    (signal (internal operand2 ~extalu_32.dp32_types.bit_32 0 38 (architecture (uni ))))
+    (signal (internal command ~extalu_32.alu_32_types.ALU_command 0 39 (architecture (uni ))))
+    (signal (internal result ~extalu_32.dp32_types.bus_bit_32 0 41 (architecture (uni ))))
+    (signal (internal cond_code ~extalu_32.dp32_types.CC_bits 0 42 (architecture (uni ))))
+    (type (external ~extSTD.STANDARD.TIME (STD STANDARD TIME)))
+    (type (external ~extalu_32.dp32_types.bit_32 (alu_32 dp32_types bit_32)))
+    (type (external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (type (external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (type (external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (type (external ~extalu_32.dp32_types.bus_bit_32 (alu_32 dp32_types bus_bit_32)))
+    (type (external ~extalu_32.dp32_types.CC_bits (alu_32 dp32_types CC_bits)))
+    (type (external ~extalu_32.alu_32_types.ALU_command (alu_32 alu_32_types ALU_command)))
+    (process
+      (STIMULUS(architecture 0 0 60 (process (wait_for)(target(2)(1)(0)))))
+    )
+    (subprogram
+      (external resolved (ieee std_logic_1164 0))
+    )
+  )
+  (component
+    (ALU_32
+      (object
+        (generic (internal TPD ~extSTD.STANDARD.TIME 0 27 (entity -1 ((d 1100)))))
+        (port (internal operand1 ~extalu_32.dp32_types.bit_32 0 29 (entity (in ))))
+        (port (internal operand2 ~extalu_32.dp32_types.bit_32 0 30 (entity (in ))))
+        (port (internal result ~extalu_32.dp32_types.bus_bit_32 0 31 (entity (out ))))
+        (port (internal cond_code ~extalu_32.dp32_types.CC_bits 0 32 (entity (out ))))
+        (port (internal command ~extalu_32.alu_32_types.ALU_command 0 33 (entity (in ))))
+      )
+    )
+  )
+  (instantiation UUT 0 49 (component ALU_32)
+    (port
+      ((operand1)(operand1))
+      ((operand2)(operand2))
+      ((result)(result))
+      ((cond_code)(cond_code))
+      ((command)(command))
+    )
+    (use (entity alu_32 ALU_32)
+      (generic
+        ((TPD)((d 1100)))
+      )
+    )
+  )
+  (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 )
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 2 )
+  )
+  (model
+    (
+      (d6(0(40)))
+      (3369(3200000(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300000))
+      (7c5f(20))
+      (9187)
+      (d6(0(41)))
+      (3369(3200001(20)))
+      (35a9(0(1f)))
+      (24ce(1f))
+      (105f(8300001))
+      (7c5f(20))
+      (9187)
+      (d6(0(42)))
+      (7c5f)
+      (105f(8300002))
+      (9387)
+      (d6(0(43)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(44)))
+      (7c5f(6))
+      (105f(8300002))
+      (9387)
+      (d6(0(45)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(46)))
+      (7c5f(7))
+      (105f(8300002))
+      (9387)
+      (d6(0(47)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(48)))
+      (7c5f(8))
+      (105f(8300002))
+      (9387)
+      (d6(0(49)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4a)))
+      (7c5f(9))
+      (105f(8300002))
+      (9387)
+      (d6(0(4b)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4c)))
+      (7c5f(a))
+      (105f(8300002))
+      (9387)
+      (d6(0(4d)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(4e)))
+      (7c5f(1))
+      (105f(8300002))
+      (9387)
+      (d6(0(4f)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(50)))
+      (7c5f(2))
+      (105f(8300002))
+      (9387)
+      (d6(0(51)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(52)))
+      (7c5f(3))
+      (105f(8300002))
+      (9387)
+      (d6(0(53)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(54)))
+      (7c5f(4))
+      (105f(8300002))
+      (9387)
+      (d6(0(55)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(56)))
+      (7c5f(5))
+      (105f(8300002))
+      (9387)
+      (d6(0(57)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(59)))
+      (af08)
+      (d6(0(5a)))
+      (1)
+    )
+  )
+)
+13______
+52
+TB_ARCHITECTURE
+1
+5
+std
+.
+.
+1
+1
+18
+ALU_32
+0
+18
+13 ~ ~ 0 0
+25
+0
+1
+30
+TPD
+0
+30
+13 ~ ~ 1 0
+27
+1
+1
+15 STD STANDARD 77 6
+1
+1
+1
+145
+147
+0
+0
+1
+1
+ns
+0
+1
+1.1
+0
+0
+1
+29
+operand1
+0
+29
+13 ~ ~ 2 0
+29
+5
+67
+0
+1
+15 alu_32 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+operand2
+0
+29
+13 ~ ~ 3 0
+30
+6
+67
+0
+1
+15 alu_32 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+result
+0
+29
+13 ~ ~ 4 0
+31
+7
+68
+0
+1
+15 alu_32 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+cond_code
+0
+29
+13 ~ ~ 5 0
+32
+8
+68
+0
+1
+15 alu_32 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+1
+29
+command
+0
+29
+13 ~ ~ 6 0
+33
+9
+67
+0
+1
+15 alu_32 alu_32_types 0 0
+1
+0
+0
+1
+5
+1
+3
+operand1
+0
+3
+13 ~ ~ 7 0
+37
+0
+1
+15 alu_32 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+operand2
+0
+3
+13 ~ ~ 8 1
+38
+1
+1
+15 alu_32 dp32_types 2 0
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+command
+0
+3
+13 ~ ~ 9 2
+39
+2
+1
+15 alu_32 alu_32_types 0 0
+1
+0
+0
+1
+3
+result
+0
+3
+13 ~ ~ 10 3
+41
+3
+1
+15 alu_32 dp32_types 8 3
+0
+15 ieee std_logic_1164 5 3
+0
+0
+1
+3
+cond_code
+0
+3
+13 ~ ~ 11 4
+42
+4
+1
+15 alu_32 dp32_types 4 1
+0
+15 ieee std_logic_1164 5 3
+0
+0
+0
+1
+1
+1
+39
+39
+39
+~
+0
+39
+13 ~ ~ 13 0
+49
+0
+1
+UUT
+1
+114
+1
+ALU_32
+0
+1
+18
+13 ~ ~ 0 0
+0
+0
+1
+5
+11
+1
+1
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+29
+13 ~ ~ 2 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand1
+0
+0
+0
+1
+3
+13 ~ ~ 7 0
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+29
+13 ~ ~ 3 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+operand2
+0
+0
+0
+1
+3
+13 ~ ~ 8 1
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+29
+13 ~ ~ 4 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+result
+0
+0
+0
+1
+3
+13 ~ ~ 10 3
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+29
+13 ~ ~ 5 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+cond_code
+0
+0
+0
+1
+3
+13 ~ ~ 11 4
+1
+0
+0
+0
+0
+11
+1
+1
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+29
+13 ~ ~ 6 0
+1
+0
+1
+1
+1
+1
+139
+0
+0
+0
+0
+1
+command
+0
+0
+0
+1
+3
+13 ~ ~ 9 2
+1
+0
+0
+0
+0
+0
+1
+0
+01000066 I TESTBENCH_FOR_ALU_32 7 ".\src\TestBench\ALU_32_TB.vhd" 0 0 504
+(configuration (TESTBENCH_FOR_ALU_32 0 99 (alu_32_tb))
+  (version v11)
+  (time 1613685959.006 2021.02.19 02:05:59)
+  (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
+  (use (std(standard)))
+  (architecture TB_ARCHITECTURE
+    (instantiation UUT
+      (entity ALU_32 ALU_32 behaviour
+        (port
+          ((operand1)(operand1))
+          ((operand2)(operand2))
+          ((result)(result))
+          ((cond_code)(cond_code))
+          ((command)(command))
+        )
+      )
+    )
+  )
+)
 01000050 V dp32_types 6 ".\src\ALU_32.VHD" 4494 1340 9812
 15
 0
@@ -1399,7 +2045,7 @@ bits 40 25 4433 0 . 56
 #END
 (unit (dp32_types 0 10 (dp32_types 0 62 ))
   (version v11)
-  (time 1613482637.330 2021.02.16 17:37:17)
+  (time 1613686025.714 2021.02.19 02:07:05)
   (source (\.\\src\\ALU_32.VHD\))
   (use (std(standard))(ieee(std_logic_1164)))
   (object
@@ -1842,7 +2488,7 @@ command 5 29 504 1 . 186
 #END
 (unit (ALU_32 0 180 (behaviour 0 192 ))
   (version v11)
-  (time 1613482637.642 2021.02.16 17:37:17)
+  (time 1613686025.936 2021.02.19 02:07:05)
   (source (\.\\src\\ALU_32.VHD\))
   (use (std(standard))(alu_32(alu_32_types))(alu_32(dp32_types))(ieee(std_logic_1164)))
   (object
@@ -2427,8 +3073,8 @@ cond_code
 0
 0
 0
-01000088 V alu_32_tb 5 ".\src\TestBench\ALU_32_TB.vhd" 151 209 1
- TB_ARCHITECTURE 4321 1738 0 0
+01000088 V alu_32_tb 5 ".\src\TestBench\ALU_32_TB.vhd" 152 209 1
+ TB_ARCHITECTURE 4500 1739 0 0
 12
 0
 12
@@ -2458,7 +3104,7 @@ cond_code
 ns
 0
 1
-1.
+1.1
 0
 0
 0
@@ -2466,7 +3112,7 @@ ns
 #VLB_VERSION 52
 #INFO
 alu_32_tb
-E 1613482638.892
+E 1613685854.036
 1
 #ACCESS
 ~
@@ -2485,11 +3131,11 @@ TPD 0 30 70 1 . 20
 #END
 (unit (alu_32_tb 0 17 (TB_ARCHITECTURE 0 23 ))
   (version v11)
-  (time 1613482638.923 2021.02.16 17:37:18)
+  (time 1613686027.221 2021.02.19 02:07:07)
   (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
   (use (std(standard))(alu_32(alu_32_types))(alu_32(dp32_types))(ieee(std_logic_1164)))
   (object
-    (generic (internal TPD ~extSTD.STANDARD.TIME 0 20 \1.0 ns\ (architecture -1 ((d 1000)))))
+    (generic (internal TPD ~extSTD.STANDARD.TIME 0 20 \1.1 ns\ (architecture -1 ((d 1100)))))
     (signal (internal operand1 ~extalu_32.dp32_types.bit_32 0 37 (architecture (uni ))))
     (signal (internal operand2 ~extalu_32.dp32_types.bit_32 0 38 (architecture (uni ))))
     (signal (internal command ~extalu_32.alu_32_types.ALU_command 0 39 (architecture (uni ))))
@@ -2513,7 +3159,7 @@ TPD 0 30 70 1 . 20
   (component
     (ALU_32
       (object
-        (generic (internal TPD ~extSTD.STANDARD.TIME 0 27 (entity -1 ((d 1000)))))
+        (generic (internal TPD ~extSTD.STANDARD.TIME 0 27 (entity -1 ((d 1100)))))
         (port (internal operand1 ~extalu_32.dp32_types.bit_32 0 29 (entity (in ))))
         (port (internal operand2 ~extalu_32.dp32_types.bit_32 0 30 (entity (in ))))
         (port (internal result ~extalu_32.dp32_types.bus_bit_32 0 31 (entity (out ))))
@@ -2531,11 +3177,14 @@ TPD 0 30 70 1 . 20
       ((command)(command))
     )
     (use (entity alu_32 ALU_32)
+      (generic
+        ((TPD)((d 1100)))
+      )
     )
   )
   (static
+    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 )
     (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 2 )
-    (2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 2 )
   )
   (model
     (
@@ -2561,71 +3210,78 @@ TPD 0 30 70 1 . 20
       (2f66(186a0))
       (b008)
       (d6(0(44)))
-      (7c5f(1))
+      (7c5f(6))
       (105f(8300002))
       (9387)
       (d6(0(45)))
       (2f66(186a0))
       (b008)
       (d6(0(46)))
-      (7c5f(2))
+      (7c5f(7))
       (105f(8300002))
       (9387)
       (d6(0(47)))
       (2f66(186a0))
       (b008)
       (d6(0(48)))
-      (7c5f(3))
+      (7c5f(8))
       (105f(8300002))
       (9387)
       (d6(0(49)))
       (2f66(186a0))
       (b008)
       (d6(0(4a)))
-      (7c5f(4))
+      (7c5f(9))
       (105f(8300002))
       (9387)
       (d6(0(4b)))
       (2f66(186a0))
       (b008)
       (d6(0(4c)))
-      (7c5f(5))
+      (7c5f(a))
       (105f(8300002))
       (9387)
       (d6(0(4d)))
       (2f66(186a0))
       (b008)
       (d6(0(4e)))
-      (7c5f(6))
+      (7c5f(1))
       (105f(8300002))
       (9387)
       (d6(0(4f)))
       (2f66(186a0))
       (b008)
       (d6(0(50)))
-      (7c5f(7))
+      (7c5f(2))
       (105f(8300002))
       (9387)
       (d6(0(51)))
       (2f66(186a0))
       (b008)
       (d6(0(52)))
-      (7c5f(8))
+      (7c5f(3))
       (105f(8300002))
       (9387)
       (d6(0(53)))
       (2f66(186a0))
       (b008)
       (d6(0(54)))
-      (7c5f(9))
+      (7c5f(4))
       (105f(8300002))
       (9387)
       (d6(0(55)))
       (2f66(186a0))
       (b008)
+      (d6(0(56)))
+      (7c5f(5))
+      (105f(8300002))
+      (9387)
       (d6(0(57)))
+      (2f66(186a0))
+      (b008)
+      (d6(0(59)))
       (af08)
-      (d6(0(58)))
+      (d6(0(5a)))
       (1)
     )
   )
@@ -2669,7 +3325,7 @@ TPD
 ns
 0
 1
-1.
+1.1
 0
 0
 1
@@ -3044,9 +3700,9 @@ command
 1
 0
 01000066 V TESTBENCH_FOR_ALU_32 7 ".\src\TestBench\ALU_32_TB.vhd" 0 0 504
-(configuration (TESTBENCH_FOR_ALU_32 0 97 (alu_32_tb))
+(configuration (TESTBENCH_FOR_ALU_32 0 99 (alu_32_tb))
   (version v11)
-  (time 1613482638.970 2021.02.16 17:37:18)
+  (time 1613686027.284 2021.02.19 02:07:07)
   (source (\.\\src\\TestBench\\ALU_32_TB.vhd\))
   (use (std(standard)))
   (architecture TB_ARCHITECTURE

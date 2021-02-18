@@ -7,7 +7,7 @@ wave operand2
 wave result
 wave cond_code
 wave command
-run 1.1 us
+run 1. us
 # The following lines can be used for timing simulation
 # vcom <backannotated_vhdl_file_name>
 # vcom "$DSN\src\TestBench\ALU_32_TB_tim_cfg.vhd" 

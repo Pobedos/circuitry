@@ -1,4 +1,4 @@
-19
+59
 ~E
 ALU_32
 z:\lab21\alu_32\src\ALU_32.VHD
@@ -18,4 +18,4 @@ z:\lab21\alu_32\src\TestBench\ALU_32_TB.vhd
 ~C
 TESTBENCH_FOR_ALU_32
 z:\lab21\alu_32\src\TestBench\ALU_32_TB.vhd
-97
+99
