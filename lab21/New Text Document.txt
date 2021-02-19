@@ -1,0 +1,1 @@
+disable 0 ns, incr1 100 ns, add 200 ns, subtract 300 ns, multiply 400 ns, divide 500 ns, pass1 600 ns, log_and 700 ns, log_or 800 ns, log_xor 900 ns, log_mask 1000 ns 

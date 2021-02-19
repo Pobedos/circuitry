@@ -1,156 +1,15 @@
-Design: 2:01, 19 февраля 2021 г.
+Design: 12:25, 19 февраля 2021 г.
 Design: Opening design "Z:\lab21\ALU_32\ALU_32.adf"
 ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration time 0.1 [s].
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.0 [s].
 KERNEL: Main thread initiated.
 KERNEL: Kernel process initialization phase.
 KERNEL: Kernel process initialization done.
-2:02, 19 февраля 2021 г.
+12:26, 19 февраля 2021 г.
 Simulation has been initialized
 Selected Top-Level: TESTBENCH_FOR_ALU_32
-KERNEL: stopped at time: 1100 ns
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
 Simulation has been stopped
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-KERNEL: Kernel process initialization done.
-2:02, 19 февраля 2021 г.
-Simulation has been initialized
-Selected Top-Level: TESTBENCH_FOR_ALU_32
-KERNEL: stopped at time: 1100 ns
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
-Simulation has been stopped
-vcom "$DSN\src\ALU_32.VHD" 
-Compilation...
-File: .\src\ALU_32.VHD
-Compile Package "dp32_types"
-Package "dp32_types" has been skipped - no difference detected.
-Compile Package Body "dp32_types"
-Compile Package "alu_32_types"
-Package "alu_32_types" has been skipped - no difference detected.
-Compile Entity "ALU_32"
-Entity "ALU_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
-ULM_0012: Compacting library "alu_32" started.
-ULM_0012: Compacting library "alu_32" completed. The library size has been reduced by 65%.
-vcom "$DSN\src\TestBench\ALU_32_TB.vhd" 
-Compilation...
-File: .\src\TestBench\ALU_32_TB.vhd
-Compile Entity "alu_32_tb"
-Compile Architecture "TB_ARCHITECTURE" of Entity "alu_32_tb"
-Compile Configuration "TESTBENCH_FOR_ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-vsim TESTBENCH_FOR_ALU_32 
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-KERNEL: Kernel process initialization done.
-2:04, 19 февраля 2021 г.
-Simulation has been initialized
-Selected Top-Level: TESTBENCH_FOR_ALU_32
-wave  
-wave operand1
-wave operand2
-wave result
-wave cond_code
-wave command
-run 1. us
-KERNEL: stopped at time: 1 us
-# The following lines can be used for timing simulation
-# vcom <backannotated_vhdl_file_name>
-# vcom "$DSN\src\TestBench\ALU_32_TB_tim_cfg.vhd" 
-# vsim TIMING_FOR_ALU_32 
-vcom "$DSN\src\ALU_32.VHD" 
-Compilation...
-File: .\src\ALU_32.VHD
-Compile Package "dp32_types"
-Package "dp32_types" has been skipped - no difference detected.
-Compile Package Body "dp32_types"
-Compile Package "alu_32_types"
-Package "alu_32_types" has been skipped - no difference detected.
-Compile Entity "ALU_32"
-Entity "ALU_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-vcom "$DSN\src\TestBench\ALU_32_TB.vhd" 
-Compilation...
-File: .\src\TestBench\ALU_32_TB.vhd
-Compile Entity "alu_32_tb"
-Entity "alu_32_tb" has been skipped - no difference detected.
-Compile Architecture "TB_ARCHITECTURE" of Entity "alu_32_tb"
-Compile Configuration "TESTBENCH_FOR_ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-vsim TESTBENCH_FOR_ALU_32 
-Simulation has been stopped
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-KERNEL: Kernel process initialization done.
-2:06, 19 февраля 2021 г.
-Simulation has been initialized
-Selected Top-Level: TESTBENCH_FOR_ALU_32
-wave  
-wave operand1
-wave operand2
-wave result
-wave cond_code
-wave command
-run 1. us
-KERNEL: stopped at time: 1 us
-# The following lines can be used for timing simulation
-# vcom <backannotated_vhdl_file_name>
-# vcom "$DSN\src\TestBench\ALU_32_TB_tim_cfg.vhd" 
-# vsim TIMING_FOR_ALU_32 
-vcom "$DSN\src\ALU_32.VHD" 
-Compilation...
-File: .\src\ALU_32.VHD
-Compile Package "dp32_types"
-Package "dp32_types" has been skipped - no difference detected.
-Compile Package Body "dp32_types"
-Compile Package "alu_32_types"
-Package "alu_32_types" has been skipped - no difference detected.
-Compile Entity "ALU_32"
-Entity "ALU_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
-ULM_0012: Compacting library "alu_32" started.
-ULM_0012: Compacting library "alu_32" completed. The library size has been reduced by 65%.
-vcom "$DSN\src\TestBench\ALU_32_TB.vhd" 
-Compilation...
-File: .\src\TestBench\ALU_32_TB.vhd
-Compile Entity "alu_32_tb"
-Entity "alu_32_tb" has been skipped - no difference detected.
-Compile Architecture "TB_ARCHITECTURE" of Entity "alu_32_tb"
-Compile Configuration "TESTBENCH_FOR_ALU_32"
-Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
-vsim TESTBENCH_FOR_ALU_32 
-Simulation has been stopped
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.0 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-KERNEL: Kernel process initialization done.
-2:07, 19 февраля 2021 г.
-Simulation has been initialized
-Selected Top-Level: TESTBENCH_FOR_ALU_32
-wave  
-wave operand1
-wave operand2
-wave result
-wave cond_code
-wave command
-run 1.1 us
-KERNEL: stopped at time: 1100 ns
-KERNEL: Simulation has finished. There are no more test vectors to simulate.
-# The following lines can be used for timing simulation
-# vcom <backannotated_vhdl_file_name>
-# vcom "$DSN\src\TestBench\ALU_32_TB_tim_cfg.vhd" 
-# vsim TIMING_FOR_ALU_32 
-Simulation has been stopped
