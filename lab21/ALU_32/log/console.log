@@ -13,3 +13,112 @@ Selected Top-Level: TESTBENCH_FOR_ALU_32
 Simulation has been stopped
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.0 [s].
+Design: Error: No signals matching specified filters found.
+Design: Error: No signals matching specified filters found.
+Design: Error: No signals matching specified filters found.
+Design: Error: No signals matching specified filters found.
+Design: Error: No signals matching specified filters found.
+Design: Error: No signals matching specified filters found.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+13:04, 19 февраля 2021 г.
+Simulation has been initialized
+Selected Top-Level: ALU_32 (behaviour)
+KERNEL: stopped at time: 2 us
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 3100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+13:06, 19 февраля 2021 г.
+Simulation has been initialized
+Selected Top-Level: ALU_32 (behaviour)
+KERNEL: stopped at time: 1100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Design: Test Bench report error:
+Design: Selected entity: ALU_32
+Design: Selected architecture: behaviour
+Design: File with stimulators: Z:\lab21\ALU_32\src\ALU_sig.awf
+Design: No errors
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+14:00, 19 февраля 2021 г.
+Simulation has been initialized
+Selected Top-Level: ALU_32 (behaviour)
+KERNEL: stopped at time: 1100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Design: Test Bench report error:
+Design: Selected entity: ALU_32
+Design: Selected architecture: behaviour
+Design: File with stimulators: Z:\lab21\ALU_32\src\ALU_sig.awf
+Design: No errors
+Design: Test Bench report error:
+Design: Selected entity: ALU_32
+Design: Selected architecture: behaviour
+Design: File with stimulators: Z:\lab21\ALU_32\src\ALU_sig.awf
+Design: No errors
+vcom "$DSN\src\ALU_32.VHD" 
+Compilation...
+File: .\src\ALU_32.VHD
+Compile Package "dp32_types"
+Package "dp32_types" has been skipped - no difference detected.
+Compile Package Body "dp32_types"
+Compile Package "alu_32_types"
+Package "alu_32_types" has been skipped - no difference detected.
+Compile Entity "ALU_32"
+Entity "ALU_32" has been skipped - no difference detected.
+Compile Architecture "behaviour" of Entity "ALU_32"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+vcom "$DSN\src\TestBench\ALU_32_TB.vhd" 
+Compilation...
+File: .\src\TestBench\ALU_32_TB.vhd
+Compile Entity "alu_32_tb"
+Entity "alu_32_tb" has been skipped - no difference detected.
+Compile Architecture "TB_ARCHITECTURE" of Entity "alu_32_tb"
+Compile Configuration "TESTBENCH_FOR_ALU_32"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vsim TESTBENCH_FOR_ALU_32 
+Simulation has been stopped
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+14:09, 19 февраля 2021 г.
+Simulation has been initialized
+Selected Top-Level: TESTBENCH_FOR_ALU_32
+wave  
+wave operand1
+wave operand2
+wave result
+wave cond_code
+wave command
+run 1.1 us
+KERNEL: stopped at time: 1100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# The following lines can be used for timing simulation
+# vcom <backannotated_vhdl_file_name>
+# vcom "$DSN\src\TestBench\ALU_32_TB_tim_cfg.vhd" 
+# vsim TIMING_FOR_ALU_32 
+Simulation has been stopped

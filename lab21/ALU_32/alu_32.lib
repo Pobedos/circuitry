@@ -1,14 +1,14 @@
 [~A]
-invalid=7274
-last=42898
-modifyid=59
-valid=36202
+invalid=51924
+last=77736
+modifyid=65
+valid=26390
 ver=52
 
 [~U]
-ALU_32=24342,5
-alu_32_tb=36202,5
+ALU_32=59180,5
+alu_32_tb=71040,5
 alu_32_types=0,6
-dp32_types=8638,6
-TESTBENCH_FOR_ALU_32=42898,7
+dp32_types=43476,6
+TESTBENCH_FOR_ALU_32=77736,7
 

@@ -1,0 +1,12 @@
+[Project]
+Current config=Generic
+VCS=0
+modified=156
+[Configurations]
+Generic=DP_32_1
+[Files]
+/dp32_behav.vhd=4, 1 30762122 794437888, 0, , , ,
+/alu_32.vhd=4, 1 29272015 646978560, 0, , , ,
+/clk_gen.vhd=4, 1 29272015 646978560, 0, , , ,
+/dp32_test.vhd=4, 1 29246673 3748193792, 0, , , ,
+/memory.vhd=4, 1 30870494 2341021599, 0, , , ,

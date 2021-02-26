@@ -1,12 +1,12 @@
 [Project]
 Current config=Generic
 VCS=0
-modified=56
+modified=71
 [Configurations]
 Generic=ALU_32
 [Files]
-/ALU_32.VHD=4, 1 30869058 1705408836, 0, , , ,
-TestBench/ALU_32_TB.vhd=6, 1 30869058 1721110812, 0, 1 , , ,
+/ALU_32.VHD=4, 1 30869159 1344848570, 0, , , ,
+TestBench/ALU_32_TB.vhd=6, 1 30869159 1362817831, 0, 1 , , ,
 TestBench/ALU_32_TB_runtest.do=9, 0 0 0, 0, ,
 [Groups]
 TestBench=1
