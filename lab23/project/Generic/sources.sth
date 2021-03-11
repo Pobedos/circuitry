@@ -1,0 +1,16 @@
+[Files List]
+c:\program files\aldec\active vhdl\vlib\std\src\standard.vhd=S
+z:\lab23\project\src\ALU_32.VHD=S
+c:\program files\aldec\active vhdl\vlib\ieee\src\stdlogic.vhd=S
+z:\lab23\project\src\SIGNEXT.VHD=S
+z:\lab23\project\src\LATCH.VHD=S
+z:\lab23\project\src\LTCH_BUF.VHD=S
+z:\lab23\project\src\BUFFER32.VHD=S
+z:\lab23\project\src\CC_COMP.VHD=S
+z:\lab23\project\src\PC_REG.VHD=S
+z:\lab23\project\src\MUX2.VHD=S
+z:\lab23\project\src\REG_FILE.VHD=S
+z:\lab23\project\src\MEMORY.VHD=S
+z:\lab23\project\src\DP32_RTL.VHD=S
+z:\lab23\project\src\CLK_GEN.VHD=S
+z:\lab23\project\src\DP32_TEST.VHD=S
