@@ -1,0 +1,1085 @@
+ -- Copyright (C) 1991-2005 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic       
+ -- functions, and any output files any of the foregoing           
+ -- (including device programming or simulation files), and any    
+ -- associated documentation or information are expressly subject  
+ -- to the terms and conditions of the Altera Program License      
+ -- Subscription Agreement, Altera MegaCore Function License       
+ -- Agreement, or other applicable license agreement, including,   
+ -- without limitation, that your use is for the sole purpose of   
+ -- programming logic devices manufactured by Altera and sold by   
+ -- Altera or its authorized distributors.  Please refer to the    
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.5V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		3.3V
+ --					Bank 2:		3.3V
+ --					Bank 3:		3.3V
+ --					Bank 4:		3.3V
+ --					Bank 5:		3.3V
+ --					Bank 6:		3.3V
+ --					Bank 7:		3.3V
+ --					Bank 8:		3.3V
+ --					Bank 9:		3.3V
+ --					Bank 10:	3.3V
+ --					Bank 11:	3.3V
+ --					Bank 12:	3.3V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   This pin can either be left unconnected or
+ --           	    connected to GND.  Connecting this pin to GND will improve the
+ --           	    device's immunity to noise.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 5.0 Build 148 04/26/2005 SJ Full Version
+CHIP  "VHDL_code"  ASSIGNED TO AN: EP1S25F1020C5
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A2        : gnd    :                   :         :           :                
+VCCIO4                       : A3        : power  :                   : 3.3V    : 4         :                
+in_matrix[2][2][3]           : A4        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][2][19]          : A5        : input  : LVTTL             :         : 4         : N              
+in_matrix[3][0][20]          : A6        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][0][18]          : A7        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][2][19]          : A8        : input  : LVTTL             :         : 4         : N              
+current_col[16]              : A9        : output : LVTTL             :         : 4         : N              
+GND                          : A10       : gnd    :                   :         :           :                
+current_col[17]              : A11       : output : LVTTL             :         : 4         : N              
+VCCIO4                       : A12       : power  :                   : 3.3V    : 4         :                
+in_matrix[3][0][25]          : A13       : input  : LVTTL             :         : 4         : N              
+in_matrix[0][2][11]          : A14       : input  : LVTTL             :         : 4         : N              
+in_matrix[2][2][5]           : A15       : input  : LVTTL             :         : 4         : N              
+in_matrix[0][2][21]          : A16       : input  : LVTTL             :         : 9         : N              
+in_matrix[0][1][21]          : A17       : input  : LVTTL             :         : 9         : N              
+in_matrix[2][1][0]           : A18       : input  : LVTTL             :         : 10        : N              
+in_matrix[0][0][10]          : A19       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][2][10]          : A20       : input  : LVTTL             :         : 3         : N              
+VCCIO3                       : A21       : power  :                   : 3.3V    : 3         :                
+in_matrix[2][3][10]          : A22       : input  : LVTTL             :         : 3         : N              
+GND                          : A23       : gnd    :                   :         :           :                
+in_matrix[3][1][27]          : A24       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][30]          : A25       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][2][29]          : A26       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][2][1]           : A27       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][30]          : A28       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][2][23]          : A29       : input  : LVTTL             :         : 3         : N              
+VCCIO3                       : A30       : power  :                   : 3.3V    : 3         :                
+GND                          : A31       : gnd    :                   :         :           :                
+VCCIO6                       : AA1       : power  :                   : 3.3V    : 6         :                
+in_matrix[1][0][17]          : AA2       : input  : LVTTL             :         : 6         : N              
+in_matrix[1][2][20]          : AA3       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][12]          : AA4       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][3][7]           : AA5       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][6]           : AA6       : input  : LVTTL             :         : 6         : N              
+in_matrix[1][2][17]          : AA7       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][3][12]          : AA8       : input  : LVTTL             :         : 6         : N              
+in_matrix[0][3][13]          : AA9       : input  : LVTTL             :         : 6         : N              
+GND                          : AA10      : gnd    :                   :         :           :                
+NC                           : AA11      :        :                   :         :           :                
+in_matrix[0][3][14]          : AA12      : input  : LVTTL             :         : 7         : N              
+NC                           : AA13      :        :                   :         :           :                
+in_matrix[0][3][1]           : AA14      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][6]           : AA15      : input  : LVTTL             :         : 7         : N              
+GND                          : AA16      : gnd    :                   :         :           :                
+GND                          : AA17      : gnd    :                   :         :           :                
+in_matrix[0][3][27]          : AA18      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][1][28]          : AA19      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][1][1]           : AA20      : input  : LVTTL             :         : 8         : N              
+max_sum[8]                   : AA21      : output : LVTTL             :         : 8         : N              
+NC                           : AA22      :        :                   :         :           :                
+GND                          : AA23      : gnd    :                   :         :           :                
+in_matrix[3][1][19]          : AA24      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][0][26]          : AA25      : input  : LVTTL             :         : 1         : N              
+in_matrix[3][1][11]          : AA26      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][1][11]          : AA27      : input  : LVTTL             :         : 1         : N              
+in_matrix[3][3][16]          : AA28      : input  : LVTTL             :         : 1         : N              
+max_sum[14]                  : AA29      : output : LVTTL             :         : 1         : N              
+in_matrix[2][0][30]          : AA30      : input  : LVTTL             :         : 1         : N              
+max_sum[19]                  : AA31      : output : LVTTL             :         : 1         : N              
+VCCIO1                       : AA32      : power  :                   : 3.3V    : 1         :                
+in_matrix[3][3][14]          : AB1       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][3][10]          : AB2       : input  : LVTTL             :         : 6         : N              
+in_matrix[2][0][11]          : AB3       : input  : LVTTL             :         : 6         : N              
+NC                           : AB4       :        :                   :         :           :                
+NC                           : AB5       :        :                   :         :           :                
+in_matrix[1][2][25]          : AB6       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][3][5]           : AB7       : input  : LVTTL             :         : 6         : N              
+GND                          : AB8       : gnd    :                   :         :           :                
+NC                           : AB9       :        :                   :         :           :                
+NC                           : AB10      :        :                   :         :           :                
+GND*                         : AB11      :        :                   :         : 7         :                
+NC                           : AB12      :        :                   :         :           :                
+in_matrix[0][2][17]          : AB13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][15]          : AB14      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][26]          : AB15      : input  : LVTTL             :         : 7         : N              
+GNDG_PLL6                    : AB16      : gnd    :                   :         :           :                
+VCC_PLL6_OUTB                : AB17      : power  :                   : 3.3V    : 12        :                
+in_matrix[0][1][26]          : AB18      : input  : LVTTL             :         : 7         : N              
+in_matrix[1][2][9]           : AB19      : input  : LVTTL             :         : 8         : N              
+max_sum[24]                  : AB20      : output : LVTTL             :         : 8         : N              
+in_matrix[1][1][30]          : AB21      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][0][28]          : AB22      : input  : LVTTL             :         : 8         : N              
+NC                           : AB23      :        :                   :         :           :                
+GND*                         : AB24      :        :                   :         : 8         :                
+GND                          : AB25      : gnd    :                   :         :           :                
+max_sum[17]                  : AB26      : output : LVTTL             :         : 1         : N              
+in_matrix[2][2][13]          : AB27      : input  : LVTTL             :         : 1         : N              
+NC                           : AB28      :        :                   :         :           :                
+NC                           : AB29      :        :                   :         :           :                
+max_value[27]                : AB30      : output : LVTTL             :         : 1         : N              
+in_matrix[1][3][28]          : AB31      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][2][7]           : AB32      : input  : LVTTL             :         : 1         : N              
+GND                          : AC1       : gnd    :                   :         :           :                
+in_matrix[2][0][6]           : AC2       : input  : LVTTL             :         : 6         : N              
+GND*                         : AC3       :        :                   :         : 6         :                
+in_matrix[2][1][11]          : AC4       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][1][7]           : AC5       : input  : LVTTL             :         : 6         : N              
+GND*                         : AC6       :        :                   :         : 6         :                
+in_matrix[2][3][11]          : AC7       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][6]           : AC8       : input  : LVTTL             :         : 6         : N              
+GND*                         : AC9       :        :                   :         : 7         :                
+NC                           : AC10      :        :                   :         :           :                
+NC                           : AC11      :        :                   :         :           :                
+in_matrix[0][1][17]          : AC12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][20]          : AC13      : input  : LVTTL             :         : 7         : N              
+current_col[31]              : AC14      : output : LVTTL             :         : 7         : N              
+in_matrix[0][2][25]          : AC15      : input  : LVTTL             :         : 7         : N              
+VCCIO7                       : AC16      : power  :                   : 3.3V    : 7         :                
+VCCIO8                       : AC17      : power  :                   : 3.3V    : 8         :                
+in_matrix[0][2][27]          : AC18      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][1][9]           : AC19      : input  : LVTTL             :         : 8         : N              
+max_value[26]                : AC20      : output : LVTTL             :         : 8         : N              
+in_matrix[1][2][16]          : AC21      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][0][1]           : AC22      : input  : LVTTL             :         : 8         : N              
+GND*                         : AC23      :        :                   :         : 8         :                
+GND*                         : AC24      :        :                   :         : 8         :                
+in_matrix[2][2][26]          : AC25      : input  : LVTTL             :         : 1         : N              
+in_matrix[0][2][22]          : AC26      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][1][16]          : AC27      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][3][26]          : AC28      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][3][8]           : AC29      : input  : LVTTL             :         : 1         : N              
+in_matrix[2][2][9]           : AC30      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][2][26]          : AC31      : input  : LVTTL             :         : 1         : N              
+GND                          : AC32      : gnd    :                   :         :           :                
+in_matrix[0][2][13]          : AD1       : input  : LVTTL             :         : 6         : N              
+in_matrix[0][1][27]          : AD2       : input  : LVTTL             :         : 6         : N              
+in_matrix[3][1][6]           : AD3       : input  : LVTTL             :         : 6         : N              
+in_matrix[2][1][6]           : AD4       : input  : LVTTL             :         : 6         : N              
+GND*                         : AD5       :        :                   :         : 6         :                
+GND*                         : AD6       :        :                   :         : 6         :                
+GND*                         : AD7       :        :                   :         : 6         :                
+GND*                         : AD8       :        :                   :         : 6         :                
+GND*                         : AD9       :        :                   :         : 7         :                
+NC                           : AD10      :        :                   :         :           :                
+NC                           : AD11      :        :                   :         :           :                
+in_matrix[1][0][20]          : AD12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][23]          : AD13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][16]          : AD14      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][7]           : AD15      : input  : LVTTL             :         : 7         : N              
+VCCG_PLL6                    : AD16      : power  :                   : 1.5V    : 1         :                
+GND                          : AD17      : gnd    :                   :         :           :                
+in_matrix[0][2][7]           : AD18      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][2][28]          : AD19      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][0][7]           : AD20      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][0][9]           : AD21      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][3][30]          : AD22      : input  : LVTTL             :         : 8         : N              
+GND*                         : AD23      :        :                   :         : 8         :                
+GND*                         : AD24      :        :                   :         : 8         :                
+GND*                         : AD25      :        :                   :         : 1         :                
+GND*                         : AD26      :        :                   :         : 1         :                
+in_matrix[0][3][9]           : AD27      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][0][23]          : AD28      : input  : LVTTL             :         : 1         : N              
+in_matrix[2][0][13]          : AD29      : input  : LVTTL             :         : 1         : N              
+max_sum[26]                  : AD30      : output : LVTTL             :         : 1         : N              
+in_matrix[1][0][31]          : AD31      : input  : LVTTL             :         : 1         : N              
+in_matrix[1][1][7]           : AD32      : input  : LVTTL             :         : 1         : N              
+GND*                         : AE1       :        :                   :         : 6         :                
+GND*                         : AE2       :        :                   :         : 6         :                
+GND*                         : AE3       :        :                   :         : 6         :                
+GND*                         : AE4       :        :                   :         : 6         :                
+GND*                         : AE5       :        :                   :         : 6         :                
+GND*                         : AE6       :        :                   :         : 6         :                
+GND*                         : AE7       :        :                   :         : 6         :                
+GND*                         : AE8       :        :                   :         : 6         :                
+GND*                         : AE9       :        :                   :         : 7         :                
+NC                           : AE10      :        :                   :         :           :                
+GND*                         : AE11      :        :                   :         : 7         :                
+in_matrix[2][2][27]          : AE12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][19]          : AE13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][26]          : AE14      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][15]          : AE15      : input  : LVTTL             :         : 7         : N              
+NC                           : AE16      :        :                   :         :           :                
+VCC_PLL6_OUTA                : AE17      : power  :                   : 3.3V    : 11        :                
+MSEL1                        : AE18      :        :                   :         : 8         :                
+MSEL2                        : AE19      :        :                   :         : 8         :                
+max_value[8]                 : AE20      : output : LVTTL             :         : 8         : N              
+max_sum[30]                  : AE21      : output : LVTTL             :         : 8         : N              
+NC                           : AE22      :        :                   :         :           :                
+GND*                         : AE23      :        :                   :         : 8         :                
+GND*                         : AE24      :        :                   :         : 8         :                
+GND*                         : AE25      :        :                   :         : 1         :                
+GND*                         : AE26      :        :                   :         : 1         :                
+GND*                         : AE27      :        :                   :         : 1         :                
+GND*                         : AE28      :        :                   :         : 1         :                
+GND*                         : AE29      :        :                   :         : 1         :                
+GND*                         : AE30      :        :                   :         : 1         :                
+max_sum[16]                  : AE31      : output : LVTTL             :         : 1         : N              
+GND*                         : AE32      :        :                   :         : 1         :                
+GND*                         : AF1       :        :                   :         : 6         :                
+GND*                         : AF2       :        :                   :         : 6         :                
+GND*                         : AF3       :        :                   :         : 6         :                
+GND*                         : AF4       :        :                   :         : 6         :                
+GND*                         : AF5       :        :                   :         : 6         :                
+GND*                         : AF6       :        :                   :         : 6         :                
+GND*                         : AF7       :        :                   :         : 6         :                
+GND*                         : AF8       :        :                   :         : 6         :                
+GND*                         : AF9       :        :                   :         : 7         :                
+GND*                         : AF10      :        :                   :         : 7         :                
+NC                           : AF11      :        :                   :         :           :                
+in_matrix[1][3][27]          : AF12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][26]          : AF13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][3]           : AF14      : input  : LVTTL             :         : 7         : N              
+nIO_PULLUP                   : AF15      :        :                   :         : 7         :                
+NC                           : AF16      :        :                   :         :           :                
+GND                          : AF17      : gnd    :                   :         :           :                
+nCE                          : AF18      :        :                   :         : 7         :                
+PLL_ENA                      : AF19      :        :                   :         : 8         :                
+in_matrix[1][2][22]          : AF20      : input  : LVTTL             :         : 8         : N              
+max_value[6]                 : AF21      : output : LVTTL             :         : 8         : N              
+in_matrix[3][3][19]          : AF22      : input  : LVTTL             :         : 8         : N              
+max_value[16]                : AF23      : output : LVTTL             :         : 8         : N              
+max_sum[11]                  : AF24      : output : LVTTL             :         : 8         : N              
+GND*                         : AF25      :        :                   :         : 1         :                
+GND*                         : AF26      :        :                   :         : 1         :                
+GND*                         : AF27      :        :                   :         : 1         :                
+GND*                         : AF28      :        :                   :         : 1         :                
+GND*                         : AF29      :        :                   :         : 1         :                
+GND*                         : AF30      :        :                   :         : 1         :                
+GND*                         : AF31      :        :                   :         : 1         :                
+GND*                         : AF32      :        :                   :         : 1         :                
+GND*                         : AG1       :        :                   :         : 6         :                
+GND*                         : AG2       :        :                   :         : 6         :                
+GND*                         : AG3       :        :                   :         : 6         :                
+GND*                         : AG4       :        :                   :         : 6         :                
+NC                           : AG5       :        :                   :         :           :                
+GND                          : AG6       : gnd    :                   :         :           :                
+NC                           : AG7       :        :                   :         :           :                
+NC                           : AG8       :        :                   :         :           :                
+GND*                         : AG9       :        :                   :         : 7         :                
+GND*                         : AG10      :        :                   :         : 7         :                
+GND*                         : AG11      :        :                   :         : 7         :                
+in_matrix[0][0][24]          : AG12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][29]          : AG13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][29]          : AG14      : input  : LVTTL             :         : 7         : N              
+PORSEL                       : AG15      :        :                   :         : 7         :                
+NC                           : AG16      :        :                   :         :           :                
+VCCA_PLL6                    : AG17      : power  :                   : 1.5V    :           :                
+MSEL0                        : AG18      :        :                   :         : 8         :                
+in_matrix[2][0][26]          : AG19      : input  : LVTTL             :         : 8         : N              
+max_sum[6]                   : AG20      : output : LVTTL             :         : 8         : N              
+max_value[22]                : AG21      : output : LVTTL             :         : 8         : N              
+in_matrix[2][2][16]          : AG22      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][0][16]          : AG23      : input  : LVTTL             :         : 8         : N              
+max_sum[15]                  : AG24      : output : LVTTL             :         : 8         : N              
+NC                           : AG25      :        :                   :         :           :                
+NC                           : AG26      :        :                   :         :           :                
+NC                           : AG27      :        :                   :         :           :                
+NC                           : AG28      :        :                   :         :           :                
+GND*                         : AG29      :        :                   :         : 1         :                
+GND*                         : AG30      :        :                   :         : 1         :                
+GND*                         : AG31      :        :                   :         : 1         :                
+GND*                         : AG32      :        :                   :         : 1         :                
+NC                           : AH1       :        :                   :         :           :                
+NC                           : AH2       :        :                   :         :           :                
+NC                           : AH3       :        :                   :         :           :                
+NC                           : AH4       :        :                   :         :           :                
+GND*                         : AH5       :        :                   :         : 7         :                
+NC                           : AH6       :        :                   :         :           :                
+GND*                         : AH7       :        :                   :         : 7         :                
+GND                          : AH8       : gnd    :                   :         :           :                
+in_matrix[0][2][28]          : AH9       : input  : LVTTL             :         : 7         : N              
+GND                          : AH10      : gnd    :                   :         :           :                
+in_matrix[2][3][27]          : AH11      : input  : LVTTL             :         : 7         : N              
+GND                          : AH12      : gnd    :                   :         :           :                
+in_matrix[0][0][29]          : AH13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][20]          : AH14      : input  : LVTTL             :         : 7         : N              
+nCEO                         : AH15      :        :                   :         : 7         :                
+NC                           : AH16      :        :                   :         :           :                
+GNDA_PLL6                    : AH17      : gnd    :                   :         :           :                
+max_sum[10]                  : AH18      : output : LVTTL             :         : 8         : N              
+max_sum[28]                  : AH19      : output : LVTTL             :         : 8         : N              
+in_matrix[1][1][22]          : AH20      : input  : LVTTL             :         : 8         : N              
+NC                           : AH21      :        :                   :         :           :                
+max_value[23]                : AH22      : output : LVTTL             :         : 8         : N              
+GND                          : AH23      : gnd    :                   :         :           :                
+in_matrix[3][3][13]          : AH24      : input  : LVTTL             :         : 8         : N              
+GND                          : AH25      : gnd    :                   :         :           :                
+GND*                         : AH26      :        :                   :         : 8         :                
+GND                          : AH27      : gnd    :                   :         :           :                
+GND*                         : AH28      :        :                   :         : 8         :                
+NC                           : AH29      :        :                   :         :           :                
+NC                           : AH30      :        :                   :         :           :                
+NC                           : AH31      :        :                   :         :           :                
+NC                           : AH32      :        :                   :         :           :                
+NC                           : AJ1       :        :                   :         :           :                
+NC                           : AJ2       :        :                   :         :           :                
+NC                           : AJ3       :        :                   :         :           :                
+GND*                         : AJ4       :        :                   :         : 7         :                
+GND*                         : AJ5       :        :                   :         : 7         :                
+GND*                         : AJ6       :        :                   :         : 7         :                
+in_matrix[0][0][17]          : AJ7       : input  : LVTTL             :         : 7         : N              
+in_matrix[2][0][25]          : AJ8       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][28]          : AJ9       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][6]           : AJ10      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][3]           : AJ11      : input  : LVTTL             :         : 7         : N              
+current_col[18]              : AJ12      : output : LVTTL             :         : 7         : N              
+in_matrix[0][3][7]           : AJ13      : input  : LVTTL             :         : 7         : N              
+VCCSEL                       : AJ14      :        :                   :         : 7         :                
+in_matrix[1][0][27]          : AJ15      : input  : LVTTL             :         : 7         : N              
+in_matrix[1][1][9]           : AJ16      : input  : LVTTL             :         : 11        : N              
+in_matrix[1][1][28]          : AJ17      : input  : LVTTL             :         : 12        : N              
+in_matrix[3][0][19]          : AJ18      : input  : LVTTL             :         : 8         : N              
+in_matrix[3][0][1]           : AJ19      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][3][17]          : AJ20      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][3][9]           : AJ21      : input  : LVTTL             :         : 8         : N              
+in_matrix[0][3][22]          : AJ22      : input  : LVTTL             :         : 8         : N              
+in_matrix[0][0][22]          : AJ23      : input  : LVTTL             :         : 8         : N              
+max_value[18]                : AJ24      : output : LVTTL             :         : 8         : N              
+max_sum[23]                  : AJ25      : output : LVTTL             :         : 8         : N              
+in_matrix[3][2][13]          : AJ26      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][0][9]           : AJ27      : input  : LVTTL             :         : 8         : N              
+GND*                         : AJ28      :        :                   :         : 8         :                
+GND*                         : AJ29      :        :                   :         : 8         :                
+NC                           : AJ30      :        :                   :         :           :                
+NC                           : AJ31      :        :                   :         :           :                
+NC                           : AJ32      :        :                   :         :           :                
+VCCIO6                       : AK1       : power  :                   : 3.3V    : 6         :                
+VCCIO6                       : AK2       : power  :                   : 3.3V    : 6         :                
+GND*                         : AK3       :        :                   :         : 7         :                
+GND*                         : AK4       :        :                   :         : 7         :                
+GND*                         : AK5       :        :                   :         : 7         :                
+GND*                         : AK6       :        :                   :         : 7         :                
+GND*                         : AK7       :        :                   :         : 7         :                
+in_matrix[0][2][23]          : AK8       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][13]          : AK9       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][3]           : AK10      : input  : LVTTL             :         : 7         : N              
+in_matrix[1][2][27]          : AK11      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][1]           : AK12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][27]          : AK13      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][1][25]          : AK14      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][3][25]          : AK15      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][20]          : AK16      : input  : LVTTL             :         : 11        : N              
+max_value[7]                 : AK17      : output : LVTTL             :         : 12        : N              
+in_matrix[1][2][30]          : AK18      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][0][30]          : AK19      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][2][23]          : AK20      : input  : LVTTL             :         : 8         : N              
+max_sum[13]                  : AK21      : output : LVTTL             :         : 8         : N              
+in_matrix[2][2][22]          : AK22      : input  : LVTTL             :         : 8         : N              
+max_value[28]                : AK23      : output : LVTTL             :         : 8         : N              
+max_sum[31]                  : AK24      : output : LVTTL             :         : 8         : N              
+max_sum[20]                  : AK25      : output : LVTTL             :         : 8         : N              
+in_matrix[1][2][28]          : AK26      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][1][31]          : AK27      : input  : LVTTL             :         : 8         : N              
+GND*                         : AK28      :        :                   :         : 8         :                
+GND*                         : AK29      :        :                   :         : 8         :                
+GND*                         : AK30      :        :                   :         : 8         :                
+VCCIO1                       : AK31      : power  :                   : 3.3V    : 1         :                
+VCCIO1                       : AK32      : power  :                   : 3.3V    : 1         :                
+GND                          : AL1       : gnd    :                   :         :           :                
+GND                          : AL2       : gnd    :                   :         :           :                
+GND*                         : AL3       :        :                   :         : 7         :                
+GND*                         : AL4       :        :                   :         : 7         :                
+GND*                         : AL5       :        :                   :         : 7         :                
+in_matrix[1][3][31]          : AL6       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][14]          : AL7       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][14]          : AL8       : input  : LVTTL             :         : 7         : N              
+in_matrix[3][3][25]          : AL9       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][25]          : AL10      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][18]          : AL11      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][18]          : AL12      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][0][1]           : AL13      : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][16]          : AL14      : input  : LVTTL             :         : 7         : N              
+max_value[25]                : AL15      : output : LVTTL             :         : 7         : N              
+in_matrix[1][1][20]          : AL16      : input  : LVTTL             :         : 11        : N              
+in_matrix[0][3][18]          : AL17      : input  : LVTTL             :         : 11        : N              
+in_matrix[1][0][28]          : AL18      : input  : LVTTL             :         : 12        : N              
+in_matrix[3][2][1]           : AL19      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][3][22]          : AL20      : input  : LVTTL             :         : 8         : N              
+in_matrix[3][2][19]          : AL21      : input  : LVTTL             :         : 8         : N              
+in_matrix[3][0][11]          : AL22      : input  : LVTTL             :         : 8         : N              
+in_matrix[2][3][16]          : AL23      : input  : LVTTL             :         : 8         : N              
+in_matrix[3][1][1]           : AL24      : input  : LVTTL             :         : 8         : N              
+max_sum[29]                  : AL25      : output : LVTTL             :         : 8         : N              
+max_value[14]                : AL26      : output : LVTTL             :         : 8         : N              
+in_matrix[2][3][13]          : AL27      : input  : LVTTL             :         : 8         : N              
+in_matrix[3][2][11]          : AL28      : input  : LVTTL             :         : 8         : N              
+GND*                         : AL29      :        :                   :         : 8         :                
+GND*                         : AL30      :        :                   :         : 8         :                
+GND                          : AL31      : gnd    :                   :         :           :                
+GND                          : AL32      : gnd    :                   :         :           :                
+GND                          : AM2       : gnd    :                   :         :           :                
+VCCIO7                       : AM3       : power  :                   : 3.3V    : 7         :                
+GND*                         : AM4       :        :                   :         : 7         :                
+in_matrix[0][1][28]          : AM5       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][3][24]          : AM6       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][23]          : AM7       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][1][19]          : AM8       : input  : LVTTL             :         : 7         : N              
+in_matrix[0][2][18]          : AM9       : input  : LVTTL             :         : 7         : N              
+GND                          : AM10      : gnd    :                   :         :           :                
+in_matrix[0][2][3]           : AM11      : input  : LVTTL             :         : 7         : N              
+VCCIO7                       : AM12      : power  :                   : 3.3V    : 7         :                
+in_matrix[0][3][29]          : AM13      : input  : LVTTL             :         : 7         : N              
+in_matrix[1][2][31]          : AM14      : input  : LVTTL             :         : 7         : N              
+in_matrix[2][1][27]          : AM15      : input  : LVTTL             :         : 7         : N              
+in_matrix[1][3][20]          : AM16      : input  : LVTTL             :         : 11        : N              
+in_matrix[0][1][20]          : AM17      : input  : LVTTL             :         : 11        : N              
+in_matrix[1][0][8]           : AM18      : input  : LVTTL             :         : 12        : N              
+in_matrix[1][3][11]          : AM19      : input  : LVTTL             :         : 8         : N              
+in_matrix[1][0][22]          : AM20      : input  : LVTTL             :         : 8         : N              
+VCCIO8                       : AM21      : power  :                   : 3.3V    : 8         :                
+in_matrix[1][1][26]          : AM22      : input  : LVTTL             :         : 8         : N              
+GND                          : AM23      : gnd    :                   :         :           :                
+in_matrix[1][3][23]          : AM24      : input  : LVTTL             :         : 8         : N              
+max_sum[12]                  : AM25      : output : LVTTL             :         : 8         : N              
+max_sum[21]                  : AM26      : output : LVTTL             :         : 8         : N              
+in_matrix[3][1][17]          : AM27      : input  : LVTTL             :         : 8         : N              
+max_sum[25]                  : AM28      : output : LVTTL             :         : 8         : N              
+in_matrix[1][2][11]          : AM29      : input  : LVTTL             :         : 8         : N              
+VCCIO8                       : AM30      : power  :                   : 3.3V    : 8         :                
+GND                          : AM31      : gnd    :                   :         :           :                
+GND                          : B1        : gnd    :                   :         :           :                
+GND                          : B2        : gnd    :                   :         :           :                
+in_matrix[2][3][4]           : B3        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][2][2]           : B4        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][2][2]           : B5        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][1][19]          : B6        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][3][19]          : B7        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][3][18]          : B8        : input  : LVTTL             :         : 4         : N              
+in_matrix[0][3][21]          : B9        : input  : LVTTL             :         : 4         : N              
+current_col[21]              : B10       : output : LVTTL             :         : 4         : N              
+current_col[24]              : B11       : output : LVTTL             :         : 4         : N              
+current_col[2]               : B12       : output : LVTTL             :         : 4         : N              
+in_matrix[0][2][5]           : B13       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][0][5]           : B14       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][3][5]           : B15       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][2][21]          : B16       : input  : LVTTL             :         : 9         : N              
+in_matrix[2][0][21]          : B17       : input  : LVTTL             :         : 9         : N              
+max_value[0]                 : B18       : output : LVTTL             :         : 10        : N              
+max_value[17]                : B19       : output : LVTTL             :         : 3         : N              
+in_matrix[0][2][8]           : B20       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][0]           : B21       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][1][30]          : B22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][17]          : B23       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][1][10]          : B24       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][28]          : B25       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][29]          : B26       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][28]          : B27       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][24]          : B28       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][27]          : B29       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][24]          : B30       : input  : LVTTL             :         : 3         : N              
+GND                          : B31       : gnd    :                   :         :           :                
+GND                          : B32       : gnd    :                   :         :           :                
+VCCIO5                       : C1        : power  :                   : 3.3V    : 5         :                
+VCCIO5                       : C2        : power  :                   : 3.3V    : 5         :                
+in_matrix[2][1][3]           : C3        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][0][18]          : C4        : input  : LVTTL             :         : 4         : N              
+GND*                         : C5        :        :                   :         : 4         :                
+in_matrix[3][3][3]           : C6        : input  : LVTTL             :         : 4         : N              
+in_matrix[3][3][2]           : C7        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][1][18]          : C8        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][1][18]          : C9        : input  : LVTTL             :         : 4         : N              
+in_matrix[0][0][2]           : C10       : input  : LVTTL             :         : 4         : N              
+current_col[19]              : C11       : output : LVTTL             :         : 4         : N              
+current_col[10]              : C12       : output : LVTTL             :         : 4         : N              
+current_col[12]              : C13       : output : LVTTL             :         : 4         : N              
+in_matrix[0][0][21]          : C14       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][1][5]           : C15       : input  : LVTTL             :         : 4         : N              
+max_value[30]                : C16       : output : LVTTL             :         : 4         : N              
+in_matrix[1][1][15]          : C17       : input  : LVTTL             :         : 9         : N              
+in_matrix[0][1][4]           : C18       : input  : LVTTL             :         : 10        : N              
+in_matrix[2][0][10]          : C19       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][0][0]           : C20       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][0][30]          : C21       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][1][10]          : C22       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][3][31]          : C23       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][31]          : C24       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][30]          : C25       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][30]          : C26       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][0][23]          : C27       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][24]          : C28       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][1][24]          : C29       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][0][31]          : C30       : input  : LVTTL             :         : 3         : N              
+VCCIO2                       : C31       : power  :                   : 3.3V    : 2         :                
+VCCIO2                       : C32       : power  :                   : 3.3V    : 2         :                
+NC                           : D1        :        :                   :         :           :                
+NC                           : D2        :        :                   :         :           :                
+NC                           : D3        :        :                   :         :           :                
+in_matrix[2][1][2]           : D4        : input  : LVTTL             :         : 4         : N              
+GND*                         : D5        :        :                   :         : 4         :                
+in_matrix[1][0][1]           : D6        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][3][18]          : D7        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][2][18]          : D8        : input  : LVTTL             :         : 4         : N              
+in_matrix[0][1][7]           : D9        : input  : LVTTL             :         : 4         : N              
+current_col[7]               : D10       : output : LVTTL             :         : 4         : N              
+in_matrix[2][3][21]          : D11       : input  : LVTTL             :         : 4         : N              
+current_col[13]              : D12       : output : LVTTL             :         : 4         : N              
+current_col[11]              : D13       : output : LVTTL             :         : 4         : N              
+current_col[25]              : D14       : output : LVTTL             :         : 4         : N              
+in_matrix[2][3][5]           : D15       : input  : LVTTL             :         : 4         : N              
+TDI                          : D16       : input  :                   :         : 4         :                
+in_matrix[1][0][15]          : D17       : input  : LVTTL             :         : 9         : N              
+max_value[24]                : D18       : output : LVTTL             :         : 10        : N              
+in_matrix[0][3][12]          : D19       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][11]          : D20       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][3][8]           : D21       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][12]          : D22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][28]          : D23       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][1]           : D24       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][0][29]          : D25       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][2][29]          : D26       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][0][24]          : D27       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][23]          : D28       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][24]          : D29       : input  : LVTTL             :         : 3         : N              
+NC                           : D30       :        :                   :         :           :                
+NC                           : D31       :        :                   :         :           :                
+NC                           : D32       :        :                   :         :           :                
+NC                           : E1        :        :                   :         :           :                
+NC                           : E2        :        :                   :         :           :                
+NC                           : E3        :        :                   :         :           :                
+NC                           : E4        :        :                   :         :           :                
+GND*                         : E5        :        :                   :         : 4         :                
+GND                          : E6        : gnd    :                   :         :           :                
+in_matrix[1][2][6]           : E7        : input  : LVTTL             :         : 4         : N              
+GND                          : E8        : gnd    :                   :         :           :                
+in_matrix[2][1][19]          : E9        : input  : LVTTL             :         : 4         : N              
+GND                          : E10       : gnd    :                   :         :           :                
+in_matrix[3][0][0]           : E11       : input  : LVTTL             :         : 4         : N              
+NC                           : E12       :        :                   :         :           :                
+max_value[5]                 : E13       : output : LVTTL             :         : 4         : N              
+~DATA0~ / RESERVED_INPUT     : E14       : input  : LVTTL             :         : 4         : N              
+TMS                          : E15       : input  :                   :         : 4         :                
+NC                           : E16       :        :                   :         :           :                
+NC                           : E17       :        :                   :         :           :                
+TEMPDIODEp                   : E18       :        :                   :         :           :                
+DCLK                         : E19       :        :                   :         : 3         :                
+in_matrix[0][3][30]          : E20       : input  : LVTTL             :         : 3         : N              
+GND                          : E21       : gnd    :                   :         :           :                
+in_matrix[0][3][19]          : E22       : input  : LVTTL             :         : 3         : N              
+GND                          : E23       : gnd    :                   :         :           :                
+in_matrix[3][2][29]          : E24       : input  : LVTTL             :         : 3         : N              
+GND                          : E25       : gnd    :                   :         :           :                
+in_matrix[1][3][29]          : E26       : input  : LVTTL             :         : 3         : N              
+NC                           : E27       :        :                   :         :           :                
+in_matrix[3][2][0]           : E28       : input  : LVTTL             :         : 3         : N              
+NC                           : E29       :        :                   :         :           :                
+NC                           : E30       :        :                   :         :           :                
+NC                           : E31       :        :                   :         :           :                
+NC                           : E32       :        :                   :         :           :                
+in_matrix[1][0][2]           : F1        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][0][2]           : F2        : input  : LVTTL             :         : 5         : N              
+NC                           : F3        :        :                   :         :           :                
+NC                           : F4        :        :                   :         :           :                
+NC                           : F5        :        :                   :         :           :                
+NC                           : F6        :        :                   :         :           :                
+current_col[0]               : F7        : output : LVTTL             :         : 4         : N              
+in_matrix[3][2][2]           : F8        : input  : LVTTL             :         : 4         : N              
+in_matrix[2][3][19]          : F9        : input  : LVTTL             :         : 4         : N              
+in_matrix[1][0][19]          : F10       : input  : LVTTL             :         : 4         : N              
+NC                           : F11       :        :                   :         :           :                
+current_col[14]              : F12       : output : LVTTL             :         : 4         : N              
+current_col[15]              : F13       : output : LVTTL             :         : 4         : N              
+in_matrix[0][0][16]          : F14       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][3][15]          : F15       : input  : LVTTL             :         : 4         : N              
+TDO                          : F16       : output :                   :         : 4         :                
+GNDA_PLL5                    : F17       : gnd    :                   :         :           :                
+TEMPDIODEn                   : F18       :        :                   :         :           :                
+in_matrix[0][2][30]          : F19       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][1][8]           : F20       : input  : LVTTL             :         : 3         : N              
+max_value[10]                : F21       : output : LVTTL             :         : 3         : N              
+in_matrix[3][3][29]          : F22       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][1][10]          : F23       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][26]          : F24       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][1][23]          : F25       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][24]          : F26       : input  : LVTTL             :         : 3         : N              
+GND                          : F27       : gnd    :                   :         :           :                
+NC                           : F28       :        :                   :         :           :                
+NC                           : F29       :        :                   :         :           :                
+NC                           : F30       :        :                   :         :           :                
+GND*                         : F31       :        :                   :         : 2         :                
+GND*                         : F32       :        :                   :         : 2         :                
+in_matrix[3][3][4]           : G1        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][2][3]           : G2        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][2][1]           : G3        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][3][2]           : G4        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][1][3]           : G5        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][2]           : G6        : input  : LVTTL             :         : 5         : N              
+NC                           : G7        :        :                   :         :           :                
+NC                           : G8        :        :                   :         :           :                
+in_matrix[1][3][2]           : G9        : input  : LVTTL             :         : 4         : N              
+in_matrix[3][2][20]          : G10       : input  : LVTTL             :         : 4         : N              
+NC                           : G11       :        :                   :         :           :                
+in_matrix[0][0][11]          : G12       : input  : LVTTL             :         : 4         : N              
+current_col[5]               : G13       : output : LVTTL             :         : 4         : N              
+TCK                          : G14       : input  :                   :         : 4         :                
+TRST                         : G15       : input  :                   :         : 4         :                
+nSTATUS                      : G16       :        :                   :         : 3         :                
+VCCA_PLL5                    : G17       : power  :                   : 1.5V    :           :                
+CONF_DONE                    : G18       :        :                   :         : 3         :                
+in_matrix[0][0][8]           : G19       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][2][19]          : G20       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][1][12]          : G21       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][1][29]          : G22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][28]          : G23       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][26]          : G24       : input  : LVTTL             :         : 3         : N              
+NC                           : G25       :        :                   :         :           :                
+NC                           : G26       :        :                   :         :           :                
+in_matrix[3][2][21]          : G27       : input  : LVTTL             :         : 2         : N              
+GND*                         : G28       :        :                   :         : 2         :                
+in_matrix[2][3][31]          : G29       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][31]          : G30       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][2][14]          : G31       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][1][14]          : G32       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][4]           : H1        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][0][4]           : H2        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][3]           : H3        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][3][3]           : H4        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][1][6]           : H5        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][0][6]           : H6        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][3][6]           : H7        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][1][2]           : H8        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][3][1]           : H9        : input  : LVTTL             :         : 4         : N              
+NC                           : H10       :        :                   :         :           :                
+in_matrix[1][2][18]          : H11       : input  : LVTTL             :         : 4         : N              
+current_col[6]               : H12       : output : LVTTL             :         : 4         : N              
+in_matrix[2][2][21]          : H13       : input  : LVTTL             :         : 4         : N              
+in_matrix[2][2][25]          : H14       : input  : LVTTL             :         : 4         : N              
+NC                           : H15       :        :                   :         :           :                
+NC                           : H16       :        :                   :         :           :                
+VCC_PLL5_OUTA                : H17       : power  :                   : 3.3V    : 9         :                
+GND                          : H18       : gnd    :                   :         :           :                
+in_matrix[0][1][12]          : H19       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][3][12]          : H20       : input  : LVTTL             :         : 3         : N              
+max_value[12]                : H21       : output : LVTTL             :         : 3         : N              
+in_matrix[3][1][31]          : H22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][31]          : H23       : input  : LVTTL             :         : 3         : N              
+GND                          : H24       : gnd    :                   :         :           :                
+in_matrix[1][3][14]          : H25       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][15]          : H26       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][3][29]          : H27       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][31]          : H28       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][0][14]          : H29       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][2][18]          : H30       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][1][21]          : H31       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][0][20]          : H32       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][8]           : J1        : input  : LVTTL             :         : 5         : N              
+max_value[21]                : J2        : output : LVTTL             :         : 5         : N              
+in_matrix[1][0][3]           : J3        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][3][3]           : J4        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][1][3]           : J5        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][1][20]          : J6        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][2][4]           : J7        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][4]           : J8        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][2][3]           : J9        : input  : LVTTL             :         : 4         : N              
+NC                           : J10       :        :                   :         :           :                
+in_matrix[3][3][20]          : J11       : input  : LVTTL             :         : 4         : N              
+in_matrix[2][1][5]           : J12       : input  : LVTTL             :         : 4         : N              
+current_col[8]               : J13       : output : LVTTL             :         : 4         : N              
+in_matrix[1][1][21]          : J14       : input  : LVTTL             :         : 4         : N              
+in_matrix[1][3][21]          : J15       : input  : LVTTL             :         : 4         : N              
+VCCG_PLL5                    : J16       : power  :                   : 1.5V    : 1         :                
+GND                          : J17       : gnd    :                   :         :           :                
+nCONFIG                      : J18       :        :                   :         : 3         :                
+max_sum[3]                   : J19       : output : LVTTL             :         : 3         : N              
+in_matrix[1][1][0]           : J20       : input  : LVTTL             :         : 3         : N              
+max_sum[2]                   : J21       : output : LVTTL             :         : 3         : N              
+in_matrix[3][3][27]          : J22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][23]          : J23       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][2][24]          : J24       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][15]          : J25       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][15]          : J26       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][3][14]          : J27       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][1][22]          : J28       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][0][12]          : J29       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][15]          : J30       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][0][15]          : J31       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][22]          : J32       : input  : LVTTL             :         : 2         : N              
+GND                          : K1        : gnd    :                   :         :           :                
+in_matrix[2][2][8]           : K2        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][7]           : K3        : input  : LVTTL             :         : 5         : N              
+current_col[1]               : K4        : output : LVTTL             :         : 5         : N              
+in_matrix[2][3][7]           : K5        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][0][13]          : K6        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][19]          : K7        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][1][4]           : K8        : input  : LVTTL             :         : 5         : N              
+GND*                         : K9        :        :                   :         : 4         :                
+NC                           : K10       :        :                   :         :           :                
+in_matrix[3][0][3]           : K11       : input  : LVTTL             :         : 4         : N              
+in_matrix[0][3][5]           : K12       : input  : LVTTL             :         : 4         : N              
+current_col[20]              : K13       : output : LVTTL             :         : 4         : N              
+in_matrix[2][0][5]           : K14       : input  : LVTTL             :         : 4         : N              
+in_matrix[3][1][25]          : K15       : input  : LVTTL             :         : 4         : N              
+VCCIO4                       : K16       : power  :                   : 3.3V    : 4         :                
+VCCIO3                       : K17       : power  :                   : 3.3V    : 3         :                
+in_matrix[2][2][0]           : K18       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][0][10]          : K19       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][2][12]          : K20       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][0]           : K21       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][0][31]          : K22       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][26]          : K23       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][0][29]          : K24       : input  : LVTTL             :         : 3         : N              
+in_matrix[2][3][15]          : K25       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][2][22]          : K26       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][1][18]          : K27       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][2][23]          : K28       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][2][15]          : K29       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][0][22]          : K30       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][14]          : K31       : input  : LVTTL             :         : 2         : N              
+GND                          : K32       : gnd    :                   :         :           :                
+in_matrix[1][1][13]          : L1        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][2][5]           : L2        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][1][2]           : L3        : input  : LVTTL             :         : 5         : N              
+NC                           : L4        :        :                   :         :           :                
+NC                           : L5        :        :                   :         :           :                
+in_matrix[3][1][9]           : L6        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][3][8]           : L7        : input  : LVTTL             :         : 5         : N              
+GND                          : L8        : gnd    :                   :         :           :                
+in_matrix[3][1][4]           : L9        : input  : LVTTL             :         : 4         : N              
+NC                           : L10       :        :                   :         :           :                
+in_matrix[1][1][2]           : L11       : input  : LVTTL             :         : 4         : N              
+in_matrix[2][1][21]          : L12       : input  : LVTTL             :         : 4         : N              
+in_matrix[0][0][5]           : L13       : input  : LVTTL             :         : 4         : N              
+current_col[3]               : L14       : output : LVTTL             :         : 4         : N              
+max_value[15]                : L15       : output : LVTTL             :         : 4         : N              
+GNDG_PLL5                    : L16       : gnd    :                   :         :           :                
+VCC_PLL5_OUTB                : L17       : power  :                   : 3.3V    : 10        :                
+in_matrix[2][2][10]          : L18       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][3][10]          : L19       : input  : LVTTL             :         : 3         : N              
+in_matrix[0][3][6]           : L20       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][1][29]          : L21       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][2][27]          : L22       : input  : LVTTL             :         : 3         : N              
+in_matrix[1][1][29]          : L23       : input  : LVTTL             :         : 3         : N              
+in_matrix[3][3][26]          : L24       : input  : LVTTL             :         : 3         : N              
+GND                          : L25       : gnd    :                   :         :           :                
+in_matrix[1][0][14]          : L26       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][0][18]          : L27       : input  : LVTTL             :         : 2         : N              
+NC                           : L28       :        :                   :         :           :                
+NC                           : L29       :        :                   :         :           :                
+in_matrix[3][0][21]          : L30       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][20]          : L31       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][14]          : L32       : input  : LVTTL             :         : 2         : N              
+VCCIO5                       : M1        : power  :                   : 3.3V    : 5         :                
+in_matrix[3][3][9]           : M2        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][3][13]          : M3        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][8]           : M4        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][1][7]           : M5        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][1][8]           : M6        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][2][8]           : M7        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][2][13]          : M8        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][2][9]           : M9        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][1][1]           : M10       : input  : LVTTL             :         : 4         : N              
+NC                           : M11       :        :                   :         :           :                
+VCCINT                       : M12       : power  :                   : 1.5V    :           :                
+GND                          : M13       : gnd    :                   :         :           :                
+VCCINT                       : M14       : power  :                   : 1.5V    :           :                
+GND                          : M15       : gnd    :                   :         :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+GND                          : M17       : gnd    :                   :         :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.5V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+VCCINT                       : M21       : power  :                   : 1.5V    :           :                
+NC                           : M22       :        :                   :         :           :                
+NC                           : M23       :        :                   :         :           :                
+in_matrix[2][3][20]          : M24       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][1][24]          : M25       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][18]          : M26       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][1][15]          : M27       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][23]          : M28       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][0][24]          : M29       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][20]          : M30       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][3][24]          : M31       : input  : LVTTL             :         : 2         : N              
+VCCIO2                       : M32       : power  :                   : 3.3V    : 2         :                
+in_matrix[0][1][0]           : N1        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][3][0]           : N2        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][2][2]           : N3        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][0][0]           : N4        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][0][9]           : N5        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][0][8]           : N6        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][1][0]           : N7        : input  : LVTTL             :         : 5         : N              
+current_col[4]               : N8        : output : LVTTL             :         : 5         : N              
+in_matrix[2][2][7]           : N9        : input  : LVTTL             :         : 5         : N              
+in_matrix[3][3][8]           : N10       : input  : LVTTL             :         : 5         : N              
+NC                           : N11       :        :                   :         :           :                
+GND                          : N12       : gnd    :                   :         :           :                
+VCCINT                       : N13       : power  :                   : 1.5V    :           :                
+GND                          : N14       : gnd    :                   :         :           :                
+VCCINT                       : N15       : power  :                   : 1.5V    :           :                
+GND                          : N16       : gnd    :                   :         :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.5V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.5V    :           :                
+GND                          : N21       : gnd    :                   :         :           :                
+NC                           : N22       :        :                   :         :           :                
+in_matrix[3][0][23]          : N23       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][21]          : N24       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][3][0]           : N25       : input  : LVTTL             :         : 2         : N              
+max_sum[0]                   : N26       : output : LVTTL             :         : 2         : N              
+in_matrix[0][1][6]           : N27       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][2][24]          : N28       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][2][10]          : N29       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][1][16]          : N30       : input  : LVTTL             :         : 2         : N              
+max_sum[5]                   : N31       : output : LVTTL             :         : 2         : N              
+in_matrix[2][2][17]          : N32       : input  : LVTTL             :         : 2         : N              
+current_col[26]              : P1        : output : LVTTL             :         : 5         : N              
+in_matrix[0][0][28]          : P2        : input  : LVTTL             :         : 5         : N              
+current_col[9]               : P3        : output : LVTTL             :         : 5         : N              
+in_matrix[1][0][21]          : P4        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][2][0]           : P5        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][3][2]           : P6        : input  : LVTTL             :         : 5         : N              
+current_col[28]              : P7        : output : LVTTL             :         : 5         : N              
+in_matrix[1][2][15]          : P8        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][3][11]          : P9        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][1][11]          : P10       : input  : LVTTL             :         : 5         : N              
+NC                           : P11       :        :                   :         :           :                
+VCCINT                       : P12       : power  :                   : 1.5V    :           :                
+GND                          : P13       : gnd    :                   :         :           :                
+VCCINT                       : P14       : power  :                   : 1.5V    :           :                
+GND                          : P15       : gnd    :                   :         :           :                
+VCCINT                       : P16       : power  :                   : 1.5V    :           :                
+VCCINT                       : P17       : power  :                   : 1.5V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.5V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+VCCINT                       : P21       : power  :                   : 1.5V    :           :                
+NC                           : P22       :        :                   :         :           :                
+in_matrix[1][3][10]          : P23       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][0][12]          : P24       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][2][0]           : P25       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][12]          : P26       : input  : LVTTL             :         : 2         : N              
+max_sum[4]                   : P27       : output : LVTTL             :         : 2         : N              
+in_matrix[3][0][13]          : P28       : input  : LVTTL             :         : 2         : N              
+in_matrix[0][2][31]          : P29       : input  : LVTTL             :         : 2         : N              
+in_matrix[0][1][31]          : P30       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][0][0]           : P31       : input  : LVTTL             :         : 2         : N              
+in_matrix[0][3][4]           : P32       : input  : LVTTL             :         : 2         : N              
+current_col[29]              : R1        : output : LVTTL             :         : 5         : N              
+current_col[27]              : R2        : output : LVTTL             :         : 5         : N              
+in_matrix[1][0][25]          : R3        : input  : LVTTL             :         : 5         : N              
+current_col[22]              : R4        : output : LVTTL             :         : 5         : N              
+max_value[20]                : R5        : output : LVTTL             :         : 5         : N              
+current_col[23]              : R6        : output : LVTTL             :         : 5         : N              
+in_matrix[3][2][25]          : R7        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][0][25]          : R8        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][1][5]           : R9        : input  : LVTTL             :         : 5         : N              
+current_col[30]              : R10       : output : LVTTL             :         : 5         : N              
+NC                           : R11       :        :                   :         :           :                
+GND                          : R12       : gnd    :                   :         :           :                
+VCCINT                       : R13       : power  :                   : 1.5V    :           :                
+GND                          : R14       : gnd    :                   :         :           :                
+VCCINT                       : R15       : power  :                   : 1.5V    :           :                
+GND                          : R16       : gnd    :                   :         :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.5V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.5V    :           :                
+NC                           : R21       :        :                   :         :           :                
+VCCG_PLL1                    : R22       : power  :                   : 1.5V    : 1         :                
+in_matrix[1][2][12]          : R23       : input  : LVTTL             :         : 2         : N              
+max_value[1]                 : R24       : output : LVTTL             :         : 2         : N              
+max_value[2]                 : R25       : output : LVTTL             :         : 2         : N              
+max_value[4]                 : R26       : output : LVTTL             :         : 2         : N              
+in_matrix[0][0][31]          : R27       : input  : LVTTL             :         : 2         : N              
+max_value[31]                : R28       : output : LVTTL             :         : 2         : N              
+in_matrix[0][0][12]          : R29       : input  : LVTTL             :         : 2         : N              
+max_sum[1]                   : R30       : output : LVTTL             :         : 2         : N              
+in_matrix[2][1][13]          : R31       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][2][12]          : R32       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][3][25]          : T1        : input  : LVTTL             :         : 5         : N              
+in_matrix[2][0][27]          : T2        : input  : LVTTL             :         : 5         : N              
+in_matrix[0][2][4]           : T3        : input  : LVTTL             :         : 5         : N              
+clk                          : T4        : input  : LVTTL             :         : 5         : N              
+in_matrix[1][1][25]          : T5        : input  : LVTTL             :         : 5         : N              
+reset                        : T6        : input  : LVTTL             :         : 5         : N              
+GNDA_PLL4                    : T7        : gnd    :                   :         :           :                
+VCCA_PLL4                    : T8        : power  :                   : 1.5V    :           :                
+VCCG_PLL4                    : T9        : power  :                   : 1.5V    : 1         :                
+VCCIO5                       : T10       : power  :                   : 3.3V    : 5         :                
+NC                           : T11       :        :                   :         :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+GND                          : T13       : gnd    :                   :         :           :                
+VCCINT                       : T14       : power  :                   : 1.5V    :           :                
+GND                          : T15       : gnd    :                   :         :           :                
+VCCINT                       : T16       : power  :                   : 1.5V    :           :                
+VCCINT                       : T17       : power  :                   : 1.5V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.5V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+GND                          : T21       : gnd    :                   :         :           :                
+GNDG_PLL1                    : T22       : gnd    :                   :         :           :                
+VCCIO2                       : T23       : power  :                   : 3.3V    : 2         :                
+GNDG_PLL2                    : T24       : gnd    :                   :         :           :                
+VCCA_PLL1                    : T25       : power  :                   : 1.5V    :           :                
+GNDA_PLL1                    : T26       : gnd    :                   :         :           :                
+in_matrix[3][2][17]          : T27       : input  : LVTTL             :         : 2         : N              
+in_matrix[3][3][17]          : T28       : input  : LVTTL             :         : 2         : N              
+in_matrix[1][3][16]          : T29       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][1][16]          : T30       : input  : LVTTL             :         : 2         : N              
+in_matrix[2][0][17]          : T31       : input  : LVTTL             :         : 2         : N              
+max_value[3]                 : T32       : output : LVTTL             :         : 2         : N              
+in_matrix[0][1][1]           : U1        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][1][25]          : U2        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][2][15]          : U3        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][0][14]          : U4        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][0][4]           : U5        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][0][15]          : U6        : input  : LVTTL             :         : 6         : N              
+GNDA_PLL3                    : U7        : gnd    :                   :         :           :                
+VCCA_PLL3                    : U8        : power  :                   : 1.5V    :           :                
+GNDG_PLL4                    : U9        : gnd    :                   :         :           :                
+VCCIO6                       : U10       : power  :                   : 3.3V    : 6         :                
+GNDG_PLL3                    : U11       : gnd    :                   :         :           :                
+GND                          : U12       : gnd    :                   :         :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.5V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.5V    :           :                
+VCCINT                       : U17       : power  :                   : 1.5V    :           :                
+GND                          : U18       : gnd    :                   :         :           :                
+VCCINT                       : U19       : power  :                   : 1.5V    :           :                
+GND                          : U20       : gnd    :                   :         :           :                
+GND                          : U21       : gnd    :                   :         :           :                
+NC                           : U22       :        :                   :         :           :                
+VCCIO1                       : U23       : power  :                   : 3.3V    : 1         :                
+VCCG_PLL2                    : U24       : power  :                   : 1.5V    : 1         :                
+VCCA_PLL2                    : U25       : power  :                   : 1.5V    :           :                
+GNDA_PLL2                    : U26       : gnd    :                   :         :           :                
+max_sum[9]                   : U27       : output : LVTTL             :         : 1         : N              
+in_matrix[3][3][1]           : U28       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][3][28]          : U29       : input  : LVTTL             :         : 1         : N              
+in_matrix[0][1][22]          : U30       : input  : LVTTL             :         : 1         : N              
+in_matrix[1][3][7]           : U31       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][1][22]          : U32       : input  : LVTTL             :         : 1         : N              
+in_matrix[3][1][14]          : V1        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][12]          : V2        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][14]          : V3        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][7]           : V4        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][0][13]          : V5        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][5]           : V6        : input  : LVTTL             :         : 6         : N              
+in_matrix[2][2][11]          : V7        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][14]          : V8        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][0][4]           : V9        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][1][12]          : V10       : input  : LVTTL             :         : 6         : N              
+VCCG_PLL3                    : V11       : power  :                   : 1.5V    : 1         :                
+NC                           : V12       :        :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.5V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.5V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+GND                          : V17       : gnd    :                   :         :           :                
+VCCINT                       : V18       : power  :                   : 1.5V    :           :                
+GND                          : V19       : gnd    :                   :         :           :                
+VCCINT                       : V20       : power  :                   : 1.5V    :           :                
+GND                          : V21       : gnd    :                   :         :           :                
+NC                           : V22       :        :                   :         :           :                
+max_value[11]                : V23       : output : LVTTL             :         : 1         : N              
+in_matrix[1][2][8]           : V24       : input  : LVTTL             :         : 1         : N              
+max_value[9]                 : V25       : output : LVTTL             :         : 1         : N              
+max_sum[22]                  : V26       : output : LVTTL             :         : 1         : N              
+in_matrix[1][3][30]          : V27       : input  : LVTTL             :         : 1         : N              
+in_matrix[3][0][16]          : V28       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][3][22]          : V29       : input  : LVTTL             :         : 1         : N              
+max_sum[27]                  : V30       : output : LVTTL             :         : 1         : N              
+in_matrix[0][0][9]           : V31       : input  : LVTTL             :         : 1         : N              
+in_matrix[3][1][13]          : V32       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][3][6]           : W1        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][2][16]          : W2        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][1][27]          : W3        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][1][17]          : W4        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][3][6]           : W5        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][3][17]          : W6        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][0][23]          : W7        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][1][24]          : W8        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][7]           : W9        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][3][4]           : W10       : input  : LVTTL             :         : 6         : N              
+NC                           : W11       :        :                   :         :           :                
+NC                           : W12       :        :                   :         :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.5V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+VCCINT                       : W16       : power  :                   : 1.5V    :           :                
+VCCINT                       : W17       : power  :                   : 1.5V    :           :                
+GND                          : W18       : gnd    :                   :         :           :                
+VCCINT                       : W19       : power  :                   : 1.5V    :           :                
+GND                          : W20       : gnd    :                   :         :           :                
+NC                           : W21       :        :                   :         :           :                
+NC                           : W22       :        :                   :         :           :                
+in_matrix[2][1][26]          : W23       : input  : LVTTL             :         : 1         : N              
+max_sum[18]                  : W24       : output : LVTTL             :         : 1         : N              
+max_sum[7]                   : W25       : output : LVTTL             :         : 1         : N              
+in_matrix[2][1][17]          : W26       : input  : LVTTL             :         : 1         : N              
+max_value[13]                : W27       : output : LVTTL             :         : 1         : N              
+in_matrix[1][1][8]           : W28       : input  : LVTTL             :         : 1         : N              
+in_matrix[1][0][16]          : W29       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][0][22]          : W30       : input  : LVTTL             :         : 1         : N              
+in_matrix[1][1][23]          : W31       : input  : LVTTL             :         : 1         : N              
+in_matrix[1][0][11]          : W32       : input  : LVTTL             :         : 1         : N              
+in_matrix[1][2][4]           : Y1        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][5]           : Y2        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][0][10]          : Y3        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][1][5]           : Y4        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][3][17]          : Y5        : input  : LVTTL             :         : 6         : N              
+in_matrix[2][2][6]           : Y6        : input  : LVTTL             :         : 6         : N              
+in_matrix[1][1][4]           : Y7        : input  : LVTTL             :         : 6         : N              
+in_matrix[0][2][24]          : Y8        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][2][10]          : Y9        : input  : LVTTL             :         : 6         : N              
+in_matrix[3][1][10]          : Y10       : input  : LVTTL             :         : 6         : N              
+NC                           : Y11       :        :                   :         :           :                
+NC                           : Y12       :        :                   :         :           :                
+VCCINT                       : Y13       : power  :                   : 1.5V    :           :                
+GND                          : Y14       : gnd    :                   :         :           :                
+VCCINT                       : Y15       : power  :                   : 1.5V    :           :                
+GND                          : Y16       : gnd    :                   :         :           :                
+GND                          : Y17       : gnd    :                   :         :           :                
+VCCINT                       : Y18       : power  :                   : 1.5V    :           :                
+GND                          : Y19       : gnd    :                   :         :           :                
+VCCINT                       : Y20       : power  :                   : 1.5V    :           :                
+NC                           : Y21       :        :                   :         :           :                
+NC                           : Y22       :        :                   :         :           :                
+in_matrix[2][3][26]          : Y23       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][1][30]          : Y24       : input  : LVTTL             :         : 1         : N              
+max_value[29]                : Y25       : output : LVTTL             :         : 1         : N              
+in_matrix[3][2][16]          : Y26       : input  : LVTTL             :         : 1         : N              
+ready                        : Y27       : output : LVTTL             :         : 1         : N              
+in_matrix[2][3][9]           : Y28       : input  : LVTTL             :         : 1         : N              
+in_matrix[0][2][9]           : Y29       : input  : LVTTL             :         : 1         : N              
+in_matrix[2][2][30]          : Y30       : input  : LVTTL             :         : 1         : N              
+in_matrix[0][1][9]           : Y31       : input  : LVTTL             :         : 1         : N              
+max_value[19]                : Y32       : output : LVTTL             :         : 1         : N              

@@ -1,0 +1,1835 @@
+Design: 16:15, 25 марта 2021 г.
+Design: Opening design "F:\LAB24\VHDL_CODE\VHDL_code.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation...
+File: .\src\matrix.VHD
+Error: COMP96_0003: Source file is empty.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+Compilation...
+File: .\src\row.VHD
+Compile Package "matrix_type"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\row.VHD
+Compile Package "row_type"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Compilation...
+File: .\src\matrix.VHD
+Compile Package "matrix_type"
+Error: COMP96_0055: matrix.VHD : (3, 9): Cannot find referenced context element.
+Error: COMP96_0078: matrix.VHD : (6, 39): Unknown identifier "row".
+Error: COMP96_0064: matrix.VHD : (6, 39): Unknown type.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
+Compilation...
+File: .\src\matrix.VHD
+Compile Package "matrix_type"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (25, 18): Assignment target incompatible with right side. Expected type "row".
+Error: COMP96_0071: matrix_max.VHD : (33, 15): Operator ">" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (33, 14): Undefined type of expression.
+Error: COMP96_0077: matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0071: matrix_max.VHD : (33, 15): Operator ">" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (33, 14): Undefined type of expression.
+Error: COMP96_0077: matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:24, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:29, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:30, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:31, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0159: matrix_max.VHD : (37, 10): Loop parameter cannot be the target of an assignment statement.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0123: matrix_max.VHD : (37, 10): Variable or constant cannot be the target of a signal assignment.
+Error: COMP96_0143: matrix_max.VHD : (37, 10): Object ""index"" may not be written
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0159: matrix_max.VHD : (38, 10): Loop parameter cannot be the target of an assignment statement.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (21, 28): Unknown identifier "bool".
+Error: COMP96_0064: matrix_max.VHD : (21, 28): Unknown type.
+Error: COMP96_0110: matrix_max.VHD : (31, 6): Signal cannot be the target of a variable assignment.
+Error: COMP96_0104: matrix_max.VHD : (46, 8): Undefined type of expression.
+Error: COMP96_0298: matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+Compile failure 5 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+Error: ULM_0022: Architecture "behav" is not up-to-date. Please, recompile file: .\src\matrix_max.VHD.
+ELBREAD: Error: Architecture 'behav' of entity 'matrix_max' not found in library 'VHDL_code'.
+ELBREAD: Error: Elaboration process completed with errors.
+Design: Error: Elaboration failed
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0110: matrix_max.VHD : (31, 6): Signal cannot be the target of a variable assignment.
+Error: COMP96_0298: matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0298: matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: ELAB1_0008: matrix_max.VHD : (50, 8): Cannot read output : "ready".
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:45, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:48, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:49, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0071: matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (38, 22): Undefined type of expression.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+Compilation...
+File: .\src\row.VHD
+Compile Package "row_type"
+Error: COMP96_0016: row.VHD : (6, 1): Design unit declaration expected.
+Error: COMP96_0018: row.VHD : (6, 12): Identifier expected.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+Compilation...
+File: .\src\row.VHD
+Compile Package "row_type"
+Error: COMP96_0018: row.VHD : (5, 36): Identifier expected.
+Error: COMP96_0015: row.VHD : (5, 36): ';' expected.
+Error: COMP96_0019: row.VHD : (5, 36): Keyword "end" expected.
+Error: COMP96_0015: row.VHD : (5, 36): ';' expected.
+Error: COMP96_0016: row.VHD : (5, 41): Design unit declaration expected.
+Error: COMP96_0018: row.VHD : (6, 12): Identifier expected.
+Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
+Compilation...
+File: .\src\row.VHD
+Compile Package "row_type"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix.VHD
+Compile Package "matrix_type"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (27, 21): Assignment target incompatible with right side. Expected type "INTEGER".
+Error: COMP96_0071: matrix_max.VHD : (37, 15): Operator ">" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (37, 14): Undefined type of expression.
+Error: COMP96_0071: matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (38, 22): Undefined type of expression.
+Compile failure 5 Errors 0 Warnings  Analysis time :  0.3 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0071: matrix_max.VHD : (37, 15): Operator ">" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (37, 14): Undefined type of expression.
+Error: COMP96_0071: matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (38, 22): Undefined type of expression.
+Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (31, 15): Assignment target incompatible with right side. Expected type "INTEGER".
+Error: COMP96_0077: matrix_max.VHD : (51, 13): Assignment target incompatible with right side. Expected type "std_logic_vector".
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.3 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (51, 13): Assignment target incompatible with right side. Expected type "std_logic_vector".
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0077: matrix_max.VHD : (53, 13): Assignment target incompatible with right side. Expected type "INTEGER".
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (53, 13): Unknown identifier "Z".
+Error: COMP96_0133: matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (53, 13): Undefined type of expression.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0298: matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (53, 13): Unknown identifier "N".
+Error: COMP96_0133: matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (53, 13): Undefined type of expression.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (53, 13): Unknown identifier "U".
+Error: COMP96_0133: matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (53, 13): Undefined type of expression.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (53, 13): Unknown identifier "u".
+Error: COMP96_0133: matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (53, 13): Undefined type of expression.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+16:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Cannot force signal in_matrix(0) with formula 1, 2, 3, 4.
+Cannot force signal in_matrix(0) with formula 1; 2; 3; 4.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:00, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0046: matrix_max.VHD : (39, 18): Sequential statement expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "if" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "loop" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "loop" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "if" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "process" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0019: matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error: COMP96_0015: matrix_max.VHD : (39, 18): ';' expected.
+Error: COMP96_0016: matrix_max.VHD : (39, 20): Design unit declaration expected.
+Error: COMP96_0019: matrix_max.VHD : (59, 24): Keyword "of" expected.
+Error: COMP96_0018: matrix_max.VHD : (59, 24): Identifier expected.
+Compile failure 21 Errors 0 Warnings  Analysis time :  0.1 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (35, 6): Unknown identifier "max_r".
+Error: COMP96_0133: matrix_max.VHD : (35, 6): Cannot find object declaration.
+Error: COMP96_0078: matrix_max.VHD : (38, 31): Unknown identifier "max_r".
+Error: COMP96_0133: matrix_max.VHD : (38, 31): Cannot find object declaration.
+Error: COMP96_0071: matrix_max.VHD : (38, 15): Operator ">" is not defined for such operands.
+Error: COMP96_0104: matrix_max.VHD : (38, 14): Undefined type of expression.
+Error: COMP96_0078: matrix_max.VHD : (39, 12): Unknown identifier "max_r".
+Error: COMP96_0133: matrix_max.VHD : (39, 12): Cannot find object declaration.
+Error: COMP96_0078: matrix_max.VHD : (43, 28): Unknown identifier "max_r".
+Error: COMP96_0133: matrix_max.VHD : (43, 28): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (43, 20): Undefined type of expression.
+Compile failure 11 Errors 0 Warnings  Analysis time :  0.2 [s]
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 71%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:04, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:07, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:10, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:10, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:12, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:12, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:16, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 400 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:17, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:17, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 73%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:18, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+KERNEL: stopped at time: 400 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:21, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:22, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:22, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:23, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 72%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:24, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:27, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:34, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:35, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:36, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:37, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:42, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:43, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0110: matrix_max.VHD : (54, 6): Signal cannot be the target of a variable assignment.
+Error: COMP96_0110: matrix_max.VHD : (57, 6): Signal cannot be the target of a variable assignment.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:46, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:47, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:47, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:48, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:49, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (30, 3): Unknown identifier "matrix_v".
+Error: COMP96_0133: matrix_max.VHD : (30, 3): Cannot find object declaration.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:50, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:51, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:52, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:53, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:53, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+17:59, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 200 ns
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:00, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:01, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 400 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 600 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.2 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:03, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:04, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:05, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:05, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:12, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 400 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 600 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:14, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:14, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:14, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0264: matrix_max.VHD : (17, 13): Signal "max" in the sensitivity list must denote a signal that can be read.
+Error: COMP96_0264: matrix_max.VHD : (17, 13): Signal "ready" in the sensitivity list must denote a signal that can be read.
+Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:21, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:31, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 200 ns
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:32, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:34, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:35, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:40, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:40, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:45, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:48, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+18:56, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:06, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:07, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 2 ns
+KERNEL: stopped at time: 4 ns
+KERNEL: stopped at time: 6 ns
+KERNEL: stopped at time: 8 ns
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 12 ns
+KERNEL: stopped at time: 14 ns
+KERNEL: stopped at time: 16 ns
+KERNEL: stopped at time: 18 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 22 ns
+KERNEL: stopped at time: 24 ns
+KERNEL: stopped at time: 26 ns
+KERNEL: stopped at time: 28 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 32 ns
+KERNEL: stopped at time: 34 ns
+KERNEL: stopped at time: 36 ns
+KERNEL: stopped at time: 38 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 42 ns
+KERNEL: stopped at time: 44 ns
+KERNEL: stopped at time: 46 ns
+KERNEL: stopped at time: 48 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 52 ns
+KERNEL: stopped at time: 54 ns
+KERNEL: stopped at time: 56 ns
+KERNEL: stopped at time: 58 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 62 ns
+KERNEL: stopped at time: 64 ns
+KERNEL: stopped at time: 66 ns
+KERNEL: stopped at time: 68 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 72 ns
+KERNEL: stopped at time: 74 ns
+KERNEL: stopped at time: 76 ns
+KERNEL: stopped at time: 78 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 82 ns
+KERNEL: stopped at time: 84 ns
+KERNEL: stopped at time: 86 ns
+KERNEL: stopped at time: 88 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 92 ns
+KERNEL: stopped at time: 94 ns
+KERNEL: stopped at time: 96 ns
+KERNEL: stopped at time: 98 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 102 ns
+KERNEL: stopped at time: 104 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:08, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 110 ns
+KERNEL: stopped at time: 120 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:08, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 110 ns
+KERNEL: stopped at time: 120 ns
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Error: COMP96_0015: matrix_max.VHD : (12, 33): ':' expected.
+Error: COMP96_0018: matrix_max.VHD : (12, 33): Identifier expected.
+Error: COMP96_0016: matrix_max.VHD : (12, 38): Design unit declaration expected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (57, 5): Unknown identifier "current_col".
+Error: COMP96_0133: matrix_max.VHD : (57, 5): Cannot find object declaration.
+Compile failure 5 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:12, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 110 ns
+KERNEL: stopped at time: 120 ns
+KERNEL: stopped at time: 130 ns
+KERNEL: stopped at time: 140 ns
+KERNEL: stopped at time: 150 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:14, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 110 ns
+KERNEL: stopped at time: 120 ns
+KERNEL: stopped at time: 130 ns
+KERNEL: stopped at time: 140 ns
+KERNEL: stopped at time: 150 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:15, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 10 ns
+KERNEL: stopped at time: 20 ns
+KERNEL: stopped at time: 30 ns
+KERNEL: stopped at time: 40 ns
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 60 ns
+KERNEL: stopped at time: 70 ns
+KERNEL: stopped at time: 80 ns
+KERNEL: stopped at time: 90 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 110 ns
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:18, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+Signal max not found in design
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:18, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0078: matrix_max.VHD : (60, 18): Unknown identifier "max_r".
+Error: COMP96_0133: matrix_max.VHD : (60, 18): Cannot find object declaration.
+Error: COMP96_0104: matrix_max.VHD : (60, 18): Undefined type of expression.
+Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+19:20, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:02, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:03, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:04, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:05, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:08, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+INTERP: Fatal Error: INTERP_0002 matrix_max.VHD (41): Index 4 out of range (0 to 3).
+INTERP: Time: 40 ns,  Iteration: 0,  Instance: /
+Fatal error occurred during simulation.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:08, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+INTERP: Fatal Error: INTERP_0002 matrix_max.VHD (41): Index 4 out of range (0 to 3).
+INTERP: Time: 100 ns,  Iteration: 0,  Instance: /
+Fatal error occurred during simulation.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:09, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+INTERP: Fatal Error: INTERP_0002 matrix_max.VHD (41): Index 4 out of range (0 to 3).
+INTERP: Time: 100 ns,  Iteration: 0,  Instance: /
+Fatal error occurred during simulation.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+21:10, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0110: matrix_max.VHD : (37, 4): Signal cannot be the target of a variable assignment.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:45, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:45, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:46, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:48, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+Simulation has been stopped
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Error: COMP96_0110: matrix_max.VHD : (37, 4): Signal cannot be the target of a variable assignment.
+Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: .\src\matrix_max.VHD
+Compile Entity "matrix_max"
+Entity "matrix_max" has been skipped - no difference detected.
+Compile Architecture "behav" of Entity "matrix_max"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ULM_0012: Compacting library "vhdl_code" started.
+ULM_0012: Compacting library "vhdl_code" completed. The library size has been reduced by 70%.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:49, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+23:49, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: matrix_max (behav)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.

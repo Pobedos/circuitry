@@ -1,0 +1,5 @@
+MESSAGE "File: .\src\matrix_max.VHD" 
+MESSAGE "Compile Entity "matrix_max"" 
+MESSAGE "Entity "matrix_max" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "behav" of Entity "matrix_max"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

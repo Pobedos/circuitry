@@ -1,0 +1,13 @@
+Flow Status : Successful - Thu Mar 25 23:55:32 2021
+Quartus II Version : 5.0 Build 148 04/26/2005 SJ Full Version
+Revision Name : VHDL_code
+Top-level Entity Name : matrix_max
+Family : Stratix
+Met timing requirements : N/A
+Total logic elements : 595
+Total pins : 611
+Total virtual pins : 0
+Total memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

@@ -1,0 +1,674 @@
+ Compilation...
+ File: .\src\matrix.VHD
+Error:  COMP96_0003:Source file is empty.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: .\src\row.VHD
+ Compile Package "matrix_type"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\row.VHD
+ Compile Package "row_type"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix.VHD
+ Compile Package "matrix_type"
+Error:  COMP96_0055:matrix.VHD : (3, 9): Cannot find referenced context element.
+Error:  COMP96_0078:matrix.VHD : (6, 39): Unknown identifier "row".
+Error:  COMP96_0064:matrix.VHD : (6, 39): Unknown type.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: .\src\matrix.VHD
+ Compile Package "matrix_type"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (25, 18): Assignment target incompatible with right side. Expected type "row".
+Error:  COMP96_0071:matrix_max.VHD : (33, 15): Operator ">" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (33, 14): Undefined type of expression.
+Error:  COMP96_0077:matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+ Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0071:matrix_max.VHD : (33, 15): Operator ">" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (33, 14): Undefined type of expression.
+Error:  COMP96_0077:matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (34, 21): Assignment target incompatible with right side. Expected type "std_logic_vector".
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0159:matrix_max.VHD : (37, 10): Loop parameter cannot be the target of an assignment statement.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0123:matrix_max.VHD : (37, 10): Variable or constant cannot be the target of a signal assignment.
+Error:  COMP96_0143:matrix_max.VHD : (37, 10): Object ""index"" may not be written
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0159:matrix_max.VHD : (38, 10): Loop parameter cannot be the target of an assignment statement.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (21, 28): Unknown identifier "bool".
+Error:  COMP96_0064:matrix_max.VHD : (21, 28): Unknown type.
+Error:  COMP96_0110:matrix_max.VHD : (31, 6): Signal cannot be the target of a variable assignment.
+Error:  COMP96_0104:matrix_max.VHD : (46, 8): Undefined type of expression.
+Error:  COMP96_0298:matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+ Compile failure 5 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0110:matrix_max.VHD : (31, 6): Signal cannot be the target of a variable assignment.
+Error:  COMP96_0298:matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0298:matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  ELAB1_0008:matrix_max.VHD : (50, 8): Cannot read output : "ready".
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0071:matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (38, 22): Undefined type of expression.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\row.VHD
+ Compile Package "row_type"
+Error:  COMP96_0016:row.VHD : (6, 1): Design unit declaration expected.
+Error:  COMP96_0018:row.VHD : (6, 12): Identifier expected.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: .\src\row.VHD
+ Compile Package "row_type"
+Error:  COMP96_0018:row.VHD : (5, 36): Identifier expected.
+Error:  COMP96_0015:row.VHD : (5, 36): ';' expected.
+Error:  COMP96_0019:row.VHD : (5, 36): Keyword "end" expected.
+Error:  COMP96_0015:row.VHD : (5, 36): ';' expected.
+Error:  COMP96_0016:row.VHD : (5, 41): Design unit declaration expected.
+Error:  COMP96_0018:row.VHD : (6, 12): Identifier expected.
+ Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: .\src\row.VHD
+ Compile Package "row_type"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix.VHD
+ Compile Package "matrix_type"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (27, 21): Assignment target incompatible with right side. Expected type "INTEGER".
+Error:  COMP96_0071:matrix_max.VHD : (37, 15): Operator ">" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (37, 14): Undefined type of expression.
+Error:  COMP96_0071:matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (38, 22): Undefined type of expression.
+ Compile failure 5 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0071:matrix_max.VHD : (37, 15): Operator ">" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (37, 14): Undefined type of expression.
+Error:  COMP96_0071:matrix_max.VHD : (38, 22): Operator "+" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (38, 22): Undefined type of expression.
+ Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (31, 15): Assignment target incompatible with right side. Expected type "INTEGER".
+Error:  COMP96_0077:matrix_max.VHD : (51, 13): Assignment target incompatible with right side. Expected type "std_logic_vector".
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (51, 13): Assignment target incompatible with right side. Expected type "std_logic_vector".
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0077:matrix_max.VHD : (53, 13): Assignment target incompatible with right side. Expected type "INTEGER".
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (53, 13): Unknown identifier "Z".
+Error:  COMP96_0133:matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (53, 13): Undefined type of expression.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0298:matrix_max.VHD : (53, 13): Null waveform cannot be assigned to unguarded signals.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (53, 13): Unknown identifier "N".
+Error:  COMP96_0133:matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (53, 13): Undefined type of expression.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (53, 13): Unknown identifier "U".
+Error:  COMP96_0133:matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (53, 13): Undefined type of expression.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (53, 13): Unknown identifier "u".
+Error:  COMP96_0133:matrix_max.VHD : (53, 13): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (53, 13): Undefined type of expression.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0046:matrix_max.VHD : (39, 18): Sequential statement expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "if" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "loop" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "loop" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "if" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "process" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0019:matrix_max.VHD : (39, 18): Keyword "end" expected.
+Error:  COMP96_0015:matrix_max.VHD : (39, 18): ';' expected.
+Error:  COMP96_0016:matrix_max.VHD : (39, 20): Design unit declaration expected.
+Error:  COMP96_0019:matrix_max.VHD : (59, 24): Keyword "of" expected.
+Error:  COMP96_0018:matrix_max.VHD : (59, 24): Identifier expected.
+ Compile failure 21 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (35, 6): Unknown identifier "max_r".
+Error:  COMP96_0133:matrix_max.VHD : (35, 6): Cannot find object declaration.
+Error:  COMP96_0078:matrix_max.VHD : (38, 31): Unknown identifier "max_r".
+Error:  COMP96_0133:matrix_max.VHD : (38, 31): Cannot find object declaration.
+Error:  COMP96_0071:matrix_max.VHD : (38, 15): Operator ">" is not defined for such operands.
+Error:  COMP96_0104:matrix_max.VHD : (38, 14): Undefined type of expression.
+Error:  COMP96_0078:matrix_max.VHD : (39, 12): Unknown identifier "max_r".
+Error:  COMP96_0133:matrix_max.VHD : (39, 12): Cannot find object declaration.
+Error:  COMP96_0078:matrix_max.VHD : (43, 28): Unknown identifier "max_r".
+Error:  COMP96_0133:matrix_max.VHD : (43, 28): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (43, 20): Undefined type of expression.
+ Compile failure 11 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0110:matrix_max.VHD : (54, 6): Signal cannot be the target of a variable assignment.
+Error:  COMP96_0110:matrix_max.VHD : (57, 6): Signal cannot be the target of a variable assignment.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (30, 3): Unknown identifier "matrix_v".
+Error:  COMP96_0133:matrix_max.VHD : (30, 3): Cannot find object declaration.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0264:matrix_max.VHD : (17, 13): Signal "max" in the sensitivity list must denote a signal that can be read.
+Error:  COMP96_0264:matrix_max.VHD : (17, 13): Signal "ready" in the sensitivity list must denote a signal that can be read.
+ Compile failure 2 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+Error:  COMP96_0015:matrix_max.VHD : (12, 33): ':' expected.
+Error:  COMP96_0018:matrix_max.VHD : (12, 33): Identifier expected.
+Error:  COMP96_0016:matrix_max.VHD : (12, 38): Design unit declaration expected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (57, 5): Unknown identifier "current_col".
+Error:  COMP96_0133:matrix_max.VHD : (57, 5): Cannot find object declaration.
+ Compile failure 5 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0078:matrix_max.VHD : (60, 18): Unknown identifier "max_r".
+Error:  COMP96_0133:matrix_max.VHD : (60, 18): Cannot find object declaration.
+Error:  COMP96_0104:matrix_max.VHD : (60, 18): Undefined type of expression.
+ Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0110:matrix_max.VHD : (37, 4): Signal cannot be the target of a variable assignment.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+Error:  COMP96_0110:matrix_max.VHD : (37, 4): Signal cannot be the target of a variable assignment.
+ Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+ Compilation...
+ File: .\src\matrix_max.VHD
+ Compile Entity "matrix_max"
+ Entity "matrix_max" has been skipped - no difference detected.
+ Compile Architecture "behav" of Entity "matrix_max"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

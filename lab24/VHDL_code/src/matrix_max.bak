@@ -1,0 +1,11 @@
+--
+--  File: F:\lab24\VHDL_code\SRC\matrix_max.VHD
+--  created by Design Wizard: 03/25/21 15:03:59
+--
+entity matrix_max is
+end matrix_max;
+
+architecture matrix_max of matrix_max is
+begin
+  -- <<enter your statements here>>
+end matrix_max;

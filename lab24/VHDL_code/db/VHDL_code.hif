@@ -1,0 +1,44 @@
+Version 5.0 Build 148 04/26/2005 SJ Full Version
+35
+1901
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+VRSM_ON
+VHSM_ON
+0
+# entity
+matrix_max
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+matrix_max.vhd
+1616701661
+4
+# storage
+db|VHDL_code.(0).cnf
+db|VHDL_code.(0).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# include_file {
+row.vhd
+1616686131
+matrix.vhd
+1616687556
+}
+# hierarchies {
+|
+}
+# end
+# complete
+
