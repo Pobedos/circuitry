@@ -1,99 +1,22 @@
-Design: 2:31, 12 марта 2021 г.
+Design: 15:11, 25 марта 2021 г.
 Design: Opening design "Z:\lab23\project\project3.adf"
 ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.1 [s].
-Compilation...
-File: .\src\ALU_32.VHD
-Compile Package "dp32_types"
-Package "dp32_types" has been skipped - no difference detected.
-Compile Package Body "dp32_types"
-Compile Package "alu_32_types"
-Package "alu_32_types" has been skipped - no difference detected.
-Compile Entity "ALU_32"
-Entity "ALU_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "ALU_32"
-File: .\src\CC_COMP.VHD
-Compile Entity "cond_code_comparator"
-Entity "cond_code_comparator" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "cond_code_comparator"
-File: .\src\BUFFER32.VHD
-Compile Entity "buffer_32"
-Entity "buffer_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "buffer_32"
-File: .\src\LATCH.VHD
-Compile Entity "latch"
-Entity "latch" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "latch"
-File: .\src\CLK_GEN.VHD
-Compile Entity "clock_gen"
-Entity "clock_gen" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "clock_gen"
-File: .\src\MEMORY.VHD
-Compile Entity "memory"
-Entity "memory" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "memory"
-File: .\src\PC_REG.VHD
-Compile Entity "PC_reg"
-Entity "PC_reg" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "PC_reg"
-File: .\src\MUX2.VHD
-Compile Entity "mux2"
-Entity "mux2" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "mux2"
-File: .\src\SIGNEXT.VHD
-Compile Entity "signext_8_32"
-Entity "signext_8_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "signext_8_32"
-File: .\src\REG_FILE.VHD
-Compile Entity "reg_file_32_rrw"
-Entity "reg_file_32_rrw" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "reg_file_32_rrw"
-File: .\src\LTCH_BUF.VHD
-Compile Entity "latch_buffer_32"
-Entity "latch_buffer_32" has been skipped - no difference detected.
-Compile Architecture "behaviour" of Entity "latch_buffer_32"
-File: .\src\DP32_RTL.VHD
-Compile Entity "dp32"
-Entity "dp32" has been skipped - no difference detected.
-Compile Architecture "RTL" of Entity "dp32"
-File: .\src\DP32_TEST.VHD
-Compile Entity "dp32_test"
-Entity "dp32_test" has been skipped - no difference detected.
-Compile Architecture "structure" of Entity "dp32_test"
-Compile Configuration "dp32_behaviour_test"
-File: .\src\RTL_TEST_CFG.VHD
-Compile Configuration "dp32_rtl_test"
-Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
-ULM_0012: Compacting library "project3" started.
-ULM_0012: Compacting library "project3" completed. The library size has been reduced by 66%.
-ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.1 [s].
-KERNEL: Main thread initiated.
-KERNEL: Kernel process initialization phase.
-KERNEL: Kernel process initialization done.
-2:36, 12 марта 2021 г.
-Simulation has been initialized
-Selected Top-Level: dp32_test (structure)
-KERNEL: stopped at time: 100 ns
-KERNEL: stopped at time: 200 ns
-KERNEL: stopped at time: 300 ns
-KERNEL: stopped at time: 400 ns
-KERNEL: stopped at time: 500 ns
-KERNEL: stopped at time: 600 ns
-KERNEL: stopped at time: 700 ns
-KERNEL: stopped at time: 800 ns
-KERNEL: stopped at time: 900 ns
-KERNEL: stopped at time: 1 us
-KERNEL: stopped at time: 1100 ns
-KERNEL: stopped at time: 1200 ns
-KERNEL: stopped at time: 1300 ns
-KERNEL: stopped at time: 1400 ns
-KERNEL: stopped at time: 1500 ns
+ELBREAD: Elaboration time 0.2 [s].
 ELBREAD: Elaboration process.
 ELBREAD: Elaboration time 0.2 [s].
 KERNEL: Main thread initiated.
 KERNEL: Kernel process initialization phase.
 KERNEL: Kernel process initialization done.
-2:37, 12 марта 2021 г.
+15:13, 25 марта 2021 г.
 Simulation has been initialized
 Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 100 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.4 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+15:13, 25 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+Simulation has been stopped

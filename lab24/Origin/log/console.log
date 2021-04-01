@@ -1,0 +1,442 @@
+Design: 12:17, 26 марта 2021 г.
+Design: Opening design "Z:\lab24\Origin\DP_32_1.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+Compilation...
+File: Z:\lab24\Origin\src\memory.vhd
+Compile Entity "memory"
+Entity "memory" has been skipped - no difference detected.
+Compile Architecture "behaviour" of Entity "memory"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:19, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 50 ns
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 150 ns
+KERNEL: stopped at time: 190 ns
+KERNEL: stopped at time: 230 ns
+KERNEL: stopped at time: 270 ns
+KERNEL: stopped at time: 310 ns
+KERNEL: stopped at time: 350 ns
+KERNEL: stopped at time: 390 ns
+KERNEL: stopped at time: 430 ns
+KERNEL: stopped at time: 470 ns
+KERNEL: stopped at time: 510 ns
+KERNEL: stopped at time: 550 ns
+KERNEL: stopped at time: 590 ns
+KERNEL: stopped at time: 630 ns
+KERNEL: stopped at time: 670 ns
+KERNEL: stopped at time: 710 ns
+KERNEL: stopped at time: 750 ns
+KERNEL: stopped at time: 790 ns
+KERNEL: stopped at time: 830 ns
+KERNEL: stopped at time: 870 ns
+KERNEL: stopped at time: 910 ns
+KERNEL: stopped at time: 950 ns
+KERNEL: stopped at time: 990 ns
+KERNEL: stopped at time: 1030 ns
+KERNEL: stopped at time: 1070 ns
+KERNEL: stopped at time: 1110 ns
+KERNEL: stopped at time: 1150 ns
+KERNEL: stopped at time: 1190 ns
+KERNEL: stopped at time: 1230 ns
+KERNEL: stopped at time: 1270 ns
+KERNEL: stopped at time: 1310 ns
+KERNEL: stopped at time: 1350 ns
+KERNEL: stopped at time: 1390 ns
+KERNEL: stopped at time: 1430 ns
+KERNEL: stopped at time: 1470 ns
+KERNEL: stopped at time: 1510 ns
+KERNEL: stopped at time: 1550 ns
+KERNEL: stopped at time: 1590 ns
+KERNEL: stopped at time: 1630 ns
+KERNEL: stopped at time: 1670 ns
+KERNEL: stopped at time: 1710 ns
+KERNEL: stopped at time: 1750 ns
+KERNEL: stopped at time: 1790 ns
+KERNEL: stopped at time: 1830 ns
+KERNEL: stopped at time: 1870 ns
+KERNEL: stopped at time: 1910 ns
+KERNEL: stopped at time: 1950 ns
+KERNEL: stopped at time: 1990 ns
+KERNEL: stopped at time: 2030 ns
+KERNEL: stopped at time: 2070 ns
+KERNEL: stopped at time: 2110 ns
+KERNEL: stopped at time: 2150 ns
+KERNEL: stopped at time: 2190 ns
+KERNEL: stopped at time: 2230 ns
+KERNEL: stopped at time: 2270 ns
+KERNEL: stopped at time: 2310 ns
+KERNEL: stopped at time: 2350 ns
+KERNEL: stopped at time: 2390 ns
+KERNEL: stopped at time: 2430 ns
+KERNEL: stopped at time: 2470 ns
+KERNEL: stopped at time: 2510 ns
+KERNEL: stopped at time: 2550 ns
+KERNEL: stopped at time: 2590 ns
+KERNEL: stopped at time: 2630 ns
+KERNEL: stopped at time: 2670 ns
+KERNEL: stopped at time: 2710 ns
+KERNEL: stopped at time: 2750 ns
+KERNEL: stopped at time: 2790 ns
+KERNEL: stopped at time: 2830 ns
+KERNEL: stopped at time: 2870 ns
+KERNEL: stopped at time: 2910 ns
+KERNEL: stopped at time: 2950 ns
+KERNEL: stopped at time: 2990 ns
+KERNEL: stopped at time: 3030 ns
+KERNEL: stopped at time: 3070 ns
+KERNEL: stopped at time: 3110 ns
+KERNEL: stopped at time: 3150 ns
+KERNEL: stopped at time: 3190 ns
+KERNEL: stopped at time: 3230 ns
+KERNEL: stopped at time: 3270 ns
+KERNEL: stopped at time: 3310 ns
+KERNEL: stopped at time: 3350 ns
+KERNEL: stopped at time: 3390 ns
+KERNEL: stopped at time: 3430 ns
+KERNEL: stopped at time: 3470 ns
+KERNEL: stopped at time: 3510 ns
+KERNEL: stopped at time: 3550 ns
+KERNEL: stopped at time: 3590 ns
+KERNEL: stopped at time: 3630 ns
+KERNEL: stopped at time: 3670 ns
+KERNEL: stopped at time: 3710 ns
+KERNEL: stopped at time: 3750 ns
+KERNEL: stopped at time: 3790 ns
+KERNEL: stopped at time: 3830 ns
+KERNEL: stopped at time: 3870 ns
+KERNEL: stopped at time: 3910 ns
+KERNEL: stopped at time: 3950 ns
+KERNEL: stopped at time: 3990 ns
+KERNEL: stopped at time: 4030 ns
+KERNEL: stopped at time: 4070 ns
+KERNEL: stopped at time: 4110 ns
+KERNEL: stopped at time: 4150 ns
+KERNEL: stopped at time: 4190 ns
+KERNEL: stopped at time: 4240 ns
+KERNEL: stopped at time: 4290 ns
+KERNEL: stopped at time: 4340 ns
+KERNEL: stopped at time: 4390 ns
+KERNEL: stopped at time: 4440 ns
+KERNEL: stopped at time: 4490 ns
+KERNEL: stopped at time: 4540 ns
+KERNEL: stopped at time: 4590 ns
+KERNEL: stopped at time: 4640 ns
+KERNEL: stopped at time: 4690 ns
+KERNEL: stopped at time: 4740 ns
+KERNEL: stopped at time: 4790 ns
+KERNEL: stopped at time: 4840 ns
+KERNEL: stopped at time: 4890 ns
+KERNEL: stopped at time: 4940 ns
+KERNEL: stopped at time: 4990 ns
+KERNEL: stopped at time: 5040 ns
+KERNEL: stopped at time: 5090 ns
+KERNEL: stopped at time: 5140 ns
+KERNEL: stopped at time: 5190 ns
+KERNEL: stopped at time: 5240 ns
+KERNEL: stopped at time: 5290 ns
+KERNEL: stopped at time: 5340 ns
+KERNEL: stopped at time: 5390 ns
+KERNEL: stopped at time: 5440 ns
+KERNEL: stopped at time: 5490 ns
+KERNEL: stopped at time: 5540 ns
+KERNEL: stopped at time: 5590 ns
+KERNEL: stopped at time: 5640 ns
+KERNEL: stopped at time: 5690 ns
+KERNEL: stopped at time: 5740 ns
+KERNEL: stopped at time: 5790 ns
+KERNEL: stopped at time: 5840 ns
+KERNEL: stopped at time: 5890 ns
+KERNEL: stopped at time: 5940 ns
+KERNEL: stopped at time: 5990 ns
+KERNEL: stopped at time: 6040 ns
+KERNEL: stopped at time: 6090 ns
+KERNEL: stopped at time: 6140 ns
+KERNEL: stopped at time: 6190 ns
+KERNEL: stopped at time: 6240 ns
+KERNEL: stopped at time: 6290 ns
+KERNEL: stopped at time: 6340 ns
+KERNEL: stopped at time: 6390 ns
+KERNEL: stopped at time: 6440 ns
+KERNEL: stopped at time: 6490 ns
+KERNEL: stopped at time: 6540 ns
+KERNEL: stopped at time: 6590 ns
+KERNEL: stopped at time: 6640 ns
+KERNEL: stopped at time: 6690 ns
+KERNEL: stopped at time: 6740 ns
+KERNEL: stopped at time: 6790 ns
+KERNEL: stopped at time: 6840 ns
+KERNEL: stopped at time: 6890 ns
+KERNEL: stopped at time: 6940 ns
+KERNEL: stopped at time: 6990 ns
+KERNEL: stopped at time: 7040 ns
+KERNEL: stopped at time: 7090 ns
+KERNEL: stopped at time: 7140 ns
+KERNEL: stopped at time: 7190 ns
+KERNEL: stopped at time: 7240 ns
+KERNEL: stopped at time: 7290 ns
+KERNEL: stopped at time: 7340 ns
+KERNEL: stopped at time: 7390 ns
+KERNEL: stopped at time: 7440 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:25, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 3400 ns
+KERNEL: stopped at time: 4400 ns
+KERNEL: stopped at time: 5400 ns
+KERNEL: stopped at time: 6400 ns
+KERNEL: stopped at time: 7400 ns
+KERNEL: stopped at time: 8400 ns
+KERNEL: stopped at time: 9400 ns
+KERNEL: stopped at time: 10400 ns
+KERNEL: stopped at time: 11400 ns
+KERNEL: stopped at time: 12400 ns
+KERNEL: stopped at time: 13400 ns
+KERNEL: stopped at time: 14400 ns
+KERNEL: stopped at time: 15400 ns
+KERNEL: stopped at time: 16400 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:26, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+Simulation has been stopped
+Compilation...
+File: Z:\lab24\Origin\src\memory.vhd
+Compile Entity "memory"
+Entity "memory" has been skipped - no difference detected.
+Compile Architecture "behaviour" of Entity "memory"
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:29, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1700 ns
+KERNEL: stopped at time: 1900 ns
+KERNEL: stopped at time: 2100 ns
+KERNEL: stopped at time: 2300 ns
+KERNEL: stopped at time: 2500 ns
+KERNEL: stopped at time: 2700 ns
+KERNEL: stopped at time: 2900 ns
+KERNEL: stopped at time: 3100 ns
+KERNEL: stopped at time: 3300 ns
+KERNEL: stopped at time: 3500 ns
+KERNEL: stopped at time: 3700 ns
+KERNEL: stopped at time: 3900 ns
+KERNEL: stopped at time: 4100 ns
+KERNEL: stopped at time: 4300 ns
+KERNEL: stopped at time: 4500 ns
+KERNEL: stopped at time: 4700 ns
+KERNEL: stopped at time: 4900 ns
+KERNEL: stopped at time: 5100 ns
+KERNEL: stopped at time: 5300 ns
+KERNEL: stopped at time: 5500 ns
+KERNEL: stopped at time: 5700 ns
+KERNEL: stopped at time: 5900 ns
+KERNEL: stopped at time: 6100 ns
+KERNEL: stopped at time: 6300 ns
+KERNEL: stopped at time: 6500 ns
+KERNEL: stopped at time: 6700 ns
+KERNEL: stopped at time: 6900 ns
+KERNEL: stopped at time: 7100 ns
+KERNEL: stopped at time: 7300 ns
+KERNEL: stopped at time: 7500 ns
+KERNEL: stopped at time: 7700 ns
+KERNEL: stopped at time: 7900 ns
+KERNEL: stopped at time: 8100 ns
+KERNEL: stopped at time: 8300 ns
+KERNEL: stopped at time: 8500 ns
+KERNEL: stopped at time: 8700 ns
+KERNEL: stopped at time: 8900 ns
+KERNEL: stopped at time: 9100 ns
+KERNEL: stopped at time: 9300 ns
+KERNEL: stopped at time: 9500 ns
+KERNEL: stopped at time: 9700 ns
+KERNEL: stopped at time: 9900 ns
+KERNEL: stopped at time: 10100 ns
+KERNEL: stopped at time: 10300 ns
+KERNEL: stopped at time: 10500 ns
+KERNEL: stopped at time: 10700 ns
+KERNEL: stopped at time: 10900 ns
+KERNEL: stopped at time: 11100 ns
+KERNEL: stopped at time: 11300 ns
+KERNEL: stopped at time: 11500 ns
+KERNEL: stopped at time: 11700 ns
+KERNEL: stopped at time: 11900 ns
+KERNEL: stopped at time: 12100 ns
+KERNEL: stopped at time: 12300 ns
+KERNEL: stopped at time: 12500 ns
+KERNEL: stopped at time: 12700 ns
+KERNEL: stopped at time: 12750 ns
+KERNEL: stopped at time: 12800 ns
+KERNEL: stopped at time: 12850 ns
+KERNEL: stopped at time: 12900 ns
+KERNEL: stopped at time: 12950 ns
+KERNEL: stopped at time: 13050 ns
+KERNEL: stopped at time: 13150 ns
+KERNEL: stopped at time: 13250 ns
+KERNEL: stopped at time: 13350 ns
+KERNEL: stopped at time: 13450 ns
+KERNEL: stopped at time: 13550 ns
+KERNEL: stopped at time: 13650 ns
+KERNEL: stopped at time: 13750 ns
+KERNEL: stopped at time: 13850 ns
+KERNEL: stopped at time: 13950 ns
+KERNEL: stopped at time: 14050 ns
+KERNEL: stopped at time: 14150 ns
+KERNEL: stopped at time: 14250 ns
+KERNEL: stopped at time: 14350 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:32, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+12:32, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1600 ns
+KERNEL: stopped at time: 1800 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2200 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 2600 ns
+KERNEL: stopped at time: 2800 ns
+KERNEL: stopped at time: 3 us
+KERNEL: stopped at time: 3200 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+13:19, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1600 ns
+KERNEL: stopped at time: 1800 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2200 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 2600 ns
+KERNEL: stopped at time: 2800 ns
+KERNEL: stopped at time: 3 us
+KERNEL: stopped at time: 3200 ns
+KERNEL: stopped at time: 3400 ns
+KERNEL: stopped at time: 3600 ns
+KERNEL: stopped at time: 3800 ns
+KERNEL: stopped at time: 4 us
+KERNEL: stopped at time: 4200 ns
+KERNEL: stopped at time: 4400 ns
+KERNEL: stopped at time: 4600 ns
+KERNEL: stopped at time: 4800 ns
+KERNEL: stopped at time: 5 us
+KERNEL: stopped at time: 5200 ns
+KERNEL: stopped at time: 5400 ns
+KERNEL: stopped at time: 5600 ns
+KERNEL: stopped at time: 5800 ns
+KERNEL: stopped at time: 6 us
+KERNEL: stopped at time: 6200 ns
+KERNEL: stopped at time: 6400 ns
+KERNEL: stopped at time: 6600 ns
+KERNEL: stopped at time: 6800 ns
+KERNEL: stopped at time: 7 us
+KERNEL: stopped at time: 7200 ns
+KERNEL: stopped at time: 7400 ns
+KERNEL: stopped at time: 7600 ns
+KERNEL: stopped at time: 7800 ns
+KERNEL: stopped at time: 8 us
+KERNEL: stopped at time: 8200 ns
+KERNEL: stopped at time: 8400 ns
+KERNEL: stopped at time: 8600 ns
+KERNEL: stopped at time: 8800 ns
+KERNEL: stopped at time: 9 us
+KERNEL: stopped at time: 9200 ns
+KERNEL: stopped at time: 9400 ns
+KERNEL: stopped at time: 9600 ns
+KERNEL: stopped at time: 9800 ns
+KERNEL: stopped at time: 10 us
+KERNEL: stopped at time: 10200 ns
+KERNEL: stopped at time: 10400 ns
+KERNEL: stopped at time: 10600 ns
+KERNEL: stopped at time: 10800 ns
+KERNEL: stopped at time: 11 us
+KERNEL: stopped at time: 11200 ns
+KERNEL: stopped at time: 11400 ns
+KERNEL: stopped at time: 11600 ns
+KERNEL: stopped at time: 11800 ns
+KERNEL: stopped at time: 12 us
+KERNEL: stopped at time: 12200 ns
+KERNEL: stopped at time: 12400 ns
+KERNEL: stopped at time: 12600 ns
+KERNEL: stopped at time: 12800 ns
+KERNEL: stopped at time: 13 us
+KERNEL: stopped at time: 13200 ns
+KERNEL: stopped at time: 13400 ns
+KERNEL: stopped at time: 13600 ns
+KERNEL: stopped at time: 13800 ns
+KERNEL: stopped at time: 14 us
+KERNEL: stopped at time: 14200 ns
+KERNEL: stopped at time: 14240 ns
+KERNEL: stopped at time: 14280 ns
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+KERNEL: Kernel process initialization done.
+13:45, 26 марта 2021 г.
+Simulation has been initialized
+Selected Top-Level: dp32_test (structure)
+Simulation has been stopped

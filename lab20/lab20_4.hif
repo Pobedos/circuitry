@@ -24,44 +24,44 @@ HIF003
 --
 FILES
 {
-	lpm_add_sub.tdf
+	altshift.tdf
 	{
-		lpm_add_sub [USE_LPM_FOR_AHDL_OPERATORS,LPM_WIDTH,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY,STYLE] [aglobal.inc,altshift.inc,bypassff.inc,look_add.inc,addcore.inc,lpm_add_sub.inc]
+		altshift [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS] []
 		{
-			1 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=4,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAB0,DATAB1,DATAB2,DATAB3,CIN,RESULT0,RESULT1,RESULT2,RESULT3];
-			5 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=4,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAB0,DATAB1,DATAB2,DATAB3,CIN,RESULT0,RESULT1,RESULT2,RESULT3];
-			6 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=32,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAA8,DATAA9,DATAA10,DATAA11,DATAA12,DATAA13,DATAA14,DATAA15,DATAA16,DATAA17,DATAA18,DATAA19,DATAA20,DATAA21,DATAA22,DATAA23,DATAA24,DATAA25,DATAA26,DATAA27,DATAA28,DATAA29,DATAA30,DATAA31,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,DATAB8,DATAB9,DATAB10,DATAB11,DATAB12,DATAB13,DATAB14,DATAB15,DATAB16,DATAB17,DATAB18,DATAB19,DATAB20,DATAB21,DATAB22,DATAB23,DATAB24,DATAB25,DATAB26,DATAB27,DATAB28,DATAB29,DATAB30,DATAB31,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7,RESULT8,RESULT9,RESULT10,RESULT11,RESULT12,RESULT13,RESULT14,RESULT15,RESULT16,RESULT17,RESULT18,RESULT19,RESULT20,RESULT21,RESULT22,RESULT23,RESULT24,RESULT25,RESULT26,RESULT27,RESULT28,RESULT29,RESULT30,RESULT31];
-			9 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=32,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAA6,DATAA7,DATAA8,DATAA9,DATAA10,DATAA11,DATAA12,DATAA13,DATAA14,DATAA15,DATAA16,DATAA17,DATAA18,DATAA19,DATAA20,DATAA21,DATAA22,DATAA23,DATAA24,DATAA25,DATAA26,DATAA27,DATAA28,DATAA29,DATAA30,DATAA31,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,DATAB6,DATAB7,DATAB8,DATAB9,DATAB10,DATAB11,DATAB12,DATAB13,DATAB14,DATAB15,DATAB16,DATAB17,DATAB18,DATAB19,DATAB20,DATAB21,DATAB22,DATAB23,DATAB24,DATAB25,DATAB26,DATAB27,DATAB28,DATAB29,DATAB30,DATAB31,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5,RESULT6,RESULT7,RESULT8,RESULT9,RESULT10,RESULT11,RESULT12,RESULT13,RESULT14,RESULT15,RESULT16,RESULT17,RESULT18,RESULT19,RESULT20,RESULT21,RESULT22,RESULT23,RESULT24,RESULT25,RESULT26,RESULT27,RESULT28,RESULT29,RESULT30,RESULT31];
-			10 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=5,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4];
-			13 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=5,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4];
-			14 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=6,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=NO,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5];
-			17 [USE_LPM_FOR_AHDL_OPERATORS=OFF,LPM_WIDTH=6,LPM_REPRESENTATION=SIGNED,LPM_DIRECTION=DEFAULT,ONE_INPUT_IS_CONSTANT=YES,LPM_PIPELINE=0,MAXIMIZE_SPEED=5,OPTIMIZE_FOR_SPEED=5,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE,STYLE=NORMAL] [DATAA0,DATAA1,DATAA2,DATAA3,DATAA4,DATAA5,DATAB0,DATAB1,DATAB2,DATAB3,DATAB4,DATAB5,CIN,RESULT0,RESULT1,RESULT2,RESULT3,RESULT4,RESULT5];
+			16 [DEPTH=0,WIDTH=6,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result5,result4,result3,result2,result1,result0,data5,data4,data3,data2,data1,data0];
+			12 [DEPTH=0,WIDTH=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result4,result3,result2,result1,result0,data4,data3,data2,data1,data0];
+			8 [DEPTH=0,WIDTH=32,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result31,result30,result29,result28,result27,result26,result25,result24,result23,result22,result21,result20,result19,result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,data31,data30,data29,data28,data27,data26,data25,data24,data23,data22,data21,data20,data19,data18,data17,data16,data15,data14,data13,data12,data11,data10,data9,data8,data7,data6,data5,data4,data3,data2,data1,data0];
+			4 [DEPTH=0,WIDTH=1,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result0,data0];
+			3 [DEPTH=0,WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result3,result2,result1,result0,data3,data2,data1,data0];
 		}
 	}
 	addcore.tdf
 	{
-		addcore [USE_LPM_FOR_AHDL_OPERATORS,width,CONSTANT_CIN,CARRY_CHAIN,CARRY_CHAIN_LENGTH,DEVICE_FAMILY] [aglobal.inc,addcore.inc]
+		addcore [DEVICE_FAMILY,CARRY_CHAIN_LENGTH,CARRY_CHAIN,CONSTANT_CIN,width,USE_LPM_FOR_AHDL_OPERATORS] [addcore.inc,aglobal.inc]
 		{
-			2 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=4,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,dataa0,dataa1,dataa2,dataa3,result0,result1,result2,result3];
-			7 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=32,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,datab4,datab5,datab6,datab7,datab8,datab9,datab10,datab11,datab12,datab13,datab14,datab15,datab16,datab17,datab18,datab19,datab20,datab21,datab22,datab23,datab24,datab25,datab26,datab27,datab28,datab29,datab30,datab31,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,dataa6,dataa7,dataa8,dataa9,dataa10,dataa11,dataa12,dataa13,dataa14,dataa15,dataa16,dataa17,dataa18,dataa19,dataa20,dataa21,dataa22,dataa23,dataa24,dataa25,dataa26,dataa27,dataa28,dataa29,dataa30,dataa31,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18,result19,result20,result21,result22,result23,result24,result25,result26,result27,result28,result29,result30,result31];
-			11 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=5,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,datab4,dataa0,dataa1,dataa2,dataa3,dataa4,result0,result1,result2,result3,result4];
-			15 [USE_LPM_FOR_AHDL_OPERATORS=OFF,width=6,CONSTANT_CIN=0,CARRY_CHAIN=IGNORE,CARRY_CHAIN_LENGTH=32,DEVICE_FAMILY=FLEX10KE] [cin,datab0,datab1,datab2,datab3,datab4,datab5,dataa0,dataa1,dataa2,dataa3,dataa4,dataa5,result0,result1,result2,result3,result4,result5];
+			15 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=6,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result5,result4,result3,result2,result1,result0,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab5,datab4,datab3,datab2,datab1,datab0,cin];
+			11 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result4,result3,result2,result1,result0,dataa4,dataa3,dataa2,dataa1,dataa0,datab4,datab3,datab2,datab1,datab0,cin];
+			7 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=32,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result31,result30,result29,result28,result27,result26,result25,result24,result23,result22,result21,result20,result19,result18,result17,result16,result15,result14,result13,result12,result11,result10,result9,result8,result7,result6,result5,result4,result3,result2,result1,result0,dataa31,dataa30,dataa29,dataa28,dataa27,dataa26,dataa25,dataa24,dataa23,dataa22,dataa21,dataa20,dataa19,dataa18,dataa17,dataa16,dataa15,dataa14,dataa13,dataa12,dataa11,dataa10,dataa9,dataa8,dataa7,dataa6,dataa5,dataa4,dataa3,dataa2,dataa1,dataa0,datab31,datab30,datab29,datab28,datab27,datab26,datab25,datab24,datab23,datab22,datab21,datab20,datab19,datab18,datab17,datab16,datab15,datab14,datab13,datab12,datab11,datab10,datab9,datab8,datab7,datab6,datab5,datab4,datab3,datab2,datab1,datab0,cin];
+			2 [DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,CONSTANT_CIN=0,width=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [result3,result2,result1,result0,dataa3,dataa2,dataa1,dataa0,datab3,datab2,datab1,datab0,cin];
 		}
 	}
-	altshift.tdf
+	lpm_add_sub.tdf
 	{
-		altshift [USE_LPM_FOR_AHDL_OPERATORS,WIDTH=4,DEPTH=0] []
+		lpm_add_sub [STYLE,DEVICE_FAMILY,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH,USE_LPM_FOR_AHDL_OPERATORS] [lpm_add_sub.inc,addcore.inc,look_add.inc,bypassff.inc,altshift.inc,aglobal.inc]
 		{
-			3 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=4,DEPTH=0] [data0,data1,data2,data3,result0,result1,result2,result3];
-			4 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=1,DEPTH=0] [data0,result0];
-			8 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=32,DEPTH=0] [data0,data1,data2,data3,data4,data5,data6,data7,data8,data9,data10,data11,data12,data13,data14,data15,data16,data17,data18,data19,data20,data21,data22,data23,data24,data25,data26,data27,data28,data29,data30,data31,result0,result1,result2,result3,result4,result5,result6,result7,result8,result9,result10,result11,result12,result13,result14,result15,result16,result17,result18,result19,result20,result21,result22,result23,result24,result25,result26,result27,result28,result29,result30,result31];
-			12 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=5,DEPTH=0] [data0,data1,data2,data3,data4,result0,result1,result2,result3,result4];
-			16 [USE_LPM_FOR_AHDL_OPERATORS=OFF,WIDTH=6,DEPTH=0] [data0,data1,data2,data3,data4,data5,result0,result1,result2,result3,result4,result5];
+			17 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=6,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			14 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=6,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			13 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			10 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=5,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			9 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=32,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT31,RESULT30,RESULT29,RESULT28,RESULT27,RESULT26,RESULT25,RESULT24,RESULT23,RESULT22,RESULT21,RESULT20,RESULT19,RESULT18,RESULT17,RESULT16,RESULT15,RESULT14,RESULT13,RESULT12,RESULT11,RESULT10,RESULT9,RESULT8,RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB31,DATAB30,DATAB29,DATAB28,DATAB27,DATAB26,DATAB25,DATAB24,DATAB23,DATAB22,DATAB21,DATAB20,DATAB19,DATAB18,DATAB17,DATAB16,DATAB15,DATAB14,DATAB13,DATAB12,DATAB11,DATAB10,DATAB9,DATAB8,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA31,DATAA30,DATAA29,DATAA28,DATAA27,DATAA26,DATAA25,DATAA24,DATAA23,DATAA22,DATAA21,DATAA20,DATAA19,DATAA18,DATAA17,DATAA16,DATAA15,DATAA14,DATAA13,DATAA12,DATAA11,DATAA10,DATAA9,DATAA8,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			6 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=32,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT31,RESULT30,RESULT29,RESULT28,RESULT27,RESULT26,RESULT25,RESULT24,RESULT23,RESULT22,RESULT21,RESULT20,RESULT19,RESULT18,RESULT17,RESULT16,RESULT15,RESULT14,RESULT13,RESULT12,RESULT11,RESULT10,RESULT9,RESULT8,RESULT7,RESULT6,RESULT5,RESULT4,RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB31,DATAB30,DATAB29,DATAB28,DATAB27,DATAB26,DATAB25,DATAB24,DATAB23,DATAB22,DATAB21,DATAB20,DATAB19,DATAB18,DATAB17,DATAB16,DATAB15,DATAB14,DATAB13,DATAB12,DATAB11,DATAB10,DATAB9,DATAB8,DATAB7,DATAB6,DATAB5,DATAB4,DATAB3,DATAB2,DATAB1,DATAB0,DATAA31,DATAA30,DATAA29,DATAA28,DATAA27,DATAA26,DATAA25,DATAA24,DATAA23,DATAA22,DATAA21,DATAA20,DATAA19,DATAA18,DATAA17,DATAA16,DATAA15,DATAA14,DATAA13,DATAA12,DATAA11,DATAA10,DATAA9,DATAA8,DATAA7,DATAA6,DATAA5,DATAA4,DATAA3,DATAA2,DATAA1,DATAA0];
+			5 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=NO,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB3,DATAB2,DATAB1,DATAB0,DATAA3,DATAA2,DATAA1,DATAA0];
+			1 [STYLE=NORMAL,DEVICE_FAMILY=FLEX10KE,CARRY_CHAIN_LENGTH=32,CARRY_CHAIN=IGNORE,OPTIMIZE_FOR_SPEED=5,MAXIMIZE_SPEED=5,LPM_PIPELINE=0,ONE_INPUT_IS_CONSTANT=YES,LPM_DIRECTION=DEFAULT,LPM_REPRESENTATION=SIGNED,LPM_WIDTH=4,USE_LPM_FOR_AHDL_OPERATORS=OFF] [RESULT3,RESULT2,RESULT1,RESULT0,CIN,DATAB3,DATAB2,DATAB1,DATAB0,DATAA3,DATAA2,DATAA1,DATAA0];
 		}
 	}
 	lab20_4.vhd
 	{
-		lab20_4 [] [U1147235.DLS,U7449008.DLS]
+		lab20_4 [] [U7449008.DLS,U1147235.DLS]
 		{
 			0 [] [];
 		}
@@ -71,75 +71,75 @@ TREE
 {
 	lab20_4::(0,0):(0): lab20_4.vhd
 	{
-		lpm_add_sub:10:(76,9):(6694): lpm_add_sub.tdf
+		lpm_add_sub:13:(20,1):(347): lpm_add_sub.tdf
 		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
 			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(73,9):(6504): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
 			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(70,9):(6314): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
 			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(67,9):(6124): lpm_add_sub.tdf
-		{
 			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(64,9):(5934): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(61,9):(5744): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(58,9):(5554): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
-		}
-		lpm_add_sub:10:(55,9):(5364): lpm_add_sub.tdf
-		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
-			addcore:11:(211,4):(48,adder): addcore.tdf;
 		}
 		lpm_add_sub:10:(44,9):(4256): lpm_add_sub.tdf
 		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
 			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
 		}
-		lpm_add_sub:13:(20,1):(347): lpm_add_sub.tdf
+		lpm_add_sub:10:(55,9):(5364): lpm_add_sub.tdf
 		{
-			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
-			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
-			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
 			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(58,9):(5554): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(61,9):(5744): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(64,9):(5934): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(67,9):(6124): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(70,9):(6314): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(73,9):(6504): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
+		}
+		lpm_add_sub:10:(76,9):(6694): lpm_add_sub.tdf
+		{
+			addcore:11:(211,4):(48,adder): addcore.tdf;
+			altshift:12:(221,2):(70,result_ext_latency_ffs): altshift.tdf;
+			altshift:4:(223,2):(85,carry_ext_latency_ffs): altshift.tdf;
+			altshift:4:(225,2):(92,oflow_ext_latency_ffs): altshift.tdf;
 		}
 	}
 }

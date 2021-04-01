@@ -1,0 +1,12 @@
+ Compilation...
+ File: Z:\lab24\Origin\src\memory.vhd
+ Compile Entity "memory"
+ Entity "memory" has been skipped - no difference detected.
+ Compile Architecture "behaviour" of Entity "memory"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ Compilation...
+ File: Z:\lab24\Origin\src\memory.vhd
+ Compile Entity "memory"
+ Entity "memory" has been skipped - no difference detected.
+ Compile Architecture "behaviour" of Entity "memory"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

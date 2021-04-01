@@ -1,0 +1,9 @@
+|RStrigger
+out <= res.DB_MAX_OUTPUT_PORT_TYPE
+x => always0~0.IN1
+xdop => comb~0.IN0
+xdop => res.DATAIN
+xdop => comb~1.IN0
+xdop => always0~0.IN0
+
+

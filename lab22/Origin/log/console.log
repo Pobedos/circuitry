@@ -1,39 +1,18 @@
-Design: 22:07, 4 марта 2021 г.
+Design: 20:57, 25 марта 2021 г.
 Design: Opening design "Z:\lab22\Origin\DP_32_1.adf"
 ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.1 [s].
+ELBREAD: Elaboration time 0.0 [s].
 ELBREAD: Elaboration process.
-ELBREAD: Elaboration time 0.1 [s].
+ELBREAD: Elaboration time 0.0 [s].
 KERNEL: Main thread initiated.
 KERNEL: Kernel process initialization phase.
 KERNEL: Kernel process initialization done.
-22:10, 4 марта 2021 г.
+20:58, 25 марта 2021 г.
 Simulation has been initialized
 Selected Top-Level: dp32_test (structure)
-KERNEL: stopped at time: 40 ns
-KERNEL: stopped at time: 80 ns
-KERNEL: stopped at time: 120 ns
-KERNEL: stopped at time: 160 ns
+KERNEL: stopped at time: 100 ns
 KERNEL: stopped at time: 200 ns
-KERNEL: stopped at time: 240 ns
-KERNEL: stopped at time: 280 ns
-KERNEL: stopped at time: 320 ns
-KERNEL: stopped at time: 360 ns
+KERNEL: stopped at time: 300 ns
 KERNEL: stopped at time: 400 ns
-KERNEL: stopped at time: 440 ns
-KERNEL: stopped at time: 480 ns
-KERNEL: stopped at time: 520 ns
-KERNEL: stopped at time: 560 ns
-KERNEL: stopped at time: 600 ns
-KERNEL: stopped at time: 640 ns
-KERNEL: stopped at time: 680 ns
-KERNEL: stopped at time: 720 ns
-KERNEL: stopped at time: 760 ns
-KERNEL: stopped at time: 800 ns
-KERNEL: stopped at time: 840 ns
-KERNEL: stopped at time: 880 ns
-KERNEL: stopped at time: 920 ns
-KERNEL: stopped at time: 960 ns
-KERNEL: stopped at time: 1 us
-KERNEL: stopped at time: 1040 ns
+KERNEL: stopped at time: 500 ns
 Simulation has been stopped

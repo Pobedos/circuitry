@@ -1,11 +1,11 @@
-501
+523
 ~E
 ALU_32
 z:\lab22\myown\src\alu_32.vhd
 180
 ~A
 behaviour
-Z:\lab22\Origin\src\alu_32.vhd
+Z:\lab24\MyOwn\src\alu_32.vhd
 192
 ~E
 clock_gen
@@ -13,7 +13,7 @@ z:\lab22\myown\src\clk_gen.vhd
 4
 ~A
 behaviour
-Z:\lab22\Origin\src\clk_gen.vhd
+Z:\lab24\MyOwn\src\clk_gen.vhd
 10
 ~E
 dp32
@@ -21,11 +21,11 @@ z:\lab22\myown\src\dp32_behav.vhd
 4
 ~A
 behaviour
-Z:\lab22\Origin\src\dp32_behav.vhd
+Z:\lab24\MyOwn\src\dp32_behav.vhd
 16
 ~C
 dp32_behaviour_test
-Z:\lab22\Origin\src\dp32_test.vhd
+Z:\lab24\MyOwn\src\dp32_test.vhd
 47
 ~E
 dp32_test
@@ -33,7 +33,7 @@ z:\lab22\myown\src\dp32_test.vhd
 4
 ~A
 structure
-Z:\lab22\Origin\src\dp32_test.vhd
+Z:\lab24\MyOwn\src\dp32_test.vhd
 6
 ~E
 memory
@@ -41,5 +41,5 @@ z:\lab22\myown\src\memory.vhd
 4
 ~A
 behaviour
-Z:\lab22\Origin\src\memory.vhd
+Z:\lab24\MyOwn\src\memory.vhd
 12
