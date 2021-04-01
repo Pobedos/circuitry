@@ -1,5 +1,5 @@
 Fitter report for filt
-Thu Apr 01 21:01:58 2021
+Fri Apr 02 01:07:16 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -53,7 +53,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+
 ; Fitter Summary                                                      ;
 +--------------------------+------------------------------------------+
-; Fitter Status            ; Successful - Thu Apr 01 21:01:58 2021    ;
+; Fitter Status            ; Successful - Fri Apr 02 01:07:16 2021    ;
 ; Quartus II Version       ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name            ; filt                                     ;
 ; Top-level Entity Name    ; RStrigger                                ;
@@ -126,13 +126,13 @@ applicable agreement for further details.
 +------------------+
 ; Fitter Equations ;
 +------------------+
-The equations can be found in Z:/lab25/filt/filt.fit.eqn.
+The equations can be found in Z:/lab26/filt/filt.fit.eqn.
 
 
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in Z:/lab25/filt/filt.pin.
+The pin-out file can be found in Z:/lab26/filt/filt.pin.
 
 
 +--------------------------------------------------------------------+
@@ -879,7 +879,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Apr 01 21:01:50 2021
+    Info: Processing started: Fri Apr 02 01:07:08 2021
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off filt -c filt
 Info: Auto device selection -- successful I/O standard check for EP1S10F484C5
 Info: Auto device selection -- successful PCI I/O clamp diode check for EP1S10F484C5
@@ -939,7 +939,7 @@ Info: Started post-fitting delay annotation
 Info: Delay annotation completed successfully
 Info: Completed Auto Delay Chain Operation
 Info: Quartus II Fitter was successful. 0 errors, 0 warnings
-    Info: Processing ended: Thu Apr 01 21:01:58 2021
+    Info: Processing ended: Fri Apr 02 01:07:16 2021
     Info: Elapsed time: 00:00:08
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for registr
-Thu Apr 01 21:01:21 2021
+Fri Apr 02 01:08:50 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Apr 01 21:01:21 2021    ;
+; Analysis & Synthesis Status ; Successful - Fri Apr 02 01:08:50 2021    ;
 ; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name               ; registr                                  ;
 ; Top-level Entity Name       ; MainRegister                             ;
@@ -120,7 +120,7 @@ applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+------------------------------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path ;
 +----------------------------------+-----------------+------------------------+------------------------------+
-; reg.v                            ; yes             ; User Verilog HDL File  ; Z:/lab25/registr/reg.v       ;
+; reg.v                            ; yes             ; User Verilog HDL File  ; Z:/lab26/registr/reg.v       ;
 +----------------------------------+-----------------+------------------------+------------------------------+
 
 
@@ -201,7 +201,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------------------------+
 ; Analysis & Synthesis Equations ;
 +--------------------------------+
-The equations can be found in Z:/lab25/registr/registr.map.eqn.
+The equations can be found in Z:/lab26/registr/registr.map.eqn.
 
 
 +-------------------------------+
@@ -210,23 +210,23 @@ The equations can be found in Z:/lab25/registr/registr.map.eqn.
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Apr 01 21:01:19 2021
+    Info: Processing started: Fri Apr 02 01:08:48 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off registr -c registr
-Info: (10281) Verilog HDL information at reg.v(51): variable name "Res" and variable name "res" should not differ only in case
+Info: (10281) Verilog HDL information at reg.v(33): variable name "Res" and variable name "res" should not differ only in case
 Info: Found 2 design units, including 2 entities, in source file reg.v
     Info: Found entity 1: DTrigger
     Info: Found entity 2: MainRegister
 Info: Elaborating entity "MainRegister" for the top level hierarchy
-Warning: Verilog HDL assignment warning at reg.v(67): truncated value with size 32 to match size of target (1)
-Warning: Verilog HDL assignment warning at reg.v(76): truncated value with size 32 to match size of target (8)
+Warning: Verilog HDL assignment warning at reg.v(46): truncated value with size 32 to match size of target (1)
+Warning: Verilog HDL assignment warning at reg.v(51): truncated value with size 32 to match size of target (8)
 Info: Elaborating entity "DTrigger" for hierarchy "DTrigger:Dtrig0"
-Warning: Verilog HDL assignment warning at reg.v(16): truncated value with size 32 to match size of target (1)
+Warning: Verilog HDL assignment warning at reg.v(9): truncated value with size 32 to match size of target (1)
 Info: Implemented 52 device resources after synthesis - the final resource count might be different
     Info: Implemented 12 input pins
     Info: Implemented 16 output pins
     Info: Implemented 24 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Processing ended: Thu Apr 01 21:01:21 2021
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Fri Apr 02 01:08:49 2021
+    Info: Elapsed time: 00:00:01
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for filt
-Thu Apr 01 21:01:49 2021
+Fri Apr 02 01:07:07 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Thu Apr 01 21:01:49 2021    ;
+; Analysis & Synthesis Status ; Successful - Fri Apr 02 01:07:07 2021    ;
 ; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name               ; filt                                     ;
 ; Top-level Entity Name       ; RStrigger                                ;
@@ -119,7 +119,7 @@ applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+------------------------------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path ;
 +----------------------------------+-----------------+------------------------+------------------------------+
-; filter.v                         ; yes             ; User Verilog HDL File  ; Z:/lab25/filt/filter.v       ;
+; filter.v                         ; yes             ; User Verilog HDL File  ; Z:/lab26/filt/filter.v       ;
 +----------------------------------+-----------------+------------------------+------------------------------+
 
 
@@ -184,7 +184,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------------------+
 ; Analysis & Synthesis Equations ;
 +--------------------------------+
-The equations can be found in Z:/lab25/filt/filt.map.eqn.
+The equations can be found in Z:/lab26/filt/filt.map.eqn.
 
 
 +-------------------------------+
@@ -193,25 +193,25 @@ The equations can be found in Z:/lab25/filt/filt.map.eqn.
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Apr 01 21:01:48 2021
+    Info: Processing started: Fri Apr 02 01:07:06 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off filt -c filt
-Warning: Verilog HDL net warning at filter.v(55): created undeclared net "out1"
-Warning: Verilog HDL net warning at filter.v(56): created undeclared net "out2"
-Warning: Verilog HDL net warning at filter.v(57): created undeclared net "out3"
-Warning: Verilog HDL net warning at filter.v(58): created undeclared net "out4"
+Warning: Verilog HDL net warning at filter.v(27): created undeclared net "out1"
+Warning: Verilog HDL net warning at filter.v(28): created undeclared net "out2"
+Warning: Verilog HDL net warning at filter.v(29): created undeclared net "out3"
+Warning: Verilog HDL net warning at filter.v(30): created undeclared net "out4"
 Info: Found 2 design units, including 2 entities, in source file filter.v
     Info: Found entity 1: RStrigger
     Info: Found entity 2: Filter
 Info: Elaborating entity "RStrigger" for the top level hierarchy
-Warning: Verilog HDL assignment warning at filter.v(24): truncated value with size 32 to match size of target (1)
-Warning: Verilog HDL assignment warning at filter.v(29): truncated value with size 32 to match size of target (1)
-Warning: Verilog HDL Always Construct warning at filter.v(18): variable "res" may not be assigned a new value in every possible path through the Always Construct.  Variable "res" holds its previous value in every path with no new value assignment, which may create a combinational loop in the current design.
+Warning: Verilog HDL assignment warning at filter.v(11): truncated value with size 32 to match size of target (1)
+Warning: Verilog HDL assignment warning at filter.v(14): truncated value with size 32 to match size of target (1)
+Warning: Verilog HDL Always Construct warning at filter.v(8): variable "res" may not be assigned a new value in every possible path through the Always Construct.  Variable "res" holds its previous value in every path with no new value assignment, which may create a combinational loop in the current design.
 Info: Implemented 4 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
     Info: Implemented 1 output pins
     Info: Implemented 1 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Processing ended: Thu Apr 01 21:01:48 2021
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Fri Apr 02 01:07:07 2021
+    Info: Elapsed time: 00:00:02
 
 

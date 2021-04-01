@@ -11,36 +11,6 @@ VRSM_ON
 VHSM_ON
 0
 # entity
-ALU
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-alu.v
-1567754840
-7
-# storage
-db|allluu.(0).cnf
-db|allluu.(0).cnf
-# internal_option {
-ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
-ON
-AUTO_RESOURCE_SHARING
-OFF
-}
-# user_parameter {
-numbits
-3
-PARAMETER_DEC
-DEF
-}
-# hierarchies {
-|
-}
-# end
-# entity
 lpm_divide
 # case_insensitive
 # source_file
@@ -1472,6 +1442,36 @@ result4
 result5
 result6
 result7
+}
+# end
+# entity
+ALU
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+alu.v
+1617311123
+7
+# storage
+db|allluu.(0).cnf
+db|allluu.(0).cnf
+# internal_option {
+ADD_PASS_THROUGH_LOGIC_TO_INFERRED_RAMS
+ON
+AUTO_RESOURCE_SHARING
+OFF
+}
+# user_parameter {
+numbits
+3
+PARAMETER_DEC
+DEF
+}
+# hierarchies {
+|
 }
 # end
 # complete

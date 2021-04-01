@@ -1,5 +1,5 @@
 Flow report for filt
-Thu Apr 01 21:02:04 2021
+Fri Apr 02 01:07:16 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -36,12 +36,12 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +--------------------------+------------------------------------------+
-; Flow Status              ; Successful - Thu Apr 01 21:02:04 2021    ;
+; Flow Status              ; Successful - Fri Apr 02 01:07:16 2021    ;
 ; Quartus II Version       ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name            ; filt                                     ;
 ; Top-level Entity Name    ; RStrigger                                ;
 ; Family                   ; Stratix                                  ;
-; Met timing requirements  ; Yes                                      ;
+; Met timing requirements  ; N/A                                      ;
 ; Total logic elements     ; 1 / 10,570 ( < 1 % )                     ;
 ; Total pins               ; 3 / 336 ( < 1 % )                        ;
 ; Total virtual pins       ; 0                                        ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/01/2021 21:01:48 ;
+; Start date & time ; 04/02/2021 01:07:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; filt                ;
 +-------------------+---------------------+
@@ -70,11 +70,9 @@ applicable agreement for further details.
 +----------------------+--------------+
 ; Module Name          ; Elapsed Time ;
 +----------------------+--------------+
-; Analysis & Synthesis ; 00:00:00     ;
+; Analysis & Synthesis ; 00:00:02     ;
 ; Fitter               ; 00:00:08     ;
-; Assembler            ; 00:00:04     ;
-; Timing Analyzer      ; 00:00:01     ;
-; Total                ; 00:00:13     ;
+; Total                ; 00:00:10     ;
 +----------------------+--------------+
 
 
@@ -83,8 +81,6 @@ applicable agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off filt -c filt
 quartus_fit --read_settings_files=off --write_settings_files=off filt -c filt
-quartus_asm --read_settings_files=off --write_settings_files=off filt -c filt
-quartus_tan --read_settings_files=off --write_settings_files=off filt -c filt --timing_analysis_only
 
 
 
