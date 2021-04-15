@@ -1,5 +1,5 @@
 { "Info" "IQEXE_SEPARATOR" "" "Info: *******************************************************************" {  } {  } 3}
-{ "Info" "IQEXE_START_BANNER_PRODUCT" "Fitter Quartus II " "Info: Running Quartus II Fitter" { { "Info" "IQEXE_START_BANNER_VERSION" "Version 5.0 Build 148 04/26/2005 SJ Full Version " "Info: Version 5.0 Build 148 04/26/2005 SJ Full Version" {  } {  } 0} { "Info" "IQEXE_START_BANNER_TIME" "Fri Apr 02 01:08:51 2021 " "Info: Processing started: Fri Apr 02 01:08:51 2021" {  } {  } 0}  } {  } 4}
+{ "Info" "IQEXE_START_BANNER_PRODUCT" "Fitter Quartus II " "Info: Running Quartus II Fitter" { { "Info" "IQEXE_START_BANNER_VERSION" "Version 5.0 Build 148 04/26/2005 SJ Full Version " "Info: Version 5.0 Build 148 04/26/2005 SJ Full Version" {  } {  } 0} { "Info" "IQEXE_START_BANNER_TIME" "Fri Apr 02 02:40:08 2021 " "Info: Processing started: Fri Apr 02 02:40:08 2021" {  } {  } 0}  } {  } 4}
 { "Info" "IQEXE_START_BANNER_COMMANDLINE" "quartus_fit --read_settings_files=off --write_settings_files=off registr -c registr " "Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off registr -c registr" {  } {  } 0}
 { "Info" "IMPP_MPP_AVAILABLE_IO_STANDARD_IN_DEVICE" "EP1S10F484C5 " "Info: Auto device selection -- successful I/O standard check for EP1S10F484C5" {  } {  } 0}
 { "Info" "IMPP_MPP_AVAILABLE_PCI_IO_IN_DEVICE" "EP1S10F484C5 " "Info: Auto device selection -- successful PCI I/O clamp diode check for EP1S10F484C5" {  } {  } 0}
@@ -38,4 +38,4 @@
 { "Info" "IDAT_DAT_STARTED" "" "Info: Started post-fitting delay annotation" {  } {  } 0}
 { "Info" "IDAT_DAT_COMPLETED" "" "Info: Delay annotation completed successfully" {  } {  } 0}
 { "Info" "IFYGR_FYGR_OPINFO_COMPLETED_OP" "Auto Delay Chain Operation " "Info: Completed Auto Delay Chain Operation" {  } {  } 0}
-{ "Info" "IQEXE_ERROR_COUNT" "Fitter 0 s 0 s Quartus II " "Info: Quartus II Fitter was successful. 0 errors, 0 warnings" { { "Info" "IQEXE_END_BANNER_TIME" "Fri Apr 02 01:09:00 2021 " "Info: Processing ended: Fri Apr 02 01:09:00 2021" {  } {  } 0} { "Info" "IQEXE_ELAPSED_TIME" "00:00:10 " "Info: Elapsed time: 00:00:10" {  } {  } 0}  } {  } 0}
+{ "Info" "IQEXE_ERROR_COUNT" "Fitter 0 s 0 s Quartus II " "Info: Quartus II Fitter was successful. 0 errors, 0 warnings" { { "Info" "IQEXE_END_BANNER_TIME" "Fri Apr 02 02:40:16 2021 " "Info: Processing ended: Fri Apr 02 02:40:16 2021" {  } {  } 0} { "Info" "IQEXE_ELAPSED_TIME" "00:00:08 " "Info: Elapsed time: 00:00:08" {  } {  } 0}  } {  } 0}

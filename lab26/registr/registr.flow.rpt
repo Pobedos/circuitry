@@ -1,5 +1,5 @@
 Flow report for registr
-Fri Apr 02 01:09:07 2021
+Fri Apr 02 02:40:23 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +--------------------------+------------------------------------------+
-; Flow Status              ; Successful - Fri Apr 02 01:09:07 2021    ;
+; Flow Status              ; Successful - Fri Apr 02 02:40:23 2021    ;
 ; Quartus II Version       ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name            ; registr                                  ;
 ; Top-level Entity Name    ; MainRegister                             ;
@@ -59,7 +59,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/02/2021 01:08:49 ;
+; Start date & time ; 04/02/2021 02:40:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; registr             ;
 +-------------------+---------------------+
@@ -71,10 +71,10 @@ applicable agreement for further details.
 ; Module Name          ; Elapsed Time ;
 +----------------------+--------------+
 ; Analysis & Synthesis ; 00:00:02     ;
-; Fitter               ; 00:00:10     ;
-; Assembler            ; 00:00:04     ;
+; Fitter               ; 00:00:08     ;
+; Assembler            ; 00:00:03     ;
 ; Timing Analyzer      ; 00:00:01     ;
-; Total                ; 00:00:17     ;
+; Total                ; 00:00:14     ;
 +----------------------+--------------+
 
 

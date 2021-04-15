@@ -1,0 +1,210 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--outVar[0] is outVar[0] at LC_X41_Y3_N9
+--operation mode is normal
+
+outVar[0]_lut_out = read & buff[0];
+outVar[0] = DFFEAS(outVar[0]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[1] is outVar[1] at LC_X40_Y3_N7
+--operation mode is normal
+
+outVar[1]_lut_out = read & buff[1];
+outVar[1] = DFFEAS(outVar[1]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[2] is outVar[2] at LC_X40_Y3_N5
+--operation mode is normal
+
+outVar[2]_lut_out = read & buff[2];
+outVar[2] = DFFEAS(outVar[2]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[3] is outVar[3] at LC_X40_Y3_N1
+--operation mode is normal
+
+outVar[3]_lut_out = read & buff[3];
+outVar[3] = DFFEAS(outVar[3]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[4] is outVar[4] at LC_X40_Y3_N9
+--operation mode is normal
+
+outVar[4]_lut_out = read & buff[4];
+outVar[4] = DFFEAS(outVar[4]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[5] is outVar[5] at LC_X41_Y3_N2
+--operation mode is normal
+
+outVar[5]_lut_out = read & buff[5];
+outVar[5] = DFFEAS(outVar[5]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[6] is outVar[6] at LC_X41_Y3_N4
+--operation mode is normal
+
+outVar[6]_lut_out = buff[6] & (read);
+outVar[6] = DFFEAS(outVar[6]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--outVar[7] is outVar[7] at LC_X41_Y3_N5
+--operation mode is normal
+
+outVar[7]_lut_out = read & buff[7];
+outVar[7] = DFFEAS(outVar[7]_lut_out, GLOBAL(clk), VCC, , , , , , );
+
+
+--buff[0] is buff[0] at LC_X40_Y3_N6
+--operation mode is normal
+
+buff[0]_lut_out = reset & (buff[1]);
+buff[0] = DFFEAS(buff[0]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[1] is buff[1] at LC_X40_Y3_N4
+--operation mode is normal
+
+buff[1]_lut_out = buff[2] & reset;
+buff[1] = DFFEAS(buff[1]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[2] is buff[2] at LC_X40_Y3_N3
+--operation mode is normal
+
+buff[2]_lut_out = reset & (buff[3]);
+buff[2] = DFFEAS(buff[2]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[3] is buff[3] at LC_X40_Y3_N2
+--operation mode is normal
+
+buff[3]_lut_out = reset & (buff[4]);
+buff[3] = DFFEAS(buff[3]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[4] is buff[4] at LC_X40_Y3_N0
+--operation mode is normal
+
+buff[4]_lut_out = reset & (buff[5]);
+buff[4] = DFFEAS(buff[4]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[5] is buff[5] at LC_X40_Y3_N8
+--operation mode is normal
+
+buff[5]_lut_out = buff[6] & (reset);
+buff[5] = DFFEAS(buff[5]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[6] is buff[6] at LC_X41_Y3_N8
+--operation mode is normal
+
+buff[6]_lut_out = reset & buff[7];
+buff[6] = DFFEAS(buff[6]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--buff[7] is buff[7] at LC_X41_Y3_N6
+--operation mode is normal
+
+buff[7]_lut_out = reset & data;
+buff[7] = DFFEAS(buff[7]_lut_out, GLOBAL(clk), VCC, , A1L3, , , , );
+
+
+--A1L3 is buff[0]~117 at LC_X41_Y3_N7
+--operation mode is normal
+
+A1L3 = write # !reset;
+
+
+--read is read at PIN_W9
+--operation mode is input
+
+read = INPUT();
+
+
+--clk is clk at PIN_L2
+--operation mode is input
+
+clk = INPUT();
+
+
+--reset is reset at PIN_U8
+--operation mode is input
+
+reset = INPUT();
+
+
+--write is write at PIN_AB8
+--operation mode is input
+
+write = INPUT();
+
+
+--data is data at PIN_U6
+--operation mode is input
+
+data = INPUT();
+
+
+--out[7] is out[7] at PIN_W8
+--operation mode is output
+
+out[7] = OUTPUT(outVar[0]);
+
+
+--out[6] is out[6] at PIN_Y8
+--operation mode is output
+
+out[6] = OUTPUT(outVar[1]);
+
+
+--out[5] is out[5] at PIN_Y9
+--operation mode is output
+
+out[5] = OUTPUT(outVar[2]);
+
+
+--out[4] is out[4] at PIN_P8
+--operation mode is output
+
+out[4] = OUTPUT(outVar[3]);
+
+
+--out[3] is out[3] at PIN_T8
+--operation mode is output
+
+out[3] = OUTPUT(outVar[4]);
+
+
+--out[2] is out[2] at PIN_M7
+--operation mode is output
+
+out[2] = OUTPUT(outVar[5]);
+
+
+--out[1] is out[1] at PIN_V8
+--operation mode is output
+
+out[1] = OUTPUT(outVar[6]);
+
+
+--out[0] is out[0] at PIN_AA7
+--operation mode is output
+
+out[0] = OUTPUT(outVar[7]);
+
+
+

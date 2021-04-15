@@ -1,0 +1,18 @@
+[ModelSim]
+TUTORIAL = $HDS_PROJECT_DIR\TUTORIAL\work
+[hdl]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/hdl
+TUTORIAL = $HDS_PROJECT_DIR/TUTORIAL/hdl
+[hds]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/hds
+TUTORIAL = $HDS_PROJECT_DIR/TUTORIAL/hds
+[hds_settings]
+default_library = TUTORIAL
+version = 1
+[includes_search_path]
+TUTORIAL = $TUTORIAL
+[library_type]
+timer_lib = regular
+TUTORIAL = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

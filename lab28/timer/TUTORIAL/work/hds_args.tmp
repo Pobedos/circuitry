@@ -1,0 +1,1 @@
+ -L TUTORIAL -l transcript.txt -i -t ns -multisource_delay latest +typdelays TUTORIAL.timer_tester

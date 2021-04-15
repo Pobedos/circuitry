@@ -1,0 +1,16 @@
+[DesignChecker]
+tutorial = $HDS_PROJECT_DIR\tutorial\designcheck
+[hdl]
+timer_lib = $HDS_PROJECT_DIR\timer_lib\hdl
+tutorial = $HDS_PROJECT_DIR\tutorial\hdl
+[hds]
+timer_lib = $HDS_PROJECT_DIR\timer_lib\hds
+tutorial = $HDS_PROJECT_DIR\tutorial\hds
+[hds_settings]
+default_library = tutorial
+version = 1
+[library_type]
+timer_lib = regular
+tutorial = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

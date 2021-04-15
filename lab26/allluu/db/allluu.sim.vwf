@@ -24,6 +24,17 @@ HEADER
 {
 	VERSION = 1;
 	TIME_UNIT = ns;
+	PRINT_OPTIONS = "Print_options_version 6\
+range_start 0ps\
+range_end 3.0us\
+width 1\
+names_percentage 25\
+comments 1\
+grid_lines 1\
+time_bars 1\
+name_every_page 0\
+expand_groups 0\
+print_all 1";
 	SIMULATION_TIME = 3000.0;
 	GRID_PHASE = 0.0;
 	GRID_PERIOD = 20.0;
@@ -872,7 +883,7 @@ DISPLAY_LINE
 
 TIME_BAR
 {
-	TIME = 32450;
+	TIME = 190000;
 	MASTER = TRUE;
 }
 ;

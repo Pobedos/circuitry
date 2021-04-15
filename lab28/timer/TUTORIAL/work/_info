@@ -1,0 +1,84 @@
+m255
+13
+cModel Technology
+dC:\HDS\timer\TUTORIAL\work
+vBCDCounter
+Ih8@F_Q^BJzLIcGm8TXazZ2
+V1khN]11z7kW7o4hWH3WOc2
+w1139310210
+FC:/HDS/timer/TUTORIAL/hdl/Timer_BCDCounter.v
+L0 6
+V1khN]11z7kW7o4hWH3WOc2
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/TUTORIAL/work -nologo +incdir+C:/HDS/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000
+n@b@c@d@counter
+vControl
+IF]e7F;Y]8168d^3;o@<;o0
+V9L:]:CKEhTW^M=7@2N;Lj2
+dZ:\lab28\timer\TUTORIAL\work
+w1617956816
+FZ:/lab28/timer/TUTORIAL/hdl/control_fsm.v
+L0 12
+V9L:]:CKEhTW^M=7@2N;Lj2
+OE;L;6.1c;31
+r1
+31
+o-work Z:/lab28/timer/TUTORIAL/work -nologo +incdir+Z:/lab28/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000
+n@control
+vCounter
+Ibc6[NjJ8CG3BW>KH?DWAM3
+VgPYHekC?hIRmc0kS2zd:X2
+dZ:\lab28\timer\TUTORIAL\work
+w1617956817
+FZ:/lab28/timer/TUTORIAL/hdl/counter_struct.v
+L0 13
+VgPYHekC?hIRmc0kS2zd:X2
+OE;L;6.1c;31
+r1
+31
+o-work Z:/lab28/timer/TUTORIAL/work -nologo +incdir+Z:/lab28/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000
+n@counter
+vtimer
+Izbe3;ekcT^UMYCo3d2zmc2
+ViTBhj@>fX?I>lNIQHOJXB1
+dZ:\lab28\timer\TUTORIAL\work
+w1617956817
+FZ:/lab28/timer/TUTORIAL/hdl/timer_struct.v
+L0 13
+ViTBhj@>fX?I>lNIQHOJXB1
+OE;L;6.1c;31
+r1
+31
+o-work Z:/lab28/timer/TUTORIAL/work -nologo +incdir+Z:/lab28/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000
+vtimer_tb
+IdL`:>=i::^Z6]^;fcTIMo2
+VmQDj8h<M<X;PCBVTIk;Em1
+dZ:\lab28\timer\TUTORIAL\work
+w1617956817
+FZ:/lab28/timer/TUTORIAL/hdl/timer_tb_struct.v
+L0 13
+VmQDj8h<M<X;PCBVTIk;Em1
+OE;L;6.1c;31
+r1
+31
+o-work Z:/lab28/timer/TUTORIAL/work -nologo +incdir+Z:/lab28/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000
+vtimer_tester
+IY=n?ha::1k>j_Q=>b7UA<3
+V;SVB;9jK6XRUR7j_?K8=`2
+dZ:\lab28\timer\TUTORIAL\work
+w1617956817
+FZ:/lab28/timer/TUTORIAL/hdl/timer_tester_flow.v
+L0 13
+V;SVB;9jK6XRUR7j_?K8=`2
+OE;L;6.1c;31
+r1
+31
+o-work Z:/lab28/timer/TUTORIAL/work -nologo +incdir+Z:/lab28/timer/TUTORIAL/hdl
+tGenerateLoopIterationMax 100000

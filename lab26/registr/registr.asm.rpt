@@ -1,5 +1,5 @@
 Assembler report for registr
-Fri Apr 02 01:09:05 2021
+Fri Apr 02 02:40:21 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 02 01:09:05 2021 ;
+; Assembler Status      ; Successful - Fri Apr 02 02:40:21 2021 ;
 ; Revision Name         ; registr                               ;
 ; Top-level Entity Name ; MainRegister                          ;
 ; Family                ; Stratix                               ;
@@ -116,10 +116,10 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Fri Apr 02 01:09:01 2021
+    Info: Processing started: Fri Apr 02 02:40:18 2021
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off registr -c registr
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Processing ended: Fri Apr 02 01:09:05 2021
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Fri Apr 02 02:40:21 2021
+    Info: Elapsed time: 00:00:03
 
 

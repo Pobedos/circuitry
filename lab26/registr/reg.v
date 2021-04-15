@@ -1,4 +1,4 @@
-  module DTrigger (Result, Data, Clock, Reset, Ewr, regg); 
+module DTrigger (Result, Data, Clock, Reset, Ewr, regg); 
    input  Data, Clock, Reset, Ewr;
    output Result, regg;
    reg Res, Buf;
@@ -39,6 +39,7 @@ module MainRegister (OUTRESULT, EWR, CLOCK, RESET, DATA, EDY, REGEN);
   DTrigger Dtrig5 (Res[5], DATA[5], CLOCK, RESET, EWR, REGEN[5]); 
   DTrigger Dtrig6 (Res[6], DATA[6], CLOCK, RESET, EWR, REGEN[6]); 
   DTrigger Dtrig7 (Res[7], DATA[7], CLOCK, RESET, EWR, REGEN[7]); 
+
   always @(posedge CLOCK) 
      begin 
   if (RESET) 

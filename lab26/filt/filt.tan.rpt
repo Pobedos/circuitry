@@ -1,5 +1,5 @@
 Timing Analyzer report for filt
-Thu Apr 01 21:02:04 2021
+Thu Apr 08 23:07:11 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -84,7 +84,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Timing Analyzer
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Thu Apr 01 21:02:04 2021
+    Info: Processing started: Thu Apr 08 23:07:11 2021
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off filt -c filt --timing_analysis_only
 Warning: Timing Analysis found one or more latches implemented as combinational loops
     Warning: Node "res" is a latch
@@ -98,7 +98,7 @@ Info: Longest tpd from source pin "xdop" to destination pin "out" is 8.466 ns
     Info: Total cell delay = 7.352 ns ( 86.84 % )
     Info: Total interconnect delay = 1.114 ns ( 13.16 % )
 Info: Quartus II Timing Analyzer was successful. 0 errors, 2 warnings
-    Info: Processing ended: Thu Apr 01 21:02:04 2021
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Thu Apr 08 23:07:11 2021
+    Info: Elapsed time: 00:00:00
 
 

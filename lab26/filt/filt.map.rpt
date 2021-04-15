@@ -1,5 +1,5 @@
 Analysis & Synthesis report for filt
-Fri Apr 02 01:07:07 2021
+Thu Apr 08 23:06:56 2021
 Version 5.0 Build 148 04/26/2005 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                           ;
 +-----------------------------+------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Apr 02 01:07:07 2021    ;
+; Analysis & Synthesis Status ; Successful - Thu Apr 08 23:06:56 2021    ;
 ; Quartus II Version          ; 5.0 Build 148 04/26/2005 SJ Full Version ;
 ; Revision Name               ; filt                                     ;
 ; Top-level Entity Name       ; RStrigger                                ;
@@ -193,7 +193,7 @@ The equations can be found in Z:/lab26/filt/filt.map.eqn.
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 5.0 Build 148 04/26/2005 SJ Full Version
-    Info: Processing started: Fri Apr 02 01:07:06 2021
+    Info: Processing started: Thu Apr 08 23:06:55 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off filt -c filt
 Warning: Verilog HDL net warning at filter.v(27): created undeclared net "out1"
 Warning: Verilog HDL net warning at filter.v(28): created undeclared net "out2"
@@ -211,7 +211,7 @@ Info: Implemented 4 device resources after synthesis - the final resource count 
     Info: Implemented 1 output pins
     Info: Implemented 1 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Processing ended: Fri Apr 02 01:07:07 2021
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Thu Apr 08 23:06:56 2021
+    Info: Elapsed time: 00:00:01
 
 
