@@ -1,0 +1,123 @@
+LeonardoSpectrum Level 3 - 2005b.24 (Release Production Release, compiled Nov 10 2005 at 16:21:33)
+Copyright 1990-2005 Mentor Graphics.  All rights reserved.
+Portions copyright 1991-2005 Compuware Corporation
+
+--
+-- Welcome to LeonardoSpectrum Level 3
+-- Run By User@VBOX
+-- Run Started On Sun Apr 30 15:51:01 HDT 2017
+--
+Info, Working Directory is now 'C:/timer/timer_lib/ls/timer/netlists'
+Info: setting register2register to 25.00000
+Info: setting input2register to 25.00000
+Info: setting register2output to 25.00000
+Info: setting input2output to 25.00000
+Info: setting part to apa075pqfp208
+Info: setting process to F
+Info: setting wire_table to APA
+Reading library file `C:\FPGAdv72LS\Exemplar\\lib\apa.syn`...
+Library version = 6b2.5
+Delays assume: Process=F Temp= 25.0 C  Voltage=2.50 V  
+Warning: Could not find process parameter (F_process) value in library.
+Info: setting encoding to auto
+-- Reading module generator description from file C:/FPGAdv72LS/Exemplar//data/modgen/apa.vhd
+-- Reading vhdl file C:/FPGAdv72LS/Exemplar//data/modgen/apa.vhd into library OPERATORS
+-- Modgen File 1.vhd Version 1.0
+-- Searching for SYNOPSYS package std_logic_arith..
+Info: setting append_generics_to_toplevel to FALSE
+-- Reading file 'C:\timer/timer_lib/hdl/control_fsm.v'...
+-- Reading file 'C:\timer/timer_lib/hdl/BCDCounter.v'...
+-- Reading file 'C:\timer/timer_lib/hdl/counter_struct.v'...
+-- Reading file 'C:\timer/timer_lib/hdl/timer_struct.v'...
+-- Loading module 'Control'
+-- Loading module 'BCDCounter'
+-- Loading module 'Counter'
+-- Loading module 'timer'
+-- Compiling root module 'timer'
+-- Compiling module Control
+"C:\timer/timer_lib/hdl/control_fsm.v",line 82: Info, case choices are mutually exclusive; inferring parallel case.
+"C:\timer/timer_lib/hdl/control_fsm.v",line 156: Info, case choices are mutually exclusive; inferring parallel case.
+"C:\timer/timer_lib/hdl/control_fsm.v",line 48: Warning, hold is not always assigned. Storage may be needed..
+"C:\timer/timer_lib/hdl/control_fsm.v",line 47: Warning, clear is not always assigned. Storage may be needed..
+"C:\timer/timer_lib/hdl/control_fsm.v",line 49: Warning, load is not always assigned. Storage may be needed..
+"C:\timer/timer_lib/hdl/control_fsm.v",line 51: Warning, beep_int is not always assigned. Storage may be needed..
+-- Compiling module Counter
+-- Compiling module BCDCounter_5
+Info, Instances dissolved by autodissolve in View .timer_lib.Counter.INTERFACE
+"C:\timer/timer_lib/hdl/counter_struct.v", line 58: I0 (BCDCounter_5)
+"C:\timer/timer_lib/hdl/counter_struct.v", line 69: I1 (BCDCounter_5)
+Info, Instances dissolved by autodissolve in View .timer_lib.timer.INTERFACE
+"C:\timer/timer_lib/hdl/timer_struct.v", line 64: I0 (Control)
+-- Resolving function dec with module generator modgen_DEC_4_small_false  from file C:/FPGAdv72LS/Exemplar//data/modgen/apa.vhd
+-- Resolving function dec with module generator modgen_DEC_4_small_false  from file C:/FPGAdv72LS/Exemplar//data/modgen/apa.vhd
+-- Info, replacing modgen_DEC(FDEC)
+-- Optimizing netlist .timer_lib.Counter.INTERFACE
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Optimizing netlist .timer_lib.timer.INTERFACE
+-- Automatic IO buffer insertion...
+-- Matching combinational logic..
+-- Matching non-combinational logic..
+-- Covering..
+-- CPU Time used :   00:00 Mapping
+-- Final Design Rule Check..
+Using wire table: APA
+-- Start timing optimization for design .timer_lib.Counter.INTERFACE
+Starting Timing Characterization...
+Starting Timing Analysis...
+Using wire table: APA
+Timing analysis done, time = 0 CPU secs.
+Timing characterization done, time = 0 CPU secs.
+AutoWrite args are : -format edif {C:\timer/timer_lib/ls/timer/netlists/timer.edf}
+-- Writing file C:\timer/timer_lib/ls/timer/netlists/timer.edf
+Info: setting sdf_names_style to edif
+Info: setting sdf_actel_proasic to TRUE
+Warning, Moving C:/timer/timer_lib/ls/timer/netlists/timer.sdf to C:/timer/timer_lib/ls/timer/netlists/xmplr_old_timer.sdf as C:/timer/timer_lib/ls/timer/netlists/timer.sdf exists
+-- Writing file C:/timer/timer_lib/ls/timer/netlists/timer.sdf
+Using wire table: APA
+
+
+
+                        Critical Path Report
+AutoWrite args are : -format xdb {C:\timer/timer_lib/ls/timer/xdb/timer.xdb}
+-- Writing file C:\timer/timer_lib/ls/timer/xdb/timer.xdb
+-- Writing XDB version 1999.1
+Info: setting sdf_names_style to edif
+Info: setting sdf_actel_proasic to TRUE
+Warning, Moving C:/timer/timer_lib/ls/timer/xdb/timer.sdf to C:/timer/timer_lib/ls/timer/xdb/xmplr_old_timer.sdf as C:/timer/timer_lib/ls/timer/xdb/timer.sdf exists
+-- Writing file C:/timer/timer_lib/ls/timer/xdb/timer.sdf
+Using wire table: APA
+
+
+
+                        Critical Path Report
+Info: HDS Synthesis run finished
+
+*******************************************************
+
+Cell: timer    View: INTERFACE    Library: timer_lib
+
+*******************************************************
+
+ Number of ports :                      23
+ Number of nets :                      111
+ Number of instances :                  89
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of Core Cells :                139
+ Number of accumulated instances :     164
+***********************************************
+Device Utilization for apa075pqfp208
+***********************************************
+Resource                Used    Avail   Utilization
+-----------------------------------------------
+IOs                     23      158      14.56%
+Core Cells              139     3072      4.52%
+
+-----------------------------------------------
+Info, Command 'report_area' finished successfully
+
+

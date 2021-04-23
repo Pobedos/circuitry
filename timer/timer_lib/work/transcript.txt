@@ -1,0 +1,16 @@
+# //  ModelSim SE 6.1c Nov 17 2005 
+# //
+# //  Copyright Mentor Graphics Corporation 2005
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L timer_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/FPGAdv72LS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli C:/FPGAdv72LS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll timer_lib.timer 
+# Loading C:/FPGAdv72LS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading C:\timer/timer_lib/work.timer
+# Loading C:\timer/timer_lib/work.Control
+# Loading C:\timer/timer_lib/work.Counter
+# Loading C:\timer/timer_lib/work.BCDCounter

@@ -1,0 +1,19 @@
+[DesignChecker]
+timer_lib = $HDS_PROJECT_DIR\timer_lib\designcheck
+[Leonardo]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/ls
+[ModelSim]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/work
+[QuestaSim]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/work
+[hdl]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/hdl
+[hds]
+timer_lib = $HDS_PROJECT_DIR/timer_lib/hds
+[hds_settings]
+default_library = timer_lib
+version = 1
+[library_type]
+timer_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

@@ -1,0 +1,79 @@
+m255
+13
+cModel Technology
+dC:\HDS\timer\timer_lib\work
+vBCDCounter
+I42L<HoLVMm5<SJEKezLcj0
+V1khN]11z7kW7o4hWH3WOc2
+w1493043766
+FC:/HDS/timer/timer_lib/hdl/BCDCounter.v
+L0 12
+V1khN]11z7kW7o4hWH3WOc2
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
+n@b@c@d@counter
+vControl
+IBB37?ohWn]0QV:_Yoholm1
+V9L:]:CKEhTW^M=7@2N;Lj2
+w1493287809
+FC:/HDS/timer/timer_lib/hdl/control_fsm.v
+L0 12
+V9L:]:CKEhTW^M=7@2N;Lj2
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
+n@control
+vCounter
+I@VCFDz5RzjHQ3`knd8YO<2
+VgPYHekC?hIRmc0kS2zd:X2
+w1493151395
+FC:/HDS/timer/timer_lib/hdl/counter_struct.v
+L0 13
+VgPYHekC?hIRmc0kS2zd:X2
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
+n@counter
+vtimer
+IJ7<`VB1XS^R[jl4FdeD9Q3
+ViTBhj@>fX?I>lNIQHOJXB1
+w1493290494
+FC:/HDS/timer/timer_lib/hdl/timer_struct.v
+L0 13
+ViTBhj@>fX?I>lNIQHOJXB1
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
+vtimer_tb
+I?Q1KX:J72>AT>Niz@SM7C0
+VmQDj8h<M<X;PCBVTIk;Em1
+w1493290506
+FC:/HDS/timer/timer_lib/hdl/timer_tb_struct.v
+L0 13
+VmQDj8h<M<X;PCBVTIk;Em1
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
+vtimer_tester
+InX?hM`[ig;KSk:HbfNOnB2
+V;SVB;9jK6XRUR7j_?K8=`2
+w1493287219
+FC:/HDS/timer/timer_lib/hdl/timer_tester_flow.v
+L0 13
+V;SVB;9jK6XRUR7j_?K8=`2
+OE;L;6.1c;31
+r1
+31
+o-work C:/HDS/timer/timer_lib/work -nologo
+tGenerateLoopIterationMax 100000
